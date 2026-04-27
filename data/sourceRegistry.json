@@ -1,0 +1,690 @@
+[
+  {
+    "id": "rrc-oil-gas-lease-index",
+    "name": "Oil Leases and Gas Wells by District & Operator Index",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Oil",
+      "Natural Gas"
+    ],
+    "accessType": "public web page with linked PDF indexes",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/well-information/oil-leases-and-gas-wells-by-district-and-operator/",
+    "usedFor": "Public source records for oil leases and gas wells by district, operator, oil/gas classification, lease name, field, and county.",
+    "updateStatus": "official state source, updated monthly",
+    "limitations": "The index identifies leases and counties but does not provide exact map coordinates; records may need manual matching to wellbore or GIS data before precise mapping.",
+    "citationNote": "Use when citing RRC oil lease and gas well index records extracted from the district PDF indexes."
+  },
+  {
+    "id": "smackover-lithium-franklin",
+    "name": "Franklin Project and East Texas Lithium Brine Disclosures",
+    "agency": "Smackover Lithium / Standard Lithium",
+    "resourceTypes": [
+      "Lithium"
+    ],
+    "accessType": "public company project page, news release, and SEC filing",
+    "sourceUrl": "https://www.standardlithium.com/projects/smackover/east-texas/",
+    "usedFor": "Public-source context for East Texas lithium brine project areas, inferred resource zones, and exploration wells in the Smackover Formation.",
+    "updateStatus": "public company disclosure",
+    "limitations": "These disclosures describe project areas and exploration wells but do not always provide exact public coordinates for each well or lease tract.",
+    "citationNote": "Use with notes that project and well coordinates may be approximate until confirmed against public filings, figures, or regulatory records."
+  },
+  {
+    "id": "rrc-surface-mining",
+    "name": "Surface Mining & Reclamation",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Coal/Lignite",
+      "Uranium"
+    ],
+    "accessType": "public web page",
+    "sourceUrl": "https://www.rrc.texas.gov/surface-mining/",
+    "usedFor": "General context about Texas coal/lignite mining, uranium exploration, and regulatory authority.",
+    "updateStatus": "official state source",
+    "limitations": "This page provides regulatory context, not necessarily a downloadable site-by-site dataset.",
+    "citationNote": "Use for explaining why coal/lignite and uranium are included."
+  },
+  {
+    "id": "rrc-surface-mining-programs",
+    "name": "Surface Mining Programs",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Coal/Lignite",
+      "Uranium",
+      "Abandoned Mine Land"
+    ],
+    "accessType": "public web page",
+    "sourceUrl": "https://www.rrc.texas.gov/surface-mining/programs/",
+    "usedFor": "Program-level links and context for abandoned mine land, surface coal mining, uranium exploration, and quarry or pit safety topics.",
+    "updateStatus": "official state source",
+    "limitations": "This page organizes program links and context; individual linked documents may need separate review before extracting site records.",
+    "citationNote": "Use as a navigation and context source for RRC surface mining program areas."
+  },
+  {
+    "id": "rrc-mining-permits",
+    "name": "Mining Permits",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Coal/Lignite",
+      "Uranium"
+    ],
+    "accessType": "public web page with linked permit documents",
+    "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/",
+    "usedFor": "Permit-related source links, including permitted coal mining locations, coal mine contacts, uranium exploration permits, and permitted acreage.",
+    "updateStatus": "official state source",
+    "limitations": "Some permit information is provided through linked PDFs or documents that may require manual review or conversion before mapping.",
+    "citationNote": "Use when citing permit status, permitted locations, or permit-related context from RRC source materials."
+  },
+  {
+    "id": "usgs-global-ree-occurrences",
+    "name": "Global Rare Earth Element Occurrence Database",
+    "agency": "U.S. Geological Survey",
+    "resourceTypes": [
+      "Rare Earth Elements",
+      "Critical Minerals"
+    ],
+    "accessType": "public data release",
+    "sourceUrl": "https://www.usgs.gov/data/global-rare-earth-element-occurrence-database",
+    "usedFor": "Reference data and context for rare earth element deposits and occurrences, including locations and descriptive geologic information where available.",
+    "updateStatus": "official federal data release",
+    "limitations": "The database is global in scope and may include records with varying detail or records without plottable locations.",
+    "citationNote": "Use when citing rare earth element occurrence data from the USGS data release."
+  },
+  {
+    "id": "usgs-mrds",
+    "name": "Mineral Resources Data System",
+    "agency": "U.S. Geological Survey",
+    "resourceTypes": [
+      "Metallic Minerals",
+      "Industrial Minerals",
+      "Critical Minerals"
+    ],
+    "accessType": "public legacy/historical dataset",
+    "sourceUrl": "https://www.usgs.gov/publications/mineral-resources-data-system-mrds",
+    "usedFor": "Legacy reference information about mineral deposits, mines, prospects, and occurrences in the United States and selected other countries.",
+    "updateStatus": "legacy/historical",
+    "limitations": "This is an older dataset and should be treated as historical reference material rather than current operating status.",
+    "citationNote": "Use only with a note that MRDS is legacy/historical and should be verified against newer sources before use in current analysis."
+  },
+  {
+    "id": "EIA-TOP100-OILGAS-2015",
+    "name": "U.S. Energy Information Administration / RRC field data",
+    "agency": "U.S. Energy Information Administration",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+    "usedFor": "Source metadata for Oil records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId EIA-TOP100-OILGAS-2015."
+  },
+  {
+    "id": "EIA-PERMIAN-COUNTIES-2025",
+    "name": "U.S. Energy Information Administration",
+    "agency": "U.S. Energy Information Administration",
+    "resourceTypes": [
+      "Oil",
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+    "usedFor": "Source metadata for Oil records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId EIA-PERMIAN-COUNTIES-2025."
+  },
+  {
+    "id": "TSHA-EAST-TEXAS-OILFIELD",
+    "name": "Texas State Historical Association",
+    "agency": "Texas State Historical Association",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.tshaonline.org/handbook/entries/east-texas-oilfield",
+    "usedFor": "Source metadata for Oil records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public historical/context source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId TSHA-EAST-TEXAS-OILFIELD."
+  },
+  {
+    "id": "RRC-STATEWIDE-FIELD-DATA",
+    "name": "Railroad Commission of Texas field data",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Oil",
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+    "usedFor": "Source metadata for Oil records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId RRC-STATEWIDE-FIELD-DATA."
+  },
+  {
+    "id": "TSHA-PANHANDLE-FIELD",
+    "name": "Texas State Historical Association",
+    "agency": "Texas State Historical Association",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.tshaonline.org/handbook/entries/panhandle-field",
+    "usedFor": "Source metadata for Oil records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public historical/context source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId TSHA-PANHANDLE-FIELD."
+  },
+  {
+    "id": "RRC-BARNETT-SHALE",
+    "name": "Railroad Commission of Texas",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
+    "usedFor": "Source metadata for Natural Gas records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId RRC-BARNETT-SHALE."
+  },
+  {
+    "id": "USGS-BARNETT-ASSESSMENT",
+    "name": "U.S. Geological Survey",
+    "agency": "U.S. Geological Survey",
+    "resourceTypes": [
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.usgs.gov/publications/mississippian-barnett-shale-fort-worth-basin-north-central-texas-gas-shale-play-multi",
+    "usedFor": "Source metadata for Natural Gas records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId USGS-BARNETT-ASSESSMENT."
+  },
+  {
+    "id": "RRC-MAJOR-FORMATIONS",
+    "name": "Railroad Commission of Texas",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+    "usedFor": "Source metadata for Natural Gas records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId RRC-MAJOR-FORMATIONS."
+  },
+  {
+    "id": "RRC-GAS-PRORATED-FIELD-FACTORS",
+    "name": "Railroad Commission of Texas",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/field-data/gas-prorated-field-factors/",
+    "usedFor": "Source metadata for Natural Gas records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId RRC-GAS-PRORATED-FIELD-FACTORS."
+  },
+  {
+    "id": "RRC-PUBLIC-GIS-VIEWER",
+    "name": "Railroad Commission of Texas Public GIS Viewer",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+    "usedFor": "Source metadata for Natural Gas records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId RRC-PUBLIC-GIS-VIEWER."
+  },
+  {
+    "id": "STANDARD-LITHIUM-EAST-TEXAS",
+    "name": "Standard Lithium East Texas project page",
+    "agency": "Standard Lithium",
+    "resourceTypes": [
+      "Lithium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.standardlithium.com/projects/smackover/east-texas/",
+    "usedFor": "Source metadata for Lithium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId STANDARD-LITHIUM-EAST-TEXAS."
+  },
+  {
+    "id": "BEG-CRITICAL-MINERALS-TX",
+    "name": "Bureau of Economic Geology, University of Texas",
+    "agency": "Bureau of Economic Geology",
+    "resourceTypes": [
+      "Lithium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.beg.utexas.edu/rare-earth-elements-podcast/critical-minerals-and-rare-earth-elements-in-texas/highlights",
+    "usedFor": "Source metadata for Lithium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId BEG-CRITICAL-MINERALS-TX."
+  },
+  {
+    "id": "TMRC-ROUND-TOP",
+    "name": "Texas Mineral Resources Corp. Round Top project",
+    "agency": "Texas Mineral Resources Corp.",
+    "resourceTypes": [
+      "Lithium",
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+    "usedFor": "Source metadata for Lithium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId TMRC-ROUND-TOP."
+  },
+  {
+    "id": "RRC-COAL-COUNTY-INFO",
+    "name": "Railroad Commission of Texas Surface Coal Mine County Information",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Coal/Lignite"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+    "usedFor": "Source metadata for Coal/Lignite records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId RRC-COAL-COUNTY-INFO."
+  },
+  {
+    "id": "TX-ALMANAC-COAL-MAP-2012",
+    "name": "Texas Almanac coal mining locations map",
+    "agency": "Texas Almanac",
+    "resourceTypes": [
+      "Coal/Lignite"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/maps/2012coalregions.pdf",
+    "usedFor": "Source metadata for Coal/Lignite records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId TX-ALMANAC-COAL-MAP-2012."
+  },
+  {
+    "id": "ENCORE-SOUTH-TEXAS-OPERATIONS",
+    "name": "enCore Energy South Texas ISR operations",
+    "agency": "enCore Energy",
+    "resourceTypes": [
+      "Uranium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+    "usedFor": "Source metadata for Uranium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId ENCORE-SOUTH-TEXAS-OPERATIONS."
+  },
+  {
+    "id": "ENCORE-ALTA-MESA-2025",
+    "name": "enCore Energy Alta Mesa expansion release",
+    "agency": "enCore Energy",
+    "resourceTypes": [
+      "Uranium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://encoreuranium.com/news/encore-energy-announces-expansion-of-the-alta-mesa-uranium-project/",
+    "usedFor": "Source metadata for Uranium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId ENCORE-ALTA-MESA-2025."
+  },
+  {
+    "id": "UEC-BURKE-HOLLOW-2026",
+    "name": "Uranium Energy Corp. / PR Newswire",
+    "agency": "Uranium Energy Corp.",
+    "resourceTypes": [
+      "Uranium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/uranium-energy-corp-commences-production-at-burke-hollow-the-worlds-newest-operating-isr-uranium-mine-302736496.html",
+    "usedFor": "Source metadata for Uranium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId UEC-BURKE-HOLLOW-2026."
+  },
+  {
+    "id": "UEC-TEXAS-HUB-SPOKE",
+    "name": "Uranium Energy Corp. Texas projects",
+    "agency": "Uranium Energy Corp.",
+    "resourceTypes": [
+      "Uranium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.uraniumenergy.com/projects/texas/",
+    "usedFor": "Source metadata for Uranium records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId UEC-TEXAS-HUB-SPOKE."
+  },
+  {
+    "id": "USAR-TMRC-ACQUISITION-2026",
+    "name": "USA Rare Earth investor release",
+    "agency": "USA Rare Earth",
+    "resourceTypes": [
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-acquire-texas-mineral-resources-corporation",
+    "usedFor": "Source metadata for Rare Earth records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId USAR-TMRC-ACQUISITION-2026."
+  },
+  {
+    "id": "TMRC-ALHAMBRA-GEOPHYSICS-2025",
+    "name": "Texas Mineral Resources Corp. Alhambra geophysics release",
+    "agency": "Texas Mineral Resources Corp.",
+    "resourceTypes": [
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://tmrcorp.com/news/press_releases/index.php?content_id=272",
+    "usedFor": "Source metadata for Rare Earth records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source, needs review",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId TMRC-ALHAMBRA-GEOPHYSICS-2025."
+  },
+  {
+    "id": "MP-INDEPENDENCE",
+    "name": "MP Materials Independence facility page",
+    "agency": "MP Materials",
+    "resourceTypes": [
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://mpmaterials.com/independence",
+    "usedFor": "Source metadata for Rare Earth records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId MP-INDEPENDENCE."
+  },
+  {
+    "id": "MP-10X-NORTHLAKE-2026",
+    "name": "MP Materials investor release",
+    "agency": "MP Materials",
+    "resourceTypes": [
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Selects-Northlake-Texas-as-the-Site-of-10X-a-New-U-S--Rare-Earth-Magnet-Manufacturing-Campus/default.aspx",
+    "usedFor": "Source metadata for Rare Earth records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId MP-10X-NORTHLAKE-2026."
+  },
+  {
+    "id": "NOVEON-OUR-PROCESS",
+    "name": "Noveon Magnetics process/facility page",
+    "agency": "Noveon Magnetics",
+    "resourceTypes": [
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://noveon.co/our-process",
+    "usedFor": "Source metadata for Rare Earth records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId NOVEON-OUR-PROCESS."
+  },
+  {
+    "id": "LYNAS-SEADRIFT-STATUS-2025",
+    "name": "Reuters coverage of Lynas Texas plant status",
+    "agency": "Lynas Rare Earths",
+    "resourceTypes": [
+      "Rare Earth"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.reuters.com/world/china/australias-lynas-flags-uncertainty-over-texas-plant-posts-annual-profit-slump-2025-08-28/",
+    "usedFor": "Source metadata for Rare Earth records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided major natural resource sites file. Coordinates may be representative centroids for broad fields, districts, projects, or facilities rather than legal boundaries or exact operational points.",
+    "citationNote": "Use when citing imported records with sourceId LYNAS-SEADRIFT-STATUS-2025."
+  },
+  {
+    "id": "MOTIVA-REFINING-PORT-ARTHUR-2026",
+    "name": "Motiva Enterprises - Refining",
+    "agency": "Motiva Enterprises",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.motiva.com/what-we-do/operations/refining",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId MOTIVA-REFINING-PORT-ARTHUR-2026."
+  },
+  {
+    "id": "EIA-FAQ-GALVESTON-BAY-REFINERY-2024",
+    "name": "U.S. Energy Information Administration - refinery FAQ",
+    "agency": "U.S. Energy Information Administration",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.eia.gov/tools/faqs/faq.php?id=29&t=6",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId EIA-FAQ-GALVESTON-BAY-REFINERY-2024."
+  },
+  {
+    "id": "EXXONMOBIL-BAYTOWN-OPERATIONS-2026",
+    "name": "ExxonMobil - Baytown area operations",
+    "agency": "ExxonMobil",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://corporate.exxonmobil.com/locations/united-states/baytown",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId EXXONMOBIL-BAYTOWN-OPERATIONS-2026."
+  },
+  {
+    "id": "EXXONMOBIL-BEAUMONT-EXPANSION-2023",
+    "name": "ExxonMobil - Beaumont refinery expansion release",
+    "agency": "ExxonMobil",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://corporate.exxonmobil.com/news/news-releases/2023/0316_exxonmobil-boosts-fuel-supply-with-2-billion-dollar-beaumont-refinery-expansion",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId EXXONMOBIL-BEAUMONT-EXPANSION-2023."
+  },
+  {
+    "id": "VALERO-PORT-ARTHUR-REFINERY-2026",
+    "name": "Valero - Port Arthur Refinery",
+    "agency": "Valero Energy Corporation",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.valero.com/about/locations/port-arthur-refinery",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId VALERO-PORT-ARTHUR-REFINERY-2026."
+  },
+  {
+    "id": "PHILLIPS66-SWEENY-REFINERY-2026",
+    "name": "Phillips 66 - Sweeny Refinery",
+    "agency": "Phillips 66",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.phillips66.com/refining/sweeny-refinery/",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId PHILLIPS66-SWEENY-REFINERY-2026."
+  },
+  {
+    "id": "CHEVRON-PASADENA-UPGRADE-2024",
+    "name": "Chevron - Pasadena refinery upgrade announcement",
+    "agency": "Chevron",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.chevron.com/newsroom/2024/q4/chevron-upgrades-pasadena-refinery-to-increase-capacity-feedstock-and-product-flexibility",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId CHEVRON-PASADENA-UPGRADE-2024."
+  },
+  {
+    "id": "ENBRIDGE-EIEC-PROJECTS-2026",
+    "name": "Enbridge - Ingleside Energy Center Projects",
+    "agency": "Enbridge",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.enbridge.com/projects-and-infrastructure/projects/ingleside-energy-center-projects",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId ENBRIDGE-EIEC-PROJECTS-2026."
+  },
+  {
+    "id": "ENTERPRISE-CRUDE-OIL-ASSETS-2026",
+    "name": "Enterprise Products - Crude Oil operations",
+    "agency": "Enterprise Products Partners",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.enterpriseproducts.com/operations/crude-oil/",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId ENTERPRISE-CRUDE-OIL-ASSETS-2026."
+  },
+  {
+    "id": "ENERGYTRANSFER-NEDERLAND-SEC-FILING-2017",
+    "name": "Energy Transfer / Sunoco Logistics SEC filing",
+    "agency": "Energy Transfer",
+    "resourceTypes": [
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1276187/000127618717000013/ete-12312015xrecastex991.htm",
+    "usedFor": "Source metadata for imported non-production oil infrastructure records in the Texas Natural Resource Atlas dataset.",
+    "updateStatus": "public source",
+    "limitations": "Imported from the user-provided additional oil non-production sites file. Coordinates are representative points for large refinery, terminal, or storage complexes and should not be treated as legal facility boundaries.",
+    "citationNote": "Use when citing imported records with sourceId ENERGYTRANSFER-NEDERLAND-SEC-FILING-2017."
+  },
+  {
+    "id": "rrc-major-formations",
+    "name": "Railroad Commission of Texas Major Oil and Gas Formations",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Oil",
+      "Natural Gas",
+      "Lithium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+    "usedFor": "Public-source context for the Permian Basin resource region overlay.",
+    "updateStatus": "public source",
+    "limitations": "Used for broad resource region overlay context. Geometry is manually approximated for visualization and should not be treated as a legal, lease, production, or exact geologic boundary.",
+    "citationNote": "Use when citing the Railroad Commission of Texas Major Oil and Gas Formations source for resource region overlays."
+  },
+  {
+    "id": "rrc-eagle-ford-shale",
+    "name": "Railroad Commission of Texas Eagle Ford Shale",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Oil",
+      "Natural Gas"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+    "usedFor": "Public-source context for the Eagle Ford Shale resource region overlay.",
+    "updateStatus": "public source",
+    "limitations": "Used for broad resource region overlay context. Geometry is manually approximated for visualization and should not be treated as a legal, lease, production, or exact geologic boundary.",
+    "citationNote": "Use when citing the Railroad Commission of Texas Eagle Ford Shale source for resource region overlays."
+  },
+  {
+    "id": "rrc-barnett-shale",
+    "name": "Railroad Commission of Texas Barnett Shale",
+    "agency": "Railroad Commission of Texas",
+    "resourceTypes": [
+      "Natural Gas",
+      "Oil"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
+    "usedFor": "Public-source context for the Barnett Shale resource region overlay.",
+    "updateStatus": "public source",
+    "limitations": "Used for broad resource region overlay context. Geometry is manually approximated for visualization and should not be treated as a legal, lease, production, or exact geologic boundary.",
+    "citationNote": "Use when citing the Railroad Commission of Texas Barnett Shale source for resource region overlays."
+  },
+  {
+    "id": "usgs-wilcox-jackson-coal-geology",
+    "name": "USGS Coal Geology of Wilcox and Manning/Jackson Groups",
+    "agency": "U.S. Geological Survey",
+    "resourceTypes": [
+      "Coal/Lignite"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://pubs.usgs.gov/of/1995/of95-595/fig_3-2.htm",
+    "usedFor": "Public-source context for the Wilcox Group and Jackson Group resource region overlays.",
+    "updateStatus": "public source",
+    "limitations": "Used for broad resource region overlay context. Geometry is manually approximated for visualization and should not be treated as a legal, lease, production, or exact geologic boundary.",
+    "citationNote": "Use when citing the USGS Coal Geology of Wilcox and Manning/Jackson Groups source for resource region overlays."
+  },
+  {
+    "id": "beg-south-texas-uranium-province",
+    "name": "Bureau of Economic Geology South Texas Uranium Province",
+    "agency": "Bureau of Economic Geology, University of Texas at Austin",
+    "resourceTypes": [
+      "Uranium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://store.beg.utexas.edu/publications/research-note/rn0006",
+    "usedFor": "Public-source context for the South Texas Uranium Province resource region overlay.",
+    "updateStatus": "public source",
+    "limitations": "Used for broad resource region overlay context. Geometry is manually approximated for visualization and should not be treated as a legal, lease, production, or exact geologic boundary.",
+    "citationNote": "Use when citing the Bureau of Economic Geology South Texas Uranium Province source for resource region overlays."
+  },
+  {
+    "id": "tmrc-round-top",
+    "name": "Texas Mineral Resources Corp. Round Top Project",
+    "agency": "Texas Mineral Resources Corp.",
+    "resourceTypes": [
+      "Rare Earth",
+      "Lithium"
+    ],
+    "accessType": "public web source",
+    "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+    "usedFor": "Public-source context for the Round Top Mountain resource region overlay.",
+    "updateStatus": "public source",
+    "limitations": "Used for broad resource region overlay context. Geometry is manually approximated for visualization and should not be treated as a legal, lease, production, or exact geologic boundary.",
+    "citationNote": "Use when citing the Texas Mineral Resources Corp. Round Top Project source for resource region overlays."
+  }
+]

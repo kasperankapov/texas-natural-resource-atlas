@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <h1>Texas Natural Resource Atlas</h1>
+      <img class="header-flag" src="assets/texas-flag.svg" alt="Texas flag" width="90" height="60">
+    </header>
+
+    <div class="workspace">
+      <aside class="sidebar" aria-label="Filter controls">
+        <h2>Filters</h2>
+
+        <div class="search-control">
+          <label for="site-search">Search sites</label>
+          <input type="search" id="site-search" name="siteSearch" placeholder="Enter a site name">
+        </div>
+
+        <div class="source-control">
+          <label for="source-filter">Source category</label>
+          <select id="source-filter" name="sourceFilter">
+            <option value="">All sources</option>
+          </select>
+        </div>
+
+        <fieldset class="filter-group overlay-toggle-group">
+          <legend>Map Overlays</legend>
+
+          <label class="checkbox-option" for="toggle-basin-overlays">
+            <input type="checkbox" id="toggle-basin-overlays" name="basinOverlayToggle" checked>
+            <span>Show resource region overlays</span>
+          </label>
+        </fieldset>
+
+        <fieldset class="filter-group">
+          <legend>Resource Type</legend>
+
+          <label class="checkbox-option" for="filter-oil">
+            <input type="checkbox" id="filter-oil" name="resourceType" value="Oil" checked>
+            <span class="resource-filter-indicator resource-oil" aria-hidden="true"></span>
+            <span>Oil</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-natural-gas">
+            <input type="checkbox" id="filter-natural-gas" name="resourceType" value="Natural Gas" checked>
+            <span class="resource-filter-indicator resource-gas" aria-hidden="true"></span>
+            <span>Natural Gas</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-lithium">
+            <input type="checkbox" id="filter-lithium" name="resourceType" value="Lithium" checked>
+            <span class="resource-filter-indicator resource-lithium" aria-hidden="true"></span>
+            <span>Lithium</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-coal-lignite">
+            <input type="checkbox" id="filter-coal-lignite" name="resourceType" value="Coal/Lignite" checked>
+            <span class="resource-filter-indicator resource-coal-lignite" aria-hidden="true"></span>
+            <span>Coal/Lignite</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-uranium">
+            <input type="checkbox" id="filter-uranium" name="resourceType" value="Uranium" checked>
+            <span class="resource-filter-indicator resource-uranium" aria-hidden="true"></span>
+            <span>Uranium</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-rare-earth">
+            <input type="checkbox" id="filter-rare-earth" name="resourceType" value="Rare Earth" checked>
+            <span class="resource-filter-indicator resource-rare-earth" aria-hidden="true"></span>
+            <span>Rare Earth</span>
+          </label>
+        </fieldset>
+
+        <fieldset class="filter-group">
+          <legend>Site Type</legend>
+
+          <label class="checkbox-option" for="filter-deposit">
+            <input type="checkbox" id="filter-deposit" name="siteType" value="deposit" checked>
+            <span>Deposit</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-production">
+            <input type="checkbox" id="filter-production" name="siteType" value="production" checked>
+            <span>Production Site</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-facility">
+            <input type="checkbox" id="filter-facility" name="siteType" value="facility" checked>
+            <span>Processing Facility</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-exploration">
+            <input type="checkbox" id="filter-exploration" name="siteType" value="exploration" checked>
+            <span>Exploration</span>
+          </label>
+
+          <label class="checkbox-option" for="filter-historical-mine">
+            <input type="checkbox" id="filter-historical-mine" name="siteType" value="historical mine" checked>
+            <span>Historical Mine</span>
+          </label>
+        </fieldset>
+
+        <button type="button" id="reset-filters" class="reset-button">Reset filters</button>
+
+        <section class="legend" aria-labelledby="legend-title">
+          <h2 id="legend-title">Legend</h2>
+
+          <div class="legend-group">
+            <h3>Site Types</h3>
+            <ul class="legend-list">
+              <li><span class="legend-shape site-deposit"></span>Deposit</li>
+              <li><span class="legend-shape site-production"></span>Production Site</li>
+              <li><span class="legend-shape site-facility"></span>Processing Facility</li>
+              <li><span class="legend-shape site-exploration"></span>Exploration</li>
+              <li><span class="legend-shape site-historical-mine"></span>Historical Mine</li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+
+      <main class="map-panel">
+        <section id="map" class="map-container" aria-label="Map of Texas"></section>
+      </main>
+    </div>
+
+    <footer class="source-note">
+      <p>This MVP uses local GeoJSON and JSON files for resource sites, source metadata, resource regions, and the Texas border reference layer.</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,525 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #21313c;
+  background: #f4f6f8;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.site-header {
+  padding: 24px 32px;
+  color: #ffffff;
+  background: #234236;
+  border-bottom: 4px solid #c28f38;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header-flag {
+  width: clamp(64px, 8vw, 90px);
+  height: auto;
+  flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  gap: 24px;
+  padding: 24px;
+  min-height: 0;
+}
+
+.sidebar,
+.map-container,
+.source-note {
+  border: 1px solid #d6dde3;
+  background: #ffffff;
+}
+
+.sidebar {
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.sidebar h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+}
+
+.search-control,
+.source-control {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.search-control label,
+.source-control label {
+  font-weight: 700;
+  color: #2f3f4a;
+}
+
+.search-control input,
+.source-control select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #c7d0d8;
+  border-radius: 6px;
+  font: inherit;
+  color: #21313c;
+  background: #ffffff;
+}
+
+.search-control input:focus,
+.source-control select:focus {
+  outline: 2px solid #8fb7a7;
+  outline-offset: 2px;
+}
+
+.filter-group {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.filter-group + .filter-group {
+  margin-top: 24px;
+}
+
+.filter-group legend {
+  margin-bottom: 8px;
+  padding: 0;
+  font-weight: 700;
+  color: #2f3f4a;
+  white-space: nowrap;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #33434f;
+  min-width: 0;
+}
+
+.filter-group .checkbox-option + .checkbox-option {
+  margin-top: 10px;
+}
+
+.checkbox-option input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  flex: 0 0 16px;
+}
+
+.resource-filter-indicator {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  border: 1px solid var(--resource-color, #52616f);
+  border-radius: 4px;
+  background: var(--resource-fill, rgba(82, 97, 111, 0.14));
+}
+
+.resource-filter-indicator::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--resource-color, #52616f);
+  content: "";
+  transform: translate(-50%, -50%);
+}
+
+.reset-button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px 12px;
+  border: 1px solid #234236;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  background: #234236;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: #1b332a;
+}
+
+.reset-button:focus {
+  outline: 2px solid #8fb7a7;
+  outline-offset: 2px;
+}
+
+.legend {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #d6dde3;
+}
+
+.legend h2 {
+  margin: 0 0 14px;
+  font-size: 1.1rem;
+}
+
+.legend-group + .legend-group {
+  margin-top: 18px;
+}
+
+.legend-group h3 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+  color: #2f3f4a;
+}
+
+.legend-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legend-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #33434f;
+}
+
+.legend-shape {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  border: 1px solid #2f3f4a;
+}
+
+.resource-marker-icon {
+  width: 20px;
+  height: 20px;
+  pointer-events: auto;
+}
+
+.leaflet-basin-pane {
+  z-index: 250;
+}
+
+.leaflet-marker-pane {
+  z-index: 600;
+}
+
+.basin-overlay-path {
+  transition:
+    fill-opacity 120ms ease,
+    stroke-opacity 120ms ease,
+    stroke-width 120ms ease;
+}
+
+.leaflet-basin-pane .basin-overlay-path:hover {
+  fill-opacity: 0.24;
+  stroke-opacity: 0.9;
+  stroke-width: 3;
+}
+
+.resource-oil {
+  --resource-color: #27313a;
+  --resource-fill: rgba(39, 49, 58, 0.16);
+}
+
+.resource-gas {
+  --resource-color: #1f7a5c;
+  --resource-fill: rgba(31, 122, 92, 0.14);
+}
+
+.resource-lithium {
+  --resource-color: #7b5ea7;
+  --resource-fill: rgba(123, 94, 167, 0.15);
+}
+
+.resource-coal-lignite {
+  --resource-color: #8a5a24;
+  --resource-fill: rgba(138, 90, 36, 0.15);
+}
+
+.resource-uranium {
+  --resource-color: #c49a1f;
+  --resource-fill: rgba(196, 154, 31, 0.14);
+}
+
+.resource-rare-earth {
+  --resource-color: #1c7f93;
+  --resource-fill: rgba(28, 127, 147, 0.15);
+}
+
+.site-deposit {
+  border-radius: 50%;
+  background: #52616f;
+}
+
+.site-production {
+  background: #52616f;
+}
+
+.site-facility {
+  border-radius: 3px;
+  background: repeating-linear-gradient(
+    45deg,
+    #52616f,
+    #52616f 3px,
+    #ffffff 3px,
+    #ffffff 6px
+  );
+}
+
+.site-exploration {
+  border-radius: 50%;
+  border-style: dashed;
+  background: #52616f;
+}
+
+.site-historical-mine {
+  transform: rotate(45deg);
+  background: #52616f;
+}
+
+.sidebar p {
+  margin: 0;
+  color: #5f6f7b;
+}
+
+.map-panel {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+}
+
+.map-container {
+  width: 100%;
+  height: clamp(520px, calc(100vh - 220px), 760px);
+  min-height: 520px;
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.source-note {
+  margin: 0 24px 24px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #5f6f7b;
+  overflow-wrap: anywhere;
+}
+
+.source-note p {
+  margin: 0;
+}
+
+.source-note code {
+  color: #33434f;
+  background: #eef2f4;
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+.resource-popup h3 {
+  margin: 0 0 10px;
+}
+
+.resource-popup p {
+  margin: 0 0 8px;
+}
+
+.basin-popup {
+  max-width: 280px;
+  border-left: 4px solid #52616f;
+  padding-left: 10px;
+}
+
+.basin-popup h3 {
+  margin: 0 0 10px;
+  color: #234236;
+}
+
+.basin-popup p {
+  margin: 0 0 8px;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 2px 8px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.status-active {
+  color: #1f6b4a;
+  background: #e6f3ed;
+}
+
+.status-inactive {
+  color: #8a2f24;
+  background: #f8ddd8;
+}
+
+.status-other {
+  color: #7a5700;
+  background: #fff2c2;
+}
+
+.confidence-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.confidence-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 2px 8px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.confidence-high {
+  color: #1f6b4a;
+  background: #e6f3ed;
+}
+
+.confidence-medium {
+  color: #7a5700;
+  background: #fff2c2;
+}
+
+.confidence-low {
+  color: #8a2f24;
+  background: #f8ddd8;
+}
+
+.confidence-unknown {
+  color: #52616f;
+  background: #eef2f4;
+}
+
+.confidence-meaning {
+  color: #52616f;
+  font-size: 0.84rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 980px) {
+  .workspace {
+    grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .sidebar {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    padding: 18px 16px;
+    gap: 14px;
+  }
+
+  .site-header h1 {
+    font-size: 1.45rem;
+  }
+
+  .header-flag {
+    width: 64px;
+  }
+
+  .workspace {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .map-panel {
+    order: -1;
+  }
+
+  .map-container {
+    height: 52vh;
+    min-height: 340px;
+  }
+
+  .source-note {
+    margin: 0 16px 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .workspace {
+    padding: 12px;
+  }
+
+  .sidebar {
+    padding: 16px;
+  }
+
+  .map-container {
+    min-height: 300px;
+  }
+
+  .source-note {
+    margin: 0 12px 12px;
+  }
+}

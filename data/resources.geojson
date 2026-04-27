@@ -1,0 +1,2273 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3,
+          28.85
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-001",
+        "name": "Eagleville (Eagle Ford) Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Karnes / DeWitt / Gonzales / La Salle and nearby Eagle Ford counties",
+        "operator": "Multiple operators",
+        "description": "Major Eagle Ford shale/tight-oil field and one of Texas' largest modern oil-producing areas.",
+        "source": "U.S. Energy Information Administration / RRC field data",
+        "sourceId": "EIA-TOP100-OILGAS-2015",
+        "sourceName": "U.S. Energy Information Administration / RRC field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Representative centroid for the Eagle Ford oil window; multi-county field, not a lease centroid."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.06,
+          32.08
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-002",
+        "name": "Spraberry Trend Area",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Midland / Martin / Glasscock / Reagan / Upton and nearby Permian counties",
+        "operator": "Multiple operators",
+        "description": "Large Midland Basin oil play; Spraberry is one of the key formations driving Permian oil growth.",
+        "source": "U.S. Energy Information Administration",
+        "sourceId": "EIA-PERMIAN-COUNTIES-2025",
+        "sourceName": "U.S. Energy Information Administration",
+        "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a very large producing trend; use as map-scale feature only."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.93,
+          32.37
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-003",
+        "name": "East Texas Oil Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Gregg / Rusk / Smith / Upshur / Cherokee",
+        "operator": "Multiple operators",
+        "description": "Historic supergiant oil field discovered in 1930; still a major legacy oil province in East Texas.",
+        "source": "Texas State Historical Association",
+        "sourceId": "TSHA-EAST-TEXAS-OILFIELD",
+        "sourceName": "Texas State Historical Association",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/east-texas-oilfield",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Centroid is approximate for the north-south field trend around Kilgore/Longview."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.94,
+          30.88
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-004",
+        "name": "Yates Oil Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Pecos",
+        "operator": "Multiple operators; long-running enhanced recovery operations",
+        "description": "Major Permian Basin carbonate oil field discovered in the 1920s, historically among the largest U.S. oil fields.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate field centroid; individual leases/operators vary."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.86,
+          33.16
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-005",
+        "name": "Wasson Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Yoakum / Gaines",
+        "operator": "Multiple operators",
+        "description": "Large Permian Basin field with long primary, secondary, and enhanced-recovery production history.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate field centroid near the Yoakum-Gaines county area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.54,
+          33.63
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-006",
+        "name": "Slaughter Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Hockley / Cochran",
+        "operator": "Multiple operators",
+        "description": "Large Permian Basin oil field on the Northwest Shelf, historically one of Texas' major producing fields.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a large multi-lease field."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.38,
+          33.57
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-007",
+        "name": "Levelland Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Hockley",
+        "operator": "Multiple operators",
+        "description": "Major mature Permian Basin oil field in Hockley County near Levelland.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid; intended for regional display."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.62,
+          31.98
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-008",
+        "name": "Goldsmith Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Ector",
+        "operator": "Multiple operators",
+        "description": "Significant Permian Basin oil field in Ector County; historically important in West Texas production.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid near Goldsmith, Texas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.7,
+          32.72
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-009",
+        "name": "Seminole Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Gaines",
+        "operator": "Multiple operators",
+        "description": "Large mature Permian Basin oil field around Seminole in Gaines County.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate field centroid."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.93,
+          32.74
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-010",
+        "name": "Kelly-Snyder Field / SACROC Unit",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / enhanced recovery",
+        "county": "Scurry",
+        "operator": "Kinder Morgan and other historical/current interests",
+        "description": "Major Scurry County oil field; SACROC is a landmark CO2 enhanced-oil-recovery unit.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for the SACROC/Kelly-Snyder producing area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.46,
+          31.2
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-011",
+        "name": "Big Lake Field / Santa Rita No. 1 Area",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Historic / mature",
+        "county": "Reagan",
+        "operator": "Multiple operators; University Lands area",
+        "description": "Historic Permian Basin oil discovery area associated with the Santa Rita No. 1 discovery and subsequent Reagan County production.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Historic discovery marker is more specific than the producing trend; coordinate is representative."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.68,
+          32.47
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-012",
+        "name": "Ranger Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Historic / mature",
+        "county": "Eastland",
+        "operator": "Multiple operators",
+        "description": "Historic North Texas oil boom field, important to early Texas petroleum development.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid near Ranger; included for historical significance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.45,
+          35.48
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-013",
+        "name": "Panhandle Field Oil Area",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Carson / Gray / Hutchinson / Potter / Wheeler and nearby counties",
+        "operator": "Multiple operators",
+        "description": "Large oil-and-gas producing province in the Texas Panhandle with major historic production.",
+        "source": "Texas State Historical Association",
+        "sourceId": "TSHA-PANHANDLE-FIELD",
+        "sourceName": "Texas State Historical Association",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/panhandle-field",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Panhandle Field is very broad; coordinate is a regional centroid."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.55,
+          32.18
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-014",
+        "name": "Howard-Glasscock Consolidated Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Howard / Glasscock",
+        "operator": "Multiple operators",
+        "description": "Permian Midland Basin producing area in counties that have recently been among Texas' top crude-oil growth contributors.",
+        "source": "U.S. Energy Information Administration",
+        "sourceId": "EIA-PERMIAN-COUNTIES-2025",
+        "sourceName": "U.S. Energy Information Administration",
+        "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Broad field/fairway centroid; use for map clustering rather than parcel-level siting."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.45,
+          31.55
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-015",
+        "name": "Phantom (Wolfcamp) / Reeves-Ward Area",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Reeves / Ward",
+        "operator": "Multiple operators",
+        "description": "Delaware Basin Wolfcamp-focused oil and condensate producing area in one of Texas' highest-output Permian counties.",
+        "source": "U.S. Energy Information Administration",
+        "sourceId": "EIA-PERMIAN-COUNTIES-2025",
+        "sourceName": "U.S. Energy Information Administration",
+        "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a broad Wolfcamp producing fairway."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103,
+          31.35
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-016",
+        "name": "Wolfbone Trend Area",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Pecos / Reeves / Ward",
+        "operator": "Multiple operators",
+        "description": "Delaware Basin stacked-pay oil trend combining Wolfcamp and Bone Spring/Bone-related targets.",
+        "source": "U.S. Energy Information Administration",
+        "sourceId": "EIA-PERMIAN-COUNTIES-2025",
+        "sourceName": "U.S. Energy Information Administration",
+        "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate trend centroid; terminology varies by operator and RRC field naming."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.67,
+          28.96
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-017",
+        "name": "West Ranch Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Active / enhanced recovery",
+        "county": "Jackson",
+        "operator": "Multiple operators; CO2 EOR history",
+        "description": "Major Gulf Coast oil field known for enhanced oil recovery and long-lived production.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid near Vanderbilt/West Ranch area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.487,
+          33.013
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-001",
+        "name": "Newark East (Barnett Shale) Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Wise / Denton / Tarrant / Johnson and nearby Barnett counties",
+        "operator": "Multiple operators",
+        "description": "Railroad Commission field designation for the productive Barnett Shale gas area; historically one of Texas' largest gas fields.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-BARNETT-SHALE",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is approximate near Newark/Wise County; field covers a large multi-county area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33,
+          32.755
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-002",
+        "name": "Barnett Shale Core Area",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / mature",
+        "county": "Tarrant / Denton / Johnson / Wise",
+        "operator": "Multiple operators",
+        "description": "Core Fort Worth Basin gas shale fairway; one of the major onshore natural-gas formations in Texas.",
+        "source": "U.S. Geological Survey",
+        "sourceId": "USGS-BARNETT-ASSESSMENT",
+        "sourceName": "U.S. Geological Survey",
+        "sourceUrl": "https://www.usgs.gov/publications/mississippian-barnett-shale-fort-worth-basin-north-central-texas-gas-shale-play-multi",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid around Fort Worth; broader than any single field record."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2,
+          32.1
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-003",
+        "name": "Haynesville/Bossier Shale - East Texas",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Harrison / Panola / Shelby / San Augustine and nearby East Texas counties",
+        "operator": "Multiple operators",
+        "description": "Major East Texas shale-gas fairway connected to the regional Haynesville/Bossier system.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Representative centroid for East Texas portion of a regional shale play."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.34,
+          32.16
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-004",
+        "name": "Carthage (Cotton Valley) Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Panola",
+        "operator": "Multiple operators",
+        "description": "Major East Texas gas field producing from Cotton Valley and related intervals around Carthage.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid near Carthage; field contains many leases."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.38,
+          35.54
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-005",
+        "name": "Panhandle East Gas Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Carson / Gray / Hutchinson / Moore and nearby Panhandle counties",
+        "operator": "Multiple operators",
+        "description": "Major Texas Panhandle gas field; listed in RRC gas-proration field data.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-GAS-PRORATED-FIELD-FACTORS",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/field-data/gas-prorated-field-factors/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is regional centroid; the Panhandle field complex is geographically extensive."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.89,
+          35.65
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-006",
+        "name": "Panhandle West (Red Cave) Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Moore / Sherman / Dallam / Hartley and nearby Panhandle counties",
+        "operator": "Multiple operators",
+        "description": "West Panhandle gas field designation associated with Red Cave reservoirs in the Texas Panhandle.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-GAS-PRORATED-FIELD-FACTORS",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/field-data/gas-prorated-field-factors/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a broad field designation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8,
+          28.745
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-007",
+        "name": "Eagle Ford Wet Gas / Condensate Window",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Karnes / DeWitt / Live Oak / La Salle and nearby counties",
+        "operator": "Multiple operators",
+        "description": "Natural-gas and condensate production fairway in the Eagle Ford Shale.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid; overlaps oil and condensate production."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.25,
+          27.78
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-008",
+        "name": "Eagle Ford Dry Gas Window",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Webb / La Salle / Dimmit and nearby South Texas counties",
+        "operator": "Multiple operators",
+        "description": "Dry-gas portion of the Eagle Ford trend in South Texas.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a broad fairway."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.65,
+          31.4
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-009",
+        "name": "Permian Delaware Basin Associated Gas Fairway",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Reeves / Loving / Ward / Pecos",
+        "operator": "Multiple operators",
+        "description": "Associated gas-producing area tied to Delaware Basin oil development, including Wolfcamp/Bone Spring-related production.",
+        "source": "U.S. Energy Information Administration",
+        "sourceId": "EIA-PERMIAN-COUNTIES-2025",
+        "sourceName": "U.S. Energy Information Administration",
+        "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate basin/fairway centroid; not a single facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.95,
+          32.05
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-010",
+        "name": "Permian Midland Basin Associated Gas Fairway",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Midland / Martin / Glasscock / Howard",
+        "operator": "Multiple operators",
+        "description": "Associated gas-producing area tied to Midland Basin tight-oil development.",
+        "source": "U.S. Energy Information Administration",
+        "sourceId": "EIA-PERMIAN-COUNTIES-2025",
+        "sourceName": "U.S. Energy Information Administration",
+        "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=66025",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate basin/fairway centroid; not a single lease."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.159,
+          31.477
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-011",
+        "name": "Waha Gas Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Pecos / Reeves area",
+        "operator": "Multiple pipeline and midstream operators",
+        "description": "Major West Texas natural-gas market hub connecting Permian Basin production to intrastate and interstate pipeline systems.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate Waha area centroid; hub is a market/pipeline node rather than a single plant parcel."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.824,
+          29.785
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-012",
+        "name": "Katy Gas Hub / Storage Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Waller / Fort Bend / Harris",
+        "operator": "Multiple pipeline and storage operators",
+        "description": "Major Texas gas trading, pipeline interconnect, and storage area west of Houston.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate hub centroid; facility ownership varies by interconnect/storage asset."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.909,
+          27.781
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-013",
+        "name": "Agua Dulce Gas Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Nueces",
+        "operator": "Multiple pipeline and midstream operators",
+        "description": "South Texas gas hub/interconnect area serving Eagle Ford and Gulf Coast flows.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid near Agua Dulce."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89,
+          29.847
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-014",
+        "name": "Mont Belvieu NGL Fractionation Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Chambers",
+        "operator": "Enterprise / Targa / ONEOK and multiple NGL operators",
+        "description": "Globally significant NGL fractionation, storage, and petrochemical feedstock hub tied to natural-gas liquids from Texas and other basins.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for the Mont Belvieu industrial complex."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.34,
+          32.16
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-015",
+        "name": "Carthage Gas Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Panola",
+        "operator": "Multiple pipeline and midstream operators",
+        "description": "East Texas gas trading/interconnect area associated with Carthage and Haynesville/Cotton Valley production.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid near Carthage; hub includes multiple pipelines and receipt/delivery points."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8,
+          31.82
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-016",
+        "name": "Bethel Gas Storage Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Anderson",
+        "operator": "Gas storage operator(s); ownership may vary by asset",
+        "description": "Major underground natural-gas storage area in East Texas serving market balancing and pipeline operations.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Facility boundary and operator should be verified against current storage records before parcel-level use."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.48,
+          30.02
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-017",
+        "name": "Bammel Gas Storage Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Harris",
+        "operator": "Gas storage operator(s); ownership may vary by asset",
+        "description": "Large natural-gas storage area north of Houston used for Gulf Coast market balancing.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate storage-area centroid; verify operator and boundary in current facility records."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.08,
+          31.79
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-018",
+        "name": "Freestone Cotton Valley Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Freestone / Limestone / Leon and nearby counties",
+        "operator": "Multiple operators",
+        "description": "East-Central Texas gas trend associated with Cotton Valley and related tight-gas reservoirs.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Representative centroid; field/operator details vary by lease and reservoir."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4,
+          32
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-019",
+        "name": "Travis Peak / Hosston East Texas Gas Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / mature",
+        "county": "Panola / Shelby / Rusk and nearby counties",
+        "operator": "Multiple operators",
+        "description": "Major East Texas gas-bearing interval historically developed with Cotton Valley and other tight-gas reservoirs.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Broad stratigraphic trend; included as a map-scale resource/deposit feature."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.5,
+          35.7
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-020",
+        "name": "Granite Wash - Texas Panhandle",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Hemphill / Wheeler / Roberts and nearby Panhandle counties",
+        "operator": "Multiple operators",
+        "description": "Texas portion of the Granite Wash oil-and-gas trend in the Anadarko Basin margin.",
+        "source": "Railroad Commission of Texas",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for Texas-side Granite Wash activity."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.8,
+          30.93
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-021",
+        "name": "Puckett Ellenburger Gas Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Pecos",
+        "operator": "Multiple operators",
+        "description": "West Texas gas field associated with deep Ellenburger production in Pecos County.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate field centroid; verify exact reservoir designation in RRC data for engineering use."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.92,
+          31.35
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-022",
+        "name": "Gomez Gas Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Pecos / Ward area",
+        "operator": "Multiple operators",
+        "description": "Permian Basin gas field area tied to deep gas and associated-gas production in West Texas.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate field centroid; county/operator may differ by reservoir/lease."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.63,
+          30.27
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-023",
+        "name": "Pakenham Gas Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / mature",
+        "county": "Terrell / Crockett area",
+        "operator": "Multiple operators",
+        "description": "West Texas gas field included as a significant legacy gas-producing area.",
+        "source": "Railroad Commission of Texas field data",
+        "sourceId": "RRC-STATEWIDE-FIELD-DATA",
+        "sourceName": "Railroad Commission of Texas field data",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Low",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate location only; verify exact RRC field/reservoir and active operator before production analytics."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.32,
+          31.75
+        ]
+      },
+      "properties": {
+        "id": "TX-NG-024",
+        "name": "Lobo / Delaware Basin Gas Processing Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Reeves / Winkler / Ward area",
+        "operator": "Multiple midstream operators",
+        "description": "Representative Delaware Basin gas-gathering and processing area serving associated gas from West Texas production.",
+        "source": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceId": "RRC-PUBLIC-GIS-VIEWER",
+        "sourceName": "Railroad Commission of Texas Public GIS Viewer",
+        "sourceUrl": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Placeholder for a regional processing cluster; verify specific plant asset if the app requires single-facility precision."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.15,
+          33.19
+        ]
+      },
+      "properties": {
+        "id": "TX-LI-001",
+        "name": "East Texas Smackover Lithium Brine / Franklin Project",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Exploration / resource definition",
+        "county": "Franklin / Titus / Morris and nearby East Texas counties",
+        "operator": "Standard Lithium / Smackover Lithium interests",
+        "description": "Large East Texas brine-mineral leasing and lithium exploration project targeting Smackover Formation brines.",
+        "source": "Standard Lithium East Texas project page",
+        "sourceId": "STANDARD-LITHIUM-EAST-TEXAS",
+        "sourceName": "Standard Lithium East Texas project page",
+        "sourceUrl": "https://www.standardlithium.com/projects/smackover/east-texas/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate project centroid; project acreage and brine rights are distributed across East Texas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07,
+          33.17
+        ]
+      },
+      "properties": {
+        "id": "TX-LI-002",
+        "name": "Pine Forest 1 Lithium Brine Well Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Exploration sample area",
+        "county": "Franklin / East Texas area",
+        "operator": "Standard Lithium / Smackover Lithium interests",
+        "description": "Reported high-lithium Smackover brine sample area used to support East Texas inferred-resource work.",
+        "source": "Standard Lithium East Texas project page",
+        "sourceId": "STANDARD-LITHIUM-EAST-TEXAS",
+        "sourceName": "Standard Lithium East Texas project page",
+        "sourceUrl": "https://www.standardlithium.com/projects/smackover/east-texas/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinates are representative for the public project area, not a surveyed wellhead."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.88,
+          33.04
+        ]
+      },
+      "properties": {
+        "id": "TX-LI-003",
+        "name": "Smackover Formation Brine Trend - Northeast Texas",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Prospective / undeveloped",
+        "county": "Cass / Morris / Bowie / Marion and nearby East Texas counties",
+        "operator": "Multiple mineral-interest holders / exploration companies",
+        "description": "Regional lithium-bearing brine trend in the Smackover Formation extending into East Texas.",
+        "source": "Bureau of Economic Geology, University of Texas",
+        "sourceId": "BEG-CRITICAL-MINERALS-TX",
+        "sourceName": "Bureau of Economic Geology, University of Texas",
+        "sourceUrl": "https://www.beg.utexas.edu/rare-earth-elements-podcast/critical-minerals-and-rare-earth-elements-in-texas/highlights",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Broad geologic trend; use as a regional deposit polygon/point until specific lease data is added."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          31.045
+        ]
+      },
+      "properties": {
+        "id": "TX-LI-004",
+        "name": "Round Top Lithium-Bearing Rhyolite",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Pre-development",
+        "county": "Hudspeth",
+        "operator": "USA Rare Earth / Texas Mineral Resources Corp. interests",
+        "description": "Round Top heavy-rare-earth and critical-minerals project also contains lithium-bearing mineralization within the rhyolite system.",
+        "source": "Texas Mineral Resources Corp. Round Top project",
+        "sourceId": "TMRC-ROUND-TOP",
+        "sourceName": "Texas Mineral Resources Corp. Round Top project",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Same project district as Round Top REE records; lithium is a co-product/critical-minerals component, not a standalone Texas lithium mine."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.1,
+          31.9
+        ]
+      },
+      "properties": {
+        "id": "TX-LI-005",
+        "name": "Permian Basin Produced-Water Lithium Opportunity",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Concept / early-stage evaluation",
+        "county": "Midland / Martin / Reeves / Loving and broader Permian counties",
+        "operator": "Multiple oil, gas, and produced-water operators",
+        "description": "Produced water from Permian oil and gas operations is being evaluated as a potential lithium source despite generally lower concentrations than Smackover brines.",
+        "source": "Bureau of Economic Geology, University of Texas",
+        "sourceId": "BEG-CRITICAL-MINERALS-TX",
+        "sourceName": "Bureau of Economic Geology, University of Texas",
+        "sourceUrl": "https://www.beg.utexas.edu/rare-earth-elements-podcast/critical-minerals-and-rare-earth-elements-in-texas/highlights",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Low",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Regional opportunity point; use only as a broad exploration/resource concept, not an active mine or commercial extraction site."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.64,
+          31.36
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-001",
+        "name": "Jewett Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "status": "Active / reclamation areas",
+        "county": "Leon / Freestone / Limestone",
+        "operator": "Texas Westmoreland / Luminant-related operations; verify current permit holder",
+        "description": "Major lignite surface mine historically supplying the Limestone generating station area.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a large surface-mine complex; operator history has changed over time."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          28.82
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-002",
+        "name": "San Miguel Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Atascosa",
+        "operator": "San Miguel Electric Cooperative / mine contractor",
+        "description": "South Texas lignite mine associated with the San Miguel power generation complex.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate mine centroid; verify active permit boundary for GIS precision."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.52,
+          28.7
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-003",
+        "name": "Eagle Pass Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "status": "Active / intermittent / reclamation",
+        "county": "Maverick",
+        "operator": "Dos Republicas / Camino Real Fuels-related interests; verify current status",
+        "description": "Surface coal mine near Eagle Pass in Maverick County, listed in RRC county mine information.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Operational status and permit holder should be checked before using in a live production layer."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1,
+          30.43
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-004",
+        "name": "Three Oaks Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation",
+        "county": "Bastrop / Lee",
+        "operator": "Luminant Mining-related legacy operation",
+        "description": "Central Texas lignite surface mine area listed by RRC for Bastrop and Lee counties.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid; categorized as historical/reclamation for map display."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.08,
+          30.62
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-005",
+        "name": "Sandow Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation / closed",
+        "county": "Milam",
+        "operator": "Alcoa Inc. / legacy mine operator",
+        "description": "Historic lignite mine near Rockdale/Sandow, associated with the former Sandow power/industrial complex.",
+        "source": "Texas Almanac coal mining locations map",
+        "sourceId": "TX-ALMANAC-COAL-MAP-2012",
+        "sourceName": "Texas Almanac coal mining locations map",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/maps/2012coalregions.pdf",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Operator listed historically; current reclamation responsibility should be verified."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.05,
+          31.8
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-006",
+        "name": "Big Brown Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation / closed",
+        "county": "Freestone",
+        "operator": "Luminant Mining legacy operation",
+        "description": "Large Freestone County lignite mine formerly associated with Big Brown power generation.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid; status reflects closure/reclamation rather than active extraction."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.55,
+          32.25
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-007",
+        "name": "Martin Lake Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "status": "Active / reclamation areas",
+        "county": "Panola / Rusk / Harrison",
+        "operator": "Luminant Mining-related operations",
+        "description": "Major East Texas lignite mine complex associated with the Martin Lake power plant area.",
+        "source": "Texas Almanac coal mining locations map",
+        "sourceId": "TX-ALMANAC-COAL-MAP-2012",
+        "sourceName": "Texas Almanac coal mining locations map",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/maps/2012coalregions.pdf",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid for a large multi-county mining complex."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.13,
+          33.05
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-008",
+        "name": "Monticello-Winfield Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation / closed",
+        "county": "Franklin / Titus / Hopkins",
+        "operator": "Luminant Mining legacy operation",
+        "description": "Northeast Texas lignite mine associated with the former Monticello generating station area.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid; mine/power-plant operations have been retired/reclaimed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.72,
+          33.13
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-009",
+        "name": "Monticello-Thermo Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation",
+        "county": "Hopkins",
+        "operator": "Luminant Mining legacy operation",
+        "description": "Historic Northeast Texas lignite mine area listed by RRC in Hopkins County.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid; use RRC permit maps for boundaries."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.07,
+          30.6
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-010",
+        "name": "Gibbons Creek Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation / closed",
+        "county": "Grimes",
+        "operator": "Texas Municipal Power Agency legacy operation",
+        "description": "Lignite mine associated with the former Gibbons Creek power generation area.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid; power and mining status should be checked for current redevelopment/reclamation details."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.63,
+          31.3
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-011",
+        "name": "Kosse Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation / legacy",
+        "county": "Limestone",
+        "operator": "Luminant Mining-related legacy operation",
+        "description": "Limestone County lignite mine area listed by RRC.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid; verify permit number/status before production use."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.38,
+          32.47
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-012",
+        "name": "Marshall Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical mine",
+        "status": "Reclamation / legacy",
+        "county": "Harrison",
+        "operator": "Luminant / legacy mine operator; verify current permit holder",
+        "description": "Harrison County lignite mine area listed by RRC.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Historical record",
+        "notes": "Approximate centroid near Marshall; operator and status should be verified against current RRC permit records."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.53,
+          32.47
+        ]
+      },
+      "properties": {
+        "id": "TX-COAL-013",
+        "name": "South Hallsville Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "status": "Active / reclamation areas",
+        "county": "Harrison / Panola",
+        "operator": "Sabine Mining Company / Luminant-related supply history",
+        "description": "Large East Texas lignite mine complex near Hallsville, historically supplying nearby power generation.",
+        "source": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceId": "RRC-COAL-COUNTY-INFO",
+        "sourceName": "Railroad Commission of Texas Surface Coal Mine County Information",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate centroid; active/reclamation acreage should be validated in RRC permit maps."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.03,
+          27.86
+        ]
+      },
+      "properties": {
+        "id": "TX-U-001",
+        "name": "Rosita Central Processing Plant and South Texas ISR Projects",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "status": "Operational / restarted",
+        "county": "Duval / Live Oak / Bee / Karnes project area",
+        "operator": "enCore Energy",
+        "description": "Licensed central processing plant serving South Texas in-situ recovery uranium projects and satellite ion-exchange feed sources.",
+        "source": "enCore Energy South Texas ISR operations",
+        "sourceId": "ENCORE-SOUTH-TEXAS-OPERATIONS",
+        "sourceName": "enCore Energy South Texas ISR operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate Rosita-area coordinate; project areas span multiple counties."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56,
+          27.05
+        ]
+      },
+      "properties": {
+        "id": "TX-U-002",
+        "name": "Alta Mesa Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "status": "Operational",
+        "county": "Brooks / Jim Hogg / Kleberg area",
+        "operator": "enCore Energy / Boss Energy joint venture",
+        "description": "Operational ISR uranium project with licensed central processing capacity and wellfield operations on private mineral rights.",
+        "source": "enCore Energy Alta Mesa expansion release",
+        "sourceId": "ENCORE-ALTA-MESA-2025",
+        "sourceName": "enCore Energy Alta Mesa expansion release",
+        "sourceUrl": "https://encoreuranium.com/news/encore-energy-announces-expansion-of-the-alta-mesa-uranium-project/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate project coordinate; project area is large and private-land based."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76,
+          28.58
+        ]
+      },
+      "properties": {
+        "id": "TX-U-003",
+        "name": "Burke Hollow ISR Uranium Mine",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "status": "Operational",
+        "county": "Bee",
+        "operator": "Uranium Energy Corp.",
+        "description": "Modern in-situ recovery uranium mine in the South Texas Uranium Belt; production is processed through Hobson CPP.",
+        "source": "Uranium Energy Corp. / PR Newswire",
+        "sourceId": "UEC-BURKE-HOLLOW-2026",
+        "sourceName": "Uranium Energy Corp. / PR Newswire",
+        "sourceUrl": "https://www.prnewswire.com/news-releases/uranium-energy-corp-commences-production-at-burke-hollow-the-worlds-newest-operating-isr-uranium-mine-302736496.html",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is representative of the project area, not a wellfield boundary."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54,
+          28.88
+        ]
+      },
+      "properties": {
+        "id": "TX-U-004",
+        "name": "Hobson Central Processing Plant",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "status": "Licensed / active platform hub",
+        "county": "Karnes",
+        "operator": "Uranium Energy Corp.",
+        "description": "Central processing plant for UEC's Texas hub-and-spoke ISR platform including Burke Hollow, Goliad, Palangana, and Salvo projects.",
+        "source": "Uranium Energy Corp. Texas projects",
+        "sourceId": "UEC-TEXAS-HUB-SPOKE",
+        "sourceName": "Uranium Energy Corp. Texas projects",
+        "sourceUrl": "https://www.uraniumenergy.com/projects/texas/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate coordinate near Hobson/Falls City uranium district; verify facility boundary for engineering use."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35,
+          28.82
+        ]
+      },
+      "properties": {
+        "id": "TX-U-005",
+        "name": "Goliad Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "status": "Permitted / undeveloped",
+        "county": "Goliad",
+        "operator": "Uranium Energy Corp.",
+        "description": "Permitted ISR uranium project in Goliad County within UEC's Texas hub-and-spoke platform.",
+        "source": "Uranium Energy Corp. Texas projects",
+        "sourceId": "UEC-TEXAS-HUB-SPOKE",
+        "sourceName": "Uranium Energy Corp. Texas projects",
+        "sourceUrl": "https://www.uraniumenergy.com/projects/texas/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate project coordinate north of Goliad; permitting and aquifer-exemption details should be checked before regulatory use."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          31.045
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-001",
+        "name": "Round Top Heavy Rare Earth and Critical Minerals Project",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "status": "Pre-development",
+        "county": "Hudspeth",
+        "operator": "USA Rare Earth / Texas Mineral Resources Corp. interests",
+        "description": "Major heavy rare-earth and critical-minerals deposit near Sierra Blanca in far West Texas.",
+        "source": "USA Rare Earth investor release",
+        "sourceId": "USAR-TMRC-ACQUISITION-2026",
+        "sourceName": "USA Rare Earth investor release",
+        "sourceUrl": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-acquire-texas-mineral-resources-corporation",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate mountain/project coordinate; project ownership/closing details may change after announced transaction milestones."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.468,
+          31.047
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-002",
+        "name": "Round Top Planned On-site REO / Mineral Separation Area",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "status": "Planned / engineering",
+        "county": "Hudspeth",
+        "operator": "USA Rare Earth / project partners",
+        "description": "Planned on-site processing/separation component associated with the Round Top project.",
+        "source": "Texas Mineral Resources Corp. Round Top project",
+        "sourceId": "TMRC-ROUND-TOP",
+        "sourceName": "Texas Mineral Resources Corp. Round Top project",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Processing footprint is conceptual/subject to permitting; coordinate is co-located with the project centroid."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.43,
+          31.06
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-003",
+        "name": "Alhambra Exploration Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "status": "Exploration",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources Corp. / USA Rare Earth interests",
+        "description": "Adjacent/nearby exploration target associated with Round Top district geophysical work.",
+        "source": "Texas Mineral Resources Corp. Alhambra geophysics release",
+        "sourceId": "TMRC-ALHAMBRA-GEOPHYSICS-2025",
+        "sourceName": "Texas Mineral Resources Corp. Alhambra geophysics release",
+        "sourceUrl": "https://tmrcorp.com/news/press_releases/index.php?content_id=272",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate exploration-area point; public sources do not provide a surveyed target centroid."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.333,
+          32.756
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-004",
+        "name": "MP Materials Independence Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Tarrant",
+        "operator": "MP Materials",
+        "description": "Fort Worth downstream rare-earth metal, alloy, and magnetics production facility.",
+        "source": "MP Materials Independence facility page",
+        "sourceId": "MP-INDEPENDENCE",
+        "sourceName": "MP Materials Independence facility page",
+        "sourceUrl": "https://mpmaterials.com/independence",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is approximate to Fort Worth; use operator-provided address data for routing."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.265,
+          33.127
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-005",
+        "name": "MP Materials 10X Northlake Magnet Manufacturing Campus",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "status": "Announced / development",
+        "county": "Denton",
+        "operator": "MP Materials",
+        "description": "Planned Northlake rare-earth NdFeB magnet manufacturing campus intended to expand U.S. magnet capacity.",
+        "source": "MP Materials investor release",
+        "sourceId": "MP-10X-NORTHLAKE-2026",
+        "sourceName": "MP Materials investor release",
+        "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Selects-Northlake-Texas-as-the-Site-of-10X-a-New-U-S--Rare-Earth-Magnet-Manufacturing-Campus/default.aspx",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate Northlake point; final parcel/facility footprint may differ as campus develops."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.902,
+          29.848
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-006",
+        "name": "Noveon Magnetics San Marcos Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Hays",
+        "operator": "Noveon Magnetics",
+        "description": "Vertically integrated San Marcos rare-earth magnet manufacturing and magnet-to-magnet recycling facility.",
+        "source": "Noveon Magnetics process/facility page",
+        "sourceId": "NOVEON-OUR-PROCESS",
+        "sourceName": "Noveon Magnetics process/facility page",
+        "sourceUrl": "https://noveon.co/our-process",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is approximate to the San Marcos facility area; address-level source lists 1550 Clovis Barker Road."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.711,
+          28.41
+        ]
+      },
+      "properties": {
+        "id": "TX-REE-007",
+        "name": "Lynas Seadrift Heavy Rare Earths Separation Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "status": "Proposed / uncertain",
+        "county": "Calhoun",
+        "operator": "Lynas Rare Earths / U.S. DoD-supported project",
+        "description": "Proposed heavy rare-earth separation facility at Seadrift; Lynas has flagged uncertainty pending commercial/offtake and project issues.",
+        "source": "Reuters coverage of Lynas Texas plant status",
+        "sourceId": "LYNAS-SEADRIFT-STATUS-2025",
+        "sourceName": "Reuters coverage of Lynas Texas plant status",
+        "sourceUrl": "https://www.reuters.com/world/china/australias-lynas-flags-uncertainty-over-texas-plant-posts-annual-profit-slump-2025-08-28/",
+        "sourceDateAccessed": "2026-04-26",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Approximate Seadrift industrial-area point; status is deliberately marked uncertain based on recent public reporting."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9648,
+          29.8846
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-001",
+        "name": "Motiva Port Arthur Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Jefferson County",
+        "operator": "Motiva Enterprises LLC / Aramco",
+        "description": "North America's largest refinery; a major crude-oil processing and fuels/base-oils manufacturing complex tied historically to the Spindletop oil boom.",
+        "source": "Motiva Enterprises - Refining",
+        "sourceId": "MOTIVA-REFINING-PORT-ARTHUR-2026",
+        "sourceName": "Motiva Enterprises - Refining",
+        "sourceUrl": "https://www.motiva.com/what-we-do/operations/refining",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is an approximate centroid for the large Port Arthur refinery complex; not a facility boundary. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.91,
+          29.383
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-002",
+        "name": "Marathon Galveston Bay Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Galveston County",
+        "operator": "Marathon Petroleum Corporation",
+        "description": "Major Texas City refinery on Galveston Bay and the Houston Ship Channel; one of the largest crude-oil refining complexes in the United States.",
+        "source": "U.S. Energy Information Administration - refinery FAQ",
+        "sourceId": "EIA-FAQ-GALVESTON-BAY-REFINERY-2024",
+        "sourceName": "U.S. Energy Information Administration - refinery FAQ",
+        "sourceUrl": "https://www.eia.gov/tools/faqs/faq.php?id=29&t=6",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Representative point for the Texas City / Galveston Bay refinery complex; EIA identifies the facility as a leading U.S. refinery by capacity. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0126,
+          29.7489
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-003",
+        "name": "ExxonMobil Baytown Complex / Baytown Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Harris County",
+        "operator": "ExxonMobil",
+        "description": "Large integrated refining and petrochemical complex along the Houston Ship Channel producing fuels, chemicals, and industrial materials.",
+        "source": "ExxonMobil - Baytown area operations",
+        "sourceId": "EXXONMOBIL-BAYTOWN-OPERATIONS-2026",
+        "sourceName": "ExxonMobil - Baytown area operations",
+        "sourceUrl": "https://corporate.exxonmobil.com/locations/united-states/baytown",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate approximates the Baytown refining complex near the Houston Ship Channel. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.0916,
+          30.0798
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-004",
+        "name": "ExxonMobil Beaumont Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Jefferson County",
+        "operator": "ExxonMobil",
+        "description": "Major Beaumont refining and petrochemical complex expanded with a large new crude unit to increase transportation-fuels output.",
+        "source": "ExxonMobil - Beaumont refinery expansion release",
+        "sourceId": "EXXONMOBIL-BEAUMONT-EXPANSION-2023",
+        "sourceName": "ExxonMobil - Beaumont refinery expansion release",
+        "sourceUrl": "https://corporate.exxonmobil.com/news/news-releases/2023/0316_exxonmobil-boosts-fuel-supply-with-2-billion-dollar-beaumont-refinery-expansion",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is an approximate centroid for the Beaumont refining area along the Neches River. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.921,
+          29.843
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-005",
+        "name": "Valero Port Arthur Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Jefferson County",
+        "operator": "Valero Energy Corporation",
+        "description": "Large Gulf Coast refinery that receives crude by rail, marine docks, and pipelines and produces gasoline, diesel, and jet fuel.",
+        "source": "Valero - Port Arthur Refinery",
+        "sourceId": "VALERO-PORT-ARTHUR-REFINERY-2026",
+        "sourceName": "Valero - Port Arthur Refinery",
+        "sourceUrl": "https://www.valero.com/about/locations/port-arthur-refinery",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate approximates the refinery address area at 1801 South Gulfway Drive. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.749,
+          29.047
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-006",
+        "name": "Phillips 66 Sweeny Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Brazoria County",
+        "operator": "Phillips 66",
+        "description": "Old Ocean refinery with crude distillation, catalytic cracking, alkylation, hydrodesulfurization, aromatics, vacuum distillation, and delayed coking units.",
+        "source": "Phillips 66 - Sweeny Refinery",
+        "sourceId": "PHILLIPS66-SWEENY-REFINERY-2026",
+        "sourceName": "Phillips 66 - Sweeny Refinery",
+        "sourceUrl": "https://www.phillips66.com/refining/sweeny-refinery/",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is an approximate centroid for the Sweeny / Old Ocean refinery complex. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.184,
+          29.713
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-007",
+        "name": "Chevron Pasadena Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Harris County",
+        "operator": "Chevron",
+        "description": "Houston Ship Channel refinery upgraded to increase light-crude processing capacity, feedstock flexibility, and transportation-fuels output.",
+        "source": "Chevron - Pasadena refinery upgrade announcement",
+        "sourceId": "CHEVRON-PASADENA-UPGRADE-2024",
+        "sourceName": "Chevron - Pasadena refinery upgrade announcement",
+        "sourceUrl": "https://www.chevron.com/newsroom/2024/q4/chevron-upgrades-pasadena-refinery-to-increase-capacity-feedstock-and-product-flexibility",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is an approximate point for the Pasadena refinery / Red Bluff Tank Farm area. Non-production oil infrastructure record. Original imported site type: Processing Facility."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.205,
+          27.854
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-008",
+        "name": "Enbridge Ingleside Energy Center",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active / expansion projects proposed",
+        "county": "San Patricio County",
+        "operator": "Enbridge",
+        "description": "Major crude-oil storage and export terminal at Ingleside with marine waterfront, pipeline connectivity, and direct access to international shipping lanes.",
+        "source": "Enbridge - Ingleside Energy Center Projects",
+        "sourceId": "ENBRIDGE-EIEC-PROJECTS-2026",
+        "sourceName": "Enbridge - Ingleside Energy Center Projects",
+        "sourceUrl": "https://www.enbridge.com/projects-and-infrastructure/projects/ingleside-energy-center-projects",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "High",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate approximates the Ingleside terminal area near Hayden Head Boulevard. Listed as export terminal rather than production site. Original imported site type: Export Terminal."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.135,
+          29.606
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-009",
+        "name": "Enterprise Crude Houston (ECHO) Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Harris County",
+        "operator": "Enterprise Products Partners L.P.",
+        "description": "Major Houston-area crude-oil terminal and storage hub supporting crude pipelines, Gulf Coast refinery supply, and marine-terminal connectivity.",
+        "source": "Enterprise Products - Crude Oil operations",
+        "sourceId": "ENTERPRISE-CRUDE-OIL-ASSETS-2026",
+        "sourceName": "Enterprise Products - Crude Oil operations",
+        "sourceUrl": "https://www.enterpriseproducts.com/operations/crude-oil/",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate is an approximate ECHO terminal point in southeast Houston; Enterprise source confirms major crude terminals in Houston, Midland, Beaumont, and Cushing. Listed as storage/terminal rather than production site. Original imported site type: Storage / Terminal."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.005,
+          29.971
+        ]
+      },
+      "properties": {
+        "id": "TX-OIL-NP-010",
+        "name": "Energy Transfer Nederland Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Jefferson County",
+        "operator": "Energy Transfer / Sunoco Logistics legacy assets",
+        "description": "Large marine crude-oil and liquids terminal on the Sabine-Neches waterway between Beaumont and Port Arthur, providing storage and distribution services for refiners and crude transporters.",
+        "source": "Energy Transfer / Sunoco Logistics SEC filing",
+        "sourceId": "ENERGYTRANSFER-NEDERLAND-SEC-FILING-2017",
+        "sourceName": "Energy Transfer / Sunoco Logistics SEC filing",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1276187/000127618717000013/ete-12312015xrecastex991.htm",
+        "sourceDateAccessed": "2026-04-27",
+        "confidence": "Medium",
+        "recordStatus": "Public record, manually cleaned",
+        "notes": "Coordinate approximates the Nederland terminal area; terminal is large and multi-tank, so do not use this as a boundary. Listed as storage/terminal rather than production site. Original imported site type: Storage / Terminal."
+      }
+    }
+  ]
+}
