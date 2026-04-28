@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coal/Lignite in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script src="../resource-page.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-main">
+        <h1>Texas Natural Resource Atlas</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home / Map</a>
+          <details class="nav-menu" open>
+            <summary>Resources</summary>
+            <ul class="resource-menu">
+              <li><a href="./oil.html">Oil</a></li>
+              <li><a href="./natural-gas.html">Natural Gas</a></li>
+              <li><a href="./lithium.html">Lithium</a></li>
+              <li><a href="./coal-lignite.html" aria-current="page">Coal/Lignite</a></li>
+              <li><a href="./uranium.html">Uranium</a></li>
+              <li><a href="./rare-earth.html">Rare Earth</a></li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+      <img class="header-flag" src="../assets/texas-flag.svg" alt="Texas flag" width="90" height="60">
+    </header>
+
+    <main class="content-page resource-page" data-resource-page data-resource-type="Coal/Lignite">
+      <section class="resource-hero">
+        <p class="eyebrow">Resource Type</p>
+        <h2>Coal/Lignite in Texas</h2>
+        <p>Explore where coal and lignite resources are found in Texas, why lignite mattered to Texas electricity generation, how mining expanded and declined, and which mapped coal/lignite records are included in the Texas Natural Resource Atlas.</p>
+        <div class="hero-actions">
+          <a class="content-link" href="../index.html?resource=Coal%2FLignite">View Coal/Lignite on Interactive Map</a>
+          <a class="secondary-link" href="../data/resources.geojson">Download Coal/Lignite Data</a>
+          <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Overview</h3>
+        <p><strong>Texas coal resources are mainly lignite.</strong> Lignite is a soft, lower-rank coal found close to the surface in parts of the Gulf Coastal Plain.</p>
+        <p>The Texas lignite story is closely tied to surface mining, mine-mouth power generation, reclamation, and the Wilcox and Jackson groups that host many lignite deposits.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Where Coal/Lignite Is Found in Texas</h3>
+        <p>Coal/lignite resources are concentrated in belts across East, East-Central, and South Texas rather than in the West Texas oil and gas basins.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Region / Basin</th>
+                <th>Location</th>
+                <th>Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Wilcox Group</td>
+                <td>East-Central and Northeast Texas</td>
+                <td>Major lignite-bearing interval and the main mapped lignite region in the atlas.</td>
+              </tr>
+              <tr>
+                <td>Jackson Group</td>
+                <td>South and Gulf Coastal Plain Texas</td>
+                <td>Lignite-bearing interval that includes South Texas resource areas.</td>
+              </tr>
+              <tr>
+                <td>Gulf Coastal Plain Lignite Belt</td>
+                <td>East Texas to South Texas</td>
+                <td>Broad regional setting for Texas lignite deposits.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+      <section class="content-panel">
+        <h3>Brief Historical Overview</h3>
+        <p>Commercial coal and lignite mining in Texas began in the late 1880s after earlier small-scale extraction. Public historical summaries list Texas coal production beginning in 1884, with rapid growth through 1901 and a peak around 1913 before petroleum and electricity reduced demand.</p>
+        <p>Lignite mining later revived with 20th century mine-mouth power generation and surface mining. Many operations have since moved into closure and reclamation as coal-fired generation declined and several legacy mines and plants retired.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Production and Development Statistics</h3>
+        <div class="chart-grid">
+          <article class="chart-card">
+            <h4>Texas Coal/Lignite Production Trend, 1884–2024</h4>
+            <div class="chart-frame">
+              <canvas id="coal-production-chart" aria-label="Line chart of simplified Texas coal and lignite production trend from 1884 to 2024 in million short tons" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="coal-production-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.tshaonline.org/handbook/entries/coal-and-lignite-mining" target="_blank" rel="noopener noreferrer">TSHA Coal and Lignite Mining</a>, <a href="https://www.rrc.texas.gov/surface-mining/historical-coal-mining/" target="_blank" rel="noopener noreferrer">RRC Historical Coal Mining in Texas</a>, and <a href="https://www.eia.gov/coal/" target="_blank" rel="noopener noreferrer">EIA coal data</a>.</p>
+            <p class="chart-caption">Simplified trend line in million short tons. Early points use public historical production milestones, including 1884, 1901, 1913, 1930, 1945, and 1950; modern points are rounded for broad educational context.</p>
+          </article>
+          <article class="chart-card">
+            <h4>Mapped Coal/Lignite Records by Site Type</h4>
+            <div class="chart-frame donut-frame">
+              <canvas id="coal-site-type-chart" aria-label="Donut chart showing mapped coal and lignite records by site type in the atlas" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="coal-site-type-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
+            <p class="chart-caption">Atlas dataset summary showing active/reclamation production sites and historical or closed mine records.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Number of Mapped Sites</h3>
+        <div class="fact-grid">
+          <article>
+            <span>Mapped Coal/Lignite Sites</span>
+            <strong data-resource-count>Loading...</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Regions / Basins</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Wilcox Group</h4>
+            <p>Major East and East-Central Texas lignite-bearing interval represented by mapped lignite districts and mines.</p>
+            <a href="../index.html?resource=Coal%2FLignite">View on map</a>
+          </article>
+          <article>
+            <h4>Jackson Group</h4>
+            <p>South Texas and Gulf Coastal Plain lignite-bearing interval included as a regional overlay.</p>
+            <a href="../index.html?resource=Coal%2FLignite">View on map</a>
+          </article>
+          <article>
+            <h4>Texas Gulf Coastal Plain Lignite Belt</h4>
+            <p>Broad lignite-bearing region that connects many mapped mine records.</p>
+            <a href="../index.html?resource=Coal%2FLignite">View on map</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Featured Mapped Coal/Lignite Records</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Jewett Mine</h4>
+            <p><strong>Region:</strong> Wilcox Group / East-Central Texas</p>
+            <p><strong>Site type:</strong> Production Site</p>
+            <p><strong>Status:</strong> Active / reclamation areas</p>
+            <p><strong>County area:</strong> Leon / Freestone / Limestone</p>
+          </article>
+          <article>
+            <h4>San Miguel Mine</h4>
+            <p><strong>Region:</strong> Jackson Group / South Texas</p>
+            <p><strong>Site type:</strong> Production Site</p>
+            <p><strong>Status:</strong> Active</p>
+            <p><strong>County area:</strong> Atascosa County</p>
+          </article>
+          <article>
+            <h4>Big Brown Mine</h4>
+            <p><strong>Region:</strong> Wilcox Group / East Texas</p>
+            <p><strong>Site type:</strong> Historical Mine</p>
+            <p><strong>Status:</strong> Reclamation / closed</p>
+            <p><strong>County area:</strong> Freestone County</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Public Data Sources</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Used for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://www.rrc.texas.gov/surface-mining/" target="_blank" rel="noopener noreferrer">Railroad Commission of Texas Surface Mining &amp; Reclamation</a></td>
+                <td>Texas coal/lignite permitting, regulation, and reclamation context.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.rrc.texas.gov/surface-mining/permits/surface-coal-mine-county-information/" target="_blank" rel="noopener noreferrer">RRC Surface Coal Mine County Information</a></td>
+                <td>County-level mine names and permit-related context.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.usgs.gov/publications/coal-geology-paleocene-eocene-calvert-bluff-formation-wilcox-group-and-eocene-manning" target="_blank" rel="noopener noreferrer">USGS Wilcox/Jackson coal geology</a></td>
+                <td>Geologic context for Wilcox and Jackson lignite-bearing intervals.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.rrc.texas.gov/surface-mining/historical-coal-mining/" target="_blank" rel="noopener noreferrer">RRC Historical Coal Mining in Texas</a></td>
+                <td>Historical coal mine inventory and mining-zone context.</td>
+              </tr>
+              <tr>
+                <td><a href="../data/resources.geojson" target="_blank" rel="noopener noreferrer">Local atlas GeoJSON</a></td>
+                <td>Mapped educational site records used by this website.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="resource-cta">
+        <h3>Open Coal/Lignite on the Interactive Map</h3>
+        <p>Return to the atlas map with the Coal/Lignite resource parameter in the URL.</p>
+        <a class="content-link" href="../index.html?resource=Coal%2FLignite">Open Coal/Lignite Layer on Interactive Map</a>
+      </section>
+    </main>
+  </div>
+
+  </body>
+</html>

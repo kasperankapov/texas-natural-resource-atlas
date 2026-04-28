@@ -21,6 +21,7 @@ Add a project screenshot here after final visual review.
 - Resource type, site type, source category, and site name filters.
 - Region overlay show/hide toggle.
 - Marker and region popups with status, confidence, notes, and source links.
+- Individual resource pages for Oil, Natural Gas, Lithium, Coal/Lignite, Uranium, and Rare Earth.
 - Local Texas flag asset in the page header.
 - Responsive layout for desktop, laptop, and narrow screens.
 

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oil in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script src="../resource-page.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-main">
+        <h1>Texas Natural Resource Atlas</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home / Map</a>
+          <details class="nav-menu" open>
+            <summary>Resources</summary>
+            <ul class="resource-menu">
+              <li><a href="./oil.html" aria-current="page">Oil</a></li>
+              <li><a href="./natural-gas.html">Natural Gas</a></li>
+              <li><a href="./lithium.html">Lithium</a></li>
+              <li><a href="./coal-lignite.html">Coal/Lignite</a></li>
+              <li><a href="./uranium.html">Uranium</a></li>
+              <li><a href="./rare-earth.html">Rare Earth</a></li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+      <img class="header-flag" src="../assets/texas-flag.svg" alt="Texas flag" width="90" height="60">
+    </header>
+
+    <main class="content-page resource-page" data-resource-page data-resource-type="Oil">
+      <section class="resource-hero">
+        <p class="eyebrow">Resource Type</p>
+        <h2>Oil in Texas</h2>
+        <p>Explore where oil resources are found in Texas, why they matter, how production has changed from the early oil boom to modern production, and which mapped sites are included in the Texas Natural Resource Atlas.</p>
+        <div class="hero-actions">
+          <a class="content-link" href="../index.html?resource=Oil">View Oil on Interactive Map</a>
+          <a class="secondary-link" href="../data/resources.geojson">Download Oil Data</a>
+          <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Overview</h3>
+        <p><strong>Texas is the leading oil-producing state in the United States.</strong> In 2024, Texas accounted for 43% of U.S. crude oil production, and EIA reports that Texas crude oil production surpassed 2 billion barrels for the second year in a row.</p>
+        <p>Oil is one of Texas' most important natural resources. It supports the state energy economy, contributes to national energy supply, and is closely connected to major producing basins such as the Permian Basin and Eagle Ford Shale.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Where Oil Is Found in Texas</h3>
+        <p>Oil is found across several major producing regions, with the atlas focusing on the Permian Basin, Eagle Ford Shale, and the East Texas Oil Field as broad statewide anchors.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Region / Basin</th>
+                <th>Location</th>
+                <th>Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Permian Basin</td>
+                <td>West Texas</td>
+                <td>Texas' most important modern oil-producing region.</td>
+              </tr>
+              <tr>
+                <td>Eagle Ford Shale</td>
+                <td>South Texas</td>
+                <td>Major shale, tight-oil, condensate, and natural gas region.</td>
+              </tr>
+              <tr>
+                <td>East Texas Oil Field</td>
+                <td>East Texas</td>
+                <td>Historic supergiant field and legacy oil region.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Brief Historical Overview</h3>
+        <p>The Texas oil story begins before the modern shale era. Early discoveries existed before 1900, but the 1901 Spindletop discovery near Beaumont transformed oil from a regional curiosity into a major economic force.</p>
+        <p>In the decades that followed, oil booms spread across North Texas, East Texas, the Panhandle, the Gulf Coast, and West Texas. Later, large fields in the Permian Basin and modern shale development in the Eagle Ford and Permian reshaped Texas oil production again.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Production Statistics</h3>
+        <div class="chart-grid">
+          <article class="chart-card">
+            <h4>Texas Crude Oil Production, Oil Rush to Present</h4>
+            <div class="chart-frame">
+              <canvas id="oil-production-chart" aria-label="Line chart of simplified Texas crude oil production history in million barrels per year" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="oil-production-chart-status">Chart loading. If it does not appear, the simplified source data is available in <a href="../data/oilProductionHistory.json">data/oilProductionHistory.json</a>.</p>
+            <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/historical-production-data/crude-oil-production-and-well-counts-since-1935/" target="_blank" rel="noopener noreferrer">Railroad Commission of Texas</a>, <a href="https://www.eia.gov/states/TX/overview" target="_blank" rel="noopener noreferrer">EIA Texas profile</a>, and <a href="https://www.tshaonline.org/handbook/entries/spindletop-oilfield" target="_blank" rel="noopener noreferrer">TSHA Spindletop Oilfield</a>.</p>
+            <p class="chart-caption">Simplified historical chart using representative, rounded production points compiled from public sources. It is intended for educational context, not exact annual reporting.</p>
+          </article>
+          <article class="chart-card">
+            <h4>Texas Share of U.S. Crude Oil Production, 2024</h4>
+            <div class="chart-frame donut-frame">
+              <canvas id="oil-share-chart" aria-label="Donut chart showing Texas at 43 percent and the rest of the United States at 57 percent of U.S. crude oil production in 2024" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="oil-share-chart-status">Chart loading. Texas: 43%. Rest of U.S.: 57%.</p>
+            <p class="chart-source-note"><strong>Source:</strong> <a href="https://www.eia.gov/states/TX/overview" target="_blank" rel="noopener noreferrer">EIA Texas state energy overview</a>.</p>
+            <p class="chart-caption">2024 share</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Number of Mapped Sites</h3>
+        <div class="fact-grid">
+          <article>
+            <span>Mapped Oil Sites</span>
+            <strong data-resource-count>Loading...</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Regions / Basins</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Permian Basin</h4>
+            <p>West Texas oil and natural gas region and a major source of U.S. oil production.</p>
+            <a href="../index.html?resource=Oil">View on map</a>
+          </article>
+          <article>
+            <h4>Eagle Ford Shale</h4>
+            <p>South Texas shale trend that produces oil, condensate, and natural gas.</p>
+            <a href="../index.html?resource=Oil">View on map</a>
+          </article>
+          <article>
+            <h4>East Texas Oil Field</h4>
+            <p>Historic East Texas oil province represented in the atlas by the East Texas Oil Field record.</p>
+            <a href="../index.html?resource=Oil">View on map</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Featured Mapped Oil Records</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Eagleville / Eagle Ford Field</h4>
+            <p><strong>Region:</strong> Eagle Ford Shale</p>
+            <p><strong>Site type:</strong> Production Site</p>
+            <p><strong>Status:</strong> Active</p>
+            <p><strong>County area:</strong> Karnes / DeWitt / Gonzales / La Salle and nearby counties</p>
+          </article>
+          <article>
+            <h4>Spraberry Trend Area</h4>
+            <p><strong>Region:</strong> Permian Basin / Midland Basin</p>
+            <p><strong>Site type:</strong> Production Site</p>
+            <p><strong>Status:</strong> Active</p>
+            <p><strong>County area:</strong> Midland / Martin / Glasscock / Reagan / Upton and nearby counties</p>
+          </article>
+          <article>
+            <h4>East Texas Oil Field</h4>
+            <p><strong>Region:</strong> East Texas</p>
+            <p><strong>Site type:</strong> Production Site</p>
+            <p><strong>Status:</strong> Active / mature</p>
+            <p><strong>County area:</strong> Gregg / Rusk / Smith / Upshur / Cherokee</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Public Data Sources</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Used for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://www.eia.gov/states/TX/overview" target="_blank" rel="noopener noreferrer">U.S. Energy Information Administration</a></td>
+                <td>Texas oil production statistics, production trends, and state-level data.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/" target="_blank" rel="noopener noreferrer">Railroad Commission of Texas</a></td>
+                <td>Oil and gas formations, field data, public GIS, and regulatory context.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.tshaonline.org/handbook/entries/spindletop-oilfield" target="_blank" rel="noopener noreferrer">Texas State Historical Association</a></td>
+                <td>Historical context for legacy oil fields such as Spindletop.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.texasalmanac.com/articles/oil-and-texas-a-cultural-history" target="_blank" rel="noopener noreferrer">Texas Almanac</a></td>
+                <td>Early oil-production context, including Spindletop-era figures.</td>
+              </tr>
+              <tr>
+                <td><a href="../data/resources.geojson">Local atlas GeoJSON</a></td>
+                <td>Mapped educational site records used by this website.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="resource-cta">
+        <h3>Open Oil on the Interactive Map</h3>
+        <p>Return to the atlas map with the Oil resource parameter in the URL.</p>
+        <a class="content-link" href="../index.html?resource=Oil">Open Oil Layer on Interactive Map</a>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

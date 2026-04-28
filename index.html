@@ -12,7 +12,23 @@
 <body>
   <div class="app-shell">
     <header class="site-header">
-      <h1>Texas Natural Resource Atlas</h1>
+      <div class="header-main">
+        <h1>Texas Natural Resource Atlas</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="./index.html" aria-current="page">Home / Map</a>
+          <details class="nav-menu">
+            <summary>Resources</summary>
+            <ul class="resource-menu">
+              <li><a href="./pages/oil.html">Oil</a></li>
+              <li><a href="./pages/natural-gas.html">Natural Gas</a></li>
+              <li><a href="./pages/lithium.html">Lithium</a></li>
+              <li><a href="./pages/coal-lignite.html">Coal/Lignite</a></li>
+              <li><a href="./pages/uranium.html">Uranium</a></li>
+              <li><a href="./pages/rare-earth.html">Rare Earth</a></li>
+            </ul>
+          </details>
+        </nav>
+      </div>
       <img class="header-flag" src="assets/texas-flag.svg" alt="Texas flag" width="90" height="60">
     </header>
 
@@ -45,37 +61,37 @@
           <legend>Resource Type</legend>
 
           <label class="checkbox-option" for="filter-oil">
-            <input type="checkbox" id="filter-oil" name="resourceType" value="Oil" checked>
+            <input type="checkbox" id="filter-oil" name="resourceType" value="Oil" autocomplete="off" checked>
             <span class="resource-filter-indicator resource-oil" aria-hidden="true"></span>
             <span>Oil</span>
           </label>
 
           <label class="checkbox-option" for="filter-natural-gas">
-            <input type="checkbox" id="filter-natural-gas" name="resourceType" value="Natural Gas" checked>
+            <input type="checkbox" id="filter-natural-gas" name="resourceType" value="Natural Gas" autocomplete="off" checked>
             <span class="resource-filter-indicator resource-gas" aria-hidden="true"></span>
             <span>Natural Gas</span>
           </label>
 
           <label class="checkbox-option" for="filter-lithium">
-            <input type="checkbox" id="filter-lithium" name="resourceType" value="Lithium" checked>
+            <input type="checkbox" id="filter-lithium" name="resourceType" value="Lithium" autocomplete="off" checked>
             <span class="resource-filter-indicator resource-lithium" aria-hidden="true"></span>
             <span>Lithium</span>
           </label>
 
           <label class="checkbox-option" for="filter-coal-lignite">
-            <input type="checkbox" id="filter-coal-lignite" name="resourceType" value="Coal/Lignite" checked>
+            <input type="checkbox" id="filter-coal-lignite" name="resourceType" value="Coal/Lignite" autocomplete="off" checked>
             <span class="resource-filter-indicator resource-coal-lignite" aria-hidden="true"></span>
             <span>Coal/Lignite</span>
           </label>
 
           <label class="checkbox-option" for="filter-uranium">
-            <input type="checkbox" id="filter-uranium" name="resourceType" value="Uranium" checked>
+            <input type="checkbox" id="filter-uranium" name="resourceType" value="Uranium" autocomplete="off" checked>
             <span class="resource-filter-indicator resource-uranium" aria-hidden="true"></span>
             <span>Uranium</span>
           </label>
 
           <label class="checkbox-option" for="filter-rare-earth">
-            <input type="checkbox" id="filter-rare-earth" name="resourceType" value="Rare Earth" checked>
+            <input type="checkbox" id="filter-rare-earth" name="resourceType" value="Rare Earth" autocomplete="off" checked>
             <span class="resource-filter-indicator resource-rare-earth" aria-hidden="true"></span>
             <span>Rare Earth</span>
           </label>

@@ -932,6 +932,41 @@ function resetFilters() {
   applyBasinOverlayFilters();
 }
 
+function applyInitialResourceFilterFromUrl({ refreshLayers = false } = {}) {
+  const requestedResourceType = getResourceTypeFromUrl();
+
+  if (!requestedResourceType) {
+    return false;
+  }
+
+  resourceTypeCheckboxes.forEach((checkbox) => {
+    checkbox.checked = checkbox.value === requestedResourceType;
+    checkbox.defaultChecked = checkbox.checked;
+  });
+
+  if (refreshLayers) {
+    applyFilters();
+    applyBasinOverlayFilters();
+  }
+
+  return true;
+}
+
+function getResourceTypeFromUrl() {
+  const resourceParameter = new URLSearchParams(window.location.search).get("resource");
+
+  if (isBlank(resourceParameter)) {
+    return "";
+  }
+
+  const normalizedParameter = resourceParameter.trim().toLowerCase();
+  const matchingResourceType = resourceTypeConfig.find((resourceType) => {
+    return resourceType.value.toLowerCase() === normalizedParameter;
+  });
+
+  return matchingResourceType?.value || "";
+}
+
 function handleResourceTypeFilterChange() {
   applyFilters();
   applyBasinOverlayFilters();
@@ -949,6 +984,11 @@ siteSearchInput.addEventListener("input", applyFilters);
 sourceFilterSelect.addEventListener("change", applyFilters);
 resetFiltersButton.addEventListener("click", resetFilters);
 basinOverlayToggle.addEventListener("change", applyBasinOverlayFilters);
+
+applyInitialResourceFilterFromUrl();
+window.addEventListener("pageshow", () => {
+  applyInitialResourceFilterFromUrl({ refreshLayers: true });
+});
 
 function createResourcePopup(properties) {
   return `

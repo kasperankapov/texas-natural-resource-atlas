@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uranium in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script src="../resource-page.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-main">
+        <h1>Texas Natural Resource Atlas</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home / Map</a>
+          <details class="nav-menu" open>
+            <summary>Resources</summary>
+            <ul class="resource-menu">
+              <li><a href="./oil.html">Oil</a></li>
+              <li><a href="./natural-gas.html">Natural Gas</a></li>
+              <li><a href="./lithium.html">Lithium</a></li>
+              <li><a href="./coal-lignite.html">Coal/Lignite</a></li>
+              <li><a href="./uranium.html" aria-current="page">Uranium</a></li>
+              <li><a href="./rare-earth.html">Rare Earth</a></li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+      <img class="header-flag" src="../assets/texas-flag.svg" alt="Texas flag" width="90" height="60">
+    </header>
+
+    <main class="content-page resource-page" data-resource-page data-resource-type="Uranium">
+      <section class="resource-hero">
+        <p class="eyebrow">Resource Type</p>
+        <h2>Uranium in Texas</h2>
+        <p>Explore where uranium resources and projects are found in Texas, why uranium matters for nuclear fuel, how South Texas uranium development evolved, and which mapped uranium records are included in the Texas Natural Resource Atlas.</p>
+        <div class="hero-actions">
+          <a class="content-link" href="../index.html?resource=Uranium">View Uranium on Interactive Map</a>
+          <a class="secondary-link" href="../data/resources.geojson">Download Uranium Data</a>
+          <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Overview</h3>
+        <p><strong>Texas uranium is concentrated mainly in South Texas.</strong> The atlas highlights the South Texas Uranium Province, in-situ recovery projects, central processing plants, and permitted or developing project areas.</p>
+        <p>Uranium matters because it is the raw material for nuclear fuel. Texas uranium is especially tied to sandstone-hosted deposits and in-situ recovery rather than large open-pit operations today.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Where Uranium Is Found in Texas</h3>
+        <p>The major Texas uranium story is in the Gulf Coastal Plain of South Texas, with project areas in and around Karnes, Bee, Goliad, Duval, Live Oak, Brooks, Jim Hogg, and nearby counties.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Region / Basin</th>
+                <th>Location</th>
+                <th>Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>South Texas Uranium Province</td>
+                <td>South Texas Gulf Coastal Plain</td>
+                <td>Main regional uranium overlay in the atlas and the center of modern ISR-related project activity.</td>
+              </tr>
+              <tr>
+                <td>Karnes / Falls City Area</td>
+                <td>Karnes County region</td>
+                <td>Historic uranium district and processing hub area.</td>
+              </tr>
+              <tr>
+                <td>Duval / Live Oak / Bee Trend</td>
+                <td>South Texas</td>
+                <td>Project trend that includes ISR projects and satellite feed sources.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+      <section class="content-panel">
+        <h3>Brief Historical Overview</h3>
+        <p>Texas uranium exploration and mining developed in the South Texas coastal plain after mid-20th century discoveries. Early activity included conventional mining in some areas, while modern operations focus heavily on in-situ recovery projects and central processing plants.</p>
+        <p>The recent uranium story includes project restarts, licensed processing facilities, and hub-and-spoke ISR platforms that connect satellite wellfields to central processing facilities.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Production and Development Statistics</h3>
+        <div class="chart-grid">
+          <article class="chart-card">
+            <h4>Texas Uranium Development Timeline, 1955–2026</h4>
+            <div class="chart-frame">
+              <canvas id="uranium-development-chart" aria-label="Line chart showing simplified Texas uranium development activity index from 1955 to 2026" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="uranium-development-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.rrc.texas.gov/surface-mining/programs/uranium-exploration/" target="_blank" rel="noopener noreferrer">RRC Uranium Exploration</a>, <a href="https://www.uraniumenergy.com/projects/texas/" target="_blank" rel="noopener noreferrer">Uranium Energy Corp. Texas projects</a>, and <a href="https://encoreuranium.com/projects/south-texas-operations/" target="_blank" rel="noopener noreferrer">enCore Energy South Texas operations</a>.</p>
+            <p class="chart-caption">Relative development activity index for educational context. It shows the broad timing of discovery, mining, ISR development, decline, and recent restart activity rather than exact production volume.</p>
+          </article>
+          <article class="chart-card">
+            <h4>Mapped Uranium Records by Site Type</h4>
+            <div class="chart-frame donut-frame">
+              <canvas id="uranium-site-type-chart" aria-label="Donut chart showing mapped uranium records by site type in the atlas" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="uranium-site-type-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
+            <p class="chart-caption">Atlas dataset summary, not statewide production. Counts describe mapped uranium records by role in the atlas.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Number of Mapped Sites</h3>
+        <div class="fact-grid">
+          <article>
+            <span>Mapped Uranium Sites</span>
+            <strong data-resource-count>Loading...</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Regions / Basins</h3>
+        <div class="card-grid">
+          <article>
+            <h4>South Texas Uranium Province</h4>
+            <p>Main regional uranium overlay for sandstone-hosted uranium resources and modern ISR project activity.</p>
+            <a href="../index.html?resource=Uranium">View on map</a>
+          </article>
+          <article>
+            <h4>Karnes / Falls City Uranium District</h4>
+            <p>Historic and modern processing/project area represented by Hobson and surrounding project records.</p>
+            <a href="../index.html?resource=Uranium">View on map</a>
+          </article>
+          <article>
+            <h4>Goliad Area</h4>
+            <p>Permitted or undeveloped ISR project area in South Texas.</p>
+            <a href="../index.html?resource=Uranium">View on map</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Featured Mapped Uranium Records</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Rosita Central Processing Plant and South Texas ISR Projects</h4>
+            <p><strong>Region:</strong> South Texas Uranium Province</p>
+            <p><strong>Site type:</strong> Processing Facility</p>
+            <p><strong>Status:</strong> Operational / restarted</p>
+            <p><strong>County area:</strong> Duval / Live Oak / Bee / Karnes project area</p>
+          </article>
+          <article>
+            <h4>Alta Mesa Uranium Project</h4>
+            <p><strong>Region:</strong> South Texas Uranium Province</p>
+            <p><strong>Site type:</strong> Production Site</p>
+            <p><strong>Status:</strong> Operational</p>
+            <p><strong>County area:</strong> Brooks / Jim Hogg / Kleberg area</p>
+          </article>
+          <article>
+            <h4>Goliad Uranium Project</h4>
+            <p><strong>Region:</strong> Goliad Area</p>
+            <p><strong>Site type:</strong> Exploration</p>
+            <p><strong>Status:</strong> Permitted / undeveloped</p>
+            <p><strong>County area:</strong> Goliad County</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Public Data Sources</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Used for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://www.rrc.texas.gov/surface-mining/programs/uranium-exploration/" target="_blank" rel="noopener noreferrer">Railroad Commission of Texas Uranium Exploration</a></td>
+                <td>Texas uranium exploration and regulatory context.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.rrc.texas.gov/surface-mining/" target="_blank" rel="noopener noreferrer">Railroad Commission Surface Mining &amp; Reclamation</a></td>
+                <td>Coal/lignite and uranium surface mining jurisdiction context.</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.uraniumenergy.com/projects/texas/" target="_blank" rel="noopener noreferrer">Uranium Energy Corp. Texas projects</a></td>
+                <td>Texas hub-and-spoke ISR platform and project descriptions.</td>
+              </tr>
+              <tr>
+                <td><a href="https://encoreuranium.com/projects/south-texas-operations/" target="_blank" rel="noopener noreferrer">enCore Energy South Texas operations</a></td>
+                <td>Rosita and South Texas ISR project information.</td>
+              </tr>
+              <tr>
+                <td><a href="../data/resources.geojson" target="_blank" rel="noopener noreferrer">Local atlas GeoJSON</a></td>
+                <td>Mapped educational site records used by this website.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="resource-cta">
+        <h3>Open Uranium on the Interactive Map</h3>
+        <p>Return to the atlas map with the Uranium resource parameter in the URL.</p>
+        <a class="content-link" href="../index.html?resource=Uranium">Open Uranium Layer on Interactive Map</a>
+      </section>
+    </main>
+  </div>
+
+  </body>
+</html>

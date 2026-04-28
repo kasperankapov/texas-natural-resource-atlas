@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rare Earth in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script src="../resource-page.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-main">
+        <h1>Texas Natural Resource Atlas</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home / Map</a>
+          <details class="nav-menu" open>
+            <summary>Resources</summary>
+            <ul class="resource-menu">
+              <li><a href="./oil.html">Oil</a></li>
+              <li><a href="./natural-gas.html">Natural Gas</a></li>
+              <li><a href="./lithium.html">Lithium</a></li>
+              <li><a href="./coal-lignite.html">Coal/Lignite</a></li>
+              <li><a href="./uranium.html">Uranium</a></li>
+              <li><a href="./rare-earth.html" aria-current="page">Rare Earth</a></li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+      <img class="header-flag" src="../assets/texas-flag.svg" alt="Texas flag" width="90" height="60">
+    </header>
+
+    <main class="content-page resource-page" data-resource-page data-resource-type="Rare Earth">
+      <section class="resource-hero">
+        <p class="eyebrow">Resource Type</p>
+        <h2>Rare Earth in Texas</h2>
+        <p>Explore where rare earth resources and facilities are found in Texas, why rare earth elements matter for magnets and advanced manufacturing, how project activity has grown, and which mapped rare earth records are included in the Texas Natural Resource Atlas.</p>
+        <div class="hero-actions">
+          <a class="content-link" href="../index.html?resource=Rare%20Earth">View Rare Earth on Interactive Map</a>
+          <a class="secondary-link" href="../data/resources.geojson">Download Rare Earth Data</a>
+          <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Overview</h3>
+        <p><strong>Texas rare earth activity combines geology and manufacturing.</strong> The atlas includes the Round Top Mountain rare earth and critical-minerals deposit, nearby exploration, and several downstream rare earth magnet or separation-related facilities.</p>
+        <p>Rare earth elements matter because they are used in high-strength permanent magnets, electronics, defense systems, wind turbines, electric vehicles, and other advanced technologies.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Where Rare Earth Is Found in Texas</h3>
+        <p>Texas rare earth resources are most strongly associated with far West Texas, while processing and magnet manufacturing records are located in North Texas, Central Texas, and the Gulf Coast.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Region / Basin</th>
+                <th>Location</th>
+                <th>Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Round Top Mountain</td>
+                <td>Hudspeth County / Sierra Blanca area</td>
+                <td>Major heavy rare earth and critical-minerals deposit and the main rare earth region overlay in the atlas.</td>
+              </tr>
+              <tr>
+                <td>Trans-Pecos REE-Enriched Igneous Terrane</td>
+                <td>Far West Texas</td>
+                <td>Regional geologic setting containing REE-enriched rhyolites and syenites.</td>
+              </tr>
+              <tr>
+                <td>Fort Worth / Northlake Manufacturing Area</td>
+                <td>North Texas</td>
+                <td>Rare earth metal, alloy, and magnet manufacturing corridor.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+      <section class="content-panel">
+        <h3>Brief Historical Overview</h3>
+        <p>Texas rare earth development is more recent than oil, gas, lignite, or uranium. The Round Top Mountain district became increasingly important as rare earth elements and other critical minerals gained strategic attention.</p>
+        <p>In the 2020s, Texas rare earth activity expanded beyond the deposit itself into magnet manufacturing, metal/alloy production, recycling, and proposed separation facilities. This makes the Texas rare earth page partly a geology story and partly a supply-chain story.</p>
+      </section>
+
+      <section class="content-panel">
+        <h3>Production and Development Statistics</h3>
+        <div class="chart-grid">
+          <article class="chart-card">
+            <h4>Texas Rare Earth Development Timeline, 1980–2026</h4>
+            <div class="chart-frame">
+              <canvas id="rare-earth-development-chart" aria-label="Line chart showing simplified Texas rare earth development activity index from 1980 to 2026" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="rare-earth-development-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.usgs.gov/centers/gmeg/science/concealed-rare-earth-element-ree-terranes-southern-basin-and-range-geologic" target="_blank" rel="noopener noreferrer">USGS REE terranes</a>, <a href="https://tmrcorp.com/projects/rare_earths/" target="_blank" rel="noopener noreferrer">Round Top Mountain project</a>, and <a href="https://mpmaterials.com/independence" target="_blank" rel="noopener noreferrer">MP Materials Independence</a>.</p>
+            <p class="chart-caption">Relative development activity index for educational context. It represents public project attention, deposit evaluation, and downstream manufacturing activity rather than mine production volume.</p>
+          </article>
+          <article class="chart-card">
+            <h4>Mapped Rare Earth Records by Site Type</h4>
+            <div class="chart-frame donut-frame">
+              <canvas id="rare-earth-site-type-chart" aria-label="Donut chart showing mapped rare earth records by site type in the atlas" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="rare-earth-site-type-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
+            <p class="chart-caption">Atlas dataset summary. Counts include both resource/deposit records and downstream processing or manufacturing facility records.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Number of Mapped Sites</h3>
+        <div class="fact-grid">
+          <article>
+            <span>Mapped Rare Earth Sites</span>
+            <strong data-resource-count>Loading...</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Regions / Basins</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Round Top Mountain</h4>
+            <p>Far West Texas rare earth and critical-minerals deposit area near Sierra Blanca.</p>
+            <a href="../index.html?resource=Rare%20Earth">View on map</a>
+          </article>
+          <article>
+            <h4>Trans-Pecos REE-Enriched Igneous Terrane</h4>
+            <p>Regional geologic setting for REE-enriched intrusive rocks in far West Texas.</p>
+            <a href="../index.html?resource=Rare%20Earth">View on map</a>
+          </article>
+          <article>
+            <h4>Fort Worth / Northlake Rare Earth Magnet Corridor</h4>
+            <p>Downstream rare earth magnet manufacturing and expansion area in North Texas.</p>
+            <a href="../index.html?resource=Rare%20Earth">View on map</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Featured Mapped Rare Earth Records</h3>
+        <div class="card-grid">
+          <article>
+            <h4>Round Top Heavy Rare Earth and Critical Minerals Project</h4>
+            <p><strong>Region:</strong> Round Top Mountain</p>
+            <p><strong>Site type:</strong> Deposit</p>
+            <p><strong>Status:</strong> Pre-development</p>
+            <p><strong>County area:</strong> Hudspeth County</p>
+          </article>
+          <article>
+            <h4>MP Materials Independence Facility</h4>
+            <p><strong>Region:</strong> North Texas</p>
+            <p><strong>Site type:</strong> Processing Facility</p>
+            <p><strong>Status:</strong> Operational</p>
+            <p><strong>County area:</strong> Tarrant County</p>
+          </article>
+          <article>
+            <h4>Noveon Magnetics San Marcos Facility</h4>
+            <p><strong>Region:</strong> Central Texas</p>
+            <p><strong>Site type:</strong> Processing Facility</p>
+            <p><strong>Status:</strong> Operational</p>
+            <p><strong>County area:</strong> Hays County</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <h3>Major Public Data Sources</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Used for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://www.usgs.gov/centers/gmeg/science/concealed-rare-earth-element-ree-terranes-southern-basin-and-range-geologic" target="_blank" rel="noopener noreferrer">USGS REE terranes in the Southern Basin and Range</a></td>
+                <td>Trans-Pecos REE geologic context and Round Top setting.</td>
+              </tr>
+              <tr>
+                <td><a href="https://tmrcorp.com/projects/rare_earths/" target="_blank" rel="noopener noreferrer">Texas Mineral Resources Round Top</a></td>
+                <td>Round Top Mountain project description and critical-minerals context.</td>
+              </tr>
+              <tr>
+                <td><a href="https://mpmaterials.com/independence" target="_blank" rel="noopener noreferrer">MP Materials Independence</a></td>
+                <td>Rare earth metal, alloy, and magnet facility context in Fort Worth.</td>
+              </tr>
+              <tr>
+                <td><a href="https://noveon.co/our-process" target="_blank" rel="noopener noreferrer">Noveon Magnetics</a></td>
+                <td>Rare earth magnet recycling/manufacturing facility context.</td>
+              </tr>
+              <tr>
+                <td><a href="../data/resources.geojson" target="_blank" rel="noopener noreferrer">Local atlas GeoJSON</a></td>
+                <td>Mapped educational site records used by this website.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="resource-cta">
+        <h3>Open Rare Earth on the Interactive Map</h3>
+        <p>Return to the atlas map with the Rare Earth resource parameter in the URL.</p>
+        <a class="content-link" href="../index.html?resource=Rare%20Earth">Open Rare Earth Layer on Interactive Map</a>
+      </section>
+    </main>
+  </div>
+
+  </body>
+</html>

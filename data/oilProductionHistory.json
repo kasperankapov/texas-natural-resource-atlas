@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Texas Crude Oil Production, Oil Rush to Present",
+    "unit": "million barrels per year",
+    "dataStatus": "Simplified historical reference data",
+    "description": "Representative Texas crude oil production points compiled for educational visualization. Values are rounded and should not be treated as a complete official annual production dataset.",
+    "sources": [
+      {
+        "name": "Railroad Commission of Texas historical crude oil production and well counts",
+        "url": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/historical-production-data/crude-oil-production-and-well-counts-since-1935/"
+      },
+      {
+        "name": "U.S. Energy Information Administration Texas state energy profile",
+        "url": "https://www.eia.gov/states/TX/overview"
+      },
+      {
+        "name": "U.S. Energy Information Administration Petroleum Navigator",
+        "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=M&n=PET&s=MCRFPTX2"
+      },
+      {
+        "name": "Texas State Historical Association Spindletop Oilfield",
+        "url": "https://www.tshaonline.org/handbook/entries/spindletop-oilfield"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "year": 1901,
+      "label": "Spindletop discovery"
+    },
+    {
+      "year": 1930,
+      "label": "East Texas Oil Field discovery"
+    },
+    {
+      "year": 1972,
+      "label": "Conventional production peak era"
+    },
+    {
+      "year": 2008,
+      "label": "Shale/tight-oil growth begins"
+    },
+    {
+      "year": 2024,
+      "label": "Texas exceeds 2 billion barrels again"
+    }
+  ],
+  "points": [
+    {
+      "year": 1900,
+      "productionMillionBarrels": 1
+    },
+    {
+      "year": 1901,
+      "productionMillionBarrels": 4
+    },
+    {
+      "year": 1910,
+      "productionMillionBarrels": 9
+    },
+    {
+      "year": 1920,
+      "productionMillionBarrels": 96
+    },
+    {
+      "year": 1930,
+      "productionMillionBarrels": 292
+    },
+    {
+      "year": 1940,
+      "productionMillionBarrels": 485
+    },
+    {
+      "year": 1950,
+      "productionMillionBarrels": 925
+    },
+    {
+      "year": 1960,
+      "productionMillionBarrels": 1003
+    },
+    {
+      "year": 1972,
+      "productionMillionBarrels": 1263
+    },
+    {
+      "year": 1980,
+      "productionMillionBarrels": 945
+    },
+    {
+      "year": 1990,
+      "productionMillionBarrels": 620
+    },
+    {
+      "year": 2000,
+      "productionMillionBarrels": 414
+    },
+    {
+      "year": 2008,
+      "productionMillionBarrels": 390
+    },
+    {
+      "year": 2014,
+      "productionMillionBarrels": 1180
+    },
+    {
+      "year": 2019,
+      "productionMillionBarrels": 1850
+    },
+    {
+      "year": 2020,
+      "productionMillionBarrels": 1700
+    },
+    {
+      "year": 2022,
+      "productionMillionBarrels": 1840
+    },
+    {
+      "year": 2023,
+      "productionMillionBarrels": 2000
+    },
+    {
+      "year": 2024,
+      "productionMillionBarrels": 2070
+    }
+  ]
+}
