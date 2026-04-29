@@ -402,7 +402,7 @@ function loadLeafletForMiniMap() {
 
   return new Promise((resolve) => {
     const script = document.createElement("script");
-    script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    script.src = "../vendor/leaflet/leaflet.js";
     script.defer = true;
     script.dataset.leafletMiniMapLoader = "true";
     script.addEventListener("load", () => resolve(Boolean(window.L)), { once: true });
@@ -586,7 +586,7 @@ function loadChartJsForResourcePage() {
     return Promise.resolve(true);
   }
 
-  const existingScript = document.querySelector('script[data-chartjs-resource-page-loader="true"], script[src*="chart.js"]');
+  const existingScript = document.querySelector('script[data-chartjs-resource-page-loader="true"]');
 
   if (existingScript) {
     return new Promise((resolve) => {
@@ -597,7 +597,7 @@ function loadChartJsForResourcePage() {
 
   return new Promise((resolve) => {
     const script = document.createElement("script");
-    script.src = "https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js";
+    script.src = "../vendor/chartjs/chart.umd.min.js";
     script.defer = true;
     script.dataset.chartjsResourcePageLoader = "true";
     script.addEventListener("load", () => resolve(Boolean(window.Chart)), { once: true });
