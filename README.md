@@ -4,13 +4,6 @@ Texas Natural Resource Atlas is a static web app for exploring selected Texas na
 
 The app runs entirely in the browser and is designed to be hosted on GitHub Pages. There is no backend, database, build process, or package installation step.
 
-## Screenshot
-
-Add a project screenshot here after final visual review.
-
-```markdown
-![Texas Natural Resource Atlas screenshot](docs/screenshot.png)
-```
 
 ## Main Features
 
@@ -113,6 +106,10 @@ The app does not claim that region polygons are official boundaries. It also doe
 - Add automated data validation scripts.
 - Add a final project screenshot.
 
-## AI Assistance Disclosure
+## Time Log
 
-This MVP was developed with AI assistance for planning, code generation, debugging, data-format validation, documentation drafting, and UI cleanup. The project owner remains responsible for reviewing, testing, fact-checking, and understanding the final code and data before publication.
+Estimated project time: approximately 5 hours.
+
+- Initial static app structure, map, filters, markers, popups, and responsive layout: 1.5 hours.
+- Public-source data setup, source registry, validation helpers, region overlays, and Texas border layer: 1.5 hours.
+- Resource pages, charts, navigation, GitHub Pages setup, QA, and documentation cleanup: 2 hours.

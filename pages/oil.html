@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oil in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="../styles.css?v=20260428">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
   <script src="../resource-page.js" defer></script>
 </head>
 <body>
@@ -49,36 +49,43 @@
         <p>Oil is one of Texas' most important natural resources. It supports the state energy economy, contributes to national energy supply, and is closely connected to major producing basins such as the Permian Basin and Eagle Ford Shale.</p>
       </section>
 
-      <section class="content-panel">
-        <h3>Where Oil Is Found in Texas</h3>
-        <p>Oil is found across several major producing regions, with the atlas focusing on the Permian Basin, Eagle Ford Shale, and the East Texas Oil Field as broad statewide anchors.</p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Region / Basin</th>
-                <th>Location</th>
-                <th>Why it matters</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Permian Basin</td>
-                <td>West Texas</td>
-                <td>Texas' most important modern oil-producing region.</td>
-              </tr>
-              <tr>
-                <td>Eagle Ford Shale</td>
-                <td>South Texas</td>
-                <td>Major shale, tight-oil, condensate, and natural gas region.</td>
-              </tr>
-              <tr>
-                <td>East Texas Oil Field</td>
-                <td>East Texas</td>
-                <td>Historic supergiant field and legacy oil region.</td>
-              </tr>
-            </tbody>
-          </table>
+      <section class="content-panel mini-map-preview">
+        <div class="mini-map-preview-header">
+          <div>
+            <h3>Oil Site Map Preview</h3>
+            <p>The preview map shows only oil-related sites in Texas.</p>
+          </div>
+          <a class="content-link" href="../index.html?resource=Oil">View Full Interactive Map</a>
+        </div>
+        <div class="mini-map-preview-grid">
+          <div id="oil-mini-map" class="mini-map-container" aria-label="Oil site map preview"></div>
+          <aside class="mini-map-summary" aria-label="Oil site summary">
+            <div class="mini-map-stat">
+              <span>Total Sites</span>
+              <strong data-resource-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat">
+              <span>Active</span>
+              <strong data-resource-active-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat mini-map-regions">
+              <span>Major Regions</span>
+              <ul class="region-summary-list">
+                <li>
+                  <strong>Permian Basin</strong>
+                  <p>West Texas oil and natural gas region and a major source of U.S. oil production.</p>
+                </li>
+                <li>
+                  <strong>Eagle Ford Shale</strong>
+                  <p>South Texas shale trend that produces oil, condensate, and natural gas.</p>
+                </li>
+                <li>
+                  <strong>East Texas Oil Field</strong>
+                  <p>Historic East Texas oil province represented by a mature legacy field record.</p>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -108,37 +115,6 @@
             <p class="chart-fallback" id="oil-share-chart-status">Chart loading. Texas: 43%. Rest of U.S.: 57%.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="https://www.eia.gov/states/TX/overview" target="_blank" rel="noopener noreferrer">EIA Texas state energy overview</a>.</p>
             <p class="chart-caption">2024 share</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Number of Mapped Sites</h3>
-        <div class="fact-grid">
-          <article>
-            <span>Mapped Oil Sites</span>
-            <strong data-resource-count>Loading...</strong>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Major Regions / Basins</h3>
-        <div class="card-grid">
-          <article>
-            <h4>Permian Basin</h4>
-            <p>West Texas oil and natural gas region and a major source of U.S. oil production.</p>
-            <a href="../index.html?resource=Oil">View on map</a>
-          </article>
-          <article>
-            <h4>Eagle Ford Shale</h4>
-            <p>South Texas shale trend that produces oil, condensate, and natural gas.</p>
-            <a href="../index.html?resource=Oil">View on map</a>
-          </article>
-          <article>
-            <h4>East Texas Oil Field</h4>
-            <p>Historic East Texas oil province represented in the atlas by the East Texas Oil Field record.</p>
-            <a href="../index.html?resource=Oil">View on map</a>
           </article>
         </div>
       </section>

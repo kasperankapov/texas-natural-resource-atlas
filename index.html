@@ -102,46 +102,36 @@
 
           <label class="checkbox-option" for="filter-deposit">
             <input type="checkbox" id="filter-deposit" name="siteType" value="deposit" checked>
+            <span class="site-type-indicator site-deposit" aria-hidden="true"></span>
             <span>Deposit</span>
           </label>
 
           <label class="checkbox-option" for="filter-production">
             <input type="checkbox" id="filter-production" name="siteType" value="production" checked>
+            <span class="site-type-indicator site-production" aria-hidden="true"></span>
             <span>Production Site</span>
           </label>
 
           <label class="checkbox-option" for="filter-facility">
             <input type="checkbox" id="filter-facility" name="siteType" value="facility" checked>
+            <span class="site-type-indicator site-facility" aria-hidden="true"></span>
             <span>Processing Facility</span>
           </label>
 
           <label class="checkbox-option" for="filter-exploration">
             <input type="checkbox" id="filter-exploration" name="siteType" value="exploration" checked>
+            <span class="site-type-indicator site-exploration" aria-hidden="true"></span>
             <span>Exploration</span>
           </label>
 
           <label class="checkbox-option" for="filter-historical-mine">
             <input type="checkbox" id="filter-historical-mine" name="siteType" value="historical mine" checked>
+            <span class="site-type-indicator site-historical-mine" aria-hidden="true"></span>
             <span>Historical Mine</span>
           </label>
         </fieldset>
 
         <button type="button" id="reset-filters" class="reset-button">Reset filters</button>
-
-        <section class="legend" aria-labelledby="legend-title">
-          <h2 id="legend-title">Legend</h2>
-
-          <div class="legend-group">
-            <h3>Site Types</h3>
-            <ul class="legend-list">
-              <li><span class="legend-shape site-deposit"></span>Deposit</li>
-              <li><span class="legend-shape site-production"></span>Production Site</li>
-              <li><span class="legend-shape site-facility"></span>Processing Facility</li>
-              <li><span class="legend-shape site-exploration"></span>Exploration</li>
-              <li><span class="legend-shape site-historical-mine"></span>Historical Mine</li>
-            </ul>
-          </div>
-        </section>
       </aside>
 
       <main class="map-panel">

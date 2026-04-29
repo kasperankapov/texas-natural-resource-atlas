@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Natural Gas in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="../styles.css?v=20260428">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
   <script src="../resource-page.js" defer></script>
@@ -49,41 +50,43 @@
         <p>Natural gas is central to Texas energy because it fuels power generation, industrial activity, petrochemical production, exports, and pipeline infrastructure. In the atlas, natural gas is represented by producing fields, shale trends, gas hubs, storage areas, and processing-related facilities.</p>
       </section>
 
-      <section class="content-panel">
-        <h3>Where Natural Gas Is Found in Texas</h3>
-        <p>Natural gas resources are found across Texas, especially in shale and tight-gas regions, mature conventional fields, and associated-gas areas connected to oil production.</p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Region / Basin</th>
-                <th>Location</th>
-                <th>Why it matters</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Barnett Shale / Fort Worth Basin</td>
-                <td>North-Central Texas</td>
-                <td>Historic shale-gas region that helped demonstrate large-scale horizontal drilling and hydraulic fracturing.</td>
-              </tr>
-              <tr>
-                <td>Haynesville / Bossier Shale</td>
-                <td>East Texas</td>
-                <td>Major gas-bearing shale and tight-gas trend extending across the Texas-Louisiana region.</td>
-              </tr>
-              <tr>
-                <td>Permian Basin</td>
-                <td>West Texas</td>
-                <td>Large associated-gas region tied to modern oil development in the Midland and Delaware basins.</td>
-              </tr>
-              <tr>
-                <td>Eagle Ford Shale</td>
-                <td>South Texas</td>
-                <td>Produces dry gas, wet gas, condensate, and oil across different windows of the play.</td>
-              </tr>
-            </tbody>
-          </table>
+      <section class="content-panel mini-map-preview">
+        <div class="mini-map-preview-header">
+          <div>
+            <h3>Natural Gas Site Map Preview</h3>
+            <p>The preview map shows only natural gas-related sites in Texas.</p>
+          </div>
+          <a class="content-link" href="../index.html?resource=Natural%20Gas">View Full Interactive Map</a>
+        </div>
+        <div class="mini-map-preview-grid">
+          <div id="natural-gas-mini-map" class="mini-map-container" data-resource-mini-map aria-label="Natural gas site map preview"></div>
+          <aside class="mini-map-summary" aria-label="Natural gas site summary">
+            <div class="mini-map-stat">
+              <span>Total Sites</span>
+              <strong data-resource-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat">
+              <span>Active</span>
+              <strong data-resource-active-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat mini-map-regions">
+              <span>Major Regions</span>
+              <ul class="region-summary-list">
+                <li>
+                  <strong>Barnett Shale</strong>
+                  <p>North-Central Texas shale-gas area and one of the largest onshore natural gas fields in the United States.</p>
+                </li>
+                <li>
+                  <strong>Haynesville / Bossier Shale</strong>
+                  <p>East Texas gas-bearing shale and tight-gas trend connected to the broader Haynesville system.</p>
+                </li>
+                <li>
+                  <strong>Permian Basin</strong>
+                  <p>West Texas oil and gas basin where associated gas from oil development is a major part of the gas story.</p>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -114,37 +117,6 @@
             <p class="chart-fallback" id="natural-gas-share-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="https://www.eia.gov/states/TX/overview" target="_blank" rel="noopener noreferrer">EIA Texas state energy overview</a>.</p>
             <p class="chart-caption">2024 share of U.S. natural gas gross withdrawals.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Number of Mapped Sites</h3>
-        <div class="fact-grid">
-          <article>
-            <span>Mapped Natural Gas Sites</span>
-            <strong data-resource-count>Loading...</strong>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Major Regions / Basins</h3>
-        <div class="card-grid">
-          <article>
-            <h4>Barnett Shale</h4>
-            <p>North-Central Texas shale-gas area and one of the largest onshore natural gas fields in the United States.</p>
-            <a href="../index.html?resource=Natural%20Gas">View on map</a>
-          </article>
-          <article>
-            <h4>Haynesville / Bossier Shale</h4>
-            <p>East Texas gas-bearing shale and tight-gas trend connected to the broader Haynesville system.</p>
-            <a href="../index.html?resource=Natural%20Gas">View on map</a>
-          </article>
-          <article>
-            <h4>Permian Basin</h4>
-            <p>West Texas oil and gas basin where associated gas from oil development is a major part of the gas story.</p>
-            <a href="../index.html?resource=Natural%20Gas">View on map</a>
           </article>
         </div>
       </section>

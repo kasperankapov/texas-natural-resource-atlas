@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rare Earth in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="../styles.css?v=20260428">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
   <script src="../resource-page.js" defer></script>
@@ -49,36 +50,43 @@
         <p>Rare earth elements matter because they are used in high-strength permanent magnets, electronics, defense systems, wind turbines, electric vehicles, and other advanced technologies.</p>
       </section>
 
-      <section class="content-panel">
-        <h3>Where Rare Earth Is Found in Texas</h3>
-        <p>Texas rare earth resources are most strongly associated with far West Texas, while processing and magnet manufacturing records are located in North Texas, Central Texas, and the Gulf Coast.</p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Region / Basin</th>
-                <th>Location</th>
-                <th>Why it matters</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Round Top Mountain</td>
-                <td>Hudspeth County / Sierra Blanca area</td>
-                <td>Major heavy rare earth and critical-minerals deposit and the main rare earth region overlay in the atlas.</td>
-              </tr>
-              <tr>
-                <td>Trans-Pecos REE-Enriched Igneous Terrane</td>
-                <td>Far West Texas</td>
-                <td>Regional geologic setting containing REE-enriched rhyolites and syenites.</td>
-              </tr>
-              <tr>
-                <td>Fort Worth / Northlake Manufacturing Area</td>
-                <td>North Texas</td>
-                <td>Rare earth metal, alloy, and magnet manufacturing corridor.</td>
-              </tr>
-            </tbody>
-          </table>
+      <section class="content-panel mini-map-preview">
+        <div class="mini-map-preview-header">
+          <div>
+            <h3>Rare Earth Site Map Preview</h3>
+            <p>The preview map shows only rare earth-related sites in Texas.</p>
+          </div>
+          <a class="content-link" href="../index.html?resource=Rare%20Earth">View Full Interactive Map</a>
+        </div>
+        <div class="mini-map-preview-grid">
+          <div id="rare-earth-mini-map" class="mini-map-container" data-resource-mini-map aria-label="Rare earth site map preview"></div>
+          <aside class="mini-map-summary" aria-label="Rare earth site summary">
+            <div class="mini-map-stat">
+              <span>Total Sites</span>
+              <strong data-resource-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat">
+              <span>Active</span>
+              <strong data-resource-active-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat mini-map-regions">
+              <span>Major Regions</span>
+              <ul class="region-summary-list">
+                <li>
+                  <strong>Round Top Mountain</strong>
+                  <p>Far West Texas rare earth and critical-minerals deposit area near Sierra Blanca.</p>
+                </li>
+                <li>
+                  <strong>Trans-Pecos REE-Enriched Igneous Terrane</strong>
+                  <p>Regional geologic setting for REE-enriched intrusive rocks in far West Texas.</p>
+                </li>
+                <li>
+                  <strong>Fort Worth / Northlake Rare Earth Magnet Corridor</strong>
+                  <p>Downstream rare earth magnet manufacturing and expansion area in North Texas.</p>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -109,37 +117,6 @@
             <p class="chart-fallback" id="rare-earth-site-type-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
             <p class="chart-caption">Atlas dataset summary. Counts include both resource/deposit records and downstream processing or manufacturing facility records.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Number of Mapped Sites</h3>
-        <div class="fact-grid">
-          <article>
-            <span>Mapped Rare Earth Sites</span>
-            <strong data-resource-count>Loading...</strong>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Major Regions / Basins</h3>
-        <div class="card-grid">
-          <article>
-            <h4>Round Top Mountain</h4>
-            <p>Far West Texas rare earth and critical-minerals deposit area near Sierra Blanca.</p>
-            <a href="../index.html?resource=Rare%20Earth">View on map</a>
-          </article>
-          <article>
-            <h4>Trans-Pecos REE-Enriched Igneous Terrane</h4>
-            <p>Regional geologic setting for REE-enriched intrusive rocks in far West Texas.</p>
-            <a href="../index.html?resource=Rare%20Earth">View on map</a>
-          </article>
-          <article>
-            <h4>Fort Worth / Northlake Rare Earth Magnet Corridor</h4>
-            <p>Downstream rare earth magnet manufacturing and expansion area in North Texas.</p>
-            <a href="../index.html?resource=Rare%20Earth">View on map</a>
           </article>
         </div>
       </section>

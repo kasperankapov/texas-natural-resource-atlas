@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lithium in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="../styles.css?v=20260428">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
   <script src="../resource-page.js" defer></script>
@@ -49,31 +50,43 @@
         <p>Lithium matters because it is used in rechargeable batteries, grid storage, electric vehicles, and other critical-mineral supply chains. In Texas, public attention is focused on East Texas Smackover brines, the Round Top critical-minerals district, and possible lithium recovery from oilfield produced water.</p>
       </section>
 
-      <section class="content-panel">
-        <h3>Where Lithium Is Found in Texas</h3>
-        <p>Texas lithium prospects are concentrated in brine and critical-mineral settings rather than traditional hard-rock lithium mines.</p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Region / Basin</th>
-                <th>Location</th>
-                <th>Why it matters</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Smackover Formation Brine Trend</td>
-                <td>Northeast / East Texas</td>
-                <td>Emerging lithium-brine exploration area connected to the broader Smackover trend.</td>
-              </tr>
-              <tr>
-                <td>Round Top Mountain</td>
-                <td>Hudspeth County, far West Texas</td>
-                <td>Rare earth and critical-minerals deposit that also includes lithium-bearing mineralization.</td>
-              </tr>
-            </tbody>
-          </table>
+      <section class="content-panel mini-map-preview">
+        <div class="mini-map-preview-header">
+          <div>
+            <h3>Lithium Site Map Preview</h3>
+            <p>The preview map shows only lithium-related sites in Texas.</p>
+          </div>
+          <a class="content-link" href="../index.html?resource=Lithium">View Full Interactive Map</a>
+        </div>
+        <div class="mini-map-preview-grid">
+          <div id="lithium-mini-map" class="mini-map-container" data-resource-mini-map aria-label="Lithium site map preview"></div>
+          <aside class="mini-map-summary" aria-label="Lithium site summary">
+            <div class="mini-map-stat">
+              <span>Total Sites</span>
+              <strong data-resource-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat">
+              <span>Active</span>
+              <strong data-resource-active-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat mini-map-regions">
+              <span>Major Regions</span>
+              <ul class="region-summary-list">
+                <li>
+                  <strong>Smackover Formation Brine Trend</strong>
+                  <p>Northeast and East Texas brine trend that is being evaluated for lithium-bearing formation waters.</p>
+                </li>
+                <li>
+                  <strong>Round Top Mountain</strong>
+                  <p>Far West Texas rare earth and critical-minerals deposit with lithium-bearing mineralization.</p>
+                </li>
+                <li>
+                  <strong>Permian Basin Produced-Water Opportunity</strong>
+                  <p>Conceptual region where produced water from oil and gas operations may be evaluated for lithium recovery.</p>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -104,37 +117,6 @@
             <p class="chart-fallback" id="lithium-site-type-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
             <p class="chart-caption">Atlas dataset summary, not statewide production. Counts are based on the mapped records in the educational dataset.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Number of Mapped Sites</h3>
-        <div class="fact-grid">
-          <article>
-            <span>Mapped Lithium Sites</span>
-            <strong data-resource-count>Loading...</strong>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Major Regions / Basins</h3>
-        <div class="card-grid">
-          <article>
-            <h4>Smackover Formation Brine Trend</h4>
-            <p>Northeast and East Texas brine trend that is being evaluated for lithium-bearing formation waters.</p>
-            <a href="../index.html?resource=Lithium">View on map</a>
-          </article>
-          <article>
-            <h4>Round Top Mountain</h4>
-            <p>Far West Texas rare earth and critical-minerals deposit with lithium-bearing mineralization.</p>
-            <a href="../index.html?resource=Lithium">View on map</a>
-          </article>
-          <article>
-            <h4>Permian Basin Produced-Water Opportunity</h4>
-            <p>Conceptual region where produced water from oil and gas operations may be evaluated for lithium recovery.</p>
-            <a href="../index.html?resource=Lithium">View on map</a>
           </article>
         </div>
       </section>

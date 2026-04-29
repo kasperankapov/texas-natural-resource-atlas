@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uranium in Texas | Texas Natural Resource Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="../styles.css?v=20260428">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
   <script src="../resource-page.js" defer></script>
@@ -49,36 +50,43 @@
         <p>Uranium matters because it is the raw material for nuclear fuel. Texas uranium is especially tied to sandstone-hosted deposits and in-situ recovery rather than large open-pit operations today.</p>
       </section>
 
-      <section class="content-panel">
-        <h3>Where Uranium Is Found in Texas</h3>
-        <p>The major Texas uranium story is in the Gulf Coastal Plain of South Texas, with project areas in and around Karnes, Bee, Goliad, Duval, Live Oak, Brooks, Jim Hogg, and nearby counties.</p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Region / Basin</th>
-                <th>Location</th>
-                <th>Why it matters</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>South Texas Uranium Province</td>
-                <td>South Texas Gulf Coastal Plain</td>
-                <td>Main regional uranium overlay in the atlas and the center of modern ISR-related project activity.</td>
-              </tr>
-              <tr>
-                <td>Karnes / Falls City Area</td>
-                <td>Karnes County region</td>
-                <td>Historic uranium district and processing hub area.</td>
-              </tr>
-              <tr>
-                <td>Duval / Live Oak / Bee Trend</td>
-                <td>South Texas</td>
-                <td>Project trend that includes ISR projects and satellite feed sources.</td>
-              </tr>
-            </tbody>
-          </table>
+      <section class="content-panel mini-map-preview">
+        <div class="mini-map-preview-header">
+          <div>
+            <h3>Uranium Site Map Preview</h3>
+            <p>The preview map shows only uranium-related sites in Texas.</p>
+          </div>
+          <a class="content-link" href="../index.html?resource=Uranium">View Full Interactive Map</a>
+        </div>
+        <div class="mini-map-preview-grid">
+          <div id="uranium-mini-map" class="mini-map-container" data-resource-mini-map aria-label="Uranium site map preview"></div>
+          <aside class="mini-map-summary" aria-label="Uranium site summary">
+            <div class="mini-map-stat">
+              <span>Total Sites</span>
+              <strong data-resource-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat">
+              <span>Active</span>
+              <strong data-resource-active-count>Loading...</strong>
+            </div>
+            <div class="mini-map-stat mini-map-regions">
+              <span>Major Regions</span>
+              <ul class="region-summary-list">
+                <li>
+                  <strong>South Texas Uranium Province</strong>
+                  <p>Main regional uranium overlay for sandstone-hosted uranium resources and modern ISR project activity.</p>
+                </li>
+                <li>
+                  <strong>Karnes / Falls City Uranium District</strong>
+                  <p>Historic and modern processing/project area represented by Hobson and surrounding project records.</p>
+                </li>
+                <li>
+                  <strong>Goliad Area</strong>
+                  <p>Permitted or undeveloped ISR project area in South Texas.</p>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -109,37 +117,6 @@
             <p class="chart-fallback" id="uranium-site-type-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
             <p class="chart-caption">Atlas dataset summary, not statewide production. Counts describe mapped uranium records by role in the atlas.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Number of Mapped Sites</h3>
-        <div class="fact-grid">
-          <article>
-            <span>Mapped Uranium Sites</span>
-            <strong data-resource-count>Loading...</strong>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel">
-        <h3>Major Regions / Basins</h3>
-        <div class="card-grid">
-          <article>
-            <h4>South Texas Uranium Province</h4>
-            <p>Main regional uranium overlay for sandstone-hosted uranium resources and modern ISR project activity.</p>
-            <a href="../index.html?resource=Uranium">View on map</a>
-          </article>
-          <article>
-            <h4>Karnes / Falls City Uranium District</h4>
-            <p>Historic and modern processing/project area represented by Hobson and surrounding project records.</p>
-            <a href="../index.html?resource=Uranium">View on map</a>
-          </article>
-          <article>
-            <h4>Goliad Area</h4>
-            <p>Permitted or undeveloped ISR project area in South Texas.</p>
-            <a href="../index.html?resource=Uranium">View on map</a>
           </article>
         </div>
       </section>
