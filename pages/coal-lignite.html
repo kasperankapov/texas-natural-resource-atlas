@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coal/Lignite in Texas | Texas Natural Resource Atlas</title>
   <link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="../styles.css?v=20260429">
+  <link rel="stylesheet" href="../styles.css?v=20260430-cleanup">
   <script src="../vendor/leaflet/leaflet.js" defer></script>
   <script src="../vendor/chartjs/chart.umd.min.js" defer></script>
-  <script src="../resource-page.js?v=20260429" defer></script>
+  <script src="../resource-page.js?v=20260430-cleanup" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -40,7 +40,7 @@
         <p>Explore where coal and lignite resources are found in Texas, why lignite mattered to Texas electricity generation, how mining expanded and declined, and which mapped coal/lignite records are included in the Texas Natural Resource Atlas.</p>
         <div class="hero-actions">
           <a class="content-link" href="../index.html?resource=Coal%2FLignite">View Coal/Lignite on Interactive Map</a>
-          <a class="secondary-link" href="../data/resources.geojson">Download Coal/Lignite Data</a>
+          <a class="secondary-link" href="../data/coal-lignite.geojson" download>Download Coal/Lignite Data</a>
           <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
         </div>
       </section>
@@ -111,13 +111,22 @@
             <p class="chart-caption">Simplified trend line in million short tons. Early points use public historical production milestones, including 1884, 1901, 1913, 1930, 1945, and 1950; modern points are rounded for broad educational context.</p>
           </article>
           <article class="chart-card">
-            <h4>Mapped Coal/Lignite Records by Site Type</h4>
+            <h4>Mapped Coal/Lignite Records by Status</h4>
             <div class="chart-frame donut-frame">
-              <canvas id="coal-site-type-chart" aria-label="Donut chart showing mapped coal and lignite records by site type in the atlas" role="img"></canvas>
+              <canvas id="coal-status-chart" aria-label="Donut chart showing mapped coal and lignite records by status in the atlas" role="img"></canvas>
             </div>
-            <p class="chart-fallback" id="coal-site-type-chart-status">Chart loading.</p>
+            <p class="chart-fallback" id="coal-status-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
-            <p class="chart-caption">Atlas dataset summary showing active/reclamation production sites and historical or closed mine records.</p>
+            <p class="chart-caption">Atlas dataset summary emphasizing active, reclamation, closed, and legacy mine records rather than only site type.</p>
+          </article>
+          <article class="chart-card">
+            <h4>Coal's Shrinking Role in Texas Electricity</h4>
+            <div class="chart-frame">
+              <canvas id="coal-generation-share-chart" aria-label="Line chart showing coal's shrinking share of Texas net generation from 2014 to 2024" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="coal-generation-share-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Source:</strong> <a href="https://www.eia.gov/states/TX/overview" target="_blank" rel="noopener noreferrer">EIA Texas state energy overview</a>.</p>
+            <p class="chart-caption">EIA reports coal supplied about 12% of Texas total net generation in 2024, down from 34% in 2014 after coal-fired capacity retirements. Intermediate points are simplified for chart readability.</p>
           </article>
         </div>
       </section>
@@ -142,7 +151,7 @@
           <article>
             <h4>Big Brown Mine</h4>
             <p><strong>Region:</strong> Wilcox Group / East Texas</p>
-            <p><strong>Site type:</strong> Historical Mine</p>
+            <p><strong>Site type:</strong> Historical Site</p>
             <p><strong>Status:</strong> Reclamation / closed</p>
             <p><strong>County area:</strong> Freestone County</p>
           </article>

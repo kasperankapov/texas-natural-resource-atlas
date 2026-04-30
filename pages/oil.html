@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oil in Texas | Texas Natural Resource Atlas</title>
   <link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="../styles.css?v=20260429">
+  <link rel="stylesheet" href="../styles.css?v=20260430-cleanup">
   <script src="../vendor/leaflet/leaflet.js" defer></script>
   <script src="../vendor/chartjs/chart.umd.min.js" defer></script>
-  <script src="../resource-page.js?v=20260429" defer></script>
+  <script src="../resource-page.js?v=20260430-cleanup" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -40,7 +40,7 @@
         <p>Explore where oil resources are found in Texas, why they matter, how production has changed from the early oil boom to modern production, and which mapped sites are included in the Texas Natural Resource Atlas.</p>
         <div class="hero-actions">
           <a class="content-link" href="../index.html?resource=Oil">View Oil on Interactive Map</a>
-          <a class="secondary-link" href="../data/resources.geojson">Download Oil Data</a>
+          <a class="secondary-link" href="../data/oil.geojson" download>Download Oil Data</a>
           <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
         </div>
       </section>
@@ -60,7 +60,7 @@
           <a class="content-link" href="../index.html?resource=Oil">View Full Interactive Map</a>
         </div>
         <div class="mini-map-preview-grid">
-          <div id="oil-mini-map" class="mini-map-container" aria-label="Oil site map preview"></div>
+          <div id="oil-mini-map" class="mini-map-container" data-resource-mini-map aria-label="Oil site map preview"></div>
           <aside class="mini-map-summary" aria-label="Oil site summary">
             <div class="mini-map-stat">
               <span>Total Sites</span>

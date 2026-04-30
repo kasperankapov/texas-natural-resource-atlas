@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Texas Natural Resource Atlas</title>
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=20260429">
+  <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
+  <link rel="stylesheet" href="styles.css?v=20260430-cleanup">
   <script src="vendor/leaflet/leaflet.js"></script>
-  <script src="app.js?v=20260429" defer></script>
+  <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
+  <script src="app.js?v=20260430-cleanup" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -37,8 +39,60 @@
         <h2>Filters</h2>
 
         <div class="search-control">
-          <label for="site-search">Search sites</label>
-          <input type="search" id="site-search" name="siteSearch" placeholder="Enter a site name">
+          <label for="site-search">Search the atlas</label>
+          <input type="search" id="site-search" name="siteSearch" placeholder="Search by name, county, operator, source, description...">
+
+          <details class="advanced-search">
+            <summary>Advanced search</summary>
+            <div class="search-fields" role="group" aria-labelledby="search-fields-title">
+              <p id="search-fields-title" class="search-fields-title">Searching</p>
+
+              <label class="checkbox-option" for="search-field-name">
+                <input type="checkbox" id="search-field-name" name="searchField" value="name" checked>
+                <span>Site name</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-county">
+                <input type="checkbox" id="search-field-county" name="searchField" value="county" checked>
+                <span>County</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-operator">
+                <input type="checkbox" id="search-field-operator" name="searchField" value="operator" checked>
+                <span>Operator</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-description">
+                <input type="checkbox" id="search-field-description" name="searchField" value="description" checked>
+                <span>Description</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-notes">
+                <input type="checkbox" id="search-field-notes" name="searchField" value="notes" checked>
+                <span>Notes</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-source">
+                <input type="checkbox" id="search-field-source" name="searchField" value="sourceName" checked>
+                <span>Source</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-resource-type">
+                <input type="checkbox" id="search-field-resource-type" name="searchField" value="resourceType" checked>
+                <span>Resource type</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-site-type">
+                <input type="checkbox" id="search-field-site-type" name="searchField" value="siteType" checked>
+                <span>Site type</span>
+              </label>
+
+              <label class="checkbox-option" for="search-field-status">
+                <input type="checkbox" id="search-field-status" name="searchField" value="status" checked>
+                <span>Status</span>
+              </label>
+            </div>
+          </details>
         </div>
 
         <div class="source-control">
@@ -49,16 +103,21 @@
         </div>
 
         <fieldset class="filter-group overlay-toggle-group">
-          <legend>Map Overlays</legend>
+          <legend><span>Map Overlays</span></legend>
 
           <label class="checkbox-option" for="toggle-basin-overlays">
             <input type="checkbox" id="toggle-basin-overlays" name="basinOverlayToggle" checked>
             <span>Show resource region overlays</span>
           </label>
+
+          <label class="checkbox-option" for="toggle-marker-clustering">
+            <input type="checkbox" id="toggle-marker-clustering" name="markerClusterToggle" checked>
+            <span>Cluster markers</span>
+          </label>
         </fieldset>
 
         <fieldset class="filter-group">
-          <legend>Resource Type</legend>
+          <legend><span>Resource Type</span></legend>
 
           <label class="checkbox-option" for="filter-oil">
             <input type="checkbox" id="filter-oil" name="resourceType" value="Oil" autocomplete="off" checked>
@@ -98,7 +157,7 @@
         </fieldset>
 
         <fieldset class="filter-group">
-          <legend>Site Type</legend>
+          <legend><span>Site Type</span></legend>
 
           <label class="checkbox-option" for="filter-deposit">
             <input type="checkbox" id="filter-deposit" name="siteType" value="deposit" checked>
@@ -124,10 +183,10 @@
             <span>Exploration</span>
           </label>
 
-          <label class="checkbox-option" for="filter-historical-mine">
-            <input type="checkbox" id="filter-historical-mine" name="siteType" value="historical mine" checked>
-            <span class="site-type-indicator site-historical-mine" aria-hidden="true"></span>
-            <span>Historical Mine</span>
+          <label class="checkbox-option" for="filter-historical-site">
+            <input type="checkbox" id="filter-historical-site" name="siteType" value="historical site" checked>
+            <span class="site-type-indicator site-historical-site" aria-hidden="true"></span>
+            <span>Historical Site</span>
           </label>
         </fieldset>
 
@@ -136,6 +195,10 @@
 
       <main class="map-panel">
         <section id="map" class="map-container" aria-label="Map of Texas"></section>
+        <section class="map-summary-panel" aria-live="polite" aria-label="Visible map record summary">
+          <p id="map-summary-count">Loading site records...</p>
+          <p id="map-summary-breakdown" class="map-summary-breakdown"></p>
+        </section>
       </main>
     </div>
 

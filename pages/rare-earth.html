@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rare Earth in Texas | Texas Natural Resource Atlas</title>
   <link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="../styles.css?v=20260429">
+  <link rel="stylesheet" href="../styles.css?v=20260430-cleanup">
   <script src="../vendor/leaflet/leaflet.js" defer></script>
   <script src="../vendor/chartjs/chart.umd.min.js" defer></script>
-  <script src="../resource-page.js?v=20260429" defer></script>
+  <script src="../resource-page.js?v=20260430-cleanup" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -40,7 +40,7 @@
         <p>Explore where rare earth resources and facilities are found in Texas, why rare earth elements matter for magnets and advanced manufacturing, how project activity has grown, and which mapped rare earth records are included in the Texas Natural Resource Atlas.</p>
         <div class="hero-actions">
           <a class="content-link" href="../index.html?resource=Rare%20Earth">View Rare Earth on Interactive Map</a>
-          <a class="secondary-link" href="../data/resources.geojson">Download Rare Earth Data</a>
+          <a class="secondary-link" href="../data/rare-earth.geojson" download>Download Rare Earth Data</a>
           <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
         </div>
       </section>
@@ -100,24 +100,39 @@
 
       <section class="content-panel">
         <h3>Production and Development Statistics</h3>
+        <p>Texas does not yet have a broad public annual rare earth production record like oil, gas, or coal. This section therefore summarizes mapped project roles and development status from the local atlas records rather than presenting statewide production totals.</p>
+        <div class="fact-grid">
+          <article>
+            <span>Mapped Rare Earth Records</span>
+            <strong data-resource-count>Loading...</strong>
+          </article>
+          <article>
+            <span>Current Atlas Focus</span>
+            <strong>Deposit to manufacturing</strong>
+          </article>
+          <article>
+            <span>Production Context</span>
+            <strong>Project-stage records</strong>
+          </article>
+        </div>
         <div class="chart-grid">
           <article class="chart-card">
-            <h4>Texas Rare Earth Development Timeline, 1980–2026</h4>
+            <h4>Mapped Texas Rare Earth Records by Supply Chain Role</h4>
             <div class="chart-frame">
-              <canvas id="rare-earth-development-chart" aria-label="Line chart showing simplified Texas rare earth development activity index from 1980 to 2026" role="img"></canvas>
+              <canvas id="rare-earth-supply-chain-chart" aria-label="Horizontal bar chart showing mapped Texas rare earth records by supply chain role" role="img"></canvas>
             </div>
-            <p class="chart-fallback" id="rare-earth-development-chart-status">Chart loading.</p>
+            <p class="chart-fallback" id="rare-earth-supply-chain-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.usgs.gov/centers/gmeg/science/concealed-rare-earth-element-ree-terranes-southern-basin-and-range-geologic" target="_blank" rel="noopener noreferrer">USGS REE terranes</a>, <a href="https://tmrcorp.com/projects/rare_earths/" target="_blank" rel="noopener noreferrer">Round Top Mountain project</a>, and <a href="https://mpmaterials.com/independence" target="_blank" rel="noopener noreferrer">MP Materials Independence</a>.</p>
-            <p class="chart-caption">Relative development activity index for educational context. It represents public project attention, deposit evaluation, and downstream manufacturing activity rather than mine production volume.</p>
+            <p class="chart-caption">Atlas dataset summary showing whether mapped records represent mineral resources, exploration and appraisal, processing, metal/alloy work, magnet manufacturing, or secondary recovery.</p>
           </article>
           <article class="chart-card">
-            <h4>Mapped Rare Earth Records by Site Type</h4>
-            <div class="chart-frame donut-frame">
-              <canvas id="rare-earth-site-type-chart" aria-label="Donut chart showing mapped rare earth records by site type in the atlas" role="img"></canvas>
+            <h4>Mapped Rare Earth Records by Development / Operating Status</h4>
+            <div class="chart-frame">
+              <canvas id="rare-earth-status-chart" aria-label="Horizontal bar chart showing mapped rare earth records by development and operating status" role="img"></canvas>
             </div>
-            <p class="chart-fallback" id="rare-earth-site-type-chart-status">Chart loading.</p>
+            <p class="chart-fallback" id="rare-earth-status-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
-            <p class="chart-caption">Atlas dataset summary. Counts include both resource/deposit records and downstream processing or manufacturing facility records.</p>
+            <p class="chart-caption">Atlas dataset summary by development status, separating operational facilities, planned projects, pre-development mining activity, research records, opportunity areas, and historical localities.</p>
           </article>
         </div>
       </section>

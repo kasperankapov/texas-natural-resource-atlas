@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uranium in Texas | Texas Natural Resource Atlas</title>
   <link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="../styles.css?v=20260429">
+  <link rel="stylesheet" href="../styles.css?v=20260430-cleanup">
   <script src="../vendor/leaflet/leaflet.js" defer></script>
   <script src="../vendor/chartjs/chart.umd.min.js" defer></script>
-  <script src="../resource-page.js?v=20260429" defer></script>
+  <script src="../resource-page.js?v=20260430-cleanup" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -40,7 +40,7 @@
         <p>Explore where uranium resources and projects are found in Texas, why uranium matters for nuclear fuel, how South Texas uranium development evolved, and which mapped uranium records are included in the Texas Natural Resource Atlas.</p>
         <div class="hero-actions">
           <a class="content-link" href="../index.html?resource=Uranium">View Uranium on Interactive Map</a>
-          <a class="secondary-link" href="../data/resources.geojson">Download Uranium Data</a>
+          <a class="secondary-link" href="../data/uranium.geojson" download>Download Uranium Data</a>
           <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
         </div>
       </section>
@@ -102,13 +102,13 @@
         <h3>Production and Development Statistics</h3>
         <div class="chart-grid">
           <article class="chart-card">
-            <h4>Texas Uranium Development Timeline, 1955–2026</h4>
+            <h4>South Texas Uranium Project Timeline</h4>
             <div class="chart-frame">
-              <canvas id="uranium-development-chart" aria-label="Line chart showing simplified Texas uranium development activity index from 1955 to 2026" role="img"></canvas>
+              <canvas id="uranium-development-chart" aria-label="Timeline chart showing South Texas uranium project milestones" role="img"></canvas>
             </div>
             <p class="chart-fallback" id="uranium-development-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.rrc.texas.gov/surface-mining/programs/uranium-exploration/" target="_blank" rel="noopener noreferrer">RRC Uranium Exploration</a>, <a href="https://www.uraniumenergy.com/projects/texas/" target="_blank" rel="noopener noreferrer">Uranium Energy Corp. Texas projects</a>, and <a href="https://encoreuranium.com/projects/south-texas-operations/" target="_blank" rel="noopener noreferrer">enCore Energy South Texas operations</a>.</p>
-            <p class="chart-caption">Relative development activity index for educational context. It shows the broad timing of discovery, mining, ISR development, decline, and recent restart activity rather than exact production volume.</p>
+            <p class="chart-caption">Milestone timeline showing the broad South Texas shift from discovery and historical mining toward in-situ recovery, central processing, and hub-and-spoke project development.</p>
           </article>
           <article class="chart-card">
             <h4>Mapped Uranium Records by Site Type</h4>
@@ -118,6 +118,15 @@
             <p class="chart-fallback" id="uranium-site-type-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
             <p class="chart-caption">Atlas dataset summary, not statewide production. Counts describe mapped uranium records by role in the atlas.</p>
+          </article>
+          <article class="chart-card">
+            <h4>U.S. Uranium Production Context</h4>
+            <div class="chart-frame">
+              <canvas id="uranium-production-context-chart" aria-label="Line chart showing recent U.S. uranium concentrate production context" role="img"></canvas>
+            </div>
+            <p class="chart-fallback" id="uranium-production-context-chart-status">Chart loading.</p>
+            <p class="chart-source-note"><strong>Source:</strong> <a href="https://www.eia.gov/uranium/production/annual/index.php" target="_blank" rel="noopener noreferrer">EIA Domestic Uranium Production Report</a>.</p>
+            <p class="chart-caption">Recent U.S. uranium concentrate production in thousand pounds U3O8. Some years in EIA tables are withheld; this chart uses available annual totals for broad context.</p>
           </article>
         </div>
       </section>

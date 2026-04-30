@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lithium in Texas | Texas Natural Resource Atlas</title>
   <link rel="stylesheet" href="../vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="../styles.css?v=20260429">
+  <link rel="stylesheet" href="../styles.css?v=20260430-cleanup">
   <script src="../vendor/leaflet/leaflet.js" defer></script>
   <script src="../vendor/chartjs/chart.umd.min.js" defer></script>
-  <script src="../resource-page.js?v=20260429" defer></script>
+  <script src="../resource-page.js?v=20260430-cleanup" defer></script>
 </head>
 <body>
   <div class="app-shell">
@@ -40,7 +40,7 @@
         <p>Explore where lithium resources and prospects are found in Texas, why lithium matters for batteries and critical minerals, how recent exploration has developed, and which mapped lithium records are included in the Texas Natural Resource Atlas.</p>
         <div class="hero-actions">
           <a class="content-link" href="../index.html?resource=Lithium">View Lithium on Interactive Map</a>
-          <a class="secondary-link" href="../data/resources.geojson">Download Lithium Data</a>
+          <a class="secondary-link" href="../data/lithium.geojson" download>Download Lithium Data</a>
           <a class="secondary-link" href="../docs/DATA_SOURCES.md">View Data Sources</a>
         </div>
       </section>
@@ -102,22 +102,22 @@
         <h3>Production and Development Statistics</h3>
         <div class="chart-grid">
           <article class="chart-card">
-            <h4>Texas Lithium Development Timeline, 2007–2026</h4>
+            <h4>Texas Lithium Development Milestones</h4>
             <div class="chart-frame">
-              <canvas id="lithium-development-chart" aria-label="Line chart showing simplified Texas lithium project development activity index from 2007 to 2026" role="img"></canvas>
+              <canvas id="lithium-development-chart" aria-label="Timeline chart showing Texas lithium project development milestones" role="img"></canvas>
             </div>
             <p class="chart-fallback" id="lithium-development-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Sources:</strong> <a href="https://www.standardlithium.com/projects/smackover/east-texas/" target="_blank" rel="noopener noreferrer">Standard Lithium East Texas project</a>, <a href="https://smackoverlithium.com/our-portfolio/East-Texas/default.aspx" target="_blank" rel="noopener noreferrer">Smackover Lithium East Texas</a>, and <a href="https://tmrcorp.com/projects/rare_earths/" target="_blank" rel="noopener noreferrer">Round Top Mountain project</a>.</p>
-            <p class="chart-caption">Relative activity index for educational context. It represents public project attention, exploration, and resource-definition activity rather than lithium production volume.</p>
+            <p class="chart-caption">Milestone timeline for emerging Texas lithium projects. It emphasizes leasing, sampling, resource definition, and pre-development work rather than implying a smooth production history.</p>
           </article>
           <article class="chart-card">
-            <h4>Mapped Lithium Records by Site Type</h4>
-            <div class="chart-frame donut-frame">
-              <canvas id="lithium-site-type-chart" aria-label="Donut chart showing mapped lithium records by site type in the atlas" role="img"></canvas>
+            <h4>Mapped Texas Lithium Records by Development Stage</h4>
+            <div class="chart-frame">
+              <canvas id="lithium-stage-chart" aria-label="Horizontal bar chart showing mapped Texas lithium records by development stage" role="img"></canvas>
             </div>
-            <p class="chart-fallback" id="lithium-site-type-chart-status">Chart loading.</p>
+            <p class="chart-fallback" id="lithium-stage-chart-status">Chart loading.</p>
             <p class="chart-source-note"><strong>Source:</strong> <a href="../data/resources.geojson">Local atlas GeoJSON</a>.</p>
-            <p class="chart-caption">Atlas dataset summary, not statewide production. Counts are based on the mapped records in the educational dataset.</p>
+            <p class="chart-caption">Atlas dataset summary grouped by project maturity and resource opportunity. Counts are mapped records, not statewide reserves or production.</p>
           </article>
         </div>
       </section>
