@@ -342,6 +342,10 @@ td a,
   gap: 14px;
 }
 
+.fact-grid + .chart-grid {
+  margin-top: 16px;
+}
+
 .fact-grid article,
 .chart-card,
 .card-grid article {
@@ -529,6 +533,7 @@ td a,
 
 .sidebar,
 .map-container,
+.map-summary-panel,
 .source-note {
   border: 1px solid #d6dde3;
   background: #ffffff;
@@ -539,10 +544,13 @@ td a,
   border-radius: 8px;
   min-width: 0;
   overflow-wrap: anywhere;
+  display: grid;
+  align-content: start;
+  gap: 14px;
 }
 
 .sidebar h2 {
-  margin: 0 0 12px;
+  margin: 0;
   font-size: 1.1rem;
 }
 
@@ -550,7 +558,6 @@ td a,
 .source-control {
   display: grid;
   gap: 8px;
-  margin-bottom: 24px;
 }
 
 .search-control label,
@@ -576,22 +583,78 @@ td a,
   outline-offset: 2px;
 }
 
-.filter-group {
-  margin: 0;
-  padding: 0;
-  border: 0;
+.advanced-search {
+  margin-top: 4px;
 }
 
-.filter-group + .filter-group {
-  margin-top: 24px;
+.advanced-search summary {
+  width: fit-content;
+  cursor: pointer;
+  color: #234236;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.advanced-search summary:focus {
+  outline: 2px solid #8fb7a7;
+  outline-offset: 2px;
+}
+
+.search-fields {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 12px;
+  border: 1px solid #d6dde3;
+  border-radius: 8px;
+  background: #f7f9fa;
+}
+
+.search-fields-title {
+  margin: 0;
+  color: #2f3f4a;
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.search-fields .checkbox-option {
+  font-size: 0.92rem;
+}
+
+.filter-group {
+  margin: 0;
+  min-width: 0;
+}
+
+.search-control,
+.source-control,
+.filter-group {
+  padding: 16px;
+  border: 1px solid #d6dde3;
+  border-radius: 8px;
+  background: #f7f9fa;
 }
 
 .filter-group legend {
-  margin-bottom: 8px;
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0 0 12px;
   padding: 0;
   font-weight: 700;
   color: #2f3f4a;
   white-space: nowrap;
+}
+
+.filter-group legend + * {
+  clear: both;
+}
+
+.filter-group legend span {
+  display: block;
 }
 
 .checkbox-option {
@@ -637,7 +700,6 @@ td a,
 
 .reset-button {
   width: 100%;
-  margin-top: 24px;
   padding: 10px 12px;
   border: 1px solid #234236;
   border-radius: 6px;
@@ -668,6 +730,47 @@ td a,
   width: 20px;
   height: 20px;
   pointer-events: auto;
+}
+
+.resource-marker-cluster {
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: inherit;
+  background: transparent;
+  box-shadow: none;
+  font-weight: 800;
+  text-align: center;
+}
+
+.resource-marker-cluster span {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1.5px solid var(--cluster-border, #234236);
+  border-radius: 50%;
+  color: var(--cluster-text, #21313c);
+  background: var(--cluster-fill, #eef2f4);
+  box-shadow: 0 3px 9px rgba(31, 41, 51, 0.22);
+  line-height: 1;
+}
+
+.resource-marker-cluster-tiny {
+  font-size: 0.72rem;
+}
+
+.resource-marker-cluster-small {
+  font-size: 0.78rem;
+}
+
+.resource-marker-cluster-medium {
+  font-size: 0.9rem;
+}
+
+.resource-marker-cluster-large {
+  font-size: 1rem;
 }
 
 .leaflet-basin-pane {
@@ -747,7 +850,7 @@ td a,
   background: #52616f;
 }
 
-.site-historical-mine {
+.site-historical-site {
   transform: rotate(45deg);
   background: #52616f;
 }
@@ -761,6 +864,8 @@ td a,
   min-width: 0;
   min-height: 0;
   display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .map-container {
@@ -770,6 +875,52 @@ td a,
   display: block;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.map-summary-panel {
+  padding: 14px 16px;
+  border-radius: 8px;
+  color: #33434f;
+}
+
+.map-summary-panel p {
+  margin: 0;
+}
+
+.map-summary-panel p:first-child {
+  color: #21313c;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.map-summary-panel p + p {
+  margin-top: 6px;
+}
+
+.map-summary-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.resource-summary-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 26px;
+  padding: 3px 9px;
+  border: 1px solid var(--summary-color, #52616f);
+  border-radius: 999px;
+  color: var(--summary-color, #52616f);
+  background: var(--summary-fill, #eef2f4);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.resource-summary-badge strong {
+  color: inherit;
+  font-size: 0.86rem;
 }
 
 .source-note {

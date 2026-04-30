@@ -22,11 +22,15 @@
         "id": "region-permian-basin",
         "name": "Permian Basin",
         "regionType": "Geologic Basin",
-        "resourceTypes": ["Oil", "Natural Gas", "Lithium"],
+        "resourceTypes": [
+          "Oil",
+          "Natural Gas",
+          "Lithium"
+        ],
         "primaryResourceType": "Oil",
         "status": "Known resource-bearing basin",
         "description": "Approximate Texas-side outline of the Permian Basin, a major oil and natural gas basin in West Texas. Lithium is included as a secondary/early-stage brine and produced-water opportunity, not as a conventional mine boundary.",
-        "sourceId": "rrc-major-formations",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
         "sourceName": "Railroad Commission of Texas Major Oil and Gas Formations",
         "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
         "sourceDateAccessed": "2026-04-27",
@@ -37,24 +41,74 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-104.0500, 29.8000],
-          [-103.8200, 30.6500],
-          [-104.0500, 31.4500],
-          [-104.0500, 32.4500],
-          [-103.5200, 33.1500],
-          [-102.7800, 33.7000],
-          [-101.8500, 33.9500],
-          [-100.9000, 33.5000],
-          [-100.2200, 32.7500],
-          [-99.8500, 31.7600],
-          [-100.2200, 30.8500],
-          [-100.9300, 30.1600],
-          [-101.8000, 29.7200],
-          [-102.7600, 29.5500],
-          [-103.5300, 29.6000],
-          [-104.0500, 29.8000]
-        ]]
+        "coordinates": [
+          [
+            [
+              -104.05,
+              29.8
+            ],
+            [
+              -103.82,
+              30.65
+            ],
+            [
+              -104.05,
+              31.45
+            ],
+            [
+              -104.05,
+              32.45
+            ],
+            [
+              -103.52,
+              33.15
+            ],
+            [
+              -102.78,
+              33.7
+            ],
+            [
+              -101.85,
+              33.95
+            ],
+            [
+              -100.9,
+              33.5
+            ],
+            [
+              -100.22,
+              32.75
+            ],
+            [
+              -99.85,
+              31.76
+            ],
+            [
+              -100.22,
+              30.85
+            ],
+            [
+              -100.93,
+              30.16
+            ],
+            [
+              -101.8,
+              29.72
+            ],
+            [
+              -102.76,
+              29.55
+            ],
+            [
+              -103.53,
+              29.6
+            ],
+            [
+              -104.05,
+              29.8
+            ]
+          ]
+        ]
       }
     },
     {
@@ -63,11 +117,14 @@
         "id": "region-eagle-ford-shale",
         "name": "Eagle Ford Shale",
         "regionType": "Shale Play / Deposit Area",
-        "resourceTypes": ["Oil", "Natural Gas"],
+        "resourceTypes": [
+          "Oil",
+          "Natural Gas"
+        ],
         "primaryResourceType": "Oil",
         "status": "Known resource-bearing shale trend",
         "description": "Approximate southwest-to-northeast Eagle Ford Shale trend across South Texas, associated with oil, condensate, and natural gas resources.",
-        "sourceId": "rrc-eagle-ford-shale",
+        "sourceId": "RRC-EAGLE-FORD",
         "sourceName": "Railroad Commission of Texas Eagle Ford Shale",
         "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
         "sourceDateAccessed": "2026-04-27",
@@ -78,22 +135,66 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-100.9000, 27.3000],
-          [-100.2500, 27.7200],
-          [-99.3000, 28.0700],
-          [-98.2300, 28.5600],
-          [-97.0500, 29.1000],
-          [-95.9800, 29.6800],
-          [-95.3800, 30.1200],
-          [-96.0500, 30.3600],
-          [-97.2000, 29.9600],
-          [-98.3500, 29.4200],
-          [-99.4800, 28.8800],
-          [-100.3800, 28.3500],
-          [-101.0300, 27.7600],
-          [-100.9000, 27.3000]
-        ]]
+        "coordinates": [
+          [
+            [
+              -100.9,
+              27.3
+            ],
+            [
+              -100.25,
+              27.72
+            ],
+            [
+              -99.3,
+              28.07
+            ],
+            [
+              -98.23,
+              28.56
+            ],
+            [
+              -97.05,
+              29.1
+            ],
+            [
+              -95.98,
+              29.68
+            ],
+            [
+              -95.38,
+              30.12
+            ],
+            [
+              -96.05,
+              30.36
+            ],
+            [
+              -97.2,
+              29.96
+            ],
+            [
+              -98.35,
+              29.42
+            ],
+            [
+              -99.48,
+              28.88
+            ],
+            [
+              -100.38,
+              28.35
+            ],
+            [
+              -101.03,
+              27.76
+            ],
+            [
+              -100.9,
+              27.3
+            ]
+          ]
+        ]
       }
     },
     {
@@ -102,11 +203,14 @@
         "id": "region-barnett-shale",
         "name": "Barnett Shale",
         "regionType": "Shale Play / Deposit Area",
-        "resourceTypes": ["Natural Gas", "Oil"],
+        "resourceTypes": [
+          "Natural Gas",
+          "Oil"
+        ],
         "primaryResourceType": "Natural Gas",
         "status": "Known resource-bearing shale area",
         "description": "Approximate Barnett Shale area in the Fort Worth Basin of North-Central Texas, historically significant for natural gas development.",
-        "sourceId": "rrc-barnett-shale",
+        "sourceId": "RRC-BARNETT",
         "sourceName": "Railroad Commission of Texas Barnett Shale",
         "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
         "sourceDateAccessed": "2026-04-27",
@@ -117,19 +221,54 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-99.7200, 32.2300],
-          [-99.2600, 33.0400],
-          [-98.4200, 33.6500],
-          [-97.3500, 33.8000],
-          [-96.3600, 33.3800],
-          [-96.1200, 32.5600],
-          [-96.6400, 31.8400],
-          [-97.5200, 31.4200],
-          [-98.5600, 31.5200],
-          [-99.3600, 31.8300],
-          [-99.7200, 32.2300]
-        ]]
+        "coordinates": [
+          [
+            [
+              -99.72,
+              32.23
+            ],
+            [
+              -99.26,
+              33.04
+            ],
+            [
+              -98.42,
+              33.65
+            ],
+            [
+              -97.35,
+              33.8
+            ],
+            [
+              -96.36,
+              33.38
+            ],
+            [
+              -96.12,
+              32.56
+            ],
+            [
+              -96.64,
+              31.84
+            ],
+            [
+              -97.52,
+              31.42
+            ],
+            [
+              -98.56,
+              31.52
+            ],
+            [
+              -99.36,
+              31.83
+            ],
+            [
+              -99.72,
+              32.23
+            ]
+          ]
+        ]
       }
     },
     {
@@ -138,11 +277,13 @@
         "id": "region-wilcox-group",
         "name": "Wilcox Group",
         "regionType": "Coal/Lignite Deposit Area",
-        "resourceTypes": ["Coal/Lignite"],
+        "resourceTypes": [
+          "Coal/Lignite"
+        ],
         "primaryResourceType": "Coal/Lignite",
         "status": "Known lignite-bearing stratigraphic belt",
         "description": "Approximate Texas Wilcox Group lignite-bearing belt, generalized from public coal/lignite resource descriptions for the Gulf Coastal Plain.",
-        "sourceId": "usgs-wilcox-jackson-coal-geology",
+        "sourceId": "USGS-WILCOX-JACKSON-COAL-GEOLOGY",
         "sourceName": "USGS Coal Geology of Wilcox and Manning/Jackson Groups",
         "sourceUrl": "https://pubs.usgs.gov/of/1995/of95-595/fig_3-2.htm",
         "sourceDateAccessed": "2026-04-27",
@@ -153,24 +294,74 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-95.0500, 33.6200],
-          [-94.3500, 33.3500],
-          [-94.0200, 32.6800],
-          [-94.3100, 31.9000],
-          [-94.8500, 31.1200],
-          [-95.5500, 30.4800],
-          [-96.4500, 29.9300],
-          [-97.4500, 29.4200],
-          [-98.3800, 28.9000],
-          [-98.7300, 29.3600],
-          [-98.1200, 30.0300],
-          [-97.2000, 30.7000],
-          [-96.5200, 31.5300],
-          [-96.0600, 32.4300],
-          [-95.5700, 33.1800],
-          [-95.0500, 33.6200]
-        ]]
+        "coordinates": [
+          [
+            [
+              -95.05,
+              33.62
+            ],
+            [
+              -94.35,
+              33.35
+            ],
+            [
+              -94.02,
+              32.68
+            ],
+            [
+              -94.31,
+              31.9
+            ],
+            [
+              -94.85,
+              31.12
+            ],
+            [
+              -95.55,
+              30.48
+            ],
+            [
+              -96.45,
+              29.93
+            ],
+            [
+              -97.45,
+              29.42
+            ],
+            [
+              -98.38,
+              28.9
+            ],
+            [
+              -98.73,
+              29.36
+            ],
+            [
+              -98.12,
+              30.03
+            ],
+            [
+              -97.2,
+              30.7
+            ],
+            [
+              -96.52,
+              31.53
+            ],
+            [
+              -96.06,
+              32.43
+            ],
+            [
+              -95.57,
+              33.18
+            ],
+            [
+              -95.05,
+              33.62
+            ]
+          ]
+        ]
       }
     },
     {
@@ -179,11 +370,13 @@
         "id": "region-jackson-group",
         "name": "Jackson Group",
         "regionType": "Coal/Lignite Deposit Area",
-        "resourceTypes": ["Coal/Lignite"],
+        "resourceTypes": [
+          "Coal/Lignite"
+        ],
         "primaryResourceType": "Coal/Lignite",
         "status": "Known lignite-bearing stratigraphic belt",
         "description": "Approximate Texas Jackson Group lignite-bearing belt, including Gulf Coastal Plain lignite-resource areas generally downdip/coastward of the Wilcox belt.",
-        "sourceId": "usgs-wilcox-jackson-coal-geology",
+        "sourceId": "USGS-WILCOX-JACKSON-COAL-GEOLOGY",
         "sourceName": "USGS Coal Geology of Wilcox and Manning/Jackson Groups",
         "sourceUrl": "https://pubs.usgs.gov/of/1995/of95-595/fig_3-2.htm",
         "sourceDateAccessed": "2026-04-27",
@@ -194,24 +387,74 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-94.1200, 32.2500],
-          [-93.8500, 31.5200],
-          [-94.3000, 30.6500],
-          [-95.0500, 29.8800],
-          [-96.0500, 29.1500],
-          [-97.2400, 28.4500],
-          [-98.6200, 27.7600],
-          [-100.0600, 27.0000],
-          [-100.4700, 27.5000],
-          [-99.7000, 28.2000],
-          [-98.4400, 28.9300],
-          [-97.0800, 29.6200],
-          [-95.8500, 30.4300],
-          [-94.8500, 31.2800],
-          [-94.3000, 32.0000],
-          [-94.1200, 32.2500]
-        ]]
+        "coordinates": [
+          [
+            [
+              -94.12,
+              32.25
+            ],
+            [
+              -93.85,
+              31.52
+            ],
+            [
+              -94.3,
+              30.65
+            ],
+            [
+              -95.05,
+              29.88
+            ],
+            [
+              -96.05,
+              29.15
+            ],
+            [
+              -97.24,
+              28.45
+            ],
+            [
+              -98.62,
+              27.76
+            ],
+            [
+              -100.06,
+              27
+            ],
+            [
+              -100.47,
+              27.5
+            ],
+            [
+              -99.7,
+              28.2
+            ],
+            [
+              -98.44,
+              28.93
+            ],
+            [
+              -97.08,
+              29.62
+            ],
+            [
+              -95.85,
+              30.43
+            ],
+            [
+              -94.85,
+              31.28
+            ],
+            [
+              -94.3,
+              32
+            ],
+            [
+              -94.12,
+              32.25
+            ]
+          ]
+        ]
       }
     },
     {
@@ -220,11 +463,13 @@
         "id": "region-south-texas-uranium-province",
         "name": "South Texas Uranium Province",
         "regionType": "Uranium Deposit / Exploration Area",
-        "resourceTypes": ["Uranium"],
+        "resourceTypes": [
+          "Uranium"
+        ],
         "primaryResourceType": "Uranium",
         "status": "Known uranium-bearing province",
         "description": "Approximate arcuate South Texas uranium province from the Rio Grande area into the middle Coastal Plain, associated with uranium exploration and in-situ recovery deposits.",
-        "sourceId": "beg-south-texas-uranium-province",
+        "sourceId": "BEG-SOUTH-TEXAS-URANIUM-PROVINCE",
         "sourceName": "Bureau of Economic Geology South Texas Uranium Province",
         "sourceUrl": "https://store.beg.utexas.edu/publications/research-note/rn0006",
         "sourceDateAccessed": "2026-04-27",
@@ -235,21 +480,62 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-100.3800, 27.1000],
-          [-100.0400, 27.8500],
-          [-99.3800, 28.5200],
-          [-98.4500, 29.0500],
-          [-97.3200, 29.3600],
-          [-96.3500, 29.1600],
-          [-96.1200, 28.5200],
-          [-96.8500, 28.0200],
-          [-97.7200, 27.5400],
-          [-98.6800, 27.0500],
-          [-99.6000, 26.7200],
-          [-100.2500, 26.7800],
-          [-100.3800, 27.1000]
-        ]]
+        "coordinates": [
+          [
+            [
+              -100.38,
+              27.1
+            ],
+            [
+              -100.04,
+              27.85
+            ],
+            [
+              -99.38,
+              28.52
+            ],
+            [
+              -98.45,
+              29.05
+            ],
+            [
+              -97.32,
+              29.36
+            ],
+            [
+              -96.35,
+              29.16
+            ],
+            [
+              -96.12,
+              28.52
+            ],
+            [
+              -96.85,
+              28.02
+            ],
+            [
+              -97.72,
+              27.54
+            ],
+            [
+              -98.68,
+              27.05
+            ],
+            [
+              -99.6,
+              26.72
+            ],
+            [
+              -100.25,
+              26.78
+            ],
+            [
+              -100.38,
+              27.1
+            ]
+          ]
+        ]
       }
     },
     {
@@ -258,11 +544,14 @@
         "id": "region-round-top-mountain",
         "name": "Round Top Mountain",
         "regionType": "Mineral Deposit Area",
-        "resourceTypes": ["Rare Earth", "Lithium"],
+        "resourceTypes": [
+          "Rare Earth",
+          "Lithium"
+        ],
         "primaryResourceType": "Rare Earth",
         "status": "Known mineralized deposit area",
         "description": "Approximate deposit-area overlay around Round Top Mountain near Sierra Blanca in Hudspeth County, associated with rare earth elements and other critical minerals including lithium-bearing mineralization.",
-        "sourceId": "tmrc-round-top",
+        "sourceId": "TMRC-ROUND-TOP",
         "sourceName": "Texas Mineral Resources Corp. Round Top Project",
         "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
         "sourceDateAccessed": "2026-04-27",
@@ -273,18 +562,50 @@
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[
-          [-105.5020, 31.0750],
-          [-105.4850, 31.0900],
-          [-105.4600, 31.0920],
-          [-105.4380, 31.0790],
-          [-105.4280, 31.0550],
-          [-105.4350, 31.0290],
-          [-105.4570, 31.0140],
-          [-105.4850, 31.0170],
-          [-105.5060, 31.0400],
-          [-105.5020, 31.0750]
-        ]]
+        "coordinates": [
+          [
+            [
+              -105.502,
+              31.075
+            ],
+            [
+              -105.485,
+              31.09
+            ],
+            [
+              -105.46,
+              31.092
+            ],
+            [
+              -105.438,
+              31.079
+            ],
+            [
+              -105.428,
+              31.055
+            ],
+            [
+              -105.435,
+              31.029
+            ],
+            [
+              -105.457,
+              31.014
+            ],
+            [
+              -105.485,
+              31.017
+            ],
+            [
+              -105.506,
+              31.04
+            ],
+            [
+              -105.502,
+              31.075
+            ]
+          ]
+        ]
       }
     }
   ]

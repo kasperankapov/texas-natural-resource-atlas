@@ -1,0 +1,1205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.474722,
+          31.282222
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-001",
+        "name": "Round Top Heavy Rare Earth Deposit",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Pre-development / advanced exploration",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources / USA Rare Earth",
+        "description": "Heavy rare earth and critical minerals deposit at Round Top Mountain near Sierra Blanca.",
+        "sourceId": "SRC_RE_001",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "near-exact locality",
+        "notes": "Coordinate follows Round Top prospects locality; project area is larger than point.",
+        "detailedSiteType": "Rare Earth Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.459722,
+          31.284444
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-002",
+        "name": "Little Round Top Prospects",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Exploration / prospect",
+        "county": "Hudspeth",
+        "operator": "Various historic/modern mineral interests",
+        "description": "Prospect area adjacent to the Round Top REE system in the Sierra Blanca Peaks.",
+        "sourceId": "SRC_RE_002",
+        "sourceName": "Mindat - Round Top, Hudspeth County, Texas",
+        "sourceUrl": "https://www.mindat.org/feature-5529669.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "near-exact locality",
+        "notes": "Coordinate from Mindat locality listing; not a public access point.",
+        "detailedSiteType": "Critical Minerals Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.451667,
+          31.2875
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-003",
+        "name": "Little Blanca Mountain Prospects",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Exploration / prospect",
+        "county": "Hudspeth",
+        "operator": "Various historic/modern mineral interests",
+        "description": "Rare-metal/critical-minerals prospect area within the Sierra Blanca Peaks mineralized system.",
+        "sourceId": "SRC_RE_002",
+        "sourceName": "Mindat - Round Top, Hudspeth County, Texas",
+        "sourceUrl": "https://www.mindat.org/feature-5529669.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "near-exact locality",
+        "notes": "Coordinate from Mindat locality listing; representative of prospect area.",
+        "detailedSiteType": "Critical Minerals Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          31.25
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-004",
+        "name": "Sierra Blanca Peaks Rare-Metal District",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Known mineral district / exploration interest",
+        "county": "Hudspeth",
+        "operator": "Multiple / regional",
+        "description": "District-scale record for the Sierra Blanca Peaks rare-earth, beryllium, uranium, fluorine, and related mineralization.",
+        "sourceId": "SRC_RE_004",
+        "sourceName": "Bureau of Economic Geology - Rare Earth Elements and Critical Minerals",
+        "sourceUrl": "https://www.beg.utexas.edu/minerals/rare-earth",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative district centroid",
+        "notes": "Representative point for a district, not a mine entrance or lease boundary.",
+        "detailedSiteType": "Rare Earth Mineral District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105,
+          31.25
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-005",
+        "name": "Trans-Pecos Rare Earth Laccolith Trend",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional resource potential",
+        "county": "Hudspeth / Culberson / Jeff Davis",
+        "operator": "Regional geologic trend",
+        "description": "Representative record for Trans-Pecos laccoliths and related igneous systems evaluated for rare earth and critical-mineral potential.",
+        "sourceId": "SRC_RE_004",
+        "sourceName": "Bureau of Economic Geology - Rare Earth Elements and Critical Minerals",
+        "sourceUrl": "https://www.beg.utexas.edu/minerals/rare-earth",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Regional trend point; useful for atlas context only.",
+        "detailedSiteType": "Rare-Metal Geologic Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7,
+          30.75
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-006",
+        "name": "Llano Uplift Rare Earth Pegmatite Region",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Historical mineral region / research interest",
+        "county": "Llano / Burnet",
+        "operator": "Regional geologic district",
+        "description": "Central Texas Llano Uplift region containing historical REE-bearing pegmatites, including Baringer Hill and associated localities.",
+        "sourceId": "SRC_RE_006",
+        "sourceName": "USGS - Rare metals, Bulletin 340",
+        "sourceUrl": "https://pubs.usgs.gov/publication/b340D",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Regional centroid for Llano/Burnet rare-earth pegmatite context.",
+        "detailedSiteType": "Rare Earth Mineral District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5,
+          31.6
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-007",
+        "name": "Texas Gulf Coastal Plain Lignite REE Potential Region",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Research / resource potential",
+        "county": "Multiple East Texas counties",
+        "operator": "Regional feedstock/resource area",
+        "description": "Representative region for REE and critical-mineral potential in Gulf Coastal Plain lignites.",
+        "sourceId": "SRC_RE_022",
+        "sourceName": "USGS - Rare earth and critical elements in Texas Gulf Coastal Plain lignites",
+        "sourceUrl": "https://www.usgs.gov/publications/distribution-rare-earth-and-other-critical-elements-lignites-eocene-jackson-group",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Representative research-region point for lignite feedstock potential.",
+        "detailedSiteType": "Coal/Lignite REE Potential Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1,
+          31.2
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-008",
+        "name": "Texas Coal Ash REE Potential Resource Region",
+        "resourceType": "Rare Earth",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Research / secondary-resource potential",
+        "county": "Multiple Texas counties",
+        "operator": "Regional feedstock/resource area",
+        "description": "Representative point for Texas coal ash as a possible REE and critical-minerals feedstock.",
+        "sourceId": "SRC_RE_005",
+        "sourceName": "Bureau of Economic Geology - Critical Minerals and Rare Earth Elements in Texas",
+        "sourceUrl": "https://www.beg.utexas.edu/rare-earth-elements-podcast/critical-minerals-and-rare-earth-elements-in-texas/highlights",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Point represents statewide/Gulf Coast coal-ash potential, not one ash pond.",
+        "detailedSiteType": "Coal Ash REE Potential Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.474722,
+          31.282222
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-009",
+        "name": "Round Top State Lease Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Pre-development / permitted lease area",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources / USA Rare Earth",
+        "description": "State lease area encompassing Round Top and adjacent project lands for REE and critical-mineral development.",
+        "sourceId": "SRC_RE_003",
+        "sourceName": "SEC filing - Round Top project lease description",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1445942/000114420412036525/v316958_ex99-1.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "project-area representative",
+        "notes": "Same general point as Round Top because public lease description gives acreage, not polygon coordinates.",
+        "detailedSiteType": "Pre-Development Mining Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.49,
+          31.3
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-010",
+        "name": "Round Top Northwest Prospecting Permit Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Prospecting / appraisal",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources / USA Rare Earth",
+        "description": "Representative point for prospecting-permit acreage adjacent to the Round Top state leases.",
+        "sourceId": "SRC_RE_001",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative permit-area point",
+        "notes": "Representative point within adjacent prospecting-permit context; not a boundary.",
+        "detailedSiteType": "Prospecting Permit Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.435,
+          31.285
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-011",
+        "name": "Round Top East Prospecting Permit Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Prospecting / appraisal",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources / USA Rare Earth",
+        "description": "Representative eastern prospecting area connected to the Round Top critical-minerals project context.",
+        "sourceId": "SRC_RE_001",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative permit-area point",
+        "notes": "Approximate representative point; use project polygons if available later.",
+        "detailedSiteType": "Prospecting Permit Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          31.275
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-012",
+        "name": "Round Top Heap-Leach Mine Plan Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Mine planning / pre-development",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources / USA Rare Earth",
+        "description": "Representative point for the proposed Round Top mining and heap-leach development concept.",
+        "sourceId": "SRC_RE_001",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative project point",
+        "notes": "Project-plan point, not construction boundary.",
+        "detailedSiteType": "Pre-Development Mining Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.37,
+          31.05
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-013",
+        "name": "Quitman Mountains Critical Minerals Appraisal Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Regional appraisal",
+        "county": "Hudspeth",
+        "operator": "Regional geologic trend",
+        "description": "Representative record for Quitman Mountains/Trans-Pecos critical-mineral appraisal context near the Round Top system.",
+        "sourceId": "SRC_RE_004",
+        "sourceName": "Bureau of Economic Geology - Rare Earth Elements and Critical Minerals",
+        "sourceUrl": "https://www.beg.utexas.edu/minerals/rare-earth",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "Representative regional record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Low coordinate precision; included for regional geologic context only.",
+        "detailedSiteType": "Critical Minerals Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.475278,
+          30.723889
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-014",
+        "name": "Badu Hill REE Pegmatite Appraisal Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Historical prospect / appraisal interest",
+        "county": "Llano",
+        "operator": "Historic private/local operators",
+        "description": "REE-bearing pegmatite locality historically associated with rare-earth and uranium/thorium minerals.",
+        "sourceId": "SRC_RE_009",
+        "sourceName": "Mindat - Badu Hill quarry",
+        "sourceUrl": "https://www.mindat.org/loc-42294.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "near-exact locality",
+        "notes": "Coordinate from nearby locality listing; not a public access point.",
+        "detailedSiteType": "Rare Earth Exploration Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.44615,
+          30.73999
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-015",
+        "name": "Kingsland/Petrick Pegmatite Appraisal Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Historical prospect / appraisal interest",
+        "county": "Llano",
+        "operator": "Historic quarry/private operators",
+        "description": "Petrick/Kingsland pegmatite locality with rare-earth minerals including gadolinite-bearing material.",
+        "sourceId": "SRC_RE_010",
+        "sourceName": "Mindat - Kingsland Granite Company Quarry / Petrick Quarry",
+        "sourceUrl": "https://www.mindat.org/loc-250612.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "near-exact locality",
+        "notes": "Coordinate from Mindat; included as historical/appraisal locality.",
+        "detailedSiteType": "Rare Earth Exploration Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57,
+          32.25
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-016",
+        "name": "East Texas Lignite REE Sampling Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Research sampling / resource assessment",
+        "county": "Panola / Rusk / Harrison",
+        "operator": "Research / regional feedstock",
+        "description": "Representative East Texas lignite area for REE and critical-mineral sampling in the Gulf Coastal Plain.",
+        "sourceId": "SRC_RE_022",
+        "sourceName": "USGS - Rare earth and critical elements in Texas Gulf Coastal Plain lignites",
+        "sourceUrl": "https://www.usgs.gov/publications/distribution-rare-earth-and-other-critical-elements-lignites-eocene-jackson-group",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative research-area point",
+        "notes": "Representative East Texas lignite sampling point; not a mine permit point.",
+        "detailedSiteType": "Lignite REE Sampling Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5,
+          28.8
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-017",
+        "name": "South Texas Lignite REE Sampling Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Research sampling / resource assessment",
+        "county": "Atascosa / McMullen",
+        "operator": "Research / regional feedstock",
+        "description": "Representative South Texas lignite area for possible REE-bearing coal and related feedstock evaluation.",
+        "sourceId": "SRC_RE_022",
+        "sourceName": "USGS - Rare earth and critical elements in Texas Gulf Coastal Plain lignites",
+        "sourceUrl": "https://www.usgs.gov/publications/distribution-rare-earth-and-other-critical-elements-lignites-eocene-jackson-group",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative research-area point",
+        "notes": "Representative research-area point.",
+        "detailedSiteType": "Lignite REE Sampling Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4,
+          30
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-018",
+        "name": "Gulf Coast Basin Coal-Ash REE Research Area",
+        "resourceType": "Rare Earth",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Research / secondary-resource appraisal",
+        "county": "Multiple Gulf Coast counties",
+        "operator": "NETL / research partners",
+        "description": "Representative Gulf Coast Basin record for coal ash, refuse, lignite and related feedstocks evaluated for REEs and critical minerals.",
+        "sourceId": "SRC_RE_023",
+        "sourceName": "NETL - Assessment of REE and critical minerals in Gulf Coast Basin feedstocks",
+        "sourceUrl": "https://netl.doe.gov/node/11895",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Regional research point; not an active recovery facility.",
+        "detailedSiteType": "Coal Ash REE Research Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.315,
+          32.993
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-019",
+        "name": "MP Materials Independence Magnet Manufacturing Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operational / ramping manufacturing",
+        "county": "Tarrant",
+        "operator": "MP Materials",
+        "description": "Fort Worth rare-earth magnetics facility producing NdFeB magnetics from rare-earth materials.",
+        "sourceId": "SRC_RE_013",
+        "sourceName": "MP Materials - Facilities",
+        "sourceUrl": "https://mpmaterials.com/facilities/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "address-based approximate",
+        "notes": "Address-based point for 13840 Independence Parkway; coordinates are approximate facility centroid.",
+        "detailedSiteType": "Magnet Manufacturing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.315,
+          32.993
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-020",
+        "name": "MP Materials Independence Metallization Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operational / ramping manufacturing",
+        "county": "Tarrant",
+        "operator": "MP Materials",
+        "description": "Rare-earth metallization capability at MP Materials' Independence site in Fort Worth.",
+        "sourceId": "SRC_RE_012",
+        "sourceName": "MP Materials - Independence",
+        "sourceUrl": "https://mpmaterials.com/independence",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "address-based approximate",
+        "notes": "Same industrial campus as Independence magnet facility; represented separately because it is a distinct supply-chain stage.",
+        "detailedSiteType": "Rare Earth Metal Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.315,
+          32.993
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-021",
+        "name": "MP Materials / Apple Recycled Magnet Production Line",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Planned / offtake partnership",
+        "county": "Tarrant",
+        "operator": "MP Materials / Apple",
+        "description": "Planned recycled rare-earth magnet output from the Independence facility under Apple's 2025 supply-chain commitment.",
+        "sourceId": "SRC_RE_025",
+        "sourceName": "Apple Newsroom - Apple and MP Materials partnership",
+        "sourceUrl": "https://www.apple.com/newsroom/2025/07/apple-expands-us-supply-chain-with-500-million-usd-commitment/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "address-based approximate",
+        "notes": "Same Fort Worth site; record represents recycled-magnet line/supply-chain function.",
+        "detailedSiteType": "Recycled Magnet Manufacturing Line"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2658,
+          33.1078
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-022",
+        "name": "MP Materials 10X Northlake Magnet Campus",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Announced / planned",
+        "county": "Denton",
+        "operator": "MP Materials",
+        "description": "Announced rare-earth magnet manufacturing campus in Northlake intended to expand U.S. NdFeB magnet capacity.",
+        "sourceId": "SRC_RE_015",
+        "sourceName": "MP Materials investor release - 10X Northlake campus",
+        "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Selects-Northlake-Texas-as-the-Site-of-10X-a-New-U-S--Rare-Earth-Magnet-Manufacturing-Campus/default.aspx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative community/industrial point",
+        "notes": "Representative point near Northlake industrial area; public materials identify Northlake but not a final parcel centroid in accessible text.",
+        "detailedSiteType": "Planned Magnet Manufacturing Campus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.939,
+          29.849
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-023",
+        "name": "Noveon Magnetics San Marcos Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operational",
+        "county": "Hays",
+        "operator": "Noveon Magnetics",
+        "description": "San Marcos magnet-to-magnet manufacturing and rare-earth magnet recycling facility.",
+        "sourceId": "SRC_RE_016",
+        "sourceName": "Noveon Magnetics - Contact",
+        "sourceUrl": "https://noveon.co/contact",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "address-based approximate",
+        "notes": "Address-based point for 1550 Clovis Barker Road; coordinate approximate.",
+        "detailedSiteType": "Rare Earth Magnetics Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.939,
+          29.849
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-024",
+        "name": "Noveon M2M Magnet Recycling Operation",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operational",
+        "county": "Hays",
+        "operator": "Noveon Magnetics",
+        "description": "Recycling-focused record for Noveon's M2M rare-earth magnet recovery and remanufacturing process.",
+        "sourceId": "SRC_RE_017",
+        "sourceName": "StopWaste vendor listing - Noveon Magnetics San Marcos",
+        "sourceUrl": "https://resource.stopwaste.org/vendor/noveon-magnetics-san-marcos-1550-clovis-barker-rd",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "address-based approximate",
+        "notes": "Same San Marcos facility as Noveon manufacturing record; separate record reflects recycling role.",
+        "detailedSiteType": "Rare Earth Recycling Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.917,
+          32.955
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-025",
+        "name": "Momentum Technologies Carrollton R&D Facility",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operational R&D",
+        "county": "Dallas",
+        "operator": "Momentum Technologies",
+        "description": "Carrollton R&D facility focused on recycling and recovery of critical minerals and rare earth metals.",
+        "sourceId": "SRC_RE_018",
+        "sourceName": "Momentum Technologies - Contact",
+        "sourceUrl": "https://momentum.technology/contact/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "address-based approximate",
+        "notes": "Address-based point for 1625 W. Crosby Road, Suite 124; coordinate approximate.",
+        "detailedSiteType": "Critical Minerals Research Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82,
+          30.505
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-026",
+        "name": "ElementUSA Critical Resource Accelerator",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Launched / R&D and demonstration",
+        "county": "Williamson",
+        "operator": "ElementUSA",
+        "description": "Cedar Park facility focused on critical-mineral recovery, waste-feedstock testing, and process acceleration.",
+        "sourceId": "SRC_RE_019",
+        "sourceName": "ElementUSA - Critical Resource Accelerator launch",
+        "sourceUrl": "https://www.elementusaminerals.com/news/criticalresourceaccelerator",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative city/industrial point",
+        "notes": "Cedar Park facility point; exact address not public in source, so coordinate is city/industrial-area representative.",
+        "detailedSiteType": "Critical Minerals Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82,
+          30.505
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-027",
+        "name": "ElementUSA Gallium-Scandium Demonstration Development",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Awarded / demonstration development",
+        "county": "Williamson",
+        "operator": "ElementUSA",
+        "description": "Texas-based initial development work for gallium and scandium recovery demonstration connected to ElementUSA's Critical Resource Accelerator.",
+        "sourceId": "SRC_RE_021",
+        "sourceName": "Department of War - ElementUSA gallium and scandium award",
+        "sourceUrl": "https://www.war.gov/News/Releases/Release/Article/4338685/department-of-war-awards-299-million-to-create-a-us-domestic-supply-of-gallium/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative city/industrial point",
+        "notes": "Same Cedar Park CRA context; final demonstration facility details may differ.",
+        "detailedSiteType": "Processing Demonstration Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734,
+          30.284
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-028",
+        "name": "Bureau of Economic Geology Critical Minerals Research",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Research / institutional",
+        "county": "Travis",
+        "operator": "Bureau of Economic Geology, UT Austin",
+        "description": "Research site for Texas rare-earth and critical-mineral assessment work, including Round Top and feedstock studies.",
+        "sourceId": "SRC_RE_004",
+        "sourceName": "Bureau of Economic Geology - Rare Earth Elements and Critical Minerals",
+        "sourceUrl": "https://www.beg.utexas.edu/minerals/rare-earth",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "campus approximate",
+        "notes": "Institutional point for BEG/Jackson School campus area in Austin.",
+        "detailedSiteType": "Critical Minerals Research Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.44615,
+          30.73999
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-029",
+        "name": "Kingsland Granite Company Quarry (Petrick Quarry)",
+        "resourceType": "Rare Earth",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical quarry/prospect",
+        "county": "Llano",
+        "operator": "Historic quarry/private operators",
+        "description": "Historical quarry and pegmatite locality associated with rare-earth minerals including gadolinite and britholite-type occurrences.",
+        "sourceId": "SRC_RE_010",
+        "sourceName": "Mindat - Kingsland Granite Company Quarry / Petrick Quarry",
+        "sourceUrl": "https://www.mindat.org/loc-250612.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "coordinate-bearing historical locality",
+        "notes": "Coordinate from Mindat locality page; not a public access invitation.",
+        "detailedSiteType": "Historical Rare-Metal Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.263,
+          29.733
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-030",
+        "name": "Houston Industrial Byproduct Critical Minerals Node",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Opportunity / emerging recovery area",
+        "county": "Harris",
+        "operator": "Multiple industrial operators / startups",
+        "description": "Representative Houston Ship Channel/petrochemical-complex node for critical-mineral recovery from industrial waste and byproducts.",
+        "sourceId": "SRC_RE_027",
+        "sourceName": "Texas Tribune - rare minerals/mining rush in Texas",
+        "sourceUrl": "https://www.texastribune.org/2025/10/21/texas-mining-lithium-rare-minerals/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "Representative opportunity-area record",
+        "coordinatePrecision": "representative industrial corridor point",
+        "notes": "Not a single confirmed rare-earth plant; included for supply-chain context.",
+        "detailedSiteType": "Critical Minerals Recovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.08,
+          31.93
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-031",
+        "name": "Permian Industrial Waste Critical Minerals Recovery Node",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Opportunity / emerging recovery area",
+        "county": "Midland / Ector",
+        "operator": "Multiple oilfield and waste-stream operators",
+        "description": "Representative Permian Basin node for critical-mineral recovery interest from oilfield and industrial waste streams.",
+        "sourceId": "SRC_RE_027",
+        "sourceName": "Texas Tribune - rare minerals/mining rush in Texas",
+        "sourceUrl": "https://www.texastribune.org/2025/10/21/texas-mining-lithium-rare-minerals/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "Representative opportunity-area record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Regional opportunity point; not a specific operating rare-earth facility.",
+        "detailedSiteType": "Critical Minerals Recovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9,
+          28.95
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-032",
+        "name": "Gulf Coast Samarium/Rare-Metal Processing Project Area",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Announced/under development context",
+        "county": "Gulf Coast region",
+        "operator": "Undisclosed / regional project context",
+        "description": "Representative Gulf Coast record for rare-metal processing activity described in Texas critical-minerals reporting.",
+        "sourceId": "SRC_RE_027",
+        "sourceName": "Texas Tribune - rare minerals/mining rush in Texas",
+        "sourceUrl": "https://www.texastribune.org/2025/10/21/texas-mining-lithium-rare-minerals/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "Representative media-reported project-area record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Public reporting does not provide an exact public facility point; keep low confidence.",
+        "detailedSiteType": "Planned Rare-Metal Processing Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.57,
+          32.25
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-033",
+        "name": "East Texas Coal-Ash REE Recovery Opportunity Node",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Opportunity / feedstock recovery potential",
+        "county": "Panola / Rusk / Harrison",
+        "operator": "Multiple power/mining/feedstock operators",
+        "description": "Representative facility-type node for REE recovery potential from East Texas lignite ash and related feedstocks.",
+        "sourceId": "SRC_RE_022",
+        "sourceName": "USGS - Rare earth and critical elements in Texas Gulf Coastal Plain lignites",
+        "sourceUrl": "https://www.usgs.gov/publications/distribution-rare-earth-and-other-critical-elements-lignites-eocene-jackson-group",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "Representative opportunity-area record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Atlas context record; not a confirmed operating recovery facility.",
+        "detailedSiteType": "Secondary Recovery Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5,
+          28.8
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-034",
+        "name": "South Texas Lignite/Coal-Ash REE Recovery Opportunity Node",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Opportunity / feedstock recovery potential",
+        "county": "Atascosa / McMullen",
+        "operator": "Multiple power/mining/feedstock operators",
+        "description": "Representative facility-type node for potential REE recovery from South Texas lignite and ash feedstocks.",
+        "sourceId": "SRC_RE_022",
+        "sourceName": "USGS - Rare earth and critical elements in Texas Gulf Coastal Plain lignites",
+        "sourceUrl": "https://www.usgs.gov/publications/distribution-rare-earth-and-other-critical-elements-lignites-eocene-jackson-group",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "Representative opportunity-area record",
+        "coordinatePrecision": "representative regional point",
+        "notes": "Atlas context record; not a confirmed operating recovery facility.",
+        "detailedSiteType": "Secondary Recovery Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.525556,
+          30.634167
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-035",
+        "name": "Kiam Pegmatite",
+        "resourceType": "Rare Earth",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical prospect/locality",
+        "county": "Llano",
+        "operator": "Historic private/local operators",
+        "description": "Historical Llano County pegmatite locality with beryl, bismuth, molybdenum, gold and related rare-metal mineral context.",
+        "sourceId": "SRC_RE_028",
+        "sourceName": "Mindat - Kiam pegmatite",
+        "sourceUrl": "https://www.mindat.org/loc-42310.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "approximate historical locality",
+        "notes": "Coordinate estimated from Mindat-provided description as 12 miles southwest of Llano near Honey Creek; use as approximate locality only.",
+        "detailedSiteType": "Historical Pegmatite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          31.275
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-036",
+        "name": "Round Top Proposed On-Site Separation Plant",
+        "resourceType": "Rare Earth",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Proposed / project plan",
+        "county": "Hudspeth",
+        "operator": "Texas Mineral Resources / USA Rare Earth",
+        "description": "Representative proposed on-site processing/separation component associated with Round Top project development concepts.",
+        "sourceId": "SRC_RE_001",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "representative project point",
+        "notes": "Project-plan point; not a completed operating plant.",
+        "detailedSiteType": "Rare Earth Separation Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.433056,
+          30.777778
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-037",
+        "name": "Baringer Hill Mine",
+        "resourceType": "Rare Earth",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical / inundated",
+        "county": "Llano",
+        "operator": "Historic private operators",
+        "description": "Historic rare-earth/yttrium pegmatite mine now inundated beneath Lake Buchanan.",
+        "sourceId": "SRC_RE_008",
+        "sourceName": "Mindat - Baringer Hill Mine locality maps",
+        "sourceUrl": "https://www.mindat.org/maps.php?id=4129",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "coordinate-bearing historical locality",
+        "notes": "Coordinate from Mindat map; site is submerged and not accessible as a mine.",
+        "detailedSiteType": "Historical Rare-Earth Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.398,
+          30.778
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-038",
+        "name": "Rare-Earth Mine, Burnet County",
+        "resourceType": "Rare Earth",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical / inundated",
+        "county": "Burnet",
+        "operator": "Historic private operators",
+        "description": "Inactive and little-developed REE-bearing pegmatite occurrence/mine near Baringer Hill, now under Lake Buchanan.",
+        "sourceId": "SRC_RE_029",
+        "sourceName": "Mindat - Rare-Earth Mine, Burnet County",
+        "sourceUrl": "https://www.mindat.org/loc-274347.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "approximate historical locality",
+        "notes": "Approximate point inferred from Mindat distance relation near Baringer Hill; not a public access point.",
+        "detailedSiteType": "Historical Rare-Earth Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.475278,
+          30.723889
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-039",
+        "name": "Badu Hill Quarry",
+        "resourceType": "Rare Earth",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical quarry/prospect",
+        "county": "Llano",
+        "operator": "Historic quarry/private operators",
+        "description": "REE-U-Th-bearing pegmatite locality historically known as Badu Hill quarry/mine.",
+        "sourceId": "SRC_RE_009",
+        "sourceName": "Mindat - Badu Hill quarry",
+        "sourceUrl": "https://www.mindat.org/loc-42294.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "near-exact locality",
+        "notes": "Coordinate from Mindat locality listing.",
+        "detailedSiteType": "Historical Rare-Metal Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.32254,
+          30.80048
+        ]
+      },
+      "properties": {
+        "id": "RE-TX-040",
+        "name": "Clear Creek Pegmatite",
+        "resourceType": "Rare Earth",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical locality / research interest",
+        "county": "Burnet",
+        "operator": "Historic private operators",
+        "description": "Rare-earth pegmatite locality in Burnet County with documented rare-earth mineralization.",
+        "sourceId": "SRC_RE_011",
+        "sourceName": "Mindat - Clear Creek pegmatite",
+        "sourceUrl": "https://www.mindat.org/loc-4130.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Verified public/representative record",
+        "coordinatePrecision": "coordinate-bearing historical locality",
+        "notes": "Coordinate from Mindat; not a public access point.",
+        "detailedSiteType": "Historical Rare-Earth Pegmatite"
+      }
+    }
+  ]
+}

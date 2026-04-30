@@ -1,0 +1,1325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05,
+          28.25
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.25,
+          -98.05
+        ],
+        "id": "uranium-001",
+        "name": "South Texas Uranium Province / Belt",
+        "resourceType": "Uranium",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional uranium province",
+        "county": "Multiple South Texas counties",
+        "operator": "Multiple operators / mineral owners",
+        "description": "Representative point for the South Texas coastal-plain uranium province where roll-front uranium deposits and ISR projects are concentrated.",
+        "sourceId": "SEC_ENCORE_STX_2025",
+        "sourceName": "SEC Exhibit 96.1 - enCore South Texas Integrated Uranium Projects technical report",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1500881/000119312525037583/d893278dex961.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Regional centroid; not a boundary or site entrance.",
+        "detailedSiteType": "Uranium District / Mineral Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.06,
+          28.86
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.86,
+          -98.06
+        ],
+        "id": "uranium-002",
+        "name": "Karnes Uranium Mining District",
+        "resourceType": "Uranium",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Historical and prospective uranium district",
+        "county": "Karnes County",
+        "operator": "Multiple historical operators",
+        "description": "Representative point for the Karnes County uranium district, one of Texas's most important historical uranium mining areas.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative district point based on cluster of documented localities.",
+        "detailedSiteType": "Uranium District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93364,
+          28.18362
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.18362,
+          -97.93364
+        ],
+        "id": "uranium-003",
+        "name": "Live Oak / Mount Lucas Uranium Trend",
+        "resourceType": "Uranium",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Historical ISR and roll-front uranium area",
+        "county": "Live Oak County",
+        "operator": "Multiple historical operators",
+        "description": "Representative point for the Live Oak County / Mount Lucas uranium trend, a South Texas ISR and historical mine area.",
+        "sourceId": "MINDAT_MT_LUCAS",
+        "sourceName": "Mindat - Mount Lucas Mine, Live Oak County, Texas",
+        "sourceUrl": "https://www.mindat.org/loc-436013.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "representative",
+        "notes": "Uses Mount Lucas coordinate as an anchor for the broader trend.",
+        "detailedSiteType": "Uranium Mineral Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42,
+          27.75
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.75,
+          -98.42
+        ],
+        "id": "uranium-004",
+        "name": "Duval County Palangana-Rosita Uranium Trend",
+        "resourceType": "Uranium",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "ISR uranium trend and project cluster",
+        "county": "Duval County",
+        "operator": "enCore Energy / Uranium Energy Corp. / historical operators",
+        "description": "Representative point for the Duval County uranium trend containing Palangana, Rosita, and related ISR project areas.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Regional trend point; not a wellfield boundary.",
+        "detailedSiteType": "Uranium District / Mineral Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62,
+          28.32
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.32,
+          -97.62
+        ],
+        "id": "uranium-005",
+        "name": "Goliad Formation Roll-Front Uranium Trend",
+        "resourceType": "Uranium",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional uranium host formation",
+        "county": "Multiple South Texas counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Goliad Formation uranium roll-front trend that hosts multiple South Texas ISR projects.",
+        "sourceId": "USGS_ISR_DATA",
+        "sourceName": "USGS Science Data Catalog - ISR uranium extraction spatial extent data",
+        "sourceUrl": "https://data.usgs.gov/datacatalog/data/USGS%3A61841400d34ec04fc9bf8159",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Formation/trend point; not a legal geologic boundary.",
+        "detailedSiteType": "Roll-Front Host Formation / Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5176,
+          28.2638
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.2638,
+          -97.5176
+        ],
+        "id": "uranium-006",
+        "name": "Burke Hollow ISR Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Operating / production commenced 2026",
+        "county": "Bee County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Large greenfield ISR uranium project in southeastern Bee County; production began in 2026 and is processed through the Hobson hub-and-spoke platform.",
+        "sourceId": "UEC_BURKE_2026",
+        "sourceName": "Uranium Energy Corp. - Burke Hollow production commencement news release",
+        "sourceUrl": "https://www.prnewswire.com/news-releases/uranium-energy-corp-commences-production-at-burke-hollow-the-worlds-newest-operating-isr-uranium-mine-302736496.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate is the nominal center of the lease from a UEC filing; project boundaries are not shown.",
+        "detailedSiteType": "ISR Production Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.509,
+          28.258
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.258,
+          -97.509
+        ],
+        "id": "uranium-007",
+        "name": "Burke Hollow Production Area 1",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Initial production area / operating platform",
+        "county": "Bee County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Representative point for Burke Hollow's initial production area within the broader ISR project.",
+        "sourceId": "UEC_BURKE_COORD",
+        "sourceName": "SEC - Uranium Energy Corp. Form 10-K Burke Hollow location",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1334933/000127956917001961/v476514_10k.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Offset representative point within the Burke Hollow project; not a precise well location.",
+        "detailedSiteType": "ISR Production Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.412,
+          27.8225
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8225,
+          -98.412
+        ],
+        "id": "uranium-008",
+        "name": "Rosita Production Area 5 / Wellfield 5",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Producing wellfield since 2023",
+        "county": "Duval County",
+        "operator": "enCore Energy",
+        "description": "Rosita wellfield southwest of the Rosita CPP that supplied uranium-loaded resin during the restarted Rosita operation.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "enCore describes Wellfield 5 as less than one mile southwest of the Rosita CPP; point is representative.",
+        "detailedSiteType": "ISR Wellfield / Production Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.315,
+          26.902222
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          26.902222,
+          -98.315
+        ],
+        "id": "uranium-009",
+        "name": "Alta Mesa ISR Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Operating as of 2024",
+        "county": "Brooks County",
+        "operator": "enCore Energy / Boss Energy joint venture",
+        "description": "Established ISR uranium project and wellfield complex near Encino in Brooks County, with a central processing plant and operating wellfields.",
+        "sourceId": "ALTA_MESA_TR",
+        "sourceName": "Alta Mesa Uranium Project technical report",
+        "sourceUrl": "https://minedocs.com/29/Alta-Mesa-TR-12312024.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from technical report; project area is larger than the point.",
+        "detailedSiteType": "ISR Production Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.318,
+          26.914
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          26.914,
+          -98.318
+        ],
+        "id": "uranium-010",
+        "name": "Alta Mesa PAA-7 Wellfield Area",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Operating wellfield area",
+        "county": "Brooks County",
+        "operator": "enCore Energy / Boss Energy joint venture",
+        "description": "Representative point for the PAA-7 wellfield area that has been part of Alta Mesa's resumed extraction operations.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative offset within Alta Mesa; not a production-well coordinate.",
+        "detailedSiteType": "ISR Wellfield / Production Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.394602,
+          27.6731
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.6731,
+          -98.394602
+        ],
+        "id": "uranium-011",
+        "name": "La Palangana ISR Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Historical ISR production / standby-restoration context",
+        "county": "Duval County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Palangana/La Palangana ISR project north of Benavides, historically operated as part of South Texas ISR uranium development.",
+        "sourceId": "NRC_LA_PALANGANA",
+        "sourceName": "NRC - La Palangana site draft completion review report",
+        "sourceUrl": "https://www.nrc.gov/docs/ML2406/ML24060A141.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "NRC source provides GPS coordinates for La Palangana.",
+        "detailedSiteType": "ISR Production Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.399,
+          27.681
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.681,
+          -98.399
+        ],
+        "id": "uranium-012",
+        "name": "La Palangana PA-4 Area",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Authorized production area / delineation activity",
+        "county": "Duval County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Representative point for Palangana PA-4, a production-area authorization and delineation area within the Palangana project.",
+        "sourceId": "UEC_TEXAS_HUB_SEC",
+        "sourceName": "SEC Exhibit - Uranium Energy Corp. Texas Hub-and-Spoke ISR Platform",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1334933/000143774924020093/ex_686447.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point; not an exact production-well or lease boundary.",
+        "detailedSiteType": "ISR Production Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757,
+          27.424
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.424,
+          -97.757
+        ],
+        "id": "uranium-013",
+        "name": "Kingsville Dome ISR Wellfield",
+        "resourceType": "Uranium",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Standby / reclamation context in recent EIA reporting",
+        "county": "Kleberg County",
+        "operator": "URI, Inc. / enCore Energy",
+        "description": "Kingsville Dome ISR uranium wellfield southeast of Kingsville, historically one of Texas's important ISR uranium sites.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate point based on project location southeast of Kingsville; not a permit boundary.",
+        "detailedSiteType": "ISR Wellfield / Production Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.941704,
+          28.967844
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.967844,
+          -97.941704
+        ],
+        "id": "uranium-014",
+        "name": "Hobson ISR Processing Plant",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Licensed / standby hub facility",
+        "county": "Karnes County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Central processing plant that anchors UEC's South Texas hub-and-spoke ISR platform and processes uranium-loaded resin from satellite projects.",
+        "sourceId": "UEC_TEXAS_HUB_SEC",
+        "sourceName": "SEC Exhibit - Uranium Energy Corp. Texas Hub-and-Spoke ISR Platform",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1334933/000143774924020093/ex_686447.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate uses public GPS point for the Hobson/Panna Maria site area; verify before field use.",
+        "detailedSiteType": "ISR Central Processing Plant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.403543,
+          27.830423
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.830423,
+          -98.403543
+        ],
+        "id": "uranium-015",
+        "name": "Rosita Central Processing Plant",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating / restarted 2023",
+        "county": "Duval County",
+        "operator": "enCore Energy",
+        "description": "Rosita CPP west of Corpus Christi, a central processing plant serving Rosita and planned satellite ISR feeds.",
+        "sourceId": "SEC_ENCORE_STX_2025",
+        "sourceName": "SEC Exhibit 96.1 - enCore South Texas Integrated Uranium Projects technical report",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1500881/000119312525037583/d893278dex961.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "SEC technical report provides decimal coordinates.",
+        "detailedSiteType": "ISR Central Processing Plant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.315,
+          26.902222
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          26.902222,
+          -98.315
+        ],
+        "id": "uranium-016",
+        "name": "Alta Mesa Central Processing Plant",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating / restarted 2024",
+        "county": "Brooks County",
+        "operator": "enCore Energy / Boss Energy joint venture",
+        "description": "Central processing plant and mine office at Alta Mesa near Encino in Brooks County.",
+        "sourceId": "ALTA_MESA_TR",
+        "sourceName": "Alta Mesa Uranium Project technical report",
+        "sourceUrl": "https://minedocs.com/29/Alta-Mesa-TR-12312024.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from technical report; facility sits within broader Alta Mesa project.",
+        "detailedSiteType": "ISR Central Processing Plant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757,
+          27.424
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.424,
+          -97.757
+        ],
+        "id": "uranium-017",
+        "name": "Kingsville Dome Central Processing Plant",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Standby / reclamation context",
+        "county": "Kleberg County",
+        "operator": "URI, Inc. / enCore Energy",
+        "description": "ISR central processing plant and wellfield complex southeast of Kingsville with historical production capacity.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate facility point based on public location description; not a survey point.",
+        "detailedSiteType": "ISR Central Processing Plant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.394602,
+          27.6731
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.6731,
+          -98.394602
+        ],
+        "id": "uranium-018",
+        "name": "La Palangana Satellite ISR Facility",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Standby / restoration context",
+        "county": "Duval County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Satellite ISR facility/project point for La Palangana near Benavides.",
+        "sourceId": "NRC_LA_PALANGANA",
+        "sourceName": "NRC - La Palangana site draft completion review report",
+        "sourceUrl": "https://www.nrc.gov/docs/ML2406/ML24060A141.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "NRC source provides GPS coordinates for the La Palangana site.",
+        "detailedSiteType": "Satellite ISR Facility / IX Plant"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.105,
+          28.875
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.875,
+          -98.105
+        ],
+        "id": "uranium-019",
+        "name": "Falls City UMTRCA Disposal Site",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Long-term stewardship / disposal site",
+        "county": "Karnes County",
+        "operator": "U.S. Department of Energy Office of Legacy Management",
+        "description": "UMTRCA Title I uranium mill tailings disposal site near Falls City, managed for long-term care by DOE Legacy Management.",
+        "sourceId": "DOE_FALLS_CITY",
+        "sourceName": "U.S. DOE Office of Legacy Management - Falls City, Texas Disposal Site",
+        "sourceUrl": "https://www.energy.gov/lm/falls-city-texas-disposal-site",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate point southwest of Falls City; use DOE site materials for legal boundaries.",
+        "detailedSiteType": "Legacy Uranium Mill / Disposal Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.115,
+          28.86
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.86,
+          -98.115
+        ],
+        "id": "uranium-020",
+        "name": "Conquista Project Uranium Mill / Tailings Site",
+        "resourceType": "Uranium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Decommissioning / monitored tailings impoundment",
+        "county": "Karnes County",
+        "operator": "Conoco-Phillips / State of Texas oversight",
+        "description": "Former uranium mill and tailings impoundment near Falls City that processed ore from Karnes County surface mines.",
+        "sourceId": "NRC_CONQUISTA",
+        "sourceName": "NRC - Conoco-Phillips Company Conquista Project",
+        "sourceUrl": "https://www.nrc.gov/info-finder/decommissioning/uranium/conoco-phillips-company",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate point based on NRC description near Falls City; not a disposal-cell boundary.",
+        "detailedSiteType": "Legacy Uranium Mill / Tailings Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388,
+          28.863
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.863,
+          -97.388
+        ],
+        "id": "uranium-021",
+        "name": "Goliad ISR Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Permitted and licensed / not shown as producing",
+        "county": "Goliad County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Permitted ISR uranium project in north-central Goliad County, part of the UEC Texas hub-and-spoke platform.",
+        "sourceId": "TCEQ_GOLIAD",
+        "sourceName": "TCEQ agenda backup - Goliad Project In-Situ Uranium Mine",
+        "sourceUrl": "https://www.tceq.texas.gov/downloads/agency/decisions/agendas/backup/2025/2025-0700-uic-info.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate point 13.5 miles north of Goliad along the SH 183 project corridor.",
+        "detailedSiteType": "Permitted ISR Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62,
+          28.35
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.35,
+          -97.62
+        ],
+        "id": "uranium-022",
+        "name": "Salvo ISR Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Exploration / resource project",
+        "county": "Bee County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Bee County uranium project area in the South Texas Uranium Belt, identified as a satellite project in UEC filings.",
+        "sourceId": "UEC_SALVO_2012",
+        "sourceName": "SEC - Uranium Energy Corp. Form 10-K Salvo project description",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1334933/000106299312004089/form10k.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative Bee County point; not a lease boundary.",
+        "detailedSiteType": "Uranium Exploration / Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91,
+          28.82
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.82,
+          -97.91
+        ],
+        "id": "uranium-023",
+        "name": "Nichols ISR Uranium Project",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Exploration / resource project",
+        "county": "Karnes County",
+        "operator": "Uranium Energy Corp.",
+        "description": "Central Karnes County ISR uranium property covered by historical leases and technical reporting.",
+        "sourceId": "UEC_NICHOLS_TR",
+        "sourceName": "Uranium Energy Corp. Nichols NI 43-101 technical report",
+        "sourceUrl": "https://www.uraniumenergy.com/_resources/Nichols_43101-12-20-09_v-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative central Karnes County point; not a legal boundary.",
+        "detailedSiteType": "Uranium Exploration / Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.443,
+          27.795
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.795,
+          -98.443
+        ],
+        "id": "uranium-024",
+        "name": "Rosita South - Cadena ISR Project",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Satellite feed / exploration and project development",
+        "county": "Duval County",
+        "operator": "enCore Energy",
+        "description": "Rosita South-Cadena project area southwest of the Rosita CPP, a potential satellite source for Rosita processing.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Point estimated roughly 3.5 miles southwest of Rosita CPP from company description.",
+        "detailedSiteType": "Satellite ISR Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.21135,
+          28.287159
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.287159,
+          -98.21135
+        ],
+        "id": "uranium-025",
+        "name": "Upper Spring Creek - Brown Area",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Satellite project / resource area",
+        "county": "Live Oak County",
+        "operator": "enCore Energy",
+        "description": "Upper Spring Creek Brown Area uranium project south-southwest of George West, intended as a Rosita satellite project.",
+        "sourceId": "ENCORE_USC_BROWN",
+        "sourceName": "enCore Energy 2026 annual filing excerpt - Upper Spring Creek Brown coordinates",
+        "sourceUrl": "https://www.stocktitan.net/sec-filings/EU/10-k-en-core-energy-corp-files-annual-report-f0f56832f8d9.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Public filing excerpt gives decimal coordinates.",
+        "detailedSiteType": "Satellite ISR Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.18,
+          28.325
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.325,
+          -98.18
+        ],
+        "id": "uranium-026",
+        "name": "Upper Spring Creek - Brevard Area",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Satellite project / resource area",
+        "county": "Live Oak County",
+        "operator": "enCore Energy",
+        "description": "Brevard-area uranium project in Live Oak County, part of enCore's South Texas satellite project portfolio.",
+        "sourceId": "SEC_ENCORE_STX_2025",
+        "sourceName": "SEC Exhibit 96.1 - enCore South Texas Integrated Uranium Projects technical report",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1500881/000119312525037583/d893278dex961.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point in Live Oak County; exact project boundary not provided in public map data used here.",
+        "detailedSiteType": "Satellite ISR Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.06,
+          28.82
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.82,
+          -98.06
+        ],
+        "id": "uranium-027",
+        "name": "Butler Ranch ISR Project",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Satellite project / resource area",
+        "county": "Karnes County",
+        "operator": "enCore Energy",
+        "description": "Butler Ranch uranium project in the southwestern Karnes uranium mining district, positioned as a future satellite feed to Rosita.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point in the southwestern Karnes district.",
+        "detailedSiteType": "Satellite ISR Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          26.95
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          26.95,
+          -98.45
+        ],
+        "id": "uranium-028",
+        "name": "Mesteña Grande Exploration Area",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Large exploration option / resource expansion area",
+        "county": "Brooks and Jim Hogg counties",
+        "operator": "enCore Energy / Boss Energy joint venture",
+        "description": "Large exploration option adjacent to Alta Mesa, representing longer-term resource expansion acreage.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point for broad acreage; not a boundary.",
+        "detailedSiteType": "Uranium Exploration Option Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.438,
+          27.798
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.798,
+          -98.438
+        ],
+        "id": "uranium-029",
+        "name": "Rosita Deep Oakville Exploration Program",
+        "resourceType": "Uranium",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Deep exploration / target testing",
+        "county": "Duval County",
+        "operator": "enCore Energy",
+        "description": "Deep Oakville Formation exploration program associated with Rosita South-Cadena, targeting additional mineralized sands below shallower Rosita resources.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point near Rosita South; not a drill-hole coordinate.",
+        "detailedSiteType": "Uranium Exploration Program"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.964,
+          28.979
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.979,
+          -97.964
+        ],
+        "id": "uranium-030",
+        "name": "Brysch Uranium Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical open-pit mine / reclaimed context",
+        "county": "Karnes County",
+        "operator": "Historical operator(s)",
+        "description": "Historical Karnes County uranium mine east of Falls City; USGS reports ore mined during 1966-1967.",
+        "sourceId": "USGS_BRYSCH",
+        "sourceName": "USGS - Geology of the Brysch uranium mine, Karnes County, Texas",
+        "sourceUrl": "https://www.usgs.gov/publications/geology-brysch-uranium-mine-karnes-county-texas",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate point about 3 miles east of Falls City based on USGS description.",
+        "detailedSiteType": "Historical Uranium Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.052,
+          28.895
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.895,
+          -98.052
+        ],
+        "id": "uranium-031",
+        "name": "Tordilla Hill Uranium Deposits",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical uranium deposit area",
+        "county": "Karnes County",
+        "operator": "Historical operators",
+        "description": "Historical oxidized uranium deposit area studied by USGS in the Tordilla Hill-Deweesville district.",
+        "sourceId": "USGS_TORDILLA_PP765",
+        "sourceName": "USGS Professional Paper 765 - Tordilla Hill-Deweesville uranium deposits",
+        "sourceUrl": "https://pubs.usgs.gov/publication/pp765",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point for the Tordilla Hill portion of the district.",
+        "detailedSiteType": "Historical Uranium Deposit / Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.99,
+          28.925
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.925,
+          -97.99
+        ],
+        "id": "uranium-032",
+        "name": "Deweesville / Luckett Uranium Deposit Area",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical uranium deposit area",
+        "county": "Karnes County",
+        "operator": "Historical operators",
+        "description": "Representative point for the Deweesville-Luckett end of the Karnes County oxidized uranium deposit trend.",
+        "sourceId": "USGS_TORDILLA_PP765",
+        "sourceName": "USGS Professional Paper 765 - Tordilla Hill-Deweesville uranium deposits",
+        "sourceUrl": "https://pubs.usgs.gov/publication/pp765",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative deposit-area point; not an individual pit.",
+        "detailedSiteType": "Historical Uranium Deposit / Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.071111,
+          28.872222
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.872222,
+          -98.071111
+        ],
+        "id": "uranium-033",
+        "name": "Garcia Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical mine locality",
+        "county": "Karnes County",
+        "operator": "Historical operators",
+        "description": "Coordinate-bearing historical mine locality in the Karnes Uranium Mining District.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 28°52'20\"N, 98°04'16\"W.",
+        "detailedSiteType": "Historical Uranium Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.125278,
+          28.833333
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.833333,
+          -98.125278
+        ],
+        "id": "uranium-034",
+        "name": "Kellner Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical mine locality",
+        "county": "Karnes County",
+        "operator": "Historical operators",
+        "description": "Coordinate-bearing historical mine locality in the Karnes Uranium Mining District.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 28°50'00\"N, 98°07'31\"W.",
+        "detailedSiteType": "Historical Uranium Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.090556,
+          28.838056
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.838056,
+          -98.090556
+        ],
+        "id": "uranium-035",
+        "name": "Rosenbrock / Roxenbrock Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical mine locality",
+        "county": "Karnes County",
+        "operator": "Historical operators",
+        "description": "Coordinate-bearing historical mine locality in the Karnes Uranium Mining District.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 28°50'17\"N, 98°05'26\"W.",
+        "detailedSiteType": "Historical Uranium Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.114167,
+          28.830556
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.830556,
+          -98.114167
+        ],
+        "id": "uranium-036",
+        "name": "Weddington-Conoco Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical mine locality",
+        "county": "Karnes County",
+        "operator": "Conoco / historical operators",
+        "description": "Coordinate-bearing historical mine locality in the Karnes Uranium Mining District.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 28°49'50\"N, 98°06'51\"W.",
+        "detailedSiteType": "Historical Uranium Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.119722,
+          28.845833
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.845833,
+          -98.119722
+        ],
+        "id": "uranium-037",
+        "name": "Weddington-Tenneco Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical mine locality",
+        "county": "Karnes County",
+        "operator": "Tenneco / historical operators",
+        "description": "Coordinate-bearing historical mine locality in the Karnes Uranium Mining District.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 28°50'45\"N, 98°07'11\"W.",
+        "detailedSiteType": "Historical Uranium Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.073889,
+          28.928333
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.928333,
+          -98.073889
+        ],
+        "id": "uranium-038",
+        "name": "Brown Uranium Pit",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical pit / reclaimed context",
+        "county": "Karnes County",
+        "operator": "Historical operators",
+        "description": "Coordinate-bearing historical uranium pit locality in the Karnes Uranium Mining District.",
+        "sourceId": "MINDAT_KARNES_COORDS",
+        "sourceName": "Mindat - Karnes Uranium Mining District nearby localities",
+        "sourceUrl": "https://www.mindat.org/feature-4738694.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 28°55'42\"N, 98°04'26\"W.",
+        "detailedSiteType": "Historical Uranium Pit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93364,
+          28.18362
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.18362,
+          -97.93364
+        ],
+        "id": "uranium-039",
+        "name": "Mount Lucas Uranium Mine",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Decommissioned / reclaimed ISR site",
+        "county": "Live Oak County",
+        "operator": "Historical operators",
+        "description": "Mount Lucas uranium mine/locality near Lake Corpus Christi in Live Oak County, associated with historical South Texas uranium development.",
+        "sourceId": "MINDAT_MT_LUCAS",
+        "sourceName": "Mindat - Mount Lucas Mine, Live Oak County, Texas",
+        "sourceUrl": "https://www.mindat.org/loc-436013.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate from Mindat locality page.",
+        "detailedSiteType": "Historical ISR Mine / Legacy Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.715,
+          27.405
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.405,
+          -98.715
+        ],
+        "id": "uranium-040",
+        "name": "Vasquez ISR Wellfield",
+        "resourceType": "Uranium",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Depleted / reclamation",
+        "county": "Duval County",
+        "operator": "URI, Inc. / enCore Energy",
+        "description": "Former ISR satellite wellfield northwest of Hebbronville that operated in the 2000s and later entered reclamation/restoration.",
+        "sourceId": "ENCORE_STX_OPS",
+        "sourceName": "enCore Energy - South Texas ISR Uranium Operations",
+        "sourceUrl": "https://encoreuranium.com/projects/south-texas-operations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point about seven miles north-northwest of Hebbronville based on public description.",
+        "detailedSiteType": "Depleted ISR Wellfield / Reclamation Site"
+      }
+    }
+  ]
+}

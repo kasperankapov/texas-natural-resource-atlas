@@ -1,0 +1,408 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.71,
+          32.67
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.71,
+          "latitude": 32.67
+        },
+        "id": "TX-SALT-001",
+        "name": "Grand Saline Salt Mine",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "production",
+        "status": "Active / historical",
+        "county": "Van Zandt",
+        "operator": "Morton Salt / legacy operators",
+        "description": "Rock salt mining center at Grand Saline, one of Texas' best-known salt production locations.",
+        "sourceId": "MORTON-SALT-GRAND-SALINE",
+        "sourceName": "Morton Salt - From Morton to You",
+        "sourceUrl": "https://www.mortonsalt.com/article/getting-salt-to-you/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          28.94
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.35,
+          "latitude": 28.94
+        },
+        "id": "TX-SALT-002",
+        "name": "Bryan Mound Salt Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "facility",
+        "status": "Active / strategic storage",
+        "county": "Brazoria",
+        "operator": "U.S. Department of Energy",
+        "description": "Salt dome used for Strategic Petroleum Reserve crude storage near Freeport.",
+        "sourceId": "DOE-SPR-STORAGE-SITES",
+        "sourceName": "U.S. Department of Energy - Strategic Petroleum Reserve Storage Sites",
+        "sourceUrl": "https://www.energy.gov/hgeo/opr/spr-storage-sites",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.47,
+          29.74
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.47,
+          "latitude": 29.74
+        },
+        "id": "TX-SALT-003",
+        "name": "Big Hill Salt Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "facility",
+        "status": "Active / strategic storage",
+        "county": "Jefferson",
+        "operator": "U.S. Department of Energy",
+        "description": "Salt dome used for Strategic Petroleum Reserve crude storage in Southeast Texas.",
+        "sourceId": "DOE-SPR-STORAGE-SITES",
+        "sourceName": "U.S. Department of Energy - Strategic Petroleum Reserve Storage Sites",
+        "sourceUrl": "https://www.energy.gov/hgeo/opr/spr-storage-sites",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89,
+          29.83
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.89,
+          "latitude": 29.83
+        },
+        "id": "TX-SALT-004",
+        "name": "Barbers Hill Salt Dome / Mont Belvieu Storage Complex",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Chambers",
+        "operator": "Multiple NGL and storage operators",
+        "description": "Major Gulf Coast salt-dome storage complex supporting NGL, petrochemical, and energy markets.",
+        "sourceId": "BEG-SALT-DOMES-SULFUR",
+        "sourceName": "Bureau of Economic Geology - Texas Salt Domes and Sulfur Mining Context",
+        "sourceUrl": "https://www.beg.utexas.edu/files/publications/contract-reports/CR1985-Seni-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7,
+          29.03
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.7,
+          "latitude": 29.03
+        },
+        "id": "TX-SALT-005",
+        "name": "Stratton Ridge Salt Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Brazoria",
+        "operator": "Multiple storage and pipeline operators",
+        "description": "Gulf Coast salt dome used in the petrochemical, storage, and pipeline corridor near Freeport.",
+        "sourceId": "BEG-SALT-DOMES-SULFUR",
+        "sourceName": "Bureau of Economic Geology - Texas Salt Domes and Sulfur Mining Context",
+        "sourceUrl": "https://www.beg.utexas.edu/files/publications/contract-reports/CR1985-Seni-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.94,
+          29.31
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.94,
+          "latitude": 29.31
+        },
+        "id": "TX-SALT-006",
+        "name": "Boling Dome / Newgulf Sulfur District",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Closed / legacy",
+        "county": "Wharton",
+        "operator": "Texas Gulf Sulphur / legacy operators",
+        "description": "Major sulfur, salt, and oil-producing dome; Newgulf developed as a company town for sulfur production.",
+        "sourceId": "TSHA-BOLING-DOME",
+        "sourceName": "Texas State Historical Association - Boling Dome",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/boling-dome",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.47,
+          29.09
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.47,
+          "latitude": 29.09
+        },
+        "id": "TX-SALT-007",
+        "name": "Hoskins Mound Sulfur Mine Area",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Closed / legacy",
+        "county": "Brazoria",
+        "operator": "Freeport Sulphur Company / legacy operators",
+        "description": "Historic Frasch sulfur production dome in Brazoria County.",
+        "sourceId": "TSHA-SULFUR-INDUSTRY",
+        "sourceName": "Texas State Historical Association - Sulfur Industry",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/sulfur-industry",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.81,
+          29.55
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.81,
+          "latitude": 29.55
+        },
+        "id": "TX-SALT-008",
+        "name": "Long Point Sulfur Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Closed / legacy",
+        "county": "Fort Bend",
+        "operator": "Texas Gulf Sulphur / legacy operators",
+        "description": "Historic Gulf Coast sulfur dome opened during the expansion of Texas sulfur mining.",
+        "sourceId": "TSHA-SULFUR-INDUSTRY",
+        "sourceName": "Texas State Historical Association - Sulfur Industry",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/sulfur-industry",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.34,
+          29.12
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.34,
+          "latitude": 29.12
+        },
+        "id": "TX-SALT-009",
+        "name": "Allen Dome Sulfur Area",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Closed / legacy",
+        "county": "Brazoria",
+        "operator": "Freeport Sulphur Company / legacy operators",
+        "description": "Historic sulfur dome in Brazoria County included in the Texas sulfur industry expansion.",
+        "sourceId": "TSHA-SULFUR-INDUSTRY",
+        "sourceName": "Texas State Historical Association - Sulfur Industry",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/sulfur-industry",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4,
+          30.13
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.4,
+          "latitude": 30.13
+        },
+        "id": "TX-SALT-010",
+        "name": "Sour Lake Salt Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Historical / oil and salt-dome system",
+        "county": "Hardin",
+        "operator": "Multiple historical operators",
+        "description": "Gulf Coast salt-dome system associated with early petroleum and sulfur/salt-dome exploration patterns.",
+        "sourceId": "BEG-SALT-DOMES-SULFUR",
+        "sourceName": "Bureau of Economic Geology - Texas Salt Domes and Sulfur Mining Context",
+        "sourceUrl": "https://www.beg.utexas.edu/files/publications/contract-reports/CR1985-Seni-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.08,
+          30.02
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.08,
+          "latitude": 30.02
+        },
+        "id": "TX-SALT-011",
+        "name": "Spindletop Salt Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Historical / oil and salt-dome system",
+        "county": "Jefferson",
+        "operator": "Multiple historical operators",
+        "description": "Salt dome underlying the famous Spindletop oil field, illustrating Gulf Coast salt-dome resource systems.",
+        "sourceId": "BEG-SALT-DOMES-SULFUR",
+        "sourceName": "Bureau of Economic Geology - Texas Salt Domes and Sulfur Mining Context",
+        "sourceUrl": "https://www.beg.utexas.edu/files/publications/contract-reports/CR1985-Seni-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.73,
+          29.29
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.73,
+          "latitude": 29.29
+        },
+        "id": "TX-SALT-012",
+        "name": "Damon Mound Salt Dome",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Historical / prospective storage",
+        "county": "Brazoria",
+        "operator": "Multiple historical operators",
+        "description": "Representative Gulf Coast salt dome included to show the broader salt-dome province used for hydrocarbons, sulfur, salt, and storage.",
+        "sourceId": "BEG-SALT-DOMES-SULFUR",
+        "sourceName": "Bureau of Economic Geology - Texas Salt Domes and Sulfur Mining Context",
+        "sourceUrl": "https://www.beg.utexas.edu/files/publications/contract-reports/CR1985-Seni-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9,
+          29.97
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.9,
+          "latitude": 29.97
+        },
+        "id": "TX-SALT-013",
+        "name": "Hankamer / Lost Lake Salt Dome Area",
+        "resourceType": "Salt/Sulfur",
+        "siteType": "historical site",
+        "status": "Historical / storage context",
+        "county": "Chambers",
+        "operator": "Multiple operators",
+        "description": "Gulf Coast salt-dome area representative of subsurface storage and hydrocarbon-bearing salt structures.",
+        "sourceId": "BEG-SALT-DOMES-SULFUR",
+        "sourceName": "Bureau of Economic Geology - Texas Salt Domes and Sulfur Mining Context",
+        "sourceUrl": "https://www.beg.utexas.edu/files/publications/contract-reports/CR1985-Seni-1.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    }
+  ]
+}

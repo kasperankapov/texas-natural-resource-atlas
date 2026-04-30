@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.09,
+          29.68
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -98.09,
+          "latitude": 29.68
+        },
+        "id": "TX-AGG-001",
+        "name": "CEMEX Balcones Aggregates Quarry",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Comal",
+        "operator": "CEMEX USA",
+        "description": "Large New Braunfels aggregates quarry supplying crushed stone to Central Texas construction markets.",
+        "sourceId": "CEMEX-BALCONES-QUARRY",
+        "sourceName": "CEMEX USA - New Braunfels Balcones Aggregates Quarry",
+        "sourceUrl": "https://www.cemexusa.com/w/new-braunfels-balcones-aggregates-quarry",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.09,
+          29.69
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -98.09,
+          "latitude": 29.69
+        },
+        "id": "TX-AGG-002",
+        "name": "CEMEX Balcones Cement Plant",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Comal",
+        "operator": "CEMEX USA",
+        "description": "Cement plant adjacent to the Balcones quarry serving Central Texas and regional construction demand.",
+        "sourceId": "CEMEX-BALCONES-CEMENT",
+        "sourceName": "CEMEX USA - New Braunfels Balcones Cement Plant",
+        "sourceUrl": "https://www.cemexusa.com/w/new-braunfels-balcones-cement-plant",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.62,
+          29.61
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -98.62,
+          "latitude": 29.61
+        },
+        "id": "TX-AGG-003",
+        "name": "Beckmann Quarry",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Bexar",
+        "operator": "Martin Marietta",
+        "description": "Large limestone aggregate quarry in northwest San Antonio; one of Texas' important construction aggregate sources.",
+        "sourceId": "MARTIN-MARIETTA-BECKMANN",
+        "sourceName": "Martin Marietta - Beckmann Quarry",
+        "sourceUrl": "https://www.martinmarietta.com/locations/southwest/central-texas-district/beckmann-quarry",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          29.5
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -98.45,
+          "latitude": 29.5
+        },
+        "id": "TX-AGG-004",
+        "name": "Alamo Cement / San Antonio Cement District",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Bexar",
+        "operator": "Alamo Cement / multiple cement interests",
+        "description": "Representative point for San Antonio cement and crushed limestone processing infrastructure.",
+        "sourceId": "BECKMANN-QUARRY-HISTORY",
+        "sourceName": "Beckmann Quarry - History",
+        "sourceUrl": "https://www.beckmannquarry.com/about/the-quarry/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74,
+          32.48
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.74,
+          "latitude": 32.48
+        },
+        "id": "TX-AGG-005",
+        "name": "Midlothian Cement and Limestone District",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Ellis",
+        "operator": "Multiple cement producers",
+        "description": "North Texas cement manufacturing and limestone quarrying district serving the Dallas-Fort Worth market.",
+        "sourceId": "USGS-MCS-2025",
+        "sourceName": "USGS - Mineral Commodity Summaries 2025",
+        "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "New curated record",
+        "notes": "Placeholder industrial-minerals district; add specific plant sources for production use. Source is commodity-context only; add facility-specific source if available."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.45,
+          32.23
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -100.45,
+          "latitude": 32.23
+        },
+        "id": "TX-AGG-006",
+        "name": "Maryneal Cement Plant Area",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Nolan",
+        "operator": "Buzzi Unicem / cement interests",
+        "description": "West Texas cement manufacturing area supported by local limestone and industrial mineral resources.",
+        "sourceId": "USGS-MCS-2025",
+        "sourceName": "USGS - Mineral Commodity Summaries 2025",
+        "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "New curated record",
+        "notes": "Placeholder until a plant-specific source is added. Source is commodity-context only; add facility-specific source if available."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.37,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.37,
+          "latitude": 31.85
+        },
+        "id": "TX-AGG-007",
+        "name": "Odessa Cement / Limestone Processing Area",
+        "resourceType": "Aggregates/Cement",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Ector",
+        "operator": "GCC / regional cement interests",
+        "description": "Representative Permian Basin cement and construction materials processing area.",
+        "sourceId": "USGS-MCS-2025",
+        "sourceName": "USGS - Mineral Commodity Summaries 2025",
+        "sourceUrl": "https://pubs.usgs.gov/publication/mcs2025",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions. Source is commodity-context only; add facility-specific source if available."
+      }
+    }
+  ]
+}

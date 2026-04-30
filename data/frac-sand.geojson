@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.09,
+          31.86
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.09,
+          "latitude": 31.86
+        },
+        "id": "TX-SAND-001",
+        "name": "Atlas Kermit Frac Sand Mine / Dune Express Origin",
+        "resourceType": "Frac Sand",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Winkler",
+        "operator": "Atlas Energy Solutions",
+        "description": "Kermit-area frac sand mine tied to the Dune Express conveyor system serving Permian Basin completions.",
+        "sourceId": "ATLAS-DUNE-EXPRESS",
+        "sourceName": "Atlas Energy Solutions - Dune Express",
+        "sourceUrl": "https://www.atlas.energy/dune-express/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.89,
+          31.59
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.89,
+          "latitude": 31.59
+        },
+        "id": "TX-SAND-002",
+        "name": "Atlas Monahans Frac Sand Position",
+        "resourceType": "Frac Sand",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Ward / Winkler",
+        "operator": "Atlas Energy Solutions",
+        "description": "Southern West Texas sand position serving in-basin Permian hydraulic fracturing demand.",
+        "sourceId": "ATLAS-ENERGY-SAND",
+        "sourceName": "Atlas Energy Solutions - Sand",
+        "sourceUrl": "https://www.atlas.energy/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.12,
+          31.76
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.12,
+          "latitude": 31.76
+        },
+        "id": "TX-SAND-003",
+        "name": "Black Mountain Sand Vest Mine",
+        "resourceType": "Frac Sand",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Winkler",
+        "operator": "Black Mountain Sand",
+        "description": "Permian in-basin frac sand operation associated with Black Mountain Sand's West Texas footprint.",
+        "sourceId": "BLACK-MOUNTAIN-SAND",
+        "sourceName": "Black Mountain Sand - In-Basin Frac Sand",
+        "sourceUrl": "https://www.blackmtn.com/frac-sand/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.04,
+          31.67
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.04,
+          "latitude": 31.67
+        },
+        "id": "TX-SAND-004",
+        "name": "Black Mountain Sand El Dorado Mine",
+        "resourceType": "Frac Sand",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Winkler",
+        "operator": "Black Mountain Sand",
+        "description": "Second flagship Permian Basin frac sand operation associated with Black Mountain Sand.",
+        "sourceId": "BLACK-MOUNTAIN-SAND",
+        "sourceName": "Black Mountain Sand - In-Basin Frac Sand",
+        "sourceUrl": "https://www.blackmtn.com/frac-sand/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.02,
+          31.84
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.02,
+          "latitude": 31.84
+        },
+        "id": "TX-SAND-005",
+        "name": "Kermit Frac Sand Mining District",
+        "resourceType": "Frac Sand",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Winkler",
+        "operator": "Multiple operators",
+        "description": "Regional point for the Kermit dune sand mining district that supplies Permian hydraulic fracturing operations.",
+        "sourceId": "BLACK-MOUNTAIN-SAND",
+        "sourceName": "Black Mountain Sand - In-Basin Frac Sand",
+        "sourceUrl": "https://www.blackmtn.com/frac-sand/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.89,
+          31.61
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.89,
+          "latitude": 31.61
+        },
+        "id": "TX-SAND-006",
+        "name": "Monahans Dune Sand Mining District",
+        "resourceType": "Frac Sand",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Ward / Winkler",
+        "operator": "Multiple operators",
+        "description": "Regional point for the Monahans/Winkler in-basin frac sand district.",
+        "sourceId": "ATLAS-ENERGY-SAND",
+        "sourceName": "Atlas Energy Solutions - Sand",
+        "sourceUrl": "https://www.atlas.energy/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    }
+  ]
+}

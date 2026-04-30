@@ -1,0 +1,3557 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.55,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.85,
+          -102.55
+        ],
+        "id": "oil-001",
+        "name": "Permian Basin (Texas portion)",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing province",
+        "county": "Multiple West Texas counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Texas portion of the Permian Basin, the state's dominant oil-producing province.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative basin centroid; not a boundary or facility point. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0779,
+          31.9973
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.9973,
+          -102.0779
+        ],
+        "id": "oil-002",
+        "name": "Midland Basin",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing basin",
+        "county": "Midland / Martin / Glasscock / Howard / Reagan / Upton counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Midland Basin portion of the Permian system.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative basin/play point near Midland; not a boundary. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.65,
+          31.45
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.45,
+          -103.65
+        ],
+        "id": "oil-003",
+        "name": "Delaware Basin (Texas portion)",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing basin",
+        "county": "Reeves / Loving / Ward / Winkler / Pecos counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Texas Delaware Basin, a major Permian oil and associated-gas producing area.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative basin point; not a facility location. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.95,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.85,
+          -102.95
+        ],
+        "id": "oil-004",
+        "name": "Central Basin Platform",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Mature producing province",
+        "county": "Andrews / Ector / Crane / Upton / Winkler counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Central Basin Platform, a long-lived Permian producing province.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative geologic province point. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.35,
+          28.8
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.8,
+          -98.35
+        ],
+        "id": "oil-005",
+        "name": "Eagle Ford Shale Oil Window",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing play",
+        "county": "Karnes / La Salle / DeWitt / Dimmit / Gonzales counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the liquids-rich/oil window of the Eagle Ford Shale in South Texas.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative play point; not a boundary. Broad filter category: deposit.",
+        "detailedSiteType": "Oil Play / Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.85,
+          -101.8
+        ],
+        "id": "oil-006",
+        "name": "Spraberry Trend",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing trend",
+        "county": "Midland / Glasscock / Martin / Reagan counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Spraberry Trend, one of the major Permian oil-producing trends.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative trend point. Broad filter category: deposit.",
+        "detailedSiteType": "Oil Play / Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3,
+          31.7
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.7,
+          -102.3
+        ],
+        "id": "oil-007",
+        "name": "Wolfcamp Play",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing play",
+        "county": "Multiple Permian counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Wolfcamp interval in the Permian Basin.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative play point. Broad filter category: deposit.",
+        "detailedSiteType": "Oil Play / Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7,
+          31.65
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.65,
+          -103.7
+        ],
+        "id": "oil-008",
+        "name": "Bone Spring / Avalon Play",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Active producing play",
+        "county": "Reeves / Loving / Ward / Winkler counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for Bone Spring and related Delaware Basin oil targets in West Texas.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative play point. Broad filter category: deposit.",
+        "detailedSiteType": "Oil Play / Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97,
+          30.05
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.05,
+          -97
+        ],
+        "id": "oil-009",
+        "name": "Austin Chalk Oil Trend",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Mature / renewed horizontal development",
+        "county": "Fayette / Lee / Burleson / Gonzales counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Texas Austin Chalk oil trend.",
+        "sourceId": "RRC_MAJOR_FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative trend point. Broad filter category: deposit.",
+        "detailedSiteType": "Oil Play / Trend"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          32.4
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.4,
+          -94.8
+        ],
+        "id": "oil-010",
+        "name": "East Texas Basin / Woodbine Oil Trend",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Mature producing basin",
+        "county": "Gregg / Rusk / Upshur / Smith / Cherokee counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the East Texas Basin/Woodbine petroleum system.",
+        "sourceId": "TSHA_EAST_TEXAS",
+        "sourceName": "Handbook of Texas - East Texas Oilfield",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/east-texas-oilfield",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative basin/trend point. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.35,
+          29.85
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.85,
+          -94.35
+        ],
+        "id": "oil-011",
+        "name": "Gulf Coast Salt Dome Oil Province",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Mature producing province",
+        "county": "Gulf Coast counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for Texas Gulf Coast salt-dome oil accumulations.",
+        "sourceId": "TSHA_SPINDLETOP",
+        "sourceName": "Handbook of Texas - Spindletop Oilfield",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/spindletop-oilfield",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative province point; many individual fields are separate records. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3,
+          32.65
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.65,
+          -98.3
+        ],
+        "id": "oil-012",
+        "name": "Bend Arch-Fort Worth Basin Oil Play",
+        "resourceType": "Oil",
+        "siteType": "deposit",
+        "status": "Mature producing province",
+        "county": "North Central Texas counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for the Bend Arch-Fort Worth Basin oil play area.",
+        "sourceId": "RRC_MAJOR_FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative basin/play point. Broad filter category: deposit.",
+        "detailedSiteType": "Major Basin / Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8683,
+          32.3865
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.3865,
+          -94.8683
+        ],
+        "id": "oil-013",
+        "name": "East Texas Oil Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Gregg / Rusk / Upshur / Smith / Cherokee counties",
+        "operator": "Multiple operators",
+        "description": "Large mature oil field centered around Kilgore and surrounding East Texas counties.",
+        "sourceId": "TSHA_EAST_TEXAS",
+        "sourceName": "Handbook of Texas - East Texas Oilfield",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/east-texas-oilfield",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "representative",
+        "notes": "Representative point near Kilgore; field covers about 140,000 acres. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8971,
+          30.9169
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.9169,
+          -101.8971
+        ],
+        "id": "oil-014",
+        "name": "Yates Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Pecos County",
+        "operator": "Multiple operators",
+        "description": "Major legacy Permian oil field near Iraan.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point near Iraan. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.6,
+          32.94
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.94,
+          -102.6
+        ],
+        "id": "oil-015",
+        "name": "Wasson Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Yoakum / Gaines counties",
+        "operator": "Multiple operators",
+        "description": "Major Permian oil field in southern Yoakum and northwestern Gaines counties.",
+        "sourceId": "DATAPAGES_WASSON",
+        "sourceName": "AAPG Datapages - Geology of Wasson Field, Yoakum and Gaines Counties, Texas",
+        "sourceUrl": "https://archives.datapages.com/data/doi/10.1306/3D9335A6-16B1-11D7-8645000102C1865D",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field centroid; field spans a large area. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.12,
+          33.65
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.65,
+          -102.12
+        ],
+        "id": "oil-016",
+        "name": "Slaughter Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Hockley / Cochran / Terry counties",
+        "operator": "Multiple operators",
+        "description": "Large San Andres oil and gas producing field on the South Plains.",
+        "sourceId": "TSHA_SLAUGHTER",
+        "sourceName": "Handbook of Texas - Slaughter Field",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/slaughter-field",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.93,
+          32.69
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.69,
+          -100.93
+        ],
+        "id": "oil-017",
+        "name": "SACROC / Kelly-Snyder Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Scurry County",
+        "operator": "Kinder Morgan and multiple operators",
+        "description": "Long-lived Permian field and enhanced-recovery area in Scurry County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative point for the SACROC/Kelly-Snyder area. Broad filter category: production.",
+        "detailedSiteType": "Enhanced Recovery Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.65,
+          32.72
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.72,
+          -102.65
+        ],
+        "id": "oil-018",
+        "name": "Seminole Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Gaines County",
+        "operator": "Multiple operators",
+        "description": "Major legacy producing field near Seminole in the Permian Basin.",
+        "sourceId": "TEXAS_ALMANAC_DISCOVERIES",
+        "sourceName": "Texas Almanac - Chronological Listing of Major Oil Discoveries",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/other/oil10.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.76,
+          31.87
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.87,
+          -102.76
+        ],
+        "id": "oil-019",
+        "name": "Dollarhide Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Andrews County",
+        "operator": "Multiple operators",
+        "description": "Long-lived Permian producing field in Andrews County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.58,
+          32.13
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.13,
+          -102.58
+        ],
+        "id": "oil-020",
+        "name": "Means Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Andrews County",
+        "operator": "Multiple operators",
+        "description": "Permian oil field in Andrews County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.44,
+          32.03
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.03,
+          -102.44
+        ],
+        "id": "oil-021",
+        "name": "Fullerton Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Andrews County",
+        "operator": "Multiple operators",
+        "description": "Permian producing field in Andrews County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.37,
+          33.59
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.59,
+          -102.37
+        ],
+        "id": "oil-022",
+        "name": "Levelland Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Hockley County",
+        "operator": "Multiple operators",
+        "description": "Long-lived Permian-area producing field near Levelland.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.88,
+          32.68
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.68,
+          -100.88
+        ],
+        "id": "oil-023",
+        "name": "Sharon Ridge Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Scurry County",
+        "operator": "Multiple operators",
+        "description": "Oil field in Scurry County associated with the Permian carbonate producing system.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.55,
+          31.95
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.95,
+          -102.55
+        ],
+        "id": "oil-024",
+        "name": "North Cowden Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Ector / Andrews counties",
+        "operator": "Multiple operators",
+        "description": "Mature Permian oil field north of Odessa.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.62,
+          31.99
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.99,
+          -102.62
+        ],
+        "id": "oil-025",
+        "name": "Goldsmith Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Ector County",
+        "operator": "Multiple operators",
+        "description": "Permian producing field near Goldsmith in Ector County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.02,
+          32.36
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.36,
+          -101.02
+        ],
+        "id": "oil-026",
+        "name": "Westbrook Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Mitchell County",
+        "operator": "Multiple operators",
+        "description": "Mature oil field near Westbrook in Mitchell County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.25,
+          32.2
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.2,
+          -101.25
+        ],
+        "id": "oil-027",
+        "name": "Howard-Glasscock Midland Basin Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Howard / Glasscock counties",
+        "operator": "Multiple operators",
+        "description": "Representative production cluster for high-volume Midland Basin oil development.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point; not a single lease. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.03,
+          32.31
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.31,
+          -102.03
+        ],
+        "id": "oil-028",
+        "name": "Martin County Production Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Martin County",
+        "operator": "Multiple operators",
+        "description": "Representative point for one of Texas's highest-output modern oil-producing counties.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0779,
+          31.9973
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.9973,
+          -102.0779
+        ],
+        "id": "oil-029",
+        "name": "Midland County Production Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Midland County",
+        "operator": "Multiple operators",
+        "description": "Representative point for modern Midland Basin oil development around Midland County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.51,
+          31.42
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.42,
+          -103.51
+        ],
+        "id": "oil-030",
+        "name": "Reeves County Delaware Basin Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Reeves County",
+        "operator": "Multiple operators",
+        "description": "Representative point for Delaware Basin oil and condensate activity in Reeves County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.58,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.85,
+          -103.58
+        ],
+        "id": "oil-031",
+        "name": "Loving County Delaware Basin Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Loving County",
+        "operator": "Multiple operators",
+        "description": "Representative point for Delaware Basin oil production in Loving County.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103,
+          31.75
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.75,
+          -103
+        ],
+        "id": "oil-032",
+        "name": "Ward-Winkler Delaware Basin Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Ward / Winkler counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for oil production around Ward and Winkler counties.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.55,
+          32.4
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.4,
+          -102.55
+        ],
+        "id": "oil-033",
+        "name": "Andrews-Gaines Production Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Andrews / Gaines counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for long-running Permian production around Andrews and Gaines counties.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85,
+          28.9
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.9,
+          -97.85
+        ],
+        "id": "oil-034",
+        "name": "Karnes County Eagle Ford Oil Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Karnes County",
+        "operator": "Multiple operators",
+        "description": "Representative point for Eagle Ford oil-window production in Karnes County.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36,
+          29.08
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.08,
+          -97.36
+        ],
+        "id": "oil-035",
+        "name": "DeWitt County Eagle Ford Oil Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "DeWitt County",
+        "operator": "Multiple operators",
+        "description": "Representative point for Eagle Ford liquids production in DeWitt County.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1,
+          28.35
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.35,
+          -99.1
+        ],
+        "id": "oil-036",
+        "name": "La Salle County Eagle Ford Oil Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "La Salle County",
+        "operator": "Multiple operators",
+        "description": "Representative point for Eagle Ford oil and condensate activity in La Salle County.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.75,
+          28.42
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.42,
+          -99.75
+        ],
+        "id": "oil-037",
+        "name": "Dimmit-Maverick Eagle Ford Cluster",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Dimmit / Maverick counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for western Eagle Ford liquids development.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative county-cluster point. Broad filter category: production.",
+        "detailedSiteType": "Producing County Cluster"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.93,
+          30.18
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.18,
+          -96.93
+        ],
+        "id": "oil-038",
+        "name": "Giddings Austin Chalk Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Lee / Fayette / Burleson counties",
+        "operator": "Multiple operators",
+        "description": "Large Austin Chalk producing trend centered around the Giddings area.",
+        "sourceId": "RRC_MAJOR_FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field/trend point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1,
+          28.89
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.89,
+          -99.1
+        ],
+        "id": "oil-039",
+        "name": "Pearsall Oil Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Frio County",
+        "operator": "Multiple operators",
+        "description": "Mature South Texas producing area near Pearsall.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.567,
+          29.762
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.762,
+          -97.567
+        ],
+        "id": "oil-040",
+        "name": "Salt Flat Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Caldwell County",
+        "operator": "Multiple operators",
+        "description": "Historic and continuing oil field associated with a Gulf Coast salt dome area.",
+        "sourceId": "TEXAS_ALMANAC_DISCOVERIES",
+        "sourceName": "Texas Almanac - Chronological Listing of Major Oil Discoveries",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/other/oil10.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.203,
+          32.585
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.585,
+          -95.203
+        ],
+        "id": "oil-041",
+        "name": "Hawkins Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Wood County",
+        "operator": "Multiple operators",
+        "description": "East Texas oil field near Hawkins.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.642,
+          32.525
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.525,
+          -95.642
+        ],
+        "id": "oil-042",
+        "name": "Van Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Van Zandt County",
+        "operator": "Multiple operators",
+        "description": "East Texas producing field near Van.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.455,
+          30.331
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.331,
+          -95.455
+        ],
+        "id": "oil-043",
+        "name": "Conroe Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Montgomery County",
+        "operator": "Multiple operators",
+        "description": "Gulf Coast producing field near Conroe.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.889,
+          29.82
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.82,
+          -94.889
+        ],
+        "id": "oil-044",
+        "name": "Barbers Hill Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Chambers County",
+        "operator": "Multiple operators",
+        "description": "Gulf Coast salt-dome oil field near Mont Belvieu/Barbers Hill.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.393,
+          29.561
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.561,
+          -94.393
+        ],
+        "id": "oil-045",
+        "name": "High Island Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Galveston County",
+        "operator": "Multiple operators",
+        "description": "Gulf Coast oil field near High Island.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.274,
+          29.52
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.52,
+          -95.274
+        ],
+        "id": "oil-046",
+        "name": "Hastings Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Brazoria County",
+        "operator": "Multiple operators",
+        "description": "Gulf Coast oil field south of Houston.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.616,
+          30.096
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.096,
+          -95.616
+        ],
+        "id": "oil-047",
+        "name": "Tomball Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Harris County",
+        "operator": "Multiple operators",
+        "description": "Historic Gulf Coast producing field near Tomball.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.103,
+          33.36
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.36,
+          -95.103
+        ],
+        "id": "oil-048",
+        "name": "Talco Field",
+        "resourceType": "Oil",
+        "siteType": "production",
+        "status": "Producing / mature",
+        "county": "Titus / Franklin counties",
+        "operator": "Multiple operators",
+        "description": "East Texas producing field near Talco.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative field point. Broad filter category: production.",
+        "detailedSiteType": "Oil Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.956,
+          29.7457
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7457,
+          -94.956
+        ],
+        "id": "oil-049",
+        "name": "ExxonMobil Baytown Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "ExxonMobil",
+        "description": "Major integrated refinery and petrochemical complex in Baytown.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid/industrial complex point. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9572,
+          29.8842
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.8842,
+          -93.9572
+        ],
+        "id": "oil-050",
+        "name": "Motiva Port Arthur Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "Motiva Enterprises",
+        "description": "Large Port Arthur refinery complex; among the largest refineries in the United States.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.117,
+          30.076
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.076,
+          -94.117
+        ],
+        "id": "oil-051",
+        "name": "ExxonMobil Beaumont Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "ExxonMobil",
+        "description": "Major Beaumont refining complex.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9378,
+          29.8718
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.8718,
+          -93.9378
+        ],
+        "id": "oil-052",
+        "name": "Valero Port Arthur Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "Valero Energy",
+        "description": "Major Port Arthur refinery near the Sabine-Neches waterway.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9743,
+          29.8662
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.8662,
+          -93.9743
+        ],
+        "id": "oil-053",
+        "name": "TotalEnergies Port Arthur Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "TotalEnergies",
+        "description": "Port Arthur refinery in the Sabine-Neches industrial corridor.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9301,
+          29.3857
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.3857,
+          -94.9301
+        ],
+        "id": "oil-054",
+        "name": "Marathon Galveston Bay Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Galveston County",
+        "operator": "Marathon Petroleum",
+        "description": "Large Texas City refinery complex on Galveston Bay.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9169,
+          29.3795
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.3795,
+          -94.9169
+        ],
+        "id": "oil-055",
+        "name": "Valero Texas City Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Galveston County",
+        "operator": "Valero Energy",
+        "description": "Texas City refinery on Galveston Bay.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2641,
+          29.7203
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7203,
+          -95.2641
+        ],
+        "id": "oil-056",
+        "name": "Valero Houston Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Valero Energy",
+        "description": "Houston refinery near the Manchester area and Houston Ship Channel.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2366,
+          29.719
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.719,
+          -95.2366
+        ],
+        "id": "oil-057",
+        "name": "LyondellBasell Houston Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "LyondellBasell",
+        "description": "Houston Ship Channel refinery complex.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1274,
+          29.7286
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7286,
+          -95.1274
+        ],
+        "id": "oil-058",
+        "name": "Pemex Deer Park Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Pemex",
+        "description": "Deer Park refinery adjacent to the Houston Ship Channel petrochemical corridor.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1788,
+          29.7435
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7435,
+          -95.1788
+        ],
+        "id": "oil-059",
+        "name": "Chevron Pasadena Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Chevron",
+        "description": "Pasadena refinery along the Houston Ship Channel corridor.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2125,
+          29.7272
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7272,
+          -95.2125
+        ],
+        "id": "oil-060",
+        "name": "Pasadena Refining System",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Pasadena Refining System / Petrobras America affiliates",
+        "description": "Pasadena refinery in the Houston Ship Channel corridor.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4592,
+          27.8095
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8095,
+          -97.4592
+        ],
+        "id": "oil-061",
+        "name": "Valero Corpus Christi East Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "Valero Energy",
+        "description": "Corpus Christi East refinery complex.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5004,
+          27.8053
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8053,
+          -97.5004
+        ],
+        "id": "oil-062",
+        "name": "Valero Corpus Christi West Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "Valero Energy",
+        "description": "Corpus Christi West refinery complex.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4255,
+          27.8121
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8121,
+          -97.4255
+        ],
+        "id": "oil-063",
+        "name": "CITGO Corpus Christi Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "CITGO Petroleum",
+        "description": "Corpus Christi refinery complex with East and West plant areas.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4568,
+          27.8028
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8028,
+          -97.4568
+        ],
+        "id": "oil-064",
+        "name": "Flint Hills Resources Corpus Christi Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "Flint Hills Resources",
+        "description": "Major Corpus Christi refinery complex.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1824,
+          28.457
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.457,
+          -98.1824
+        ],
+        "id": "oil-065",
+        "name": "Valero Three Rivers Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Live Oak County",
+        "operator": "Valero Energy",
+        "description": "Inland refinery near Three Rivers.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7464,
+          29.0455
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.0455,
+          -95.7464
+        ],
+        "id": "oil-066",
+        "name": "Phillips 66 Sweeny Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Brazoria County",
+        "operator": "Phillips 66",
+        "description": "Large refinery complex near Sweeny and Old Ocean.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.4046,
+          35.6489
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          35.6489,
+          -101.4046
+        ],
+        "id": "oil-067",
+        "name": "Phillips 66 Borger Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Hutchinson County",
+        "operator": "Phillips 66 / Cenovus JV interests",
+        "description": "Panhandle refinery complex near Borger.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8335,
+          35.9997
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          35.9997,
+          -101.8335
+        ],
+        "id": "oil-068",
+        "name": "Valero McKee Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Moore County",
+        "operator": "Valero Energy",
+        "description": "Texas Panhandle refinery near Sunray.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2687,
+          32.3194
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.3194,
+          -95.2687
+        ],
+        "id": "oil-069",
+        "name": "Delek Tyler Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Smith County",
+        "operator": "Delek US Holdings",
+        "description": "East Texas refinery in Tyler.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.4741,
+          32.2577
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.2577,
+          -101.4741
+        ],
+        "id": "oil-070",
+        "name": "Delek Big Spring Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Howard County",
+        "operator": "Delek US Holdings",
+        "description": "West Texas refinery near Big Spring.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3801,
+          31.7777
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.7777,
+          -106.3801
+        ],
+        "id": "oil-071",
+        "name": "Marathon El Paso Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "El Paso County",
+        "operator": "Marathon Petroleum",
+        "description": "West Texas refinery serving the El Paso region.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7649,
+          29.2674
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.2674,
+          -97.7649
+        ],
+        "id": "oil-072",
+        "name": "Blue Dolphin Nixon Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Wilson County",
+        "operator": "Blue Dolphin Energy",
+        "description": "Small refinery near Nixon.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate facility centroid. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.419,
+          29.365
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.365,
+          -98.419
+        ],
+        "id": "oil-073",
+        "name": "San Antonio Refinery",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Bexar County",
+        "operator": "Calumet / related refining interests",
+        "description": "Small refinery in the San Antonio area.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate facility centroid; operator/ownership should be rechecked before publication. Broad filter category: facility.",
+        "detailedSiteType": "Refinery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2093,
+          27.8448
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8448,
+          -97.2093
+        ],
+        "id": "oil-074",
+        "name": "Enbridge Ingleside Energy Center",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "San Patricio County",
+        "operator": "Enbridge",
+        "description": "Major crude oil storage and export terminal at Ingleside.",
+        "sourceId": "ENBRIDGE_INGLESIDE",
+        "sourceName": "Enbridge - Export Terminals: Enbridge Ingleside Energy Center",
+        "sourceUrl": "https://www.enbridge.com/about-us/liquids-pipelines/export-terminals",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate terminal centroid. Broad filter category: facility.",
+        "detailedSiteType": "Crude Export Terminal / Port Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1958,
+          27.8322
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8322,
+          -97.1958
+        ],
+        "id": "oil-075",
+        "name": "South Texas Gateway Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "San Patricio County",
+        "operator": "Gibson Energy / Buckeye Partners interests",
+        "description": "Crude oil export facility at Ingleside near the mouth of Corpus Christi Bay.",
+        "sourceId": "GIBSON_STG",
+        "sourceName": "Gibson Energy - South Texas Gateway Terminal",
+        "sourceUrl": "https://www.gibsonenergy.com/operations/south-texas-gateway-terminal/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate terminal centroid. Broad filter category: facility.",
+        "detailedSiteType": "Crude Export Terminal / Port Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4007,
+          27.8152
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.8152,
+          -97.4007
+        ],
+        "id": "oil-076",
+        "name": "Port of Corpus Christi Inner Harbor Oil Terminal Area",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "Multiple terminal operators",
+        "description": "Representative point for crude oil docks and terminal infrastructure in the Corpus Christi Inner Harbor.",
+        "sourceId": "PORT_CC",
+        "sourceName": "Port of Corpus Christi - About the Port",
+        "sourceUrl": "https://portofcc.com/about/port/about-us/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative port/terminal area point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Export Terminal / Port Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.685,
+          27.7492
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.7492,
+          -97.685
+        ],
+        "id": "oil-077",
+        "name": "EPIC Crude Terminal - Corpus Christi Area",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "EPIC Midstream",
+        "description": "Representative point for EPIC crude oil terminal/storage infrastructure in the Corpus Christi/Robstown area.",
+        "sourceId": "PORT_CC",
+        "sourceName": "Port of Corpus Christi - About the Port",
+        "sourceUrl": "https://portofcc.com/about/port/about-us/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate/representative terminal-area point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Export Terminal / Port Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.894,
+          29.374
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.374,
+          -94.894
+        ],
+        "id": "oil-078",
+        "name": "Buckeye Texas City Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Galveston County",
+        "operator": "Buckeye Partners",
+        "description": "Crude and refined-products terminal infrastructure in Texas City.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate public map point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Storage / Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0262,
+          29.5634
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.5634,
+          -95.0262
+        ],
+        "id": "oil-079",
+        "name": "Seabrook Logistics Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Seabrook Logistics / Magellan / LBC interests",
+        "description": "Crude and liquids storage/export-related terminal near Seabrook and the Houston Ship Channel.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate terminal-area point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Export Terminal / Port Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1082,
+          29.768
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.768,
+          -95.1082
+        ],
+        "id": "oil-080",
+        "name": "Magellan East Houston Terminal / MEH Market Area",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Magellan Midstream / ONEOK interests",
+        "description": "Major Houston-area crude oil terminal and market hub.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate hub/terminal area point. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1468,
+          29.7532
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7532,
+          -95.1468
+        ],
+        "id": "oil-081",
+        "name": "Enterprise ECHO Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Enterprise Products Partners",
+        "description": "Major crude oil storage and distribution hub in the Houston area.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate terminal/hub point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Storage / Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9776,
+          29.9743
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.9743,
+          -93.9776
+        ],
+        "id": "oil-082",
+        "name": "Sunoco Nederland Terminal",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "Energy Transfer / Sunoco Logistics",
+        "description": "Large crude oil terminal and storage facility near Nederland/Port Arthur.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate terminal centroid. Broad filter category: facility.",
+        "detailedSiteType": "Crude Storage / Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.945,
+          29.969
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.969,
+          -93.945
+        ],
+        "id": "oil-083",
+        "name": "Beaumont-Port Arthur Crude Terminal Corridor",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "Multiple operators",
+        "description": "Representative point for crude terminal, refining, and transfer infrastructure in the Beaumont-Port Arthur corridor.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative industrial corridor point. Broad filter category: facility.",
+        "detailedSiteType": "Industrial Terminal Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.177,
+          29.735
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.735,
+          -95.177
+        ],
+        "id": "oil-084",
+        "name": "Houston Ship Channel Oil Terminal Corridor",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Multiple operators",
+        "description": "Representative point for crude oil refining, storage, docks, and terminal infrastructure along the Houston Ship Channel.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative industrial corridor point. Broad filter category: facility.",
+        "detailedSiteType": "Industrial Terminal Corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.066,
+          29.76
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.76,
+          -95.066
+        ],
+        "id": "oil-085",
+        "name": "Enterprise Houston Ship Channel Terminal Area",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Harris County",
+        "operator": "Enterprise Products Partners",
+        "description": "Representative point for Enterprise-affiliated liquids terminal infrastructure in the Houston Ship Channel area.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate terminal-area point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Storage / Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3747,
+          28.9395
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.9395,
+          -95.3747
+        ],
+        "id": "oil-086",
+        "name": "Bryan Mound Strategic Petroleum Reserve",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Brazoria County",
+        "operator": "U.S. Department of Energy",
+        "description": "Strategic Petroleum Reserve crude oil storage site near Freeport.",
+        "sourceId": "DOE_SPR",
+        "sourceName": "U.S. Department of Energy - Strategic Petroleum Reserve Storage Sites",
+        "sourceUrl": "https://www.energy.gov/hgeo/opr/spr-storage-sites",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "verified",
+        "notes": "Approximate site centroid; DOE places site southwest of Freeport. Broad filter category: facility.",
+        "detailedSiteType": "Strategic Petroleum Reserve"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.365,
+          29.74
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.74,
+          -94.365
+        ],
+        "id": "oil-087",
+        "name": "Big Hill Strategic Petroleum Reserve",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "U.S. Department of Energy",
+        "description": "Strategic Petroleum Reserve crude oil storage site in southeast Texas.",
+        "sourceId": "DOE_SPR",
+        "sourceName": "U.S. Department of Energy - Strategic Petroleum Reserve Storage Sites",
+        "sourceUrl": "https://www.energy.gov/hgeo/opr/spr-storage-sites",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Approximate site centroid in the Big Hill area. Broad filter category: facility.",
+        "detailedSiteType": "Strategic Petroleum Reserve"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.079,
+          31.997
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.997,
+          -102.079
+        ],
+        "id": "oil-088",
+        "name": "Midland Crude Oil Market Hub",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Midland County",
+        "operator": "Multiple pipeline/terminal operators",
+        "description": "Representative point for Midland-area crude gathering, pricing, storage, and takeaway infrastructure.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative hub point, not a single facility. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.166,
+          31.751
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.751,
+          -103.166
+        ],
+        "id": "oil-089",
+        "name": "Wink Crude Oil Hub",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Winkler County",
+        "operator": "Multiple pipeline/terminal operators",
+        "description": "Representative point for crude oil pipeline and terminal hub activity around Wink.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative hub point. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.864,
+          32.388
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.388,
+          -100.864
+        ],
+        "id": "oil-090",
+        "name": "Colorado City Crude Oil Hub",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Mitchell County",
+        "operator": "Multiple pipeline/terminal operators",
+        "description": "Representative point for legacy and modern crude oil pipeline/storage infrastructure near Colorado City.",
+        "sourceId": "RRC_PRODUCTION_DATA",
+        "sourceName": "Railroad Commission of Texas - Oil & Gas Production Data",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/production-data/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative hub point. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.232,
+          28.599
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.599,
+          -99.232
+        ],
+        "id": "oil-091",
+        "name": "Gardendale Crude Terminal / Eagle Ford Takeaway Area",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "La Salle County",
+        "operator": "Multiple pipeline/terminal operators",
+        "description": "Representative point for Eagle Ford crude takeaway and terminal infrastructure near Gardendale.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative terminal-area point. Broad filter category: facility.",
+        "detailedSiteType": "Crude Export Terminal / Port Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.395,
+          27.808
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          27.808,
+          -97.395
+        ],
+        "id": "oil-092",
+        "name": "Corpus Christi Crude Export Market Hub",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Nueces County",
+        "operator": "Multiple terminal operators",
+        "description": "Representative point for crude export, storage, and refining flows in the Corpus Christi market.",
+        "sourceId": "PORT_CC",
+        "sourceName": "Port of Corpus Christi - About the Port",
+        "sourceUrl": "https://portofcc.com/about/port/about-us/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative market hub point. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94,
+          29.97
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.97,
+          -94
+        ],
+        "id": "oil-093",
+        "name": "Nederland-Beaumont Crude Market Hub",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Jefferson County",
+        "operator": "Multiple terminal operators",
+        "description": "Representative point for crude oil storage, pipeline, terminal, and refinery connections around Nederland and Beaumont.",
+        "sourceId": "PUBLIC_COORDINATE_REVIEW",
+        "sourceName": "Public map/geocoding review of named Texas oil facilities and fields",
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative hub point. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.902,
+          29.383
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.383,
+          -94.902
+        ],
+        "id": "oil-094",
+        "name": "Texas City Crude Terminal and Refining Hub",
+        "resourceType": "Oil",
+        "siteType": "facility",
+        "status": "Operational",
+        "county": "Galveston County",
+        "operator": "Multiple operators",
+        "description": "Representative point for crude terminal and refining infrastructure in Texas City.",
+        "sourceId": "EIA_TX_REFINERY_CAPACITY",
+        "sourceName": "U.S. Energy Information Administration - Texas Number and Capacity of Petroleum Refineries",
+        "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pnp_cap1_dcu_stx_a.htm",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative hub point. Broad filter category: facility.",
+        "detailedSiteType": "Pipeline / Market Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.0733,
+          30.0206
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.0206,
+          -94.0733
+        ],
+        "id": "oil-095",
+        "name": "Spindletop Oilfield / Lucas Gusher Site",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Jefferson County",
+        "operator": "Historical operators / museum site",
+        "description": "1901 discovery site widely associated with the birth of the modern petroleum industry.",
+        "sourceId": "TSHA_SPINDLETOP",
+        "sourceName": "Handbook of Texas - Spindletop Oilfield",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/spindletop-oilfield",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "representative",
+        "notes": "Historical site point near Spindletop/Gladys City area. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4689,
+          32.0954
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.0954,
+          -96.4689
+        ],
+        "id": "oil-096",
+        "name": "Corsicana Oil Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Navarro County",
+        "operator": "Historical operators",
+        "description": "Early Texas oil field associated with the Corsicana oil boom.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point near Corsicana. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6789,
+          32.4699
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.4699,
+          -98.6789
+        ],
+        "id": "oil-097",
+        "name": "Ranger Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Eastland County",
+        "operator": "Historical operators",
+        "description": "North Texas oil boom field discovered in the World War I era.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point near Ranger. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5706,
+          34.0979
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          34.0979,
+          -98.5706
+        ],
+        "id": "oil-098",
+        "name": "Burkburnett Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Wichita County",
+        "operator": "Historical operators",
+        "description": "North Texas oil field associated with the Burkburnett boom.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point near Burkburnett. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4822,
+          31.6814
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.6814,
+          -96.4822
+        ],
+        "id": "oil-099",
+        "name": "Mexia Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Limestone County",
+        "operator": "Historical operators",
+        "description": "Central Texas oil boom field near Mexia.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point near Mexia. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.4596,
+          31.2054
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.2054,
+          -101.4596
+        ],
+        "id": "oil-100",
+        "name": "Santa Rita No. 1 / Big Lake Discovery Area",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Reagan County",
+        "operator": "Historical operators / University of Texas lands",
+        "description": "West Texas discovery site that helped establish Permian Basin oil significance and funded UT lands.",
+        "sourceId": "TEXAS_ALMANAC_DISCOVERIES",
+        "sourceName": "Texas Almanac - Chronological Listing of Major Oil Discoveries",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/other/oil10.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "representative",
+        "notes": "Historical discovery-area point near Big Lake. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9187,
+          34.0293
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          34.0293,
+          -98.9187
+        ],
+        "id": "oil-101",
+        "name": "Electra Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Wichita County",
+        "operator": "Historical operators",
+        "description": "North Texas oil field near Electra.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9674,
+          29.7423
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.7423,
+          -94.9674
+        ],
+        "id": "oil-102",
+        "name": "Goose Creek Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Harris County",
+        "operator": "Historical operators",
+        "description": "Gulf Coast oil field near present-day Baytown/Goose Creek.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4102,
+          30.1408
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.1408,
+          -94.4102
+        ],
+        "id": "oil-103",
+        "name": "Sour Lake Oilfield",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Hardin County",
+        "operator": "Historical operators",
+        "description": "Gulf Coast salt-dome oil field and early Texas petroleum center.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2622,
+          29.9988
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.9988,
+          -95.2622
+        ],
+        "id": "oil-104",
+        "name": "Humble Oil Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Harris County",
+        "operator": "Historical operators",
+        "description": "Historic Gulf Coast oil field associated with the town of Humble and early oil development.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.327,
+          32.139
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.139,
+          -96.327
+        ],
+        "id": "oil-105",
+        "name": "Powell Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Navarro County",
+        "operator": "Historical operators",
+        "description": "Early North/Central Texas oil discovery area in Navarro County.",
+        "sourceId": "TEXAS_ALMANAC_DISCOVERIES",
+        "sourceName": "Texas Almanac - Chronological Listing of Major Oil Discoveries",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/other/oil10.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.302,
+          30.5905
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.5905,
+          -97.302
+        ],
+        "id": "oil-106",
+        "name": "Thrall Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Williamson County",
+        "operator": "Historical operators",
+        "description": "Historic oil field near Thrall in Williamson County.",
+        "sourceId": "TEXAS_ALMANAC_DISCOVERIES",
+        "sourceName": "Texas Almanac - Chronological Listing of Major Oil Discoveries",
+        "sourceUrl": "https://www.texasalmanac.com/drupal-backup/images/other/oil10.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.548,
+          32.291
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.291,
+          -98.548
+        ],
+        "id": "oil-107",
+        "name": "Desdemona Field",
+        "resourceType": "Oil",
+        "siteType": "historical site",
+        "status": "Historical / legacy",
+        "county": "Eastland County",
+        "operator": "Historical operators",
+        "description": "Historic oil boom field in Eastland County.",
+        "sourceId": "TSHA_OIL_FIELDS",
+        "sourceName": "Handbook of Texas - Oil Fields and Wells Category",
+        "sourceUrl": "https://www.tshaonline.org/handbook/browse/categories/oil-fields-and-wells",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative historical field point. Broad filter category: historical site.",
+        "detailedSiteType": "Historic Oil Field / Discovery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.65,
+          32.25
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.25,
+          -101.65
+        ],
+        "id": "oil-108",
+        "name": "Cline Shale Appraisal Area",
+        "resourceType": "Oil",
+        "siteType": "exploration",
+        "status": "Exploration / appraisal",
+        "county": "Glasscock / Howard / Sterling counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for Cline Shale appraisal and unconventional oil interest in the Midland Basin.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative exploration/appraisal area point. Broad filter category: exploration.",
+        "detailedSiteType": "Exploration / Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2,
+          31.9
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.9,
+          -102.2
+        ],
+        "id": "oil-109",
+        "name": "Wolfberry Trend Development Area",
+        "resourceType": "Oil",
+        "siteType": "exploration",
+        "status": "Exploration / appraisal",
+        "county": "Midland / Upton / Martin counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for Wolfcamp-Spraberry stacked-pay development known as the Wolfberry trend.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative development/appraisal trend point. Broad filter category: exploration.",
+        "detailedSiteType": "Exploration / Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.85,
+          32.65
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.65,
+          -102.85
+        ],
+        "id": "oil-110",
+        "name": "San Andres Horizontal Oil Trend",
+        "resourceType": "Oil",
+        "siteType": "exploration",
+        "status": "Exploration / appraisal",
+        "county": "Gaines / Andrews / Yoakum counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for renewed horizontal San Andres oil development in the Permian region.",
+        "sourceId": "RRC_PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin Information",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative play/appraisal point. Broad filter category: exploration.",
+        "detailedSiteType": "Exploration / Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5,
+          28.7
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          28.7,
+          -99.5
+        ],
+        "id": "oil-111",
+        "name": "Pearsall Shale Liquids Appraisal Area",
+        "resourceType": "Oil",
+        "siteType": "exploration",
+        "status": "Exploration / appraisal",
+        "county": "Frio / La Salle / Dimmit counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for liquids-oriented appraisal interest in the Pearsall/Eagle Ford-associated South Texas section.",
+        "sourceId": "RRC_EAGLE_FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Representative appraisal point. Broad filter category: exploration.",
+        "detailedSiteType": "Exploration / Appraisal Area"
+      }
+    }
+  ]
+}

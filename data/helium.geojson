@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.05,
+          35.35
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.05,
+          "latitude": 35.35
+        },
+        "id": "TX-HE-001",
+        "name": "Bush Dome Reservoir",
+        "resourceType": "Helium",
+        "siteType": "facility",
+        "status": "Strategic / transitioned from federal reserve",
+        "county": "Potter",
+        "operator": "Federal Helium Reserve legacy / private successors",
+        "description": "Underground geological reservoir in the Cliffside Gas Field historically used to store federally owned helium.",
+        "sourceId": "TSHA-HELIUM-BUSH-DOME",
+        "sourceName": "Texas State Historical Association - Bush Dome Reservoir and Cliffside Field Terminal",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/bush-dome-reservoir-and-cliffside-field-terminal",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.02,
+          35.33
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.02,
+          "latitude": 35.33
+        },
+        "id": "TX-HE-002",
+        "name": "Cliffside Field Terminal / Cliffside Gas Plant",
+        "resourceType": "Helium",
+        "siteType": "facility",
+        "status": "Legacy / privatized system context",
+        "county": "Potter",
+        "operator": "Federal Helium System legacy / private successor",
+        "description": "Facility associated with the Federal Helium Reserve, helium quality testing, enrichment, and withdrawal from Bush Dome.",
+        "sourceId": "GSA-CLIFFSIDE-SALE-2023",
+        "sourceName": "U.S. General Services Administration - Sale of Federal Helium System Assets",
+        "sourceUrl": "https://www.gsa.gov/about-us/newsroom/former-gsa-regional-news-archive/region-7-newsroom/greater-southwest-feature-stories-and-news-release/gsa-announces-sale-of-federal-helium-system-assets-06222023",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.94,
+          35.2
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.94,
+          "latitude": 35.2
+        },
+        "id": "TX-HE-003",
+        "name": "Amarillo Helium Plant",
+        "resourceType": "Helium",
+        "siteType": "historical site",
+        "status": "Historical",
+        "county": "Potter",
+        "operator": "U.S. Bureau of Mines legacy",
+        "description": "Historic helium plant west of Amarillo that supplied much of the world's helium before World War II.",
+        "sourceId": "THC-AMARILLO-HELIUM",
+        "sourceName": "Texas Historical Commission - Amarillo Helium Plant",
+        "sourceUrl": "https://thc.texas.gov/review/federal-project-review/mitigation/amarillo-helium-plant",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "New curated record",
+        "notes": "Representative point; verify lease/facility boundary before using for operational decisions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.55,
+          35.55
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.55,
+          "latitude": 35.55
+        },
+        "id": "TX-HE-004",
+        "name": "Panhandle Helium-Bearing Gas Field Area",
+        "resourceType": "Helium",
+        "siteType": "deposit",
+        "status": "Historical / gas production area",
+        "county": "Moore / Potter / Hutchinson / Carson",
+        "operator": "Multiple gas operators / historical federal program",
+        "description": "Regional point for helium-bearing Panhandle natural gas resources that supported the federal helium program.",
+        "sourceId": "TSHA-HELIUM-BUSH-DOME",
+        "sourceName": "Texas State Historical Association - Bush Dome Reservoir and Cliffside Field Terminal",
+        "sourceUrl": "https://www.tshaonline.org/handbook/entries/bush-dome-reservoir-and-cliffside-field-terminal",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "New curated record",
+        "notes": "Regional field centroid, not a single facility."
+      }
+    }
+  ]
+}

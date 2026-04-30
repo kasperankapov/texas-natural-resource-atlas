@@ -1,0 +1,1222 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95,
+          33.15
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.15,
+          -95
+        ],
+        "id": "lithium-001",
+        "name": "East Texas Smackover Formation Lithium Brine Trend",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Emerging lithium brine resource trend",
+        "county": "Multiple Northeast Texas counties",
+        "operator": "Multiple mineral owners / operators",
+        "description": "Representative point for the Texas portion of the Smackover lithium brine trend, an emerging focus for direct lithium extraction from subsurface brines.",
+        "sourceId": "BEG_TEXAS_IMPERATIVE",
+        "sourceName": "Bureau of Economic Geology - The Texas Imperative",
+        "sourceUrl": "https://www.beg.utexas.edu/research/the-texas-imperative",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Regional trend centroid; not a project boundary or facility point. Broad filter category: deposit.",
+        "detailedSiteType": "Lithium Brine Region / Formation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.22,
+          33.18
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.18,
+          -95.22
+        ],
+        "id": "lithium-002",
+        "name": "Smackover Lithium Franklin Project Brine Resource Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Inferred resource / pre-development",
+        "county": "Franklin, West Titus, and East Hopkins counties",
+        "operator": "Smackover Lithium JV / Standard Lithium / Equinor",
+        "description": "Representative point for the Franklin Project area, where Smackover Lithium reported a maiden inferred brine resource and high-grade lithium brine results.",
+        "sourceId": "STD_RESOURCE_2025",
+        "sourceName": "Standard Lithium - Franklin Project inferred resource release",
+        "sourceUrl": "https://www.standardlithium.com/news/smackover-lithium-releases-maiden-inferred-resource-for-its-franklin-project-comprising-a-portion-of-significant-brine-position-in-east-texas",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Project-area point based on public county-level project description; not an exact lease polygon. Broad filter category: deposit.",
+        "detailedSiteType": "Brine Resource Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          33.14
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.14,
+          -95.35
+        ],
+        "id": "lithium-003",
+        "name": "Pine Forest 1 Lithium Brine Sample Well Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Exploration sampling completed",
+        "county": "Franklin County",
+        "operator": "Smackover Lithium JV / Standard Lithium",
+        "description": "Representative point for the Pine Forest 1 brine sample area, associated with a reported 806 mg/L lithium brine sample in the Franklin Project area.",
+        "sourceId": "STD_EAST_TX",
+        "sourceName": "Standard Lithium - East Texas Project",
+        "sourceUrl": "https://www.standardlithium.com/projects/smackover/east-texas/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Public sources describe the well as within the project/western area but do not publish an official wellhead coordinate; placed as a representative Franklin County project-area point. Broad filter category: exploration.",
+        "detailedSiteType": "Sampling Well / Exploration Well"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.985,
+          33.19
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.19,
+          -94.985
+        ],
+        "id": "lithium-004",
+        "name": "West Titus County Smackover Leasing Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Leasing / appraisal",
+        "county": "Titus County",
+        "operator": "Smackover Lithium JV and other operators",
+        "description": "Representative point for West Titus County brine and brine-sourced mineral leasing associated with the Franklin Project area.",
+        "sourceId": "STD_RESOURCE_2025",
+        "sourceName": "Standard Lithium - Franklin Project inferred resource release",
+        "sourceUrl": "https://www.standardlithium.com/news/smackover-lithium-releases-maiden-inferred-resource-for-its-franklin-project-comprising-a-portion-of-significant-brine-position-in-east-texas",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "County-level representative point within the publicly described West Titus project area. Broad filter category: exploration.",
+        "detailedSiteType": "Leasing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.56,
+          33.09
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.09,
+          -95.56
+        ],
+        "id": "lithium-005",
+        "name": "East Hopkins County Smackover Leasing Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Leasing / appraisal",
+        "county": "Hopkins County",
+        "operator": "Smackover Lithium JV and other operators",
+        "description": "Representative point for East Hopkins County brine and brine-sourced mineral leasing associated with the Franklin Project area.",
+        "sourceId": "STD_RESOURCE_2025",
+        "sourceName": "Standard Lithium - Franklin Project inferred resource release",
+        "sourceUrl": "https://www.standardlithium.com/news/smackover-lithium-releases-maiden-inferred-resource-for-its-franklin-project-comprising-a-portion-of-significant-brine-position-in-east-texas",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "County-level representative point within the publicly described East Hopkins project area. Broad filter category: exploration.",
+        "detailedSiteType": "Leasing Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.345,
+          33.08
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.08,
+          -94.345
+        ],
+        "id": "lithium-006",
+        "name": "Cass County Smackover Brine Prospect Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Prospective / early exploration",
+        "county": "Cass County",
+        "operator": "Multiple operators / mineral owners",
+        "description": "Representative point for Cass County lithium brine prospectivity in the East Texas Smackover trend.",
+        "sourceId": "DALLAS_FED_SMACKOVER",
+        "sourceName": "Federal Reserve Bank of Dallas - Old oil fields reimagined as lithium sources",
+        "sourceUrl": "https://www.dallasfed.org/research/swe/2024/swe2413",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Prospect-area point; included to show the broader northeast Texas Smackover trend beyond the Franklin Project. Broad filter category: deposit.",
+        "detailedSiteType": "Brine Prospect Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.73,
+          33.115
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.115,
+          -94.73
+        ],
+        "id": "lithium-007",
+        "name": "Morris County Smackover Brine Prospect Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Prospective / early exploration",
+        "county": "Morris County",
+        "operator": "Multiple operators / mineral owners",
+        "description": "Representative point for Morris County lithium brine prospectivity in the East Texas Smackover trend.",
+        "sourceId": "DALLAS_FED_SMACKOVER",
+        "sourceName": "Federal Reserve Bank of Dallas - Old oil fields reimagined as lithium sources",
+        "sourceUrl": "https://www.dallasfed.org/research/swe/2024/swe2413",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Prospect-area point; included as a broad educational brine-trend record, not a confirmed producing project. Broad filter category: deposit.",
+        "detailedSiteType": "Brine Prospect Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.65,
+          31.81
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.81,
+          -95.65
+        ],
+        "id": "lithium-008",
+        "name": "Anderson County Southern Smackover Prospect Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Prospective / early exploration",
+        "county": "Anderson County",
+        "operator": "Multiple operators / mineral owners",
+        "description": "Representative point for the southern East Texas Smackover brine trend where lithium interest may extend beyond the main Franklin/Titus/Hopkins area.",
+        "sourceId": "BEG_TEXAS_IMPERATIVE",
+        "sourceName": "Bureau of Economic Geology - The Texas Imperative",
+        "sourceUrl": "https://www.beg.utexas.edu/research/the-texas-imperative",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Very broad representative point; should be treated as a regional prospectivity marker, not a defined project. Broad filter category: deposit.",
+        "detailedSiteType": "Brine Prospect Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.16,
+          31.84
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.84,
+          -95.16
+        ],
+        "id": "lithium-009",
+        "name": "Cherokee County Southern Smackover Prospect Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Prospective / early exploration",
+        "county": "Cherokee County",
+        "operator": "Multiple operators / mineral owners",
+        "description": "Representative point for southern East Texas Smackover-related lithium brine prospectivity.",
+        "sourceId": "BEG_TEXAS_IMPERATIVE",
+        "sourceName": "Bureau of Economic Geology - The Texas Imperative",
+        "sourceUrl": "https://www.beg.utexas.edu/research/the-texas-imperative",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Very broad representative point; included to show possible Smackover extension in East Texas. Broad filter category: deposit.",
+        "detailedSiteType": "Brine Prospect Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.15,
+          33.155
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.155,
+          -95.15
+        ],
+        "id": "lithium-010",
+        "name": "T5 Smackover Partners Geothermal-Lithium Project Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Announced project / appraisal",
+        "county": "Franklin, Titus, and Hopkins counties",
+        "operator": "T5 Smackover Partners",
+        "description": "Representative point for T5 Smackover Partners integrated geothermal, lithium, and critical-minerals project announced for Franklin, Titus, and Hopkins counties.",
+        "sourceId": "T5_SMACKOVER",
+        "sourceName": "T5 Smackover Partners - East Texas geothermal/lithium project",
+        "sourceUrl": "https://www.t5smackover.com/news/t5-smackover-partners-unveils-landmark-geothermal-lithium-and-critical-minerals-project-in-east-texas",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Project-area centroid across the announced county group; not a plant site or lease boundary. Broad filter category: exploration.",
+        "detailedSiteType": "Integrated Lithium / Geothermal Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.78,
+          33.26
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.26,
+          -94.78
+        ],
+        "id": "lithium-011",
+        "name": "Chevron Northeast Texas Smackover Leasehold",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Acquired leasehold / early development",
+        "county": "Northeast Texas / Southwest Arkansas",
+        "operator": "Chevron U.S.A. Inc.",
+        "description": "Representative point for Chevron leasehold acreage targeting lithium in Smackover brines in northeast Texas and southwest Arkansas.",
+        "sourceId": "CHEVRON_REUTERS",
+        "sourceName": "Reuters - Chevron enters U.S. lithium sector with acreage buy",
+        "sourceUrl": "https://www.reuters.com/business/energy/chevron-makes-move-into-us-lithium-sector-with-acreage-buy-2025-06-17/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Acreage position spans multiple areas and a state line; point is a northeast Texas representative marker only. Broad filter category: exploration.",
+        "detailedSiteType": "Lithium Leasehold / Brine Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5,
+          33.43
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.43,
+          -94.5
+        ],
+        "id": "lithium-012",
+        "name": "EnergyX Texas Smackover Lease Position",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Leasehold / project development",
+        "county": "Bowie County / Northeast Texas region",
+        "operator": "EnergyX",
+        "description": "Representative point for EnergyX Texas Smackover acreage position tied to Project Lonestar and planned downstream lithium processing in northeast Texas.",
+        "sourceId": "ENERGYX_PANTERA",
+        "sourceName": "EnergyX - Smackover lithium mineral deposit acquisition",
+        "sourceUrl": "https://energyx.com/press-release/energyx-to-acquire-35000-acre-smackover-lithium-mineral-deposit-from-pantera-advancing-strategic-leadership-in-u-s-lithium-production/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Regional lease-position point; not an exact lease boundary. Broad filter category: exploration.",
+        "detailedSiteType": "Lithium Leasehold / Brine Project"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95,
+          32.75
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.75,
+          -95
+        ],
+        "id": "lithium-013",
+        "name": "TerraVolta Project Freebird Appraisal Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Appraisal",
+        "county": "Central/East Texas",
+        "operator": "TerraVolta Resources",
+        "description": "Representative point for TerraVolta Project Freebird, described by the company as a Central/East Texas appraisal project in the Smackover lithium context.",
+        "sourceId": "TERRAVOLTA_OPS",
+        "sourceName": "TerraVolta - Operations",
+        "sourceUrl": "https://www.terravolta.com/operations",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Company does not publish a precise project coordinate on the operations page; point is intentionally generalized. Broad filter category: exploration.",
+        "detailedSiteType": "Appraisal Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.65,
+          33
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33,
+          -94.65
+        ],
+        "id": "lithium-014",
+        "name": "TerraVolta East Texas Smackover TBA Project Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "TBA / early project",
+        "county": "East Texas",
+        "operator": "TerraVolta Resources",
+        "description": "Representative point for TerraVolta East Texas Smackover project activity listed as TBA on the company operations page.",
+        "sourceId": "TERRAVOLTA_OPS",
+        "sourceName": "TerraVolta - Operations",
+        "sourceUrl": "https://www.terravolta.com/operations",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Highly generalized because public source provides only broad East Texas location. Broad filter category: exploration.",
+        "detailedSiteType": "Appraisal Project Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.334295,
+          33.463189
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.463189,
+          -94.334295
+        ],
+        "id": "lithium-015",
+        "name": "EnergyX Project Lonestar Demonstration Plant at TexAmericas Center",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Commissioned / demonstration",
+        "county": "Bowie County",
+        "operator": "EnergyX",
+        "description": "Direct lithium extraction demonstration plant at TexAmericas Center near Texarkana/Hooks, Texas, intended to demonstrate Smackover brine-to-lithium production.",
+        "sourceId": "ENERGYX_TEXAMERICAS",
+        "sourceName": "EnergyX - Project Lonestar site at TexAmericas Center",
+        "sourceUrl": "https://energyx.com/press-release/energyx-secures-landmark-site-project-lonestar-texamericascenter/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "active",
+        "notes": "Coordinates use TexAmericas Center published latitude/longitude. Facility footprint may occupy a smaller parcel within the industrial center. Broad filter category: facility.",
+        "detailedSiteType": "DLE Demonstration Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.36,
+          33.45
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          33.45,
+          -94.36
+        ],
+        "id": "lithium-016",
+        "name": "EnergyX Project Lonestar Mega Refinery Site near Red River Army Depot",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Planned commercial-scale refinery",
+        "county": "Bowie County",
+        "operator": "EnergyX",
+        "description": "Representative point for EnergyX planned larger refinery site near the Red River Army Depot associated with Project Lonestar.",
+        "sourceId": "ENERGYX_PANTERA",
+        "sourceName": "EnergyX - Smackover lithium mineral deposit acquisition",
+        "sourceUrl": "https://energyx.com/press-release/energyx-to-acquire-35000-acre-smackover-lithium-mineral-deposit-from-pantera-advancing-strategic-leadership-in-u-s-lithium-production/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Public source describes rights to land near Red River Army Depot, but not a parcel centroid; coordinate is a nearby representative point. Broad filter category: facility.",
+        "detailedSiteType": "Lithium Refinery Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.008889,
+          31.920111
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.920111,
+          -102.008889
+        ],
+        "id": "lithium-017",
+        "name": "Element3 Permian Basin Lithium Extraction and Carbonate Facility",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Operational / ribbon-cutting announced",
+        "county": "Midland County",
+        "operator": "Element3 Resources",
+        "description": "Lithium extraction and carbonate facility in Midland County using Permian Basin oilfield wastewater / produced water as feedstock.",
+        "sourceId": "ELEMENT3_GOV",
+        "sourceName": "Office of the Texas Governor - Element3 lithium extraction facility ribbon cutting",
+        "sourceUrl": "https://gov.texas.gov/news/post/governor-abbott-cuts-ribbon-at-element3-lithium-extraction-facility",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "active",
+        "notes": "Placed near the public 6712 FM 715 address reference; treated as approximate facility point rather than official plant boundary. Broad filter category: facility.",
+        "detailedSiteType": "Lithium Carbonate Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.05,
+          31.87
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.87,
+          -102.05
+        ],
+        "id": "lithium-018",
+        "name": "Element3 / Double Eagle Midland Basin Produced-Water Field Test Site",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Field test / demonstration",
+        "county": "Midland County",
+        "operator": "Element3 Resources / Double Eagle subsidiary",
+        "description": "Representative point for Element3 battery-grade lithium carbonate field test using Midland Basin produced water at a Double Eagle subsidiary recycling facility.",
+        "sourceId": "ELEMENT3_NEWS",
+        "sourceName": "Element3 - Battery-grade lithium carbonate from Permian Basin wastewater",
+        "sourceUrl": "https://www.element3.io/news/element3-produces-first-lithium-carbonate-from-permian-basin-wastewater",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Public release does not identify the recycling facility coordinate; placed as a Midland Basin test-area marker. Broad filter category: facility.",
+        "detailedSiteType": "DLE Field Test Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.5,
+          31.42
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.42,
+          -103.5
+        ],
+        "id": "lithium-019",
+        "name": "LibertyStream Reeves County DLE Demonstration Unit",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Demonstration-scale production",
+        "county": "Reeves County",
+        "operator": "LibertyStream Infrastructure Partners",
+        "description": "Representative point for LibertyStream Reeves County field operations producing lithium carbonate from oilfield brine / produced water.",
+        "sourceId": "MRT_LIBERTYSTREAM_REEVES",
+        "sourceName": "Midland Reporter-Telegram - LibertyStream Reeves County lithium carbonate production",
+        "sourceUrl": "https://www.mrt.com/business/oil/article/libertystream-lithium-permian-21223293.php",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "The report identifies Reeves County field operations but not an exact well/site coordinate; point is county-level representative. Broad filter category: facility.",
+        "detailedSiteType": "DLE Demonstration Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.46,
+          32.43
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.43,
+          -101.46
+        ],
+        "id": "lithium-020",
+        "name": "Select / LibertyStream Howard County Lithium Carbonate Facility",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Planned / under development",
+        "county": "Howard County",
+        "operator": "Select Water Solutions / LibertyStream Infrastructure Partners",
+        "description": "First commercial lithium carbonate facility planned at a Select operating site in Howard County north of Midland.",
+        "sourceId": "SELECT_LIBERTYSTREAM",
+        "sourceName": "Select Water Solutions / LibertyStream partnership release",
+        "sourceUrl": "https://investors.selectwater.com/news-events/press-releases/detail/139/select-water-solutions-and-libertystream-infrastructure-partners-announce-definitive-agreement-to-build-out-commercial-lithium-carbonate-production-units-in-texas-first-1000-tonne-facility-slated-for-commissioning-by-december-2026",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "County-level representative point north of Midland; exact Select operating-site coordinates were not published in the source. Broad filter category: facility.",
+        "detailedSiteType": "Lithium Carbonate Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.95,
+          32.31
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.31,
+          -101.95
+        ],
+        "id": "lithium-021",
+        "name": "LibertyStream Martin County Planned Midland Basin Facility",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Planned stage-three facility area",
+        "county": "Martin County",
+        "operator": "Select Water Solutions / LibertyStream Infrastructure Partners",
+        "description": "Representative point for planned future lithium carbonate deployment across existing Select sites in the Midland Basin, including Martin County.",
+        "sourceId": "MRT_LIBERTYSTREAM_HOWARD",
+        "sourceName": "Midland Reporter-Telegram - LibertyStream Howard County lithium facility",
+        "sourceUrl": "https://www.mrt.com/business/oil/article/libertystream-howard-county-lithium-22073547.php",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Represents a planned county-level buildout area rather than a confirmed plant coordinate. Broad filter category: facility.",
+        "detailedSiteType": "Planned Lithium Carbonate Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.078,
+          31.997
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.997,
+          -102.078
+        ],
+        "id": "lithium-022",
+        "name": "LibertyStream Midland County Planned Midland Basin Facility",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Planned stage-three facility area",
+        "county": "Midland County",
+        "operator": "Select Water Solutions / LibertyStream Infrastructure Partners",
+        "description": "Representative point for planned future lithium carbonate deployment across existing Select sites in the Midland Basin, including Midland County.",
+        "sourceId": "MRT_LIBERTYSTREAM_HOWARD",
+        "sourceName": "Midland Reporter-Telegram - LibertyStream Howard County lithium facility",
+        "sourceUrl": "https://www.mrt.com/business/oil/article/libertystream-howard-county-lithium-22073547.php",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Represents a planned county-level buildout area rather than a confirmed plant coordinate. Broad filter category: facility.",
+        "detailedSiteType": "Planned Lithium Carbonate Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.04,
+          31.37
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.37,
+          -102.04
+        ],
+        "id": "lithium-023",
+        "name": "LibertyStream Upton County Planned Midland Basin Facility",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Planned stage-three facility area",
+        "county": "Upton County",
+        "operator": "Select Water Solutions / LibertyStream Infrastructure Partners",
+        "description": "Representative point for planned future lithium carbonate deployment across existing Select sites in the Midland Basin, including Upton County.",
+        "sourceId": "MRT_LIBERTYSTREAM_HOWARD",
+        "sourceName": "Midland Reporter-Telegram - LibertyStream Howard County lithium facility",
+        "sourceUrl": "https://www.mrt.com/business/oil/article/libertystream-howard-county-lithium-22073547.php",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Represents a planned county-level buildout area rather than a confirmed plant coordinate. Broad filter category: facility.",
+        "detailedSiteType": "Planned Lithium Carbonate Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.52,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.85,
+          -101.52
+        ],
+        "id": "lithium-024",
+        "name": "LibertyStream Glasscock County Planned Midland Basin Facility",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "status": "Planned stage-three facility area",
+        "county": "Glasscock County",
+        "operator": "Select Water Solutions / LibertyStream Infrastructure Partners",
+        "description": "Representative point for planned future lithium carbonate deployment across existing Select sites in the Midland Basin, including Glasscock County.",
+        "sourceId": "MRT_LIBERTYSTREAM_HOWARD",
+        "sourceName": "Midland Reporter-Telegram - LibertyStream Howard County lithium facility",
+        "sourceUrl": "https://www.mrt.com/business/oil/article/libertystream-howard-county-lithium-22073547.php",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Represents a planned county-level buildout area rather than a confirmed plant coordinate. Broad filter category: facility.",
+        "detailedSiteType": "Planned Lithium Carbonate Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.05,
+          31.9
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.9,
+          -102.05
+        ],
+        "id": "lithium-025",
+        "name": "Midland Basin Produced-Water Lithium Opportunity",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Potential resource / early commercialization",
+        "county": "Midland, Martin, Howard, Upton, Glasscock and surrounding counties",
+        "operator": "Multiple oilfield water operators",
+        "description": "Representative point for lithium recovery potential from large-volume Midland Basin produced water streams.",
+        "sourceId": "BEG_CRITICAL_MINERALS_TX",
+        "sourceName": "Bureau of Economic Geology - Critical Minerals and Rare Earth Elements in Texas",
+        "sourceUrl": "https://www.beg.utexas.edu/rare-earth-elements-podcast/critical-minerals-and-rare-earth-elements-in-texas/highlights",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Produced-water opportunity area; not an extraction facility. Broad filter category: deposit.",
+        "detailedSiteType": "Produced-Water Lithium Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.55,
+          31.7
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.7,
+          -103.55
+        ],
+        "id": "lithium-026",
+        "name": "Delaware Basin Produced-Water Lithium Opportunity",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Potential resource / early commercialization",
+        "county": "Reeves, Loving, Ward, Winkler and surrounding counties",
+        "operator": "Multiple oilfield water operators",
+        "description": "Representative point for lithium recovery potential from Delaware Basin produced water streams and saltwater disposal infrastructure.",
+        "sourceId": "USGS_WATERS",
+        "sourceName": "U.S. Geological Survey - Oil and Gas Waters Project",
+        "sourceUrl": "https://www.usgs.gov/centers/geology-energy-and-minerals-science-center/science/oil-and-gas-waters-project",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Produced-water opportunity area; not an extraction facility. Broad filter category: deposit.",
+        "detailedSiteType": "Produced-Water Lithium Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.75,
+          31.95
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.95,
+          -102.75
+        ],
+        "id": "lithium-027",
+        "name": "Central Basin Platform Oilfield Brine Lithium Opportunity",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Potential resource / research interest",
+        "county": "Andrews, Ector, Winkler and surrounding counties",
+        "operator": "Multiple operators",
+        "description": "Representative point for potential oilfield-brine lithium recovery from the Central Basin Platform and adjacent Permian produced-water systems.",
+        "sourceId": "RSC_PRODUCED_WATERS",
+        "sourceName": "Environmental Science: Water Research & Technology - Lithium recovery from U.S. oil and gas produced waters",
+        "sourceUrl": "https://pubs.rsc.org/en/content/articlehtml/2025/ew/d4ew00422a",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Generalized oilfield-brine opportunity marker. Broad filter category: deposit.",
+        "detailedSiteType": "Oilfield Brine Opportunity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.4,
+          32
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32,
+          -102.4
+        ],
+        "id": "lithium-028",
+        "name": "Permian Basin High-Volume Produced-Water Recovery Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Potential resource / research interest",
+        "county": "Multiple West Texas counties",
+        "operator": "Multiple oilfield water operators",
+        "description": "Representative point for Permian Basin high-volume produced-water systems that may support lithium and critical-mineral recovery if economics and technology allow.",
+        "sourceId": "BEG_CRITICAL_MINERALS_TX",
+        "sourceName": "Bureau of Economic Geology - Critical Minerals and Rare Earth Elements in Texas",
+        "sourceUrl": "https://www.beg.utexas.edu/rare-earth-elements-podcast/critical-minerals-and-rare-earth-elements-in-texas/highlights",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Regional produced-water marker; included to distinguish very high water volume from necessarily high lithium concentration. Broad filter category: deposit.",
+        "detailedSiteType": "Produced-Water Lithium Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55,
+          32.78
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.78,
+          -97.55
+        ],
+        "id": "lithium-029",
+        "name": "Barnett Shale Produced-Water Lithium Sampling Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Research / sampling",
+        "county": "Tarrant, Wise, Denton, Johnson and surrounding counties",
+        "operator": "Bureau of Economic Geology / research partners",
+        "description": "Representative point for Barnett Shale produced-water sampling referenced in lithium extraction research and BEG-related work.",
+        "sourceId": "BARNETT_BEG",
+        "sourceName": "Journal of Petroleum Technology / BEG - Lithium extraction produced water sampling",
+        "sourceUrl": "https://www.beg.utexas.edu/files/content/beg/ext-aff/2023/11/It%20Is%20Easy%20to%20Find%20Lithium_%20Turning%20a%20Profit%20is%20Hard.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Regional research/sampling marker, not a facility. Broad filter category: exploration.",
+        "detailedSiteType": "Produced-Water Sampling Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3,
+          29.75
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          29.75,
+          -95.3
+        ],
+        "id": "lithium-030",
+        "name": "Texas Gulf Coast Oilfield Brine Lithium Study Area",
+        "resourceType": "Lithium",
+        "siteType": "exploration",
+        "status": "Research / regional study",
+        "county": "Texas Gulf Coast region",
+        "operator": "Research institutions / multiple operators",
+        "description": "Representative point for Texas Gulf Coast oilfield brines included in research on controls of lithium content in oilfield waters.",
+        "sourceId": "GULF_COAST_BRINES",
+        "sourceName": "Applied Geochemistry - Controls on lithium content of oilfield waters in Texas and U.S. Gulf Coast",
+        "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0375674223002108",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "Regional study-area marker for research context, not a specific project or facility. Broad filter category: exploration.",
+        "detailedSiteType": "Oilfield Brine Research Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3,
+          31.43
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.43,
+          -103.3
+        ],
+        "id": "lithium-031",
+        "name": "Reeves County Saltwater Disposal Lithium Recovery Opportunity",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Potential resource / DLE integration opportunity",
+        "county": "Reeves County",
+        "operator": "Multiple SWD and water-management operators",
+        "description": "Representative point for saltwater disposal and produced-water systems in Reeves County that are being evaluated as potential DLE feedstock sources.",
+        "sourceId": "MRT_LIBERTYSTREAM_REEVES",
+        "sourceName": "Midland Reporter-Telegram - LibertyStream Reeves County lithium carbonate production",
+        "sourceUrl": "https://www.mrt.com/business/oil/article/libertystream-lithium-permian-21223293.php",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "representative",
+        "notes": "County-level opportunity marker; not a specific SWD well coordinate. Broad filter category: deposit.",
+        "detailedSiteType": "Oilfield Brine Opportunity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.44,
+          32.3
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          32.3,
+          -101.44
+        ],
+        "id": "lithium-032",
+        "name": "Howard County Produced-Water Lithium Recovery Opportunity",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Potential resource / planned commercialization",
+        "county": "Howard County",
+        "operator": "Select Water Solutions / LibertyStream Infrastructure Partners and other operators",
+        "description": "Representative point for Howard County produced-water lithium recovery opportunity tied to Select and LibertyStream commercial planning.",
+        "sourceId": "SELECT_LIBERTYSTREAM",
+        "sourceName": "Select Water Solutions / LibertyStream partnership release",
+        "sourceUrl": "https://investors.selectwater.com/news-events/press-releases/detail/139/select-water-solutions-and-libertystream-infrastructure-partners-announce-definitive-agreement-to-build-out-commercial-lithium-carbonate-production-units-in-texas-first-1000-tonne-facility-slated-for-commissioning-by-december-2026",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "County-level opportunity marker; not an exact plant or pipeline point. Broad filter category: deposit.",
+        "detailedSiteType": "Oilfield Brine Opportunity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.474679,
+          31.277348
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.277348,
+          -105.474679
+        ],
+        "id": "lithium-033",
+        "name": "Round Top Lithium-Bearing Critical Minerals Deposit",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Exploration / development-stage critical minerals project",
+        "county": "Hudspeth County",
+        "operator": "Texas Mineral Resources Corp. / project partners",
+        "description": "Round Top is primarily a rare earth and critical-minerals project but is also described as containing lithium among other technology metals.",
+        "sourceId": "TMRC_ROUND_TOP",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain project",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "representative",
+        "notes": "Coordinates use published Round Top summit/project-area coordinates; not a mine boundary. Broad filter category: deposit.",
+        "detailedSiteType": "Lithium-Bearing Critical Minerals Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.463846,
+          31.285403
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.285403,
+          -105.463846
+        ],
+        "id": "lithium-034",
+        "name": "Little Round Top Lithium-Bearing Prospect Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Prospect / adjacent critical-minerals context",
+        "county": "Hudspeth County",
+        "operator": "Multiple mineral/project interests",
+        "description": "Adjacent Little Round Top prospect area included as part of the broader Sierra Blanca / Round Top critical-minerals context.",
+        "sourceId": "LITTLE_ROUND_TOP_COORDS",
+        "sourceName": "TopoZone - Little Round Top, Hudspeth County, Texas",
+        "sourceUrl": "https://www.topozone.com/texas/hudspeth-tx/summit/little-round-top-9/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Prospect/summit coordinate; lithium relevance is secondary to broader critical-minerals context. Broad filter category: deposit.",
+        "detailedSiteType": "Lithium-Bearing Critical Minerals Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.47,
+          31.29
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.29,
+          -105.47
+        ],
+        "id": "lithium-035",
+        "name": "Sierra Blanca Peaks Lithium-Bearing Critical Minerals District",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Critical-minerals district / exploration context",
+        "county": "Hudspeth County",
+        "operator": "Multiple mineral/project interests",
+        "description": "Representative district point for the Sierra Blanca peaks and Round Top-area lithium-bearing critical-minerals context.",
+        "sourceId": "ROUND_TOP_COORDS",
+        "sourceName": "TopoZone - Round Top, Hudspeth County, Texas",
+        "sourceUrl": "https://www.topozone.com/texas/hudspeth-tx/summit/round-top-120/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "District marker; overlaps conceptually with Round Top but useful for atlas-scale critical-minerals context. Broad filter category: deposit.",
+        "detailedSiteType": "Critical Minerals District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.475,
+          31.278
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          31.278,
+          -105.475
+        ],
+        "id": "lithium-036",
+        "name": "Round Top State Mineral Lease Area",
+        "resourceType": "Lithium",
+        "siteType": "deposit",
+        "status": "Leased / project development",
+        "county": "Hudspeth County",
+        "operator": "Texas Mineral Resources Corp. / State of Texas lease interests",
+        "description": "Representative point for the leased Round Top critical-minerals project area, which includes lithium among a broader suite of technology metals.",
+        "sourceId": "TMRC_ROUND_TOP",
+        "sourceName": "Texas Mineral Resources Corp. - Round Top Mountain project",
+        "sourceUrl": "https://tmrcorp.com/projects/rare_earths/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "representative",
+        "notes": "Lease-area marker; project page describes 950-acre leases and adjacent prospecting permits, but not a GIS polygon. Broad filter category: deposit.",
+        "detailedSiteType": "Critical Minerals Lease Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.433056,
+          30.777778
+        ]
+      },
+      "properties": {
+        "coordinates": [
+          30.777778,
+          -98.433056
+        ],
+        "id": "lithium-037",
+        "name": "Baringer Hill Historical Lithium-Bearing Pegmatite",
+        "resourceType": "Lithium",
+        "siteType": "historical site",
+        "status": "Historical / inundated",
+        "county": "Llano County",
+        "operator": "Historical private operators",
+        "description": "Historic Baringer Hill pegmatite locality, now beneath Lake Buchanan, included for lithium-bearing mineral history and rare-element context.",
+        "sourceId": "BARINGER_HILL",
+        "sourceName": "Mindat - Baringer Hill Mine, Llano County, Texas",
+        "sourceUrl": "https://www.mindat.org/loc-4129.html",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "historical",
+        "notes": "Coordinates from Mindat locality map; site is historical/inundated and not accessible as a modern mine. Broad filter category: historical site.",
+        "detailedSiteType": "Historical Lithium-Bearing Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lithium-038",
+        "name": "Tesla Lithium Refinery - La Paloma-Lost Creek / Robstown",
+        "resourceType": "Lithium",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "detailedSiteType": "Lithium Refinery Site",
+        "status": "Under development / lithium refining site",
+        "county": "Nueces County",
+        "operator": "Tesla",
+        "description": "Tesla lithium refinery site near Corpus Christi and Robstown in the La Paloma-Lost Creek area of Nueces County.",
+        "sourceId": "TESLA_LITHIUM_REFINERY_MAPCARTA",
+        "sourceName": "Mapcarta / OpenStreetMap - Tesla Lithium Refinery",
+        "sourceUrl": "https://mapcarta.com/N9405063133",
+        "sourceDateAccessed": "2026-04-30",
+        "confidence": "High",
+        "recordStatus": "Public map record",
+        "notes": "Mapcarta/OpenStreetMap lists the refinery at 4518 County Road 28, Robstown, Texas with coordinates 27.70966, -97.72878. Tesla official project materials describe the refinery project near Corpus Christi; this point represents the mapped facility location, not a legal boundary.",
+        "coordinates": [
+          27.70966,
+          -97.72878
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72878,
+          27.70966
+        ]
+      }
+    }
+  ]
+}

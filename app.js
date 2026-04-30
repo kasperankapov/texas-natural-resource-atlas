@@ -3,8 +3,13 @@ const siteSearchInput = document.querySelector("#site-search");
 const sourceFilterSelect = document.querySelector("#source-filter");
 const resetFiltersButton = document.querySelector("#reset-filters");
 const basinOverlayToggle = document.querySelector("#toggle-basin-overlays");
+const markerClusterToggle = document.querySelector("#toggle-marker-clustering");
+const mapSummaryCount = document.querySelector("#map-summary-count");
+const mapSummaryBreakdown = document.querySelector("#map-summary-breakdown");
 const resourceTypeCheckboxes = document.querySelectorAll('input[name="resourceType"]');
 const siteTypeCheckboxes = document.querySelectorAll('input[name="siteType"]');
+const searchFieldCheckboxes = document.querySelectorAll('input[name="searchField"]');
+const debugLoggingEnabled = new URLSearchParams(window.location.search).has("debug");
 const resourceTypeConfig = [
   {
     label: "Oil",
@@ -136,6 +141,7 @@ let sourceCategoryById = {};
 let resourceData = null;
 let basinData = null;
 let resourceLayer = null;
+let markerClusterGroups = [];
 let basinLayer = null;
 let texasBorderLayer = null;
 
@@ -151,6 +157,12 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(texasMap);
 
+function logDebug(...messages) {
+  if (debugLoggingEnabled) {
+    console.log(...messages);
+  }
+}
+
 async function loadResourceData() {
   try {
     const response = await fetch("data/resources.geojson");
@@ -160,7 +172,7 @@ async function loadResourceData() {
     }
 
     resourceData = await response.json();
-    console.log("Successfully loaded resource GeoJSON data.", resourceData);
+    logDebug("Successfully loaded resource GeoJSON data.", resourceData);
     applyFilters();
     validateResourceRecords(resourceData);
     generateGeoJsonValidationReport(resourceData);
@@ -179,7 +191,7 @@ async function loadBasinData() {
 
     basinData = await response.json();
     const basinFeatureCount = Array.isArray(basinData.features) ? basinData.features.length : 0;
-    console.log(`Successfully loaded ${basinFeatureCount} Texas resource region/basin overlay features.`);
+    logDebug(`Successfully loaded ${basinFeatureCount} Texas resource region/basin overlay features.`);
     generateBasinValidationReport(basinData);
     applyBasinOverlayFilters();
   } catch (error) {
@@ -196,7 +208,7 @@ async function loadTexasBorderData() {
     }
 
     const texasBorderData = await response.json();
-    console.log("Successfully loaded Texas state border outline.");
+    logDebug("Successfully loaded Texas state border outline.");
     displayTexasBorder(texasBorderData);
   } catch (error) {
     console.warn("Failed to load Texas state border GeoJSON data from data/texas_border.geojson.", error);
@@ -239,7 +251,7 @@ async function validateResourceRecords(data) {
     });
 
     if (!hasValidationWarning) {
-      console.log("Resource record validation passed. All records include source metadata.");
+      logDebug("Resource record validation passed. All records include source metadata.");
     }
   } catch (error) {
     console.warn("Resource record validation could not load data/sourceRegistry.json.", error);
@@ -260,7 +272,7 @@ async function loadSourceFilterOptions() {
 
     const sourceRegistry = await response.json();
     populateSourceFilterOptions(sourceRegistry);
-    console.log("Successfully loaded source filter options.");
+    logDebug("Successfully loaded source filter options.");
   } catch (error) {
     console.warn("Failed to load source filter options from data/sourceRegistry.json.", error);
   }
@@ -420,23 +432,20 @@ function getGeoJsonRecordWarnings(feature, sourceIds) {
 }
 
 function logGeoJsonValidationReport(report) {
-  console.group("GeoJSON Validation Report");
-  console.log(`Total records: ${report.totalRecords}`);
-  console.log(`Valid records: ${report.validRecords}`);
-  console.log(`Records with warnings: ${report.recordsWithWarnings}`);
-
   if (report.warningsByRecord.length === 0) {
-    console.log("No validation warnings found.");
-  } else {
-    report.warningsByRecord.forEach((record) => {
-      console.group(`Warnings for ${record.recordId}`);
-      record.warnings.forEach((warning) => {
-        console.warn(warning);
-      });
-      console.groupEnd();
-    });
+    logDebug("GeoJSON validation passed with no warnings.", report);
+    return;
   }
 
+  console.group("GeoJSON Validation Report");
+  console.warn(`Records with warnings: ${report.recordsWithWarnings} of ${report.totalRecords}`);
+  report.warningsByRecord.forEach((record) => {
+    console.group(`Warnings for ${record.recordId}`);
+    record.warnings.forEach((warning) => {
+      console.warn(warning);
+    });
+    console.groupEnd();
+  });
   console.groupEnd();
 }
 
@@ -587,23 +596,20 @@ function positionAppearsValidLongitudeLatitude(position) {
 }
 
 function logBasinValidationReport(report) {
-  console.group("Basin GeoJSON Validation Report");
-  console.log(`Total basin features: ${report.totalFeatures}`);
-  console.log(`Valid basin features: ${report.validFeatures}`);
-  console.log(`Warnings: ${report.warningCount}`);
-
   if (report.warningsByFeature.length === 0) {
-    console.log("No basin validation warnings found.");
-  } else {
-    report.warningsByFeature.forEach((feature) => {
-      console.group(`Warnings for ${feature.featureId}`);
-      feature.warnings.forEach((warning) => {
-        console.warn(warning);
-      });
-      console.groupEnd();
-    });
+    logDebug("Basin GeoJSON validation passed with no warnings.", report);
+    return;
   }
 
+  console.group("Basin GeoJSON Validation Report");
+  console.warn(`Basin warnings: ${report.warningCount} across ${report.totalFeatures} features`);
+  report.warningsByFeature.forEach((feature) => {
+    console.group(`Warnings for ${feature.featureId}`);
+    feature.warnings.forEach((warning) => {
+      console.warn(warning);
+    });
+    console.groupEnd();
+  });
   console.groupEnd();
 }
 
@@ -623,11 +629,32 @@ function isBlank(value) {
 }
 
 function displayResourceMarkers(data) {
-  if (resourceLayer) {
-    resourceLayer.removeFrom(texasMap);
+  clearResourceMarkerLayers();
+
+  if (shouldClusterMarkers()) {
+    displayClusteredResourceMarkersByType(data);
+    return;
   }
 
-  resourceLayer = L.geoJSON(data, {
+  resourceLayer = createResourceMarkerLayer(data);
+  resourceLayer.addTo(texasMap);
+}
+
+function clearResourceMarkerLayers() {
+  markerClusterGroups.forEach((clusterGroup) => {
+    clusterGroup.removeFrom(texasMap);
+    clusterGroup.clearLayers();
+  });
+  markerClusterGroups = [];
+
+  if (resourceLayer) {
+    resourceLayer.removeFrom(texasMap);
+    resourceLayer = null;
+  }
+}
+
+function createResourceMarkerLayer(data) {
+  return L.geoJSON(data, {
     pointToLayer: (feature, latlng) => {
       return L.marker(latlng, {
         icon: createResourceMarkerIcon(feature.properties)
@@ -636,7 +663,103 @@ function displayResourceMarkers(data) {
     onEachFeature: (feature, layer) => {
       layer.bindPopup(createResourcePopup(feature.properties));
     }
-  }).addTo(texasMap);
+  });
+}
+
+function displayClusteredResourceMarkersByType(data) {
+  const features = Array.isArray(data?.features) ? data.features : [];
+
+  resourceTypeConfig.forEach((resourceType) => {
+    const resourceFeatures = features.filter((feature) => {
+      return feature.properties?.resourceType === resourceType.value;
+    });
+
+    if (resourceFeatures.length === 0) {
+      return;
+    }
+
+    const resourceMarkerLayer = createResourceMarkerLayer({
+      ...data,
+      features: resourceFeatures
+    });
+    const clusterGroup = createMarkerClusterGroup(resourceType.value);
+
+    // Each resource type gets its own cluster group, so different resources never cluster together.
+    clusterGroup.addLayer(resourceMarkerLayer);
+    clusterGroup.addTo(texasMap);
+    markerClusterGroups.push(clusterGroup);
+  });
+}
+
+function shouldClusterMarkers() {
+  return Boolean(markerClusterToggle?.checked && typeof L.markerClusterGroup === "function");
+}
+
+function createMarkerClusterGroup(resourceType) {
+  return L.markerClusterGroup({
+    showCoverageOnHover: false,
+    spiderfyOnMaxZoom: true,
+    zoomToBoundsOnClick: true,
+    maxClusterRadius: 32,
+    disableClusteringAtZoom: 9,
+    iconCreateFunction: (cluster) => createResourceClusterIcon(cluster, resourceType)
+  });
+}
+
+function createResourceClusterIcon(cluster, resourceType) {
+  const childCount = cluster.getChildCount();
+  const sizeName = childCount >= 50 ? "large" : childCount >= 15 ? "medium" : childCount >= 5 ? "small" : "tiny";
+  const iconSizeByName = {
+    tiny: 26,
+    small: 32,
+    medium: 42,
+    large: 50
+  };
+  const iconSize = iconSizeByName[sizeName];
+  const clusterStyle = getClusterResourceStyle(resourceType);
+  const clusterOffset = getResourceClusterOffset(resourceType, sizeName);
+
+  return L.divIcon({
+    html: `<span style="${clusterStyle.cssVariables}">${childCount.toLocaleString()}</span>`,
+    className: `resource-marker-cluster resource-marker-cluster-${sizeName} ${clusterStyle.className}`,
+    iconSize: L.point(iconSize, iconSize),
+    iconAnchor: L.point((iconSize / 2) - clusterOffset.x, (iconSize / 2) - clusterOffset.y)
+  });
+}
+
+function getResourceClusterOffset(resourceType, sizeName) {
+  const offsetScaleBySize = {
+    tiny: 0,
+    small: 3,
+    medium: 9,
+    large: 14
+  };
+  const offsetScale = offsetScaleBySize[sizeName] || 0;
+  const offsetDirections = {
+    Oil: [-1, -1],
+    "Natural Gas": [1, -1],
+    Lithium: [-1, 1],
+    "Coal/Lignite": [1, 1],
+    Uranium: [0, -1.25],
+    "Rare Earth": [0, 1.25]
+  };
+  const [xDirection, yDirection] = offsetDirections[resourceType] || [0, 0];
+
+  return {
+    x: xDirection * offsetScale,
+    y: yDirection * offsetScale
+  };
+}
+
+function getClusterResourceStyle(resourceType) {
+  const markerStyle = getResourceMarkerStyle(resourceType);
+  const fillColor = sanitizeMarkerColor(markerStyle.fillColor);
+  const borderColor = sanitizeMarkerColor(markerStyle.color);
+
+  return {
+    className: "resource-marker-cluster-single",
+    cssVariables: `--cluster-fill: ${fillColor}; --cluster-border: ${borderColor}; --cluster-text: #ffffff;`
+  };
 }
 
 function displayBasinOverlays(data) {
@@ -838,7 +961,7 @@ function createSiteTypeMarkerSvg(siteType, markerStyle) {
     shape = `<circle cx="10" cy="10" r="7" fill="${fillColor}" ${commonAttributes} stroke-dasharray="3 2" />`;
   }
 
-  if (siteType === "historical mine") {
+  if (siteType === "historical site") {
     shape = `<polygon points="10,2.5 17.5,10 10,17.5 2.5,10" fill="${fillColor}" ${commonAttributes} />`;
   }
 
@@ -858,6 +981,7 @@ function applyFilters() {
   const selectedSiteTypes = getSelectedSiteTypes();
   const selectedSourceCategory = getSelectedSourceCategory();
   const searchQuery = getSiteSearchQuery();
+  const selectedSearchFields = getSelectedSearchFields();
   const filteredData = {
     ...resourceData,
     features: resourceData.features.filter((feature) => {
@@ -865,12 +989,72 @@ function applyFilters() {
         selectedResourceTypes.has(feature.properties.resourceType) &&
         selectedSiteTypes.has(feature.properties.siteType) &&
         sourceCategoryMatchesFilter(feature.properties.sourceId, selectedSourceCategory) &&
-        siteNameMatchesSearch(feature.properties.name, searchQuery)
+        featureMatchesSearch(feature, searchQuery, selectedSearchFields)
       );
     })
   };
 
   displayResourceMarkers(filteredData);
+  updateMapSummary(filteredData);
+}
+
+function updateMapSummary(filteredData) {
+  if (!mapSummaryCount || !mapSummaryBreakdown) {
+    return;
+  }
+
+  const visibleFeatures = Array.isArray(filteredData?.features) ? filteredData.features : [];
+  const totalFeatures = getSupportedResourceFeatures(resourceData).length;
+  const visibleCount = visibleFeatures.length;
+  const siteLabel = totalFeatures === 1 ? "site" : "sites";
+  const resourceCounts = Object.fromEntries(
+    resourceTypeConfig.map((resourceType) => [resourceType.value, 0])
+  );
+
+  visibleFeatures.forEach((feature) => {
+    const resourceType = feature.properties?.resourceType;
+
+    if (Object.prototype.hasOwnProperty.call(resourceCounts, resourceType)) {
+      resourceCounts[resourceType] += 1;
+    }
+  });
+
+  mapSummaryCount.textContent = `Showing ${visibleCount.toLocaleString()} of ${totalFeatures.toLocaleString()} ${siteLabel}`;
+  mapSummaryBreakdown.innerHTML = resourceTypeConfig
+    .map((resourceType) => createResourceSummaryBadge(resourceType, resourceCounts[resourceType.value]))
+    .join("");
+}
+
+function getSupportedResourceFeatures(data) {
+  const configuredResourceTypes = new Set(resourceTypeConfig.map((resourceType) => resourceType.value));
+  const features = Array.isArray(data?.features) ? data.features : [];
+
+  return features.filter((feature) => configuredResourceTypes.has(feature.properties?.resourceType));
+}
+
+function createResourceSummaryBadge(resourceType, count) {
+  const markerStyle = resourceType.markerStyle || {};
+  const color = sanitizeMarkerColor(markerStyle.color);
+  const fillColor = sanitizeMarkerColor(markerStyle.fillColor);
+
+  return `
+    <span class="resource-summary-badge" style="--summary-color: ${color}; --summary-fill: ${hexToRgba(fillColor, 0.12)};">
+      <span>${escapeHtml(resourceType.label)}</span>
+      <strong>${count.toLocaleString()}</strong>
+    </span>
+  `;
+}
+
+function hexToRgba(hexColor, alpha) {
+  const normalizedColor = hexColor.replace("#", "");
+  const expandedColor = normalizedColor.length === 3
+    ? normalizedColor.split("").map((character) => character + character).join("")
+    : normalizedColor.slice(0, 6);
+  const red = parseInt(expandedColor.slice(0, 2), 16);
+  const green = parseInt(expandedColor.slice(2, 4), 16);
+  const blue = parseInt(expandedColor.slice(4, 6), 16);
+
+  return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
 }
 
 function getSelectedResourceTypes() {
@@ -893,6 +1077,14 @@ function getSiteSearchQuery() {
   return siteSearchInput.value.trim().toLowerCase();
 }
 
+function getSelectedSearchFields() {
+  return new Set(
+    Array.from(searchFieldCheckboxes)
+      .filter((checkbox) => checkbox.checked)
+      .map((checkbox) => checkbox.value)
+  );
+}
+
 function getSelectedSourceCategory() {
   return sourceFilterSelect?.value.trim() || "";
 }
@@ -905,12 +1097,28 @@ function sourceCategoryMatchesFilter(featureSourceId, selectedSourceCategory) {
   return sourceCategoryById[featureSourceId] === selectedSourceCategory;
 }
 
-function siteNameMatchesSearch(siteName, searchQuery) {
+function featureMatchesSearch(feature, searchQuery, selectedSearchFields) {
   if (!searchQuery) {
     return true;
   }
 
-  return String(siteName ?? "").toLowerCase().includes(searchQuery);
+  if (selectedSearchFields.size === 0) {
+    return false;
+  }
+
+  const properties = feature.properties || {};
+
+  return Array.from(selectedSearchFields).some((fieldName) => {
+    return getSearchFieldValue(properties, fieldName).toLowerCase().includes(searchQuery);
+  });
+}
+
+function getSearchFieldValue(properties, fieldName) {
+  if (fieldName === "siteType") {
+    return `${properties.siteType || ""} ${getSiteTypeDisplayLabel(properties)}`;
+  }
+
+  return String(properties[fieldName] ?? "");
 }
 
 function resetFilters() {
@@ -919,6 +1127,10 @@ function resetFilters() {
   });
 
   siteTypeCheckboxes.forEach((checkbox) => {
+    checkbox.checked = true;
+  });
+
+  searchFieldCheckboxes.forEach((checkbox) => {
     checkbox.checked = true;
   });
 
@@ -980,10 +1192,15 @@ siteTypeCheckboxes.forEach((checkbox) => {
   checkbox.addEventListener("change", applyFilters);
 });
 
+searchFieldCheckboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", applyFilters);
+});
+
 siteSearchInput.addEventListener("input", applyFilters);
 sourceFilterSelect.addEventListener("change", applyFilters);
 resetFiltersButton.addEventListener("click", resetFilters);
 basinOverlayToggle.addEventListener("change", applyBasinOverlayFilters);
+markerClusterToggle?.addEventListener("change", applyFilters);
 
 applyInitialResourceFilterFromUrl();
 window.addEventListener("pageshow", () => {
@@ -995,7 +1212,7 @@ function createResourcePopup(properties) {
     <div class="resource-popup">
       <h3>${escapeHtml(properties.name)}</h3>
       ${createPopupRow("Resource type", properties.resourceType)}
-      ${createPopupRow("Site type", formatSiteTypeLabel(properties.siteType))}
+      ${createPopupRow("Site type", getSiteTypeDisplayLabel(properties))}
       ${createStatusRow(properties.status)}
       ${createPopupRow("County", properties.county)}
       ${createPopupRow("Operator", properties.operator)}
@@ -1014,7 +1231,7 @@ function formatSiteTypeLabel(siteType) {
     production: "Production Site",
     facility: "Processing Facility",
     exploration: "Exploration",
-    "historical mine": "Historical Mine"
+    "historical site": "Historical Site"
   };
 
   if (isBlank(siteType)) {
@@ -1022,6 +1239,10 @@ function formatSiteTypeLabel(siteType) {
   }
 
   return siteTypeLabels[siteType] || titleCase(siteType);
+}
+
+function getSiteTypeDisplayLabel(properties = {}) {
+  return properties.detailedSiteType || formatSiteTypeLabel(properties.siteType);
 }
 
 function titleCase(value) {

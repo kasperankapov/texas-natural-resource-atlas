@@ -1,0 +1,2209 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.85,
+          31.2
+        ]
+      },
+      "properties": {
+        "id": "coal-001",
+        "name": "Texas Gulf Coal Province / Texas Region",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "Multiple counties",
+        "operator": "N/A",
+        "description": "Representative marker for the Gulf Coal Province / Texas Region coal and lignite areas documented by RRC historical coal mining maps.",
+        "sourceId": "rrc_historical_regions",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Regions/Fields and Sites in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/agdm4iqh/historicalcoalminingregionsfields_sitestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative regional centroid; not a mine or boundary polygon.",
+        "detailedSiteType": "Coal Province / Region"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15,
+          32.7
+        ]
+      },
+      "properties": {
+        "id": "coal-002",
+        "name": "Interior Coal Province - North Texas Region",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "Multiple counties",
+        "operator": "N/A",
+        "description": "Representative marker for the Interior Coal Province coal-bearing areas in North Texas, including historic bituminous coal districts.",
+        "sourceId": "rrc_historical_regions",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Regions/Fields and Sites in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/agdm4iqh/historicalcoalminingregionsfields_sitestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative regional centroid; not a mine or boundary polygon.",
+        "detailedSiteType": "Coal Province / Region"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.35,
+          31.45
+        ]
+      },
+      "properties": {
+        "id": "coal-003",
+        "name": "East Texas Wilcox Group Lignite Belt",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "East Texas counties",
+        "operator": "N/A",
+        "description": "Broad marker for East Texas near-surface lignite occurrences associated with Wilcox Group lignites.",
+        "sourceId": "beg_lignite_resources",
+        "sourceName": "Bureau of Economic Geology - Texas Lignite: Near-Surface and Deep-Basin Resources",
+        "sourceUrl": "https://store.beg.utexas.edu/files/RI/BEG-RI0079D.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative belt marker based on generalized geologic distribution, not an exact deposit outline.",
+        "detailedSiteType": "Lignite Belt / Formation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.55,
+          31
+        ]
+      },
+      "properties": {
+        "id": "coal-004",
+        "name": "Central Texas Wilcox Group Lignite Belt",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "Robertson/Limestone/Milam area",
+        "operator": "N/A",
+        "description": "Broad marker for the central Texas lignite belt that includes many mine-mouth lignite operations and reclamation areas.",
+        "sourceId": "beg_lignite_resources",
+        "sourceName": "Bureau of Economic Geology - Texas Lignite: Near-Surface and Deep-Basin Resources",
+        "sourceUrl": "https://store.beg.utexas.edu/files/RI/BEG-RI0079D.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative belt marker; coordinates selected near Robertson/Limestone/Milam lignite concentration.",
+        "detailedSiteType": "Lignite Belt / Formation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.12,
+          28.48
+        ]
+      },
+      "properties": {
+        "id": "coal-005",
+        "name": "South Texas Jackson Group / Olmos Coal Belt",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "South Texas counties",
+        "operator": "N/A",
+        "description": "Representative marker for South Texas coal and lignite-bearing formations, including Jackson Group and Olmos/San Pedro coal context.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative regional point; not an exact bed or mine boundary.",
+        "detailedSiteType": "Coal Belt / Formation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.45,
+          32.4
+        ]
+      },
+      "properties": {
+        "id": "coal-006",
+        "name": "Sabine Uplift / Northeast Texas Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "Harrison/Panola/Rusk area",
+        "operator": "N/A",
+        "description": "Representative marker for the Sabine/Northeast Texas lignite mining area around Hallsville, Marshall, and adjacent counties.",
+        "sourceId": "rrc_permit_map_2023",
+        "sourceName": "Railroad Commission of Texas - Lignite Surface Mine Permit Locations, February 2023",
+        "sourceUrl": "https://www.rrc.texas.gov/media/rg3dswyf/coal-mine-map-02-2023.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative regional marker near major surface mine areas.",
+        "detailedSiteType": "Lignite Region"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.45,
+          28.8
+        ]
+      },
+      "properties": {
+        "id": "coal-007",
+        "name": "Eagle Pass / Maverick County Coal Field",
+        "resourceType": "Coal/Lignite",
+        "siteType": "deposit",
+        "broadSiteType": "deposit",
+        "status": "Regional geologic context",
+        "county": "Maverick",
+        "operator": "N/A",
+        "description": "Representative marker for the Eagle Pass coal field and Olmos Formation surface-mining context near Eagle Pass.",
+        "sourceId": "gem_eagle_pass_mine",
+        "sourceName": "Global Energy Monitor - Eagle Pass Coal Mine",
+        "sourceUrl": "https://www.gem.wiki/Eagle_Pass_Coal_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative coal-field marker, separate from the exact mine marker.",
+        "detailedSiteType": "Coal Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48402,
+          28.683058
+        ]
+      },
+      "properties": {
+        "id": "coal-008",
+        "name": "San Miguel Lignite Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Active",
+        "county": "Atascosa",
+        "operator": "NACG Texas / San Miguel Electric Cooperative",
+        "description": "Surface lignite mine near Christine that supplies the adjacent San Miguel power plant.",
+        "sourceId": "gem_san_miguel_mine",
+        "sourceName": "Global Energy Monitor - San Miguel Lignite Mine",
+        "sourceUrl": "https://www.gem.wiki/San_Miguel_Lignite_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Public source reports GPS coordinates; use as facility/mine-area centroid, not property boundary.",
+        "detailedSiteType": "Active Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.46265,
+          31.3038
+        ]
+      },
+      "properties": {
+        "id": "coal-009",
+        "name": "Kosse Coal Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Active",
+        "county": "Limestone/Robertson",
+        "operator": "Luminant Mining Company / Vistra",
+        "description": "Surface lignite mine supplying Oak Grove Steam Electric Station.",
+        "sourceId": "gem_kosse_mine",
+        "sourceName": "Global Energy Monitor - Kosse Coal Mine",
+        "sourceUrl": "https://www.gem.wiki/Kosse_Coal_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Public source reports exact WGS84 project coordinates; mine spans a large permit area.",
+        "detailedSiteType": "Active Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.24839,
+          31.38957
+        ]
+      },
+      "properties": {
+        "id": "coal-010",
+        "name": "Jewett Coal Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Reclamation / legacy production",
+        "county": "Leon/Freestone/Limestone",
+        "operator": "Texas Westmoreland Coal Co. / NRG area",
+        "description": "Large lignite mine area historically associated with Limestone Generating Station and Jewett mining operations.",
+        "sourceId": "geo_jewett_mine",
+        "sourceName": "Global Energy Observatory - Jewett Coal Mine",
+        "sourceUrl": "https://globalenergyobservatory.org/geoid/6665",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEO; used as mine-area centroid.",
+        "detailedSiteType": "Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.119444,
+          31.488889
+        ]
+      },
+      "properties": {
+        "id": "coal-011",
+        "name": "Jewett E/F Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Reclamation / legacy production",
+        "county": "Freestone/Leon",
+        "operator": "Texas Westmoreland Coal Co.",
+        "description": "Jewett E/F mine project area north of Jewett, documented in USACE public notice with a mine-center coordinate.",
+        "sourceId": "usace_jewett_ef",
+        "sourceName": "U.S. Army Corps of Engineers - Jewett E/F Mine public notice",
+        "sourceUrl": "https://www.swf.usace.army.mil/Media/Public-Notices/Article/480297/swf-2012-00080-texas-westmoreland-coal-company-jewett-texas/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinate converted from 31°29′20″N, 96°7′10″W; project area spans thousands of acres.",
+        "detailedSiteType": "Surface Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.499245,
+          32.441843
+        ]
+      },
+      "properties": {
+        "id": "coal-012",
+        "name": "South Hallsville No. 1 / Sabine Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Active / reclamation areas",
+        "county": "Harrison",
+        "operator": "Sabine Mining Company / North American Coal",
+        "description": "Large Northeast Texas lignite surface mine near Hallsville/Marshall.",
+        "sourceId": "gem_sabine_mine",
+        "sourceName": "Global Energy Monitor - Sabine Mine",
+        "sourceUrl": "https://www.gem.wiki/Sabine_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Public source reports GPS coordinates; mine spans broader permit areas.",
+        "detailedSiteType": "Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.29246,
+          30.33187
+        ]
+      },
+      "properties": {
+        "id": "coal-013",
+        "name": "Three Oaks Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Bastrop/Lee",
+        "operator": "Alcoa / Luminant legacy",
+        "description": "Lignite surface mine built to serve the Rockdale/Alcoa/Sandow power system; now treated as a closed/reclaimed mining area.",
+        "sourceId": "geo_three_oaks_mine",
+        "sourceName": "Global Energy Observatory - Three Oaks Coal Mine",
+        "sourceUrl": "https://globalenergyobservatory.org/geoid/39240",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEO; status generalized from public history and RRC permit-map context.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.457296,
+          28.816689
+        ]
+      },
+      "properties": {
+        "id": "coal-014",
+        "name": "Eagle Pass Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Reclamation",
+        "county": "Maverick",
+        "operator": "Dos Republicas / Camino Real Fuels legacy",
+        "description": "Surface coal mine northeast of Eagle Pass; RRC reported mining had ceased and the site was working toward full reclamation.",
+        "sourceId": "gem_eagle_pass_mine",
+        "sourceName": "Global Energy Monitor - Eagle Pass Coal Mine",
+        "sourceUrl": "https://www.gem.wiki/Eagle_Pass_Coal_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEM; status context from RRC reclamation announcement.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.73,
+          32.22
+        ]
+      },
+      "properties": {
+        "id": "coal-015",
+        "name": "Oak Hill Mine",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Reclamation / legacy production",
+        "county": "Rusk",
+        "operator": "Luminant Mining Company",
+        "description": "Rusk County lignite surface mine included in RRC coal mining records and public mine data.",
+        "sourceId": "gem_oak_hill_mine",
+        "sourceName": "Global Energy Monitor - Oak Hill Strip Mine",
+        "sourceUrl": "https://www.gem.wiki/Oak_Hill_Strip_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Public source reports rounded coordinates; use as mine-area centroid.",
+        "detailedSiteType": "Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.451,
+          32.442
+        ]
+      },
+      "properties": {
+        "id": "coal-016",
+        "name": "Darco Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Closed / reclamation",
+        "county": "Harrison",
+        "operator": "Norit Americas / legacy",
+        "description": "Harrison County lignite mine area associated with activated-carbon/industrial lignite operations listed in RRC mine records.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate point near Darco/South Hallsville area; use for educational map only.",
+        "detailedSiteType": "Surface Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.65,
+          30.98
+        ]
+      },
+      "properties": {
+        "id": "coal-017",
+        "name": "Calvert Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Closed / reclamation",
+        "county": "Robertson",
+        "operator": "Walnut Creek Mining / legacy",
+        "description": "Robertson County lignite mining area listed in RRC/Texas Almanac coal mine inventories.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate mine-area point near Calvert; public map/list source does not provide precise coordinates.",
+        "detailedSiteType": "Surface Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.67,
+          31.165
+        ]
+      },
+      "properties": {
+        "id": "coal-018",
+        "name": "Bremond Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "production",
+        "broadSiteType": "production",
+        "status": "Closed / reclamation",
+        "county": "Robertson",
+        "operator": "Luminant Mining / legacy",
+        "description": "Bremond lignite mine area included in RRC coal mining online records and statewide permit inventories.",
+        "sourceId": "rrc_surface_records",
+        "sourceName": "Railroad Commission of Texas - Texas Coal Mining Online Records",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/programs/surface-coal-mining-exploration/texas-coal-mining-records/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate mine-area point near Bremond; suitable for atlas overview, not property boundary.",
+        "detailedSiteType": "Surface Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.105995,
+          31.817189
+        ]
+      },
+      "properties": {
+        "id": "coal-019",
+        "name": "Big Brown Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Freestone",
+        "operator": "Luminant Mining Company / legacy",
+        "description": "Former lignite surface mine associated with Big Brown power plant and Freestone County lignite production.",
+        "sourceId": "gem_big_brown_mine",
+        "sourceName": "Global Energy Monitor - Big Brown Mine",
+        "sourceUrl": "https://www.gem.wiki/Big_Brown_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEM; large surface mine area represented by single marker.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.06,
+          30.625
+        ]
+      },
+      "properties": {
+        "id": "coal-020",
+        "name": "Gibbons Creek Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Grimes",
+        "operator": "Texas Municipal Power Agency / legacy",
+        "description": "Gibbons Creek lignite mine area in Grimes County, now a reclamation/legacy coal-mining site.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate marker near Gibbons Creek mine/power site; public map/list source does not provide exact coordinate.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.02,
+          30.59
+        ]
+      },
+      "properties": {
+        "id": "coal-021",
+        "name": "Sandow Mine / Rockdale Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Milam",
+        "operator": "Alcoa / Luminant legacy",
+        "description": "Historic Rockdale/Sandow lignite mine area that supplied the Alcoa/Sandow industrial power system.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative point southwest of Rockdale; not a property boundary.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.07,
+          33.05
+        ]
+      },
+      "properties": {
+        "id": "coal-022",
+        "name": "Monticello-Winfield Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Titus/Franklin",
+        "operator": "Luminant Mining / legacy",
+        "description": "Northeast Texas lignite mine area listed in statewide coal mining location maps.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate point near Winfield/Monticello lignite area.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.15,
+          33.1
+        ]
+      },
+      "properties": {
+        "id": "coal-023",
+        "name": "Monticello Thermo Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Titus/Hopkins",
+        "operator": "Luminant Mining / legacy",
+        "description": "Monticello Thermo lignite mine area listed in RRC/Texas Almanac permit-location inventories.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate regional marker; use for historical/reclamation context.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1,
+          33
+        ]
+      },
+      "properties": {
+        "id": "coal-024",
+        "name": "Leesburg Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Camp/Upshur/Titus area",
+        "operator": "Luminant Mining / legacy",
+        "description": "Leesburg lignite mine area included in RRC/Texas Almanac permitted coal mining operations maps.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate point near Leesburg; source map provides named location but not precise coordinates.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.17,
+          31.74
+        ]
+      },
+      "properties": {
+        "id": "coal-025",
+        "name": "Turlington Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Closed / reclamation",
+        "county": "Freestone",
+        "operator": "Luminant Mining / legacy",
+        "description": "Turlington lignite mine area near Big Brown/Fairfield lignite development, listed in RRC online records.",
+        "sourceId": "rrc_surface_records",
+        "sourceName": "Railroad Commission of Texas - Texas Coal Mining Online Records",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/programs/surface-coal-mining-exploration/texas-coal-mining-records/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate marker near Fairfield/Turlington lignite area.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.88,
+          27.95
+        ]
+      },
+      "properties": {
+        "id": "coal-026",
+        "name": "Palafox Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Reclamation released / legacy",
+        "county": "Webb",
+        "operator": "Farco Mining / TriHydro legacy",
+        "description": "Webb County Palafox Mine area in the San Pedro/Santo Tomas coal context; RRC order describes Palafox as a Webb County mine northwest of Laredo.",
+        "sourceId": "rrc_palafox_reclamation",
+        "sourceName": "Railroad Commission of Texas - Palafox Mine reclamation release order",
+        "sourceUrl": "https://portalvhdskzlfb8q9lqr9.blob.core.windows.net/media/53417/c19-0007-order.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate point northwest of Laredo; source does not provide public GPS coordinate in search extract.",
+        "detailedSiteType": "Reclaimed Surface Mine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.76,
+          27.87
+        ]
+      },
+      "properties": {
+        "id": "coal-027",
+        "name": "Trevino Mine Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Application / historical permit context",
+        "county": "Webb",
+        "operator": "Farco Mining / legacy",
+        "description": "Trevino Mine application areas listed in RRC online records; USGS discusses San Pedro zone coal beds developed at Palafox and Trevino mine areas.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate Webb County marker; use as permit/appraisal context rather than an exact mine entrance.",
+        "detailedSiteType": "Permitted / Application Coal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.478613,
+          28.704516
+        ]
+      },
+      "properties": {
+        "id": "coal-028",
+        "name": "San Miguel Power Plant",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating / transition planned",
+        "county": "Atascosa",
+        "operator": "San Miguel Electric Cooperative",
+        "description": "Lignite-fired power plant adjacent to San Miguel Mine near Christine; planned transition context may be added separately if desired.",
+        "sourceId": "geo_san_miguel_plant",
+        "sourceName": "Global Energy Observatory - San Miguel Coal Plant TX USA",
+        "sourceUrl": "https://globalenergyobservatory.org/geoid/1535",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEO; separate from San Miguel Mine marker.",
+        "detailedSiteType": "Mine-Mouth Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.488961,
+          31.181261
+        ]
+      },
+      "properties": {
+        "id": "coal-029",
+        "name": "Oak Grove Steam Electric Station",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating",
+        "county": "Robertson",
+        "operator": "Luminant / Vistra",
+        "description": "Lignite-fired power station near Franklin supplied by the nearby Kosse Mine.",
+        "sourceId": "gem_oak_grove_plant",
+        "sourceName": "Global Energy Monitor - Oak Grove Plant",
+        "sourceUrl": "https://www.gem.wiki/Oak_Grove_Plant",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Exact plant coordinates from GEM/GridInfo.",
+        "detailedSiteType": "Mine-Mouth Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2536,
+          31.4242
+        ]
+      },
+      "properties": {
+        "id": "coal-030",
+        "name": "Limestone Generating Station",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating",
+        "county": "Limestone",
+        "operator": "NRG Energy",
+        "description": "Large coal-fired generating station in the Jewett/Farrar area historically tied to nearby lignite mining and coal supply systems.",
+        "sourceId": "geo_limestone_plant",
+        "sourceName": "Global Energy Observatory - Limestone Coal Plant TX USA",
+        "sourceUrl": "https://globalenergyobservatory.org/geoid/1001",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEO; plant uses a combination of coal fuels over time.",
+        "detailedSiteType": "Coal-Fired Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5706,
+          32.2606
+        ]
+      },
+      "properties": {
+        "id": "coal-031",
+        "name": "Martin Lake Steam Electric Station",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating",
+        "county": "Rusk",
+        "operator": "Luminant / Vistra",
+        "description": "Large coal-fired power station southwest of Tatum with historical relationship to East Texas lignite mining and coal rail supply.",
+        "sourceId": "grid_martin_lake",
+        "sourceName": "GridInfo - Martin Lake coal plant",
+        "sourceUrl": "https://www.gridinfo.com/plant/martin-lake/6146",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GridInfo; facility marker, not a mine.",
+        "detailedSiteType": "Coal-Fired Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7506,
+          29.9172
+        ]
+      },
+      "properties": {
+        "id": "coal-032",
+        "name": "Fayette Power Project",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating",
+        "county": "Fayette",
+        "operator": "Lower Colorado River Authority / Austin Energy",
+        "description": "Coal-fired power plant near La Grange; important statewide coal consumption facility, though not a lignite mine.",
+        "sourceId": "geo_fayette_power",
+        "sourceName": "Global Energy Observatory - Fayette Power Project Coal Plant TX USA",
+        "sourceUrl": "https://globalenergyobservatory.org/geoid/580",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEO; included as coal-use/processing-generation infrastructure.",
+        "detailedSiteType": "Coal-Fired Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.214378,
+          28.712836
+        ]
+      },
+      "properties": {
+        "id": "coal-033",
+        "name": "Coleto Creek Power Station",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Retired / transition site",
+        "county": "Goliad",
+        "operator": "Coleto Creek Power / legacy",
+        "description": "Coal-fired power station near Fannin and Coleto Creek Reservoir; included as coal-use infrastructure and transition/redevelopment site.",
+        "sourceId": "gem_coleto_creek",
+        "sourceName": "Global Energy Monitor - Coleto Creek power station",
+        "sourceUrl": "https://www.gem.wiki/Coleto_Creek_power_station",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Exact coordinates from GEM; plant status should be checked if used for current operations.",
+        "detailedSiteType": "Coal-Fired Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0561,
+          31.8206
+        ]
+      },
+      "properties": {
+        "id": "coal-034",
+        "name": "Big Brown Steam Electric Station",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Retired",
+        "county": "Freestone",
+        "operator": "Luminant / legacy",
+        "description": "Retired coal-fired power plant associated with Big Brown lignite mining and Fairfield Lake.",
+        "sourceId": "geo_big_brown_mine",
+        "sourceName": "Global Energy Observatory - Big Brown Strip Coal Mine",
+        "sourceUrl": "https://globalenergyobservatory.org/geoid/6287",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "new",
+        "notes": "Coordinates from GEO plant/mine vicinity; use alongside Big Brown Mine record for extraction-generation relationship.",
+        "detailedSiteType": "Retired Coal-Fired Power Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.02,
+          30.571
+        ]
+      },
+      "properties": {
+        "id": "coal-035",
+        "name": "Sandow Power / Alcoa Industrial Fuel Complex",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Retired",
+        "county": "Milam",
+        "operator": "Alcoa / Luminant legacy",
+        "description": "Rockdale-area industrial power complex historically fueled by local lignite mines and tied to aluminum smelting operations.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate complex marker in Rockdale/Sandow area; detailed plant coordinates should be verified if used for navigation.",
+        "detailedSiteType": "Retired Mine-Mouth Power / Industrial Complex"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.055,
+          30.621
+        ]
+      },
+      "properties": {
+        "id": "coal-036",
+        "name": "Gibbons Creek Steam Station / Coal Handling Site",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Retired / redevelopment",
+        "county": "Grimes",
+        "operator": "Texas Municipal Power Agency / legacy",
+        "description": "Former lignite-coal power and handling site associated with Gibbons Creek mine and reservoir.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Approximate complex marker near Carlos/Gibbons Creek area.",
+        "detailedSiteType": "Retired Coal-Fired Power / Handling Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.53,
+          32.475
+        ]
+      },
+      "properties": {
+        "id": "coal-037",
+        "name": "Marshall/Sabine Coal Support Facilities Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Active / support",
+        "county": "Harrison",
+        "operator": "Sabine Mining Company / North American Coal",
+        "description": "Support and logistics area for Northeast Texas lignite mining around Hallsville/Marshall.",
+        "sourceId": "gem_sabine_mine",
+        "sourceName": "Global Energy Monitor - Sabine Mine",
+        "sourceUrl": "https://www.gem.wiki/Sabine_Mine",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative support-facility marker near public mine address/area, not a specific building footprint.",
+        "detailedSiteType": "Coal Handling / Mine Support Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.565,
+          32.255
+        ]
+      },
+      "properties": {
+        "id": "coal-038",
+        "name": "Martin Lake Coal Rail / Handling Corridor",
+        "resourceType": "Coal/Lignite",
+        "siteType": "facility",
+        "broadSiteType": "facility",
+        "status": "Operating",
+        "county": "Rusk",
+        "operator": "Luminant / Vistra",
+        "description": "Coal rail and handling infrastructure serving Martin Lake Steam Electric Station and connecting coal supply to the plant.",
+        "sourceId": "grid_martin_lake",
+        "sourceName": "GridInfo - Martin Lake coal plant",
+        "sourceUrl": "https://www.gridinfo.com/plant/martin-lake/6146",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative marker adjacent to plant; included to show coal logistics, not a separate mine.",
+        "detailedSiteType": "Coal Rail / Handling Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5,
+          31.22
+        ]
+      },
+      "properties": {
+        "id": "coal-039",
+        "name": "Robertson-Limestone Permitted Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Permitted / active mining district",
+        "county": "Robertson/Limestone",
+        "operator": "Multiple operators / RRC permits",
+        "description": "Representative marker for the active/permitted lignite mining district around Kosse, Oak Grove, and Robertson-Limestone County operations.",
+        "sourceId": "rrc_permit_map_2023",
+        "sourceName": "Railroad Commission of Texas - Lignite Surface Mine Permit Locations, February 2023",
+        "sourceUrl": "https://www.rrc.texas.gov/media/rg3dswyf/coal-mine-map-02-2023.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative permit-district marker, not a mine entrance.",
+        "detailedSiteType": "Permitted Coal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.22,
+          31.45
+        ]
+      },
+      "properties": {
+        "id": "coal-040",
+        "name": "Leon-Freestone Jewett Lignite Appraisal Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Legacy/appraisal context",
+        "county": "Leon/Freestone",
+        "operator": "Multiple operators / legacy",
+        "description": "Representative marker for Jewett/Limestone-area lignite appraisals, mining, and reclaimed mine lands.",
+        "sourceId": "rrc_permit_map_2023",
+        "sourceName": "Railroad Commission of Texas - Lignite Surface Mine Permit Locations, February 2023",
+        "sourceUrl": "https://www.rrc.texas.gov/media/rg3dswyf/coal-mine-map-02-2023.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative point based on known mine district; not a specific permit boundary.",
+        "detailedSiteType": "Lignite Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.65,
+          27.85
+        ]
+      },
+      "properties": {
+        "id": "coal-041",
+        "name": "South Texas Olmos/San Pedro Coal Appraisal Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Historical/appraisal context",
+        "county": "Webb/Maverick",
+        "operator": "N/A",
+        "description": "Representative marker for South Texas San Pedro/Santo Tomas/Olmos coal beds and historic/permit-area coal appraisal context.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Regional point; use for geologic/appraisal context only.",
+        "detailedSiteType": "Coal Appraisal Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6,
+          32.42
+        ]
+      },
+      "properties": {
+        "id": "coal-042",
+        "name": "Northeast Texas Lignite Permit Belt",
+        "resourceType": "Coal/Lignite",
+        "siteType": "exploration",
+        "broadSiteType": "exploration",
+        "status": "Permitted / legacy district",
+        "county": "Harrison/Rusk/Panola",
+        "operator": "Multiple operators / RRC permits",
+        "description": "Representative marker for Northeast Texas lignite permits, mine support, and resource appraisal around Sabine, Oak Hill, and Martin Lake areas.",
+        "sourceId": "rrc_permit_map_2023",
+        "sourceName": "Railroad Commission of Texas - Lignite Surface Mine Permit Locations, February 2023",
+        "sourceUrl": "https://www.rrc.texas.gov/media/rg3dswyf/coal-mine-map-02-2023.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative district point, not a specific facility.",
+        "detailedSiteType": "Permitted Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.421,
+          32.505
+        ]
+      },
+      "properties": {
+        "id": "coal-043",
+        "name": "Thurber Coal Mining District",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Erath",
+        "operator": "Texas and Pacific Coal Company / legacy",
+        "description": "One of Texas’s best-known historic bituminous coal mining districts and company towns.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Town/district representative point; not an individual shaft location.",
+        "detailedSiteType": "Historical Coal District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.499,
+          32.553
+        ]
+      },
+      "properties": {
+        "id": "coal-044",
+        "name": "Strawn Coal Mining District",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Palo Pinto",
+        "operator": "Multiple historical operators",
+        "description": "Historic North Texas bituminous coal district within the Interior Coal Province mining zones.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Community/district representative point.",
+        "detailedSiteType": "Historical Coal District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.74,
+          33.19
+        ]
+      },
+      "properties": {
+        "id": "coal-045",
+        "name": "Newcastle Coal Mining Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Young",
+        "operator": "Multiple historical operators",
+        "description": "Historic coal mining locality in the North Texas Interior Coal Province.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative locality point; exact mine openings not mapped.",
+        "detailedSiteType": "Historical Underground Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75,
+          33.21
+        ]
+      },
+      "properties": {
+        "id": "coal-046",
+        "name": "Bridgeport Coal Field",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Wise",
+        "operator": "Multiple historical operators",
+        "description": "Historical coal mining field near Bridgeport, part of the North Texas coal-mining belt.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative field/locality point.",
+        "detailedSiteType": "Historical Underground Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9,
+          32.62
+        ]
+      },
+      "properties": {
+        "id": "coal-047",
+        "name": "Cisco-Breckenridge Coal Zone",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Eastland/Stephens",
+        "operator": "Multiple historical operators",
+        "description": "Representative marker for the Cisco-Breckenridge-Newcastle-Bowie historical coal mining zone listed by RRC.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Regional zone marker; not individual mine point.",
+        "detailedSiteType": "Historical Coal Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85,
+          33.56
+        ]
+      },
+      "properties": {
+        "id": "coal-048",
+        "name": "Bowie / Montague Coal Mining Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Montague",
+        "operator": "Multiple historical operators",
+        "description": "Historic coal mining locality within the North Texas coal zones.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative locality point.",
+        "detailedSiteType": "Historical Coal Mining Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.25,
+          32.6
+        ]
+      },
+      "properties": {
+        "id": "coal-049",
+        "name": "Santo / Palo Pinto Coal Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Palo Pinto",
+        "operator": "Multiple historical operators",
+        "description": "Historic coal mining area in Palo Pinto County and surrounding Interior Coal Province localities.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative locality point.",
+        "detailedSiteType": "Historical Underground Mine Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42,
+          32.54
+        ]
+      },
+      "properties": {
+        "id": "coal-050",
+        "name": "Mingus Coal Mining Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Palo Pinto/Erath",
+        "operator": "Multiple historical operators",
+        "description": "Historic mining locality associated with the Thurber/Strawn coal district.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative community/district point.",
+        "detailedSiteType": "Historical Coal Mining Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.006,
+          30.657
+        ]
+      },
+      "properties": {
+        "id": "coal-051",
+        "name": "Rockdale / Milam Lignite Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical / industrial legacy",
+        "county": "Milam",
+        "operator": "Alcoa / historical operators",
+        "description": "Rockdale-area lignite mining locality connected to the Sandow/Alcoa industrial energy system.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative point in Rockdale/Sandow lignite area.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.673,
+          30.977
+        ]
+      },
+      "properties": {
+        "id": "coal-052",
+        "name": "Calvert Historical Lignite Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Robertson",
+        "operator": "Multiple historical operators",
+        "description": "Historical lignite mining locality around Calvert in the central Texas lignite belt.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative town/locality point.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.676,
+          31.165
+        ]
+      },
+      "properties": {
+        "id": "coal-053",
+        "name": "Bremond Historical Lignite Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Robertson",
+        "operator": "Multiple historical operators",
+        "description": "Historical/legacy lignite mining locality near Bremond in Robertson County.",
+        "sourceId": "rrc_historical_zones",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Zones in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/m4yjhz3d/historicalcoalminingzonestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative locality point.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.315,
+          30.11
+        ]
+      },
+      "properties": {
+        "id": "coal-054",
+        "name": "Bastrop County Lignite District",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Bastrop",
+        "operator": "Multiple historical operators",
+        "description": "Bastrop County lignite area included among historical coal mining counties and later surface-mine development areas.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/district point.",
+        "detailedSiteType": "Historical Lignite District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.242,
+          30.276
+        ]
+      },
+      "properties": {
+        "id": "coal-055",
+        "name": "McDade / Lee-Bastrop Lignite Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Bastrop/Lee",
+        "operator": "Multiple historical operators",
+        "description": "Representative historical lignite locality in the Lee-Bastrop lignite area near later Three Oaks development.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative locality point; not a shaft or permit center.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.5,
+          28.71
+        ]
+      },
+      "properties": {
+        "id": "coal-056",
+        "name": "Eagle Pass Historical Coal District",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Maverick",
+        "operator": "Multiple historical operators",
+        "description": "Historical coal mining district near Eagle Pass, with commercial mining dating to the nineteenth century in the regional coal field.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative city/district point; separate from modern Eagle Pass Mine marker.",
+        "detailedSiteType": "Historical Coal District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5,
+          27.55
+        ]
+      },
+      "properties": {
+        "id": "coal-057",
+        "name": "Santo Tomas Coal Field / Webb County",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Webb",
+        "operator": "Rio Grande Coal and Irrigation Company / legacy",
+        "description": "Historical Santo Tomas coal zone/field in Webb County, documented in USGS historical coal-bed discussion.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative field point; not a specific mine opening.",
+        "detailedSiteType": "Historical Coal Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5,
+          27.51
+        ]
+      },
+      "properties": {
+        "id": "coal-058",
+        "name": "Laredo Coal District",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Webb",
+        "operator": "Multiple historical operators",
+        "description": "Historical coal mining district near Laredo and the Rio Grande coal beds.",
+        "sourceId": "rrc_historical_regions",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Regions/Fields and Sites in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/agdm4iqh/historicalcoalminingregionsfields_sitestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative city/district point.",
+        "detailedSiteType": "Historical Coal District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5,
+          27.57
+        ]
+      },
+      "properties": {
+        "id": "coal-059",
+        "name": "Minera Coal Mining Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Webb",
+        "operator": "Multiple historical operators",
+        "description": "Historic coal mining locality near Minera, part of the Webb County coal mining story.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative locality point.",
+        "detailedSiteType": "Historical Coal Mining Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.6,
+          27.64
+        ]
+      },
+      "properties": {
+        "id": "coal-060",
+        "name": "Cannel / Webb County Coal Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Webb",
+        "operator": "Multiple historical operators",
+        "description": "Representative Webb County coal locality connected to historic San Pedro/Santo Tomas coal beds.",
+        "sourceId": "usgs_san_pedro_santo_tomas",
+        "sourceName": "USGS - The San Pedro and Santo Tomas Coal Beds",
+        "sourceUrl": "https://pubs.usgs.gov/pdf/of/ofr99301/chapter2.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "new",
+        "notes": "Approximate locality; use for broad historical context only.",
+        "detailedSiteType": "Historical Coal Mining Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.62,
+          29.32
+        ]
+      },
+      "properties": {
+        "id": "coal-061",
+        "name": "Terlingua Coal Field",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Brewster",
+        "operator": "Historical operators",
+        "description": "One of the small historical coal fields listed in RRC historical regions/fields context for the Southwestern Region.",
+        "sourceId": "rrc_historical_regions",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Regions/Fields and Sites in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/agdm4iqh/historicalcoalminingregionsfields_sitestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "new",
+        "notes": "Representative field/locality point; Terlingua is better known for mercury mining, so use note/context carefully.",
+        "detailedSiteType": "Historical Coal Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104,
+          29.52
+        ]
+      },
+      "properties": {
+        "id": "coal-062",
+        "name": "San Carlos Coal Field",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Presidio/Brewster",
+        "operator": "Historical operators",
+        "description": "Historical small coal field in far West Texas listed in RRC historical coal regions/fields map.",
+        "sourceId": "rrc_historical_regions",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Regions/Fields and Sites in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/agdm4iqh/historicalcoalminingregionsfields_sitestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "new",
+        "notes": "Approximate regional point; limited public coordinate precision.",
+        "detailedSiteType": "Historical Coal Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.4,
+          31
+        ]
+      },
+      "properties": {
+        "id": "coal-063",
+        "name": "Eagle Springs Coal Field",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Hudspeth/Culberson area",
+        "operator": "Historical operators",
+        "description": "Small historical coal field/region in West Texas listed by RRC historical regions/fields mapping.",
+        "sourceId": "rrc_historical_regions",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining Regions/Fields and Sites in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/media/agdm4iqh/historicalcoalminingregionsfields_sitestexas_feb2015.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "new",
+        "notes": "Approximate regional marker; verify before using for detailed analysis.",
+        "detailedSiteType": "Historical Coal Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9,
+          31.8
+        ]
+      },
+      "properties": {
+        "id": "coal-064",
+        "name": "Sabine River Early Lignite Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Sabine/Shelby area",
+        "operator": "Historical operators",
+        "description": "Representative marker for the early Sabine River lignite-mining account referenced in Texas coal history.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Low",
+        "recordStatus": "new",
+        "notes": "Historical locality only; RRC describes early account but not a modern exact coordinate.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.65,
+          31.6
+        ]
+      },
+      "properties": {
+        "id": "coal-065",
+        "name": "Nacogdoches Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Nacogdoches",
+        "operator": "Historical operators",
+        "description": "Historical lignite/coal locality in East Texas listed among coal-mining counties/regions.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.37,
+          32.54
+        ]
+      },
+      "properties": {
+        "id": "coal-066",
+        "name": "Marshall / Harrison County Coal Locality",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Harrison",
+        "operator": "Historical operators",
+        "description": "Historic and modern lignite-mining locality around Marshall/Hallsville in Northeast Texas.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative city/locality point, separate from Sabine Mine marker.",
+        "detailedSiteType": "Historical Lignite Locality"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          32.15
+        ]
+      },
+      "properties": {
+        "id": "coal-067",
+        "name": "Rusk County Historical Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Rusk",
+        "operator": "Historical operators",
+        "description": "Rusk County lignite mining area connected to East Texas lignite development and Oak Hill/Martin Lake context.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.45,
+          32.79
+        ]
+      },
+      "properties": {
+        "id": "coal-068",
+        "name": "Wood County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Wood",
+        "operator": "Historical operators",
+        "description": "Wood County is included in RRC historical coal mining county/zone context for East Texas lignites.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          33.13
+        ]
+      },
+      "properties": {
+        "id": "coal-069",
+        "name": "Hopkins County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Hopkins",
+        "operator": "Historical operators",
+        "description": "Hopkins County historical lignite area in the Northeast Texas lignite belt.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.96,
+          33.2
+        ]
+      },
+      "properties": {
+        "id": "coal-070",
+        "name": "Titus County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Titus",
+        "operator": "Historical operators",
+        "description": "Titus County lignite mining area near the Monticello/Winfield legacy mine district.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.85,
+          32.53
+        ]
+      },
+      "properties": {
+        "id": "coal-071",
+        "name": "Van Zandt County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Van Zandt",
+        "operator": "Historical operators",
+        "description": "Van Zandt County historical lignite area within East Texas coal mining counties.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.85,
+          32.21
+        ]
+      },
+      "properties": {
+        "id": "coal-072",
+        "name": "Henderson County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Henderson",
+        "operator": "Historical operators",
+        "description": "Henderson County historical lignite/coal locality in East Texas coal mining records.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.16,
+          31.72
+        ]
+      },
+      "properties": {
+        "id": "coal-073",
+        "name": "Freestone County Big Brown / Fairfield Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical / reclamation",
+        "county": "Freestone",
+        "operator": "Historical and Luminant legacy operators",
+        "description": "Freestone County lignite area around Big Brown, Fairfield, and Turlington mining development.",
+        "sourceId": "usgs_big_brown",
+        "sourceName": "USGS - Hydrologic and geochemical data for the Big Brown lignite mine area",
+        "sourceUrl": "https://www.usgs.gov/publications/hydrologic-and-geochemical-data-big-brown-lignite-mine-area-freestone-county-texas",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point, not an individual mine opening.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.65,
+          31.77
+        ]
+      },
+      "properties": {
+        "id": "coal-074",
+        "name": "Anderson County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical",
+        "county": "Anderson",
+        "operator": "Historical operators",
+        "description": "Anderson County historical lignite area included in Texas historical coal mining county mapping.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/locality point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.51,
+          31.02
+        ]
+      },
+      "properties": {
+        "id": "coal-075",
+        "name": "Robertson County Lignite Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical / active district context",
+        "county": "Robertson",
+        "operator": "Historical and modern operators",
+        "description": "Robertson County lignite area containing historical localities as well as modern mine-mouth coal infrastructure.",
+        "sourceId": "rrc_historical_coal",
+        "sourceName": "Railroad Commission of Texas - Historical Coal Mining in Texas",
+        "sourceUrl": "https://www.rrc.texas.gov/surface-mining/historical-coal-mining/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/district point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.06,
+          30.35
+        ]
+      },
+      "properties": {
+        "id": "coal-076",
+        "name": "Lee County Lignite / Three Oaks Area",
+        "resourceType": "Coal/Lignite",
+        "siteType": "historical site",
+        "broadSiteType": "historical site",
+        "status": "Historical / reclamation",
+        "county": "Lee",
+        "operator": "Alcoa / Luminant legacy",
+        "description": "Lee County lignite area connected with Three Oaks and Rockdale/Sandow mining history.",
+        "sourceId": "texas_almanac_coal_map",
+        "sourceName": "Texas Almanac - Coal Mining Locations / Texas Coal Mining Operations",
+        "sourceUrl": "https://texasalmanac.com/sites/default/files/images/topics/2014coalregions.pdf",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "new",
+        "notes": "Representative county/district point.",
+        "detailedSiteType": "Historical Lignite Area"
+      }
+    }
+  ]
+}

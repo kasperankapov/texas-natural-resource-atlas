@@ -1,0 +1,2373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45,
+          32.8
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.45,
+          "latitude": 32.8
+        },
+        "id": "TX-GAS-001",
+        "name": "Barnett Shale",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Tarrant / Denton / Wise / Johnson and nearby counties",
+        "operator": "Multiple operators",
+        "description": "North Texas shale gas play that pioneered large-scale horizontal shale gas development and remains a major historical gas province.",
+        "sourceId": "RRC-BARNETT",
+        "sourceName": "Railroad Commission of Texas - Barnett Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative play centroid near the Fort Worth Basin, not a boundary polygon.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.803,
+          33.196
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.803,
+          "latitude": 33.196
+        },
+        "id": "TX-GAS-002",
+        "name": "Newark East (Barnett Shale) Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active / Mature",
+        "county": "Wise / Denton / Tarrant and nearby counties",
+        "operator": "Multiple operators",
+        "description": "RRC-designated productive field name for the Barnett Shale; included to connect the regional play to an official field designation.",
+        "sourceId": "RRC-BARNETT",
+        "sourceName": "Railroad Commission of Texas - Barnett Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point near Bridgeport/Wise County, not an individual well.",
+        "detailedSiteType": "Production Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.78,
+          28.45
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -98.78,
+          "latitude": 28.45
+        },
+        "id": "TX-GAS-003",
+        "name": "Eagle Ford Shale Gas Window",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Webb / La Salle / McMullen / Live Oak and nearby counties",
+        "operator": "Multiple operators",
+        "description": "South Texas portion of the Eagle Ford where gas and condensate production are central to development.",
+        "sourceId": "RRC-EAGLE-FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative centroid for the dry/wet gas fairway; use polygon overlays for precise play boundaries.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9,
+          28.95
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.9,
+          "latitude": 28.95
+        },
+        "id": "TX-GAS-004",
+        "name": "Karnes-DeWitt Eagle Ford Wet Gas Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Karnes / DeWitt / Gonzales",
+        "operator": "Multiple operators",
+        "description": "Highly developed Eagle Ford production corridor with liquids-rich gas and condensate production tied to nearby processing infrastructure.",
+        "sourceId": "RRC-EAGLE-FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point for a production corridor, not a specific well pad.",
+        "detailedSiteType": "Production Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.28,
+          32.05
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.28,
+          "latitude": 32.05
+        },
+        "id": "TX-GAS-005",
+        "name": "Haynesville/Bossier Shale - East Texas",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Panola / Shelby / Harrison / San Augustine and nearby counties",
+        "operator": "Multiple operators",
+        "description": "Deep East Texas gas shale interval correlated with Louisiana's Haynesville and Bossier development.",
+        "sourceId": "RRC-HAYNESVILLE-BOSSIER",
+        "sourceName": "Railroad Commission of Texas - Haynesville/Bossier Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/haynesville-bossier-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative centroid near the Panola County core.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.337,
+          32.158
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.337,
+          "latitude": 32.158
+        },
+        "id": "TX-GAS-006",
+        "name": "Carthage (Haynesville Shale) Field",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Panola",
+        "operator": "Multiple operators",
+        "description": "Major East Texas gas field representing much of Texas Haynesville/Bossier production after RRC field consolidation.",
+        "sourceId": "RRC-HAYNESVILLE-BOSSIER",
+        "sourceName": "Railroad Commission of Texas - Haynesville/Bossier Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/haynesville-bossier-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative field point near Carthage, not an individual well.",
+        "detailedSiteType": "Production Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.07274444,
+          32.47066388
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.07274444,
+          "latitude": 32.47066388
+        },
+        "id": "TX-GAS-007",
+        "name": "Waskom / Harrison County Haynesville Area",
+        "resourceType": "Natural Gas",
+        "siteType": "production",
+        "status": "Active",
+        "county": "Harrison",
+        "operator": "Multiple operators",
+        "description": "East Texas gas production area near Waskom tied to Haynesville and Bossier development and nearby gas processing.",
+        "sourceId": "RRC-HAYNESVILLE-BOSSIER",
+        "sourceName": "Railroad Commission of Texas - Haynesville/Bossier Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/haynesville-bossier-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Point aligned with nearby Waskom gas processing coordinates.",
+        "detailedSiteType": "Production Site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          32.17
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.8,
+          "latitude": 32.17
+        },
+        "id": "TX-GAS-008",
+        "name": "Cotton Valley Tight Gas Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Rusk / Panola / Harrison / Gregg",
+        "operator": "Multiple operators",
+        "description": "Long-running East Texas tight gas and sandstone trend, historically important before and alongside shale gas development.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative East Texas trend centroid.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.65,
+          31.7
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.65,
+          "latitude": 31.7
+        },
+        "id": "TX-GAS-009",
+        "name": "Travis Peak / Hosston Gas Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Nacogdoches / San Augustine / Shelby",
+        "operator": "Multiple operators",
+        "description": "Older East Texas gas-producing trend in deeper sandstones beneath or near younger East Texas gas plays.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point; included for historical/development context.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.6,
+          31.7
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.6,
+          "latitude": 31.7
+        },
+        "id": "TX-GAS-010",
+        "name": "Permian Basin Associated Gas Province",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "West Texas Permian counties",
+        "operator": "Multiple operators",
+        "description": "Large oil-and-gas producing province where associated natural gas output has become a defining infrastructure issue.",
+        "sourceId": "RRC-PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative Permian Basin centroid; not a facility coordinate.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.55,
+          31.65
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.55,
+          "latitude": 31.65
+        },
+        "id": "TX-GAS-011",
+        "name": "Delaware Basin Wolfcamp / Bone Spring Gas Area",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Reeves / Loving / Ward / Culberson",
+        "operator": "Multiple operators",
+        "description": "West Texas Delaware Basin gas-rich production area tied to rapid gas processing expansion near Mentone, Orla, Waha, and Reeves County.",
+        "sourceId": "RRC-PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative production area centroid.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.95,
+          31.85
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.95,
+          "latitude": 31.85
+        },
+        "id": "TX-GAS-012",
+        "name": "Midland Basin Spraberry / Wolfcamp Gas Area",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active",
+        "county": "Midland / Martin / Howard / Glasscock",
+        "operator": "Multiple operators",
+        "description": "Associated gas production area on the Midland Basin side of the Permian, supported by processing plants around Midland, Stanton, and Tarzan.",
+        "sourceId": "RRC-PERMIAN",
+        "sourceName": "Railroad Commission of Texas - Permian Basin",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/permian-basin/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative production area centroid.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.08491111,
+          31.26801666
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.08491111,
+          "latitude": 31.26801666
+        },
+        "id": "TX-GAS-013",
+        "name": "Waha Market Area / Gas Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Pecos",
+        "operator": "Multiple pipeline and midstream operators",
+        "description": "Major West Texas natural gas market and takeaway hub, closely tied to Permian associated gas pricing and pipeline constraints.",
+        "sourceId": "EIA-TEXAS-OVERVIEW",
+        "sourceName": "U.S. Energy Information Administration - Texas State Energy Profile",
+        "sourceUrl": "https://www.eia.gov/states/TX/overview",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Point uses Waha Gas Plant coordinates from the TCEQ midstream export to anchor the Waha area.",
+        "detailedSiteType": "Pipeline Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.25,
+          35.55
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -100.25,
+          "latitude": 35.55
+        },
+        "id": "TX-GAS-014",
+        "name": "Granite Wash Tight Gas Play",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Wheeler / Hemphill / Roberts / Carson and nearby Panhandle counties",
+        "operator": "Multiple operators",
+        "description": "Texas Panhandle tight sand play with both oil and gas production, benefiting from horizontal drilling methods.",
+        "sourceId": "RRC-GRANITE-WASH",
+        "sourceName": "Railroad Commission of Texas - Granite Wash",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/granite-wash/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative centroid for the Texas portion of the Granite Wash.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.4,
+          35.55
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.4,
+          "latitude": 35.55
+        },
+        "id": "TX-GAS-015",
+        "name": "Panhandle Field / West Panhandle Gas Area",
+        "resourceType": "Natural Gas",
+        "siteType": "historical site",
+        "status": "Active / Mature",
+        "county": "Moore / Hutchinson / Potter / Carson",
+        "operator": "Multiple operators",
+        "description": "Historic Panhandle gas-producing area that helped shape early Texas natural gas development and pipeline markets.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative field-area centroid near Borger/Panhandle infrastructure.",
+        "detailedSiteType": "Historical Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.85,
+          36.05
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -100.85,
+          "latitude": 36.05
+        },
+        "id": "TX-GAS-016",
+        "name": "Anadarko Basin - Texas Panhandle Gas Area",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Ochiltree / Lipscomb / Hemphill / Roberts",
+        "operator": "Multiple operators",
+        "description": "Northern Panhandle gas production area connected geologically and commercially to the larger Anadarko/Hugoton system.",
+        "sourceId": "RRC-GRANITE-WASH",
+        "sourceName": "Railroad Commission of Texas - Granite Wash",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/granite-wash/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative Texas Panhandle point.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.18,
+          27.75
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -99.18,
+          "latitude": 27.75
+        },
+        "id": "TX-GAS-017",
+        "name": "Lobo / Wilcox South Texas Gas Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Webb / Zapata",
+        "operator": "Multiple operators",
+        "description": "Deep South Texas gas trend that was historically important for conventional and tight gas production near Laredo and Zapata County.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point for the trend, not a specific facility.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.78,
+          26.5
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -98.78,
+          "latitude": 26.5
+        },
+        "id": "TX-GAS-018",
+        "name": "Vicksburg South Texas Gas Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Hidalgo / Starr / Brooks",
+        "operator": "Multiple operators",
+        "description": "South Texas Gulf Coast gas trend associated with older conventional gas production and processing corridors.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative South Texas Gulf Coast point.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72,
+          30.3
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -96.72,
+          "latitude": 30.3
+        },
+        "id": "TX-GAS-019",
+        "name": "Austin Chalk / Giddings Gas-Condensate Trend",
+        "resourceType": "Natural Gas",
+        "siteType": "historical site",
+        "status": "Active / Mature",
+        "county": "Lee / Fayette / Brazos / Washington",
+        "operator": "Multiple operators",
+        "description": "Central Texas Austin Chalk oil and gas trend included for historical and structural context in Texas gas development.",
+        "sourceId": "RRC-EAGLE-FORD",
+        "sourceName": "Railroad Commission of Texas - Eagle Ford Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point near Giddings area.",
+        "detailedSiteType": "Historical Field"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.25,
+          30
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.25,
+          "latitude": 30
+        },
+        "id": "TX-GAS-020",
+        "name": "Val Verde Basin / Canyon Sands Gas Area",
+        "resourceType": "Natural Gas",
+        "siteType": "deposit",
+        "status": "Active / Mature",
+        "county": "Crockett / Sutton / Val Verde",
+        "operator": "Multiple operators",
+        "description": "West/Southwest Texas gas province represented by plants such as Ozona and Sonora and by mature tight gas development.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative basin point.",
+        "detailedSiteType": "Deposit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.83,
+          29.78
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.83,
+          "latitude": 29.78
+        },
+        "id": "TX-GAS-021",
+        "name": "Katy Hub / Katy Gas Market Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Waller / Harris / Fort Bend",
+        "operator": "Multiple pipeline and storage operators",
+        "description": "Major Gulf Coast natural gas market hub connecting Texas intrastate systems, storage, power demand, and Gulf Coast demand centers.",
+        "sourceId": "EIA-TEXAS-OVERVIEW",
+        "sourceName": "U.S. Energy Information Administration - Texas State Energy Profile",
+        "sourceUrl": "https://www.eia.gov/states/TX/overview",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative locality point near Katy; use more detailed pipeline data for exact interconnects.",
+        "detailedSiteType": "Pipeline Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91,
+          27.78
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.91,
+          "latitude": 27.78
+        },
+        "id": "TX-GAS-022",
+        "name": "Agua Dulce Natural Gas Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Nueces",
+        "operator": "Multiple pipeline operators",
+        "description": "South Texas natural gas hub and pipeline interconnect area linking Eagle Ford gas supply to Gulf Coast and Mexico-market corridors.",
+        "sourceId": "FERC-CAMERON-COUNTY-LNG",
+        "sourceName": "Federal Energy Regulatory Commission - Cameron County LNG Projects",
+        "sourceUrl": "https://www.ferc.gov/cameron-county-projects",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative locality point near Agua Dulce.",
+        "detailedSiteType": "Pipeline Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.34,
+          32.16
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.34,
+          "latitude": 32.16
+        },
+        "id": "TX-GAS-023",
+        "name": "Carthage Natural Gas Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Panola",
+        "operator": "Multiple pipeline operators",
+        "description": "East Texas gas market hub connected to Haynesville/Bossier, Carthage field production, and downstream pipeline networks.",
+        "sourceId": "RRC-HAYNESVILLE-BOSSIER",
+        "sourceName": "Railroad Commission of Texas - Haynesville/Bossier Shale",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/haynesville-bossier-shale/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative locality point near Carthage.",
+        "detailedSiteType": "Pipeline Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89,
+          29.85
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.89,
+          "latitude": 29.85
+        },
+        "id": "TX-GAS-024",
+        "name": "Mont Belvieu NGL / Gas Liquids Hub",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Chambers",
+        "operator": "Multiple operators",
+        "description": "Major NGL fractionation, storage, and petrochemical hub that connects natural gas processing output to Gulf Coast markets.",
+        "sourceId": "ENTERPRISE-NATURAL-GAS",
+        "sourceName": "Enterprise Products - Natural Gas Operations",
+        "sourceUrl": "https://www.enterpriseproducts.com/operations/natural-gas/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point for the Mont Belvieu complex area.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.52,
+          30.02
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.52,
+          "latitude": 30.02
+        },
+        "id": "TX-GAS-025",
+        "name": "Bammel Gas Storage Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Harris",
+        "operator": "Kinder Morgan / multiple historical operators",
+        "description": "Large Houston-area underground gas storage area important to Gulf Coast gas balancing and winter/summer deliverability.",
+        "sourceId": "EIA-TEXAS-OVERVIEW",
+        "sourceName": "U.S. Energy Information Administration - Texas State Energy Profile",
+        "sourceUrl": "https://www.eia.gov/states/TX/overview",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Approximate storage-field point; not a public entrance coordinate.",
+        "detailedSiteType": "Storage Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.74,
+          30.23
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.74,
+          "latitude": 30.23
+        },
+        "id": "TX-GAS-026",
+        "name": "Moss Bluff Gas Storage",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Liberty",
+        "operator": "Enbridge / related storage operators",
+        "description": "Salt-cavern natural gas storage facility in Liberty County, part of Gulf Coast storage and pipeline infrastructure.",
+        "sourceId": "ENBRIDGE-STORAGE",
+        "sourceName": "Enbridge - Natural Gas Storage",
+        "sourceUrl": "https://www.enbridge.com/about-us/natural-gas-transmission-midstream-and-lng/natural-gas-storage",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point near Moss Bluff salt-dome storage area.",
+        "detailedSiteType": "Storage Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.19,
+          28.77
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -96.19,
+          "latitude": 28.77
+        },
+        "id": "TX-GAS-027",
+        "name": "Tres Palacios Gas Storage",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Matagorda",
+        "operator": "Enbridge / Tres Palacios Gas Storage LLC",
+        "description": "Matagorda County salt-cavern storage facility with pipeline header connections serving Gulf Coast gas markets.",
+        "sourceId": "ENBRIDGE-STORAGE",
+        "sourceName": "Enbridge - Natural Gas Storage",
+        "sourceUrl": "https://www.enbridge.com/about-us/natural-gas-transmission-midstream-and-lng/natural-gas-storage",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point near the Tres Palacios salt-dome storage area.",
+        "detailedSiteType": "Storage Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8,
+          31.93
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.8,
+          "latitude": 31.93
+        },
+        "id": "TX-GAS-028",
+        "name": "Bethel Dome Gas Storage",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Proposed Expansion",
+        "county": "Anderson",
+        "operator": "Brookside Storage / related operators",
+        "description": "East Texas underground gas storage area at Bethel Dome, useful for mapping gas storage geography beyond the Gulf Coast.",
+        "sourceId": "RRC-MAJOR-FORMATIONS",
+        "sourceName": "Railroad Commission of Texas - Major Oil and Gas Formations",
+        "sourceUrl": "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative point for Bethel Dome storage; verify exact entrance before field use.",
+        "detailedSiteType": "Storage Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3162,
+          28.9381
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -95.3162,
+          "latitude": 28.9381
+        },
+        "id": "TX-GAS-029",
+        "name": "Freeport LNG Quintana Terminal",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active",
+        "county": "Brazoria",
+        "operator": "Freeport LNG Development, L.P.",
+        "description": "Liquefied natural gas export terminal on Quintana Island near Freeport, converting pipeline gas into LNG for marine export.",
+        "sourceId": "FREEPORT-LNG",
+        "sourceName": "Freeport LNG - Contact and Locations / About Overview",
+        "sourceUrl": "https://freeportlng.com/contact-media/contact",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility point estimated to the terminal complex at/near 1500 Lamar Street, Quintana.",
+        "detailedSiteType": "Export Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2528,
+          27.8926
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.2528,
+          "latitude": 27.8926
+        },
+        "id": "TX-GAS-030",
+        "name": "Corpus Christi Liquefaction Terminal",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Expanding",
+        "county": "San Patricio",
+        "operator": "Cheniere Energy",
+        "description": "LNG export terminal on the La Quinta Ship Channel with multiple liquefaction trains and ongoing expansion activity.",
+        "sourceId": "CHENIERE-CCL",
+        "sourceName": "Cheniere - Corpus Christi Liquefaction",
+        "sourceUrl": "https://www.cheniere.com/about/where-we-work/ccl",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility point estimated from public maps of the CCL terminal on La Quinta Channel.",
+        "detailedSiteType": "Export Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.919418,
+          29.761394
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -93.919418,
+          "latitude": 29.761394
+        },
+        "id": "TX-GAS-031",
+        "name": "Golden Pass LNG Terminal",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Commissioning",
+        "county": "Jefferson",
+        "operator": "Golden Pass LNG / QatarEnergy / ExxonMobil",
+        "description": "Sabine Pass LNG terminal that moved into LNG production/export milestones in 2026.",
+        "sourceId": "GOLDEN-PASS-LNG",
+        "sourceName": "Golden Pass LNG - Project / Location information",
+        "sourceUrl": "https://www.goldenpasslng.com/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Coordinate matches public LNG terminal references for Golden Pass.",
+        "detailedSiteType": "Export Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.967,
+          29.815
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -93.967,
+          "latitude": 29.815
+        },
+        "id": "TX-GAS-032",
+        "name": "Port Arthur LNG",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Under Construction",
+        "county": "Jefferson",
+        "operator": "Sempra Infrastructure",
+        "description": "Natural gas liquefaction and export terminal under construction along the Sabine-Neches Ship Channel near Port Arthur/Sabine Pass.",
+        "sourceId": "PORT-ARTHUR-LNG",
+        "sourceName": "Port Arthur LNG / Sempra Infrastructure",
+        "sourceUrl": "https://portarthurlng.com/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Approximate project-site point along Sabine-Neches Ship Channel; use FERC site plans for engineering precision.",
+        "detailedSiteType": "Export Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.283,
+          25.97
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.283,
+          "latitude": 25.97
+        },
+        "id": "TX-GAS-033",
+        "name": "Rio Grande LNG",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Under Construction",
+        "county": "Cameron",
+        "operator": "NextDecade",
+        "description": "Large LNG export terminal under construction at the Port of Brownsville, supplied by South Texas and broader U.S. gas pipeline systems.",
+        "sourceId": "RIO-GRANDE-LNG",
+        "sourceName": "NextDecade - Rio Grande LNG",
+        "sourceUrl": "https://www.next-decade.com/our-business/rio-grande-lng/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Approximate project-site point on the Brownsville Ship Channel.",
+        "detailedSiteType": "Export Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.315,
+          25.965
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.315,
+          "latitude": 25.965
+        },
+        "id": "TX-GAS-034",
+        "name": "Texas LNG Brownsville",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Permitted / Proposed",
+        "county": "Cameron",
+        "operator": "Texas LNG Brownsville LLC / Glenfarne",
+        "description": "Planned 4 MTPA LNG export facility at the Port of Brownsville.",
+        "sourceId": "TEXAS-LNG",
+        "sourceName": "Texas LNG Brownsville",
+        "sourceUrl": "https://www.texaslng.com/",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Approximate Brownsville Ship Channel project-site point.",
+        "detailedSiteType": "Export Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91,
+          27.78
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -97.91,
+          "latitude": 27.78
+        },
+        "id": "TX-GAS-035",
+        "name": "Rio Bravo Pipeline - Agua Dulce Supply Area",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Under Construction",
+        "county": "Nueces / Cameron",
+        "operator": "Rio Bravo Pipeline / NextDecade-related project",
+        "description": "Pipeline project intended to connect the Agua Dulce supply area with Rio Grande LNG at the Port of Brownsville.",
+        "sourceId": "FERC-CAMERON-COUNTY-LNG",
+        "sourceName": "Federal Energy Regulatory Commission - Cameron County LNG Projects",
+        "sourceUrl": "https://www.ferc.gov/cameron-county-projects",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "Medium",
+        "recordStatus": "Replacement database record",
+        "notes": "Representative supply-area point near Agua Dulce, not a full pipeline route.",
+        "detailedSiteType": "Pipeline Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.46666666,
+          30.44583333
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.46666666,
+          "latitude": 30.44583333
+        },
+        "id": "TX-GAS-036",
+        "name": "Southwest Ozona Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Crockett",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102552726 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.64049413,
+          31.97645325
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.64049413,
+          "latitude": 31.97645325
+        },
+        "id": "TX-GAS-037",
+        "name": "DCP Goldsmith Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Ector",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102673605 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.1701366,
+          32.3125648
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.1701366,
+          "latitude": 32.3125648
+        },
+        "id": "TX-GAS-038",
+        "name": "Martin County Plant No 2",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102499514 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9249647,
+          32.1429346
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.9249647,
+          "latitude": 32.1429346
+        },
+        "id": "TX-GAS-039",
+        "name": "Midway Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106120074 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9249647,
+          32.1429346
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.9249647,
+          "latitude": 32.1429346
+        },
+        "id": "TX-GAS-040",
+        "name": "Midway II Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106154958 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.08491111,
+          31.26801666
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.08491111,
+          "latitude": 31.26801666
+        },
+        "id": "TX-GAS-041",
+        "name": "Waha Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Pecos",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN100211408 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.58779166,
+          30.50583333
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -100.58779166,
+          "latitude": 30.50583333
+        },
+        "id": "TX-GAS-042",
+        "name": "Sonora Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Sutton",
+        "operator": "DCP Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102553898 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.22471666,
+          31.03638888
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.22471666,
+          "latitude": 31.03638888
+        },
+        "id": "TX-GAS-043",
+        "name": "Tippett Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Crockett",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN100217843 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.70108611,
+          31.89013333
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.70108611,
+          "latitude": 31.89013333
+        },
+        "id": "TX-GAS-044",
+        "name": "Rebel Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Glasscock",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106934664 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.07274444,
+          32.47066388
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.07274444,
+          "latitude": 32.47066388
+        },
+        "id": "TX-GAS-045",
+        "name": "Waskom Gas Processing Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Harrison",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102558939 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5375,
+          29.10944444
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -96.5375,
+          "latitude": 29.10944444
+        },
+        "id": "TX-GAS-046",
+        "name": "Jackson County Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Jackson",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106225436 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.81484166,
+          35.96223611
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.81484166,
+          "latitude": 35.96223611
+        },
+        "id": "TX-GAS-047",
+        "name": "Sunray Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Moore",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN100213628 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.99037777,
+          31.19060833
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.99037777,
+          "latitude": 31.19060833
+        },
+        "id": "TX-GAS-048",
+        "name": "Coyanosa Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Pecos",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN100239698 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.15277777,
+          31.29111111
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.15277777,
+          "latitude": 31.29111111
+        },
+        "id": "TX-GAS-049",
+        "name": "Arrowhead Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Reeves",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN109496638 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.93013888,
+          31.79875
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.93013888,
+          "latitude": 31.79875
+        },
+        "id": "TX-GAS-050",
+        "name": "Red Bluff Gas Processing Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Reeves",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106173644 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.19355833,
+          31.64108888
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.19355833,
+          "latitude": 31.64108888
+        },
+        "id": "TX-GAS-051",
+        "name": "Panther Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Upton",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN109124057 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2874623,
+          35.5302643
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -100.2874623,
+          "latitude": 35.5302643
+        },
+        "id": "TX-GAS-052",
+        "name": "Wheeler Gas Processing Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Wheeler",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106127533 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.99356111,
+          31.73057777
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.99356111,
+          "latitude": 31.73057777
+        },
+        "id": "TX-GAS-053",
+        "name": "Halley Plant Compressor Station",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Winkler",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN100218916 where provided.",
+        "detailedSiteType": "Compressor / Gathering Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.04416111,
+          31.94833333
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.04416111,
+          "latitude": 31.94833333
+        },
+        "id": "TX-GAS-054",
+        "name": "Keystone Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Winkler",
+        "operator": "Energy Transfer",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN100238633 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.6414495,
+          31.5026554
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.6414495,
+          "latitude": 31.5026554
+        },
+        "id": "TX-GAS-055",
+        "name": "Sand Hills Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Crane",
+        "operator": "Targa Resources",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102552031 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0023024,
+          32.18931274
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.0023024,
+          "latitude": 32.18931274
+        },
+        "id": "TX-GAS-056",
+        "name": "Buffalo Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "Targa Resources",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN108740143 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9097204,
+          32.3767735
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.9097204,
+          "latitude": 32.3767735
+        },
+        "id": "TX-GAS-057",
+        "name": "Tarzan Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "Targa Resources",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN108108523 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8808,
+          31.9817
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.8808,
+          "latitude": 31.9817
+        },
+        "id": "TX-GAS-058",
+        "name": "Greenwood Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Midland",
+        "operator": "Targa Resources",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN111549861 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.01555555,
+          31.33777777
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.01555555,
+          "latitude": 31.33777777
+        },
+        "id": "TX-GAS-059",
+        "name": "Oahu Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Pecos",
+        "operator": "Targa Resources",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN109732966 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.96913333,
+          32.26574166
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.96913333,
+          "latitude": 32.26574166
+        },
+        "id": "TX-GAS-060",
+        "name": "Tarzan Booster Station Martin Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "Enterprise Products Partners",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102534492 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.88473,
+          31.9659068
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.88473,
+          "latitude": 31.9659068
+        },
+        "id": "TX-GAS-061",
+        "name": "Leonidas Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Midland",
+        "operator": "Enterprise Products Partners",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN111652863 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.274363,
+          32.148066
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.274363,
+          "latitude": 32.148066
+        },
+        "id": "TX-GAS-062",
+        "name": "Bulldog Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Panola",
+        "operator": "Enterprise Products Partners",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106051337 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2677,
+          32.19194
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.2677,
+          "latitude": 32.19194
+        },
+        "id": "TX-GAS-063",
+        "name": "Panola II Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Panola",
+        "operator": "Enterprise Products Partners",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN105384473 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.22606661,
+          32.16389718
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.22606661,
+          "latitude": 32.16389718
+        },
+        "id": "TX-GAS-064",
+        "name": "Midmar West Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Andrews",
+        "operator": "EnLink Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN105730485 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.1704943,
+          32.3127689
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -102.1704943,
+          "latitude": 32.3127689
+        },
+        "id": "TX-GAS-065",
+        "name": "Yellow Rose Gas Processing Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "EnLink Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN107150591 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.26834444,
+          32.15910277
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.26834444,
+          "latitude": 32.15910277
+        },
+        "id": "TX-GAS-066",
+        "name": "Carthage East Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Panola",
+        "operator": "MARKWEST GAS SERVICES, L.L.C. (MPLX)",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN102704855 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.42189722,
+          32.167
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -94.42189722,
+          "latitude": 32.167
+        },
+        "id": "TX-GAS-067",
+        "name": "Markwest Energy East Texas Gas Carthage Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Panola",
+        "operator": "MARKWEST GAS SERVICES, L.L.C. (MPLX)",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN104609789 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9325258,
+          32.1542417
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.9325258,
+          "latitude": 32.1542417
+        },
+        "id": "TX-GAS-068",
+        "name": "Martin County Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "West Texas Gas, Inc. - WTG",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN107128977 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7833575,
+          32.1806118
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.7833575,
+          "latitude": 32.1806118
+        },
+        "id": "TX-GAS-069",
+        "name": "Red Lake Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "West Texas Gas, Inc. - WTG",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN111426375 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2602272,
+          28.4151804
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -99.2602272,
+          "latitude": 28.4151804
+        },
+        "id": "TX-GAS-070",
+        "name": "Brasada Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "La Salle",
+        "operator": "Western Midstream Partners, LP",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106310584 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.6838889,
+          31.78527777
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.6838889,
+          "latitude": 31.78527777
+        },
+        "id": "TX-GAS-071",
+        "name": "Mentone Gas Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Loving",
+        "operator": "Western Midstream Partners, LP",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN109847806 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3549497,
+          31.5294013
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.3549497,
+          "latitude": 31.5294013
+        },
+        "id": "TX-GAS-072",
+        "name": "Bones Springs Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Ward",
+        "operator": "Western Midstream Partners, LP",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN106314677 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.99807,
+          31.573559
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -101.99807,
+          "latitude": 31.573559
+        },
+        "id": "TX-GAS-073",
+        "name": "Sundance Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Martin",
+        "operator": "Brazos Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN111676763 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2260008,
+          31.3128638
+        ]
+      },
+      "properties": {
+        "coordinates": {
+          "longitude": -103.2260008,
+          "latitude": 31.3128638
+        },
+        "id": "TX-GAS-074",
+        "name": "Comanche Plant",
+        "resourceType": "Natural Gas",
+        "siteType": "facility",
+        "status": "Active / Permitted",
+        "county": "Reeves",
+        "operator": "Brazos Midstream",
+        "description": "TCEQ-listed Texas natural gas midstream facility used to show the processing/gathering network that connects gas production areas to pipelines, storage, LNG exports, and NGL markets.",
+        "sourceId": "TCEQ-MIDSTREAM-GAS-PLANTS",
+        "sourceName": "Texas Midstream Gas Plants 2023 Air Permits / TCEQ-sourced export",
+        "sourceUrl": "https://oilgasleads.com/wp-content/uploads/2023/08/Texas-Midstream-Gas-Plants-2023-Air-Permits.xlsx",
+        "sourceDateAccessed": "2026-04-29",
+        "confidence": "High",
+        "recordStatus": "Replacement database record",
+        "notes": "Facility coordinate taken from gas plant permit export; TCEQ regulated entity number RN109161745 where provided.",
+        "detailedSiteType": "Processing Facility"
+      }
+    }
+  ]
+}

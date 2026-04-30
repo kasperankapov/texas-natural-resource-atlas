@@ -1,4 +1,10 @@
 .DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.tmp
+*.bak
+*~
 
 # Legacy draft overlay data. The app uses data/texas_resource_regions_basins.geojson.
 data/basins.geojson
